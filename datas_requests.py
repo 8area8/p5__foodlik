@@ -37,7 +37,7 @@ def _create_file(truc=True):
     # pour chaque page jusqu'à page_max
     base_url = ("https://world.openfoodfacts.org/cgi/search.pl?"
                 "action=process&tagtype_0=categories&tagtype_1=countries"
-                "&tag_contains_1=france&page_size=1000&json=1&encoding=utf8")
+                "&tag_contains_1=france&page_size=1000&json=1")
     max_size = 562 + 1
     mode = "w"
 
@@ -66,17 +66,17 @@ def _filtered_datas(datas):
 
     for product in datas:
         categories = product.get("categories_tags", [])
+        stores = product.get("stores", "").split(",")
 
         product = {
             "name": product.get('product_name', None),
             "description": product.get("generic_name", None),
-            "image": product.get("image_url", None),
             "categories": [x[3:] for x in categories if x[:2] == "fr"],
-            "stores": product.get("stores", None),
+            "stores": stores,
             "site_url": product.get("url", None),
-            "score": int(product["nutriments"].get("nutrition-score-uk", 0))
+            "score": int(product["nutriments"].get("nutrition-score-fr", 100))
         }
-        if not product["categories"]:
+        if not product["categories"] or not product["score"]:
             continue
         filtered.append(product)
     return filtered

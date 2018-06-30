@@ -1,0 +1,5 @@
+terminaltables (https://github.com/Robpol86/terminaltables)
+pyfiglet
+termcolor
+colorama
+pytest
