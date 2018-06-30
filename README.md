@@ -20,20 +20,20 @@ The application has a large portion of French food listed on OpenFoodFact. It re
 
 This UI need some other programs to work well.
 
-#### Install Python
+### Install Python
 
 Foodlik is based on python, an elegant coding langage.
 Get the last Python's version at the following link: **link**
 Be sure you got the 3.6 version (or newer).
 Check for "pip" and for the root integration in the installation.
 
-#### Install the database
+### Install the database
 
 Curently, Foodlik only support MySQL.
 Go to the following like and install MySQL on your computer : **link**
 some others instructions...
 
-#### Install some Python's librairies
+### Install some Python's librairies
 
 Foodlik uses some third-party Python's librairie.
 
@@ -57,7 +57,7 @@ Foodlik uses some third-party Python's librairie.
 
 The UI has several options that have passed since the SHELL.
 
-#### Update the database
+### Update the database
 
 **Note:** The update is done slowly. Do not be presced. 
 
@@ -67,7 +67,7 @@ The UI has several options that have passed since the SHELL.
 
 2. The data was stored in a json file. Let's go to the Data-base : ```python main.py --refurbish_database```.
 
-#### Advanced management of the database
+### Advanced management of the database
 
 * ```python main.py --recreate_database``` will delete and recreate the database. Warning: all data will be lost !
 
