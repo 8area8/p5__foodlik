@@ -1,19 +1,34 @@
 #!/usr/bin/env python3
 # -*- coding=utf-8 -*-
 
-"""Create the food datas from the OpenFoodFact API.
+"""Starts the FoodLik program or follows the data instructions provided.
 
 Usage:
-    datas_requests.py (-f | --filter_datas)
-    datas_requests.py (-c | --create_file)
-    datas_requests.py (-h | --help)
-    datas_requests.py --version
+    main.py [launch_foodlik]
+    main.py load_pages [FIRST-PAGE [to LAST-PAGE]]
+    main.py refurbish_database
+    main.py recreate_database
+    main.py display PRODUCT
+    main.py set PRODUCT ATTRIBUT VALUE
+    main.py set --categorie CATEGORIE
+    main.py (-h | --help)
+    main.py --version
+
+
+Arguments:
+    FIRST-PAGE      First page to load. Needs load_datas. [default: 1]
+    LAST-PAGE       Last page to load. Needs load_datas and FIRST-PAGE.
+                    [default: 200]
+    PRODUCT         Type a product name to see the product. Needs display.
+    ATTRIBUT        Type a product attribut. If it does not exist,
+                    it will be created.
+    VALUE           Type a value to set in an attribut.
+    CATEGORIE       Type a new categorie name.
+
 
 Options:
-    -h --help           Show this screen.
-    --version           Show version.
-    -c --create_file    Create a new datas file.
-    -f --filter_datas   Filter the datas and write them in datas.json.
+    -h --help   Show this screen.
+    --version   Show version.
 
 """
 import json
@@ -26,9 +41,6 @@ def main():
     """Core function."""
     arguments = docopt(__doc__, version='0.1')
     print(arguments)
-
-    if arguments["--create_file"]:
-        _create_file()
 
 
 def _create_file(truc=True):

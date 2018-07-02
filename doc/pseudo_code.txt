@@ -1,0 +1,106 @@
+Ici je teste une écriture avant de commencer les diagrammes.
+
+J'essai d'imaginer un code le plus idiomatique qui soit,
+en commencant par le fichier principale et en etayant petit
+à petit.
+
+
+main.py------------------------------------
+
+
+pour chaque argument dans le dico argument:
+	si l'argument "charger_les_pages":
+		launch_charger_pages()
+	sinon si argument "recharger_la_base":
+		launch_recharge_base()
+	sinon si l'argument "recreer_la_base":
+		launch_recréer_base()
+	sinon si l'argument "set":
+		launch_set(PRODUCT, ATTRIBUT, VALUE)
+
+
+ui.py--------------------------------------
+
+
+
+while running:
+
+	page.affiche()
+
+	action = pompt("tapez une commande")
+
+	si action in page.actions:
+		page.traite_(action)
+		continue
+
+	page.mauvaise_(action)
+
+
+page.py---------------------------------------
+
+
+class Page:
+	"""Affiche les informations."""
+	
+	section = Ecran_titre()
+
+	def affiche():
+		clear_console()
+		print(section.header)
+		print(section.content)
+		print(section.footer)
+
+	def traite(action):
+		retour_traitement = section.events(action)
+		si retour_traitement:
+			change_pour(retour_traitement)
+
+	def change_pour(action)
+		attribut, value = action
+		path = f"{attribut}.core{attribut}"
+		new_class = gettatr(import_modul(path), attribut)
+		return new_class(value)  # if value?
+
+
+categorie.py----------------------------------
+
+
+class Categories:
+
+	header = "..."
+	catégories = generate_catégories()
+	indice_catégories = 0
+	max_indice = len(catégories) - 1
+	
+	propriété
+	def content():
+		return créer_tableau(categories[indice_catégories])
+
+	propriété
+	def footer():
+		choice = "tapez le nom d'une catégorie, ou une des commandes ci dessous.\n"
+		left = "[n]next page [p]previous page [0]first_page [-1]last page"
+		right = f"    page:{indice_page}/{max_indice}"
+		return choice + left + right
+
+	propriété
+	def actions()
+		return ["-1", "n", "p"] + [str(x) for x in range(max_indice)] + catégories[indice_catégories]
+
+	def events(action):
+		si action == "p" et i > 0:
+			indice_catégories -= 1
+		sinon si action == "n" et i < max_indice:
+			indice_catégorie += 1
+		sinon si action.isdigit() and 0 <= int(action) <= max_indice:
+			indice_catégorie = int(action)
+		sinon:
+			return ("categorie", action)
+
+
+
+
+
+
+
+

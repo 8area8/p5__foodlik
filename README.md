@@ -46,12 +46,68 @@ Foodlik uses some third-party Python's librairie.
 
 **Optionnal:** ```pip install pytest```. For those who want to run the tests.
 
-## Quick start
+## Quickstart
 
 1. Create a new virtual environment and install the required programs.
 1. Open your favorite SHELL at the root of the folder.
 1. Simply type ```python main.py```.
 1. Enjoy.
+
+## Structure
+
+### User Interface
+
+L'interface utilisateur possède 4 sections :
+
+* l'acceuil
+* les catégories
+* les produits d'une catégorie
+* le produit séléctionné
+
+chaque section suit le schéma suivant :
+
+* Un header : affiche le titre de la section.
+* un corps : affiche le contenu de la section.
+* un footer : affiche les commandes possibles dans la section.
+
+**Exemples :**
+
+exemple 1
+exemple 2
+exemple 3
+exemple 4
+
+### DATAS
+
+Les données de ce programme viennent toutes de l'API OpenFoodFact.
+Les premières données sont les catégories, au nombre de **nombre** :
+
+* liste
+* des
+* catégories
+
+vient ensuite les produits, au nombre de **nombre**.
+Chaque produit possède :
+
+* liste
+* des
+* attributs
+* des
+* produits (et leur clé de base)
+
+#### Filters
+
+Les produits ont été filtrés. Ont été mis de côté :
+
+* ceux qui n'appartenaient pas aux catégories retenues
+* ceux qui ne possédaient pas de nutri-score
+* les produits doublons (un produit au nom similaire a déjà été ajouté)
+
+#### Substituts
+
+Les substituts suivent deux algorithmes, qui retournent chacun un produit de substitution.
+Le premier va chercher un produit avec un meilleur score dans la catégorie la moins fournie du produit ciblé.
+Le deuxième va chercher un produit avec un bien meilleur score dans la 2eme ou 3eme catégorie la moins fournie du produit ciblé.
 
 ## Options
 
