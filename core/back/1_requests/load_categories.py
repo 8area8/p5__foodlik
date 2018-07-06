@@ -1,7 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding=utf-8 -*-
 
-"""Load the categories from OpenFoodFact."""
+"""Load the categories from OpenFoodFact.
+
+NOTE: this script does not allow to have categories that
+correspond to each other. Read NOTE.txt from the '1_requests' folder.
+"""
 
 
 import requests
@@ -9,17 +13,23 @@ import json
 import unicodedata as unic
 
 
-def init(max_categories=4000):
+def init(max_categories=400):
     """Launch the script."""
-    url = "https://fr.openfoodfacts.org/categories.json"
-    resp = requests.get(url)
+    print("Wait few minutes...")
+    url_fr = "https://fr.openfoodfacts.org/categories.json"
+    url_en = "https://world.openfoodfacts.org/categories.json"
+    urls = (url_fr, url_en)
+    langages = ["fr", "en"]
 
-    datas = filtered_categories(resp.json(), max_categories)
-    file_path = "datas/categories.json"
+    for url in urls:
+        resp = requests.get(url)
 
-    with open(file_path, "w", encoding='utf8') as file:
-        json.dump(datas, file, indent=4, ensure_ascii=False)
-    
+        datas = filtered_categories(resp.json(), max_categories)
+        file_path = f"datas/_categories_{langages.pop(0)}.json"
+
+        with open(file_path, "w", encoding='utf8') as file:
+            json.dump(datas, file, indent=4, ensure_ascii=False)
+
     print("categories loaded.")
 
 
@@ -31,22 +41,22 @@ def filtered_categories(datas, max_categories):
     try:
         datas[max_categories]
     except IndexError:
-        max_categories = len(datas)
+        max_categories = 400
 
-    for index in range(0, len(datas)):
+    for index in range(0, max_categories):
         name = datas[index]["name"]
         if not name or ":" in name:
             continue
         if not only_roman_chars(name):
             continue
 
+        name = name.replace("-", " ")
         categories.append(name)
 
-    categories.sort()
     return categories
 
 
-def is_latin(uchr):
+def is_latin(uchr):  # https://stackoverflow.com/questions/3094498
     """Return True if "uchr" is a latin letter."""
     latin_letters = {}
     try:
@@ -56,7 +66,7 @@ def is_latin(uchr):
 
 
 def only_roman_chars(unistr):
-    """Return True if "uchr" contains only latin letters."""
+    """Return True if "unistr" only contains latin letters."""
     return all(is_latin(uchr)
                for uchr in unistr
                if uchr.isalpha())  # isalpha suggested by John Machin
