@@ -6,6 +6,7 @@
 import requests
 import json
 import os
+from pathlib import Path
 
 
 with open("datas/categories_fr.json", encoding='utf-8') as file:
@@ -45,8 +46,10 @@ def _load_pages(start, end):
 
 
 def _remove_data_files():  # https: // stackoverflow.com/questions/185936
-    """Remove the acient data files."""
-    folder = '/path/to/folder'
+    """Remove each file from "products folder."""
+    folder = Path().resolve() / "core" / "back"
+    folder = folder / "requests" / "datas" / "products"
+
     for the_file in os.listdir(folder):
         file_path = os.path.join(folder, the_file)
         try:
