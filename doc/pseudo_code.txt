@@ -1,8 +1,8 @@
-Ici je teste une écriture avant de commencer les diagrammes.
+ï»¿Ici je teste une Ã©criture avant de commencer les diagrammes.
 
 J'essai d'imaginer un code le plus idiomatique qui soit,
 en commencant par le fichier principale et en etayant petit
-à petit.
+Ã  petit.
 
 
 main.py------------------------------------
@@ -14,7 +14,7 @@ pour chaque argument dans le dico argument:
 	sinon si argument "recharger_la_base":
 		launch_recharge_base()
 	sinon si l'argument "recreer_la_base":
-		launch_recréer_base()
+		launch_recrï¿½er_base()
 	sinon si l'argument "set":
 		launch_set(PRODUCT, ATTRIBUT, VALUE)
 
@@ -46,20 +46,18 @@ class Page:
 
 	def affiche():
 		clear_console()
-		print(section.header)
-		print(section.content)
-		print(section.footer)
+		print(section)
 
 	def traite(action):
 		retour_traitement = section.events(action)
 		si retour_traitement:
 			change_pour(retour_traitement)
 
-	def change_pour(action)
+	def change_pour(nom_section)
 		attribut, value = action
 		path = f"{attribut}.core{attribut}"
 		new_class = gettatr(import_modul(path), attribut)
-		return new_class(value)  # if value?
+		section = new_class(value)
 
 
 categorie.py----------------------------------
@@ -68,39 +66,42 @@ categorie.py----------------------------------
 class Categories:
 
 	header = "..."
-	catégories = generate_catégories()
-	indice_catégories = 0
-	max_indice = len(catégories) - 1
+	catÃ©gories = generate_catÃ©gories()
+	indice_catÃ©gories = 0
+	max_indice = len(catÃ©gories) - 1
 	
-	propriété
+	propriÃ©tÃ©
 	def content():
-		return créer_tableau(categories[indice_catégories])
+		return crÃ©er_tableau(categories[indice_catÃ©gories])
 
-	propriété
+	propriÃ©tÃ©
 	def footer():
-		choice = "tapez le nom d'une catégorie, ou une des commandes ci dessous.\n"
+		choice = "tapez le nom d'une catÃ©gorie, ou une des commandes ci dessous.\n"
 		left = "[n]next page [p]previous page [0]first_page [-1]last page"
 		right = f"    page:{indice_page}/{max_indice}"
 		return choice + left + right
 
-	propriété
+	propriÃ©tÃ©
 	def actions()
-		return ["-1", "n", "p"] + [str(x) for x in range(max_indice)] + catégories[indice_catégories]
+		return ["-1", "n", "p"] + catï¿½gories[indice_catï¿½gories]
 
 	def events(action):
 		si action == "p" et i > 0:
-			indice_catégories -= 1
+			indice_catÃ©gories -= 1
 		sinon si action == "n" et i < max_indice:
-			indice_catégorie += 1
+			indice_catÃ©gorie += 1
 		sinon si action.isdigit() and 0 <= int(action) <= max_indice:
-			indice_catégorie = int(action)
+			indice_catÃ©gorie = int(action)
 		sinon:
 			return ("categorie", action)
 
+	def __str__()
+		return cls.header + "\n" + cls.content + "\n" + cls.footer
 
 
 
+astuces--------------------------------------
 
 
-
-
+Je veux des classes Singleton.
+la mÃ©thode choisie sera celle lÃ : https://stackoverflow.com/a/15541090/9139399

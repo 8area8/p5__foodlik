@@ -1,0 +1,7 @@
+terminaltables (https://github.com/Robpol86/terminaltables)
+prompt_toolkit
+pyfiglet
+termcolor
+colorama
+pytest
+psycopg2

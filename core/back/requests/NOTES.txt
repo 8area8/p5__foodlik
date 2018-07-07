@@ -1,0 +1,19 @@
+NOTES---------------------------------------------------------------------------------
+
+Be careful, the categories_fr and categories_en files have been sorted
+manually to match the keys with the correct translation.
+I did not create a script (certainly complicated) to do this operation in an automated way.
+
+
+POSSIBLE SOLUTION----------------------------------------------------------------------
+
+In the idea, it would take a script that would make a google translation of each English word
+from the English list, and try to make this translation match with every french word on the french list.
+Since the translations are sometimes approximate, the algorithm can quickly become complex!
+
+One solution would be to present the French categories closest to the translation to let us
+choose which one really corresponds.
+
+
+
+- Mikael Briolet
