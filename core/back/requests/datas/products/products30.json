@@ -1,14 +1,27 @@
 [
     {
+        "name": "Grand Ananas",
+        "description": "",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Aliments d'origine végétale",
+            "Aliments à base de fruits et de légumes",
+            "Conserves",
+            "Aliments à base de plantes en conserve",
+            "Fruits et produits dérivés"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/3080920981945/grand-ananas-st-mamet",
+        "score": 1
+    },
+    {
         "name": "Caviar d'Artichauts",
         "description": "Caviar d'artichauts",
         "categories": [
             "Produits à tartiner",
             "Biscuits apéritifs"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/8029689006341/caviar-d-artichauts-bio-gustiamo",
         "score": 2
     },
@@ -20,9 +33,7 @@
             "Chocolats",
             "Chocolats noirs"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3046920032100/chocolat-excellence-noir-intense-70-lindt",
         "score": 23
     },
@@ -35,9 +46,7 @@
             "Fruits à coques et dérivés",
             "Fruits à coques"
         ],
-        "stores": [
-            "Lidl"
-        ],
+        "stores": "Lidl",
         "site_url": "https://world.openfoodfacts.org/product/20003418/amandes-effilees-belbake",
         "score": 12
     },
@@ -49,10 +58,7 @@
             "Poissons",
             "Poissons fumés"
         ],
-        "stores": [
-            "Super U",
-            "Magasins U"
-        ],
+        "stores": "Super U,Magasins U",
         "site_url": "https://world.openfoodfacts.org/product/3256220031301/truite-fumee-au-bois-de-hetre-u",
         "score": 12
     },
@@ -63,9 +69,7 @@
             "Produits laitiers",
             "Laits"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/5400115399276/oat-delhaize",
         "score": 1
     },
@@ -82,9 +86,7 @@
             "Laits végétaux",
             "Boissons non sucrées"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/5411188121992/alpro-soya-banana",
         "score": 0
     },
@@ -94,9 +96,7 @@
         "categories": [
             "Boissons"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3560070361946/cafe-filtre-soluble-carrefour-discount",
         "score": 1
     },
@@ -110,9 +110,7 @@
             "Poissons en conserve",
             "Thons"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3596710396191/miette-de-thon-auchan",
         "score": 4
     },
@@ -126,9 +124,7 @@
             "Plats à base de viande bovine",
             "Plats préparés en conserve"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3038353400601/paella-filets-de-poulet-chorizo-garbit",
         "score": 0
     },
@@ -141,9 +137,7 @@
             "Biscuits et gâteaux",
             "Gâteaux"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3380380072970/preparation-pain-d-epices-primeal",
         "score": 1
     },
@@ -154,9 +148,7 @@
             "Édulcorants",
             "Sucres"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3700110071910/sucre-de-canne-destination-premium",
         "score": 14
     },
@@ -173,9 +165,7 @@
             "Légumes en conserve",
             "Légumineuses en conserve"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3250390000754/petits-pois-extra-fins-saint-eloi",
         "score": -5
     },
@@ -193,9 +183,7 @@
             "Céréales et dérivés",
             "Légumes en conserve"
         ],
-        "stores": [
-            "Super U"
-        ],
+        "stores": "Super U",
         "site_url": "https://world.openfoodfacts.org/product/3256225039432/mais-doux-sans-sucres-ajoutes-u",
         "score": -6
     },
@@ -210,9 +198,7 @@
             "Céréales et dérivés",
             "Céréales pour petit déjeuner"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3387390625967/crunch-cereales-nestle",
         "score": 8
     },
@@ -222,10 +208,7 @@
         "categories": [
             "Produits laitiers"
         ],
-        "stores": [
-            "Auchan",
-            "Leclerc"
-        ],
+        "stores": "Auchan,Leclerc",
         "site_url": "https://world.openfoodfacts.org/product/3043936423700/maxi-nuage-de-lait-regilait",
         "score": 6
     },
@@ -240,9 +223,7 @@
             "Yaourts aromatisés",
             "Yaourts sucrés"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3033490071677/yaourt-aromatise-danone",
         "score": 0
     },
@@ -260,9 +241,7 @@
             "Plats préparés à réchauffer au micro ondes",
             "Plats préparés en conserve"
         ],
-        "stores": [
-            "Auchan"
-        ],
+        "stores": "Auchan",
         "site_url": "https://world.openfoodfacts.org/product/3596710326280/ravioli-6-legumes-auchan",
         "score": 1
     },
@@ -276,9 +255,7 @@
             "Fromages",
             "Fromages italiens"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3250390747420/maxi-mozzarella-paturages",
         "score": 10
     },
@@ -288,9 +265,7 @@
         "categories": [
             "Sandwichs"
         ],
-        "stores": [
-            "Sain Bio'Z"
-        ],
+        "stores": "Sain Bio'Z",
         "site_url": "https://world.openfoodfacts.org/product/5411788047081/vegi-burger-lupin-curcuma-lima",
         "score": 0
     },
@@ -306,9 +281,7 @@
             "Sardines en conserve",
             "Sardines à l'huile"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3263670125818/sardines-connetable",
         "score": 4
     },
@@ -319,9 +292,7 @@
             "Snacks sucrés",
             "Barres"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3423720008021/6-barres-de-cereales-bio-soleil",
         "score": 11
     },
@@ -335,9 +306,7 @@
             "Poissons fumés",
             "Saumons fumés"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3760083782923/saumon-fume-superieur-armoric",
         "score": 13
     },
@@ -350,9 +319,7 @@
             "Sauces pour pâtes",
             "Sauces tomate"
         ],
-        "stores": [
-            "Leclerc"
-        ],
+        "stores": "Leclerc",
         "site_url": "https://world.openfoodfacts.org/product/8001060006690/poivrons-mozarella-sauce-piquante-sacla",
         "score": 15
     },
@@ -362,9 +329,7 @@
         "categories": [
             "Boissons"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/8718215722489/king-coconut-water-leader-price",
         "score": 5
     },
@@ -379,9 +344,7 @@
             "Céréales et dérivés",
             "Céréales en grains"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3329488811203/graine-de-lin-brun-markal",
         "score": -1
     },
@@ -399,9 +362,7 @@
             "Jus d'orange",
             "Jus de fruits 100% pur jus"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3254566095452/jus-d-orange-avec-pulpe-auchan",
         "score": 2
     },
@@ -417,9 +378,7 @@
             "Fromages de vache",
             "Fromages de France"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3123930711765/l-emmental-francais-entremont",
         "score": 12
     },
@@ -430,9 +389,7 @@
             "Viandes",
             "Charcuteries"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3700141402608/saucisson-de-boeuf-halal-sans-marque",
         "score": 16
     },
@@ -446,9 +403,7 @@
             "Fromages",
             "Fromages italiens"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/8033629810578/mozzarella-di-bufala-campana",
         "score": 11
     },
@@ -461,10 +416,7 @@
             "Gâteaux",
             "Gâteaux au chocolat"
         ],
-        "stores": [
-            "Super U",
-            " Magasins U"
-        ],
+        "stores": "Super U,Magasins U",
         "site_url": "https://world.openfoodfacts.org/product/3256220174978/barre-marbree-au-chocolat-u",
         "score": 22
     },
@@ -476,9 +428,7 @@
             "Biscuits et gâteaux",
             "Biscuits"
         ],
-        "stores": [
-            "Auchan"
-        ],
+        "stores": "Auchan",
         "site_url": "https://world.openfoodfacts.org/product/3596710348312/petit-beurre-pocket-auchan",
         "score": 16
     },
@@ -488,9 +438,7 @@
         "categories": [
             "Édulcorants"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3760087361223/xylitol-sucre-de-bouleau-ecoidees",
         "score": 3
     },
@@ -503,9 +451,7 @@
             "Laits homogénéisés",
             "Laits demi écrémés"
         ],
-        "stores": [
-            "Aldi"
-        ],
+        "stores": "Aldi",
         "site_url": "https://world.openfoodfacts.org/product/26018751/lait-facile-a-digerer-demi-ecreme-sterilise-uht-milsani",
         "score": 0
     },
@@ -517,11 +463,19 @@
             "Aliments d'origine végétale",
             "Farines"
         ],
-        "stores": [
-            "Carrefour"
-        ],
+        "stores": "Carrefour",
         "site_url": "https://world.openfoodfacts.org/product/3560070911967/farine-pour-pain-aux-graines-de-tournesol-carrefour",
         "score": 11
+    },
+    {
+        "name": "Terrine de foie de volaille",
+        "description": "",
+        "categories": [
+            "Plats à base de viande"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/20145842/terrine-de-foie-de-volaille-toque-du-chef",
+        "score": 23
     },
     {
         "name": "Huile d'olive vierge extra aromatisée au basilic",
@@ -536,9 +490,7 @@
             "Huiles d'olive",
             "Huiles d'olive vierges extra"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3217450004527/huile-d-olive-vierge-extra-aromatisee-au-basilic-le-jardin-d-orante",
         "score": 11
     },
@@ -548,10 +500,7 @@
         "categories": [
             "Produits de la mer"
         ],
-        "stores": [
-            "Super U",
-            " Magasins U"
-        ],
+        "stores": "Super U, Magasins U",
         "site_url": "https://world.openfoodfacts.org/product/3256221970548/crevettes-cuites-et-decortiquees-u-bio",
         "score": 4
     },
@@ -561,9 +510,7 @@
         "categories": [
             "Plats préparés"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3599740008577/cabillaud-findus",
         "score": -1
     },
@@ -577,9 +524,7 @@
             "Poissons fumés",
             "Saumons fumés"
         ],
-        "stores": [
-            "Magasins U"
-        ],
+        "stores": "Magasins U",
         "site_url": "https://world.openfoodfacts.org/product/3256220367004/saumon-fume-sauvage-u",
         "score": 11
     },
@@ -593,9 +538,7 @@
             "Poissons fumés",
             "Saumons fumés"
         ],
-        "stores": [
-            "sky"
-        ],
+        "stores": "sky",
         "site_url": "https://world.openfoodfacts.org/product/4063600005031/bio-raucherlachs-friedrichs",
         "score": 15
     },
@@ -609,9 +552,7 @@
             "Matières grasses végétales",
             "Huiles"
         ],
-        "stores": [
-            "Auchan"
-        ],
+        "stores": "Auchan",
         "site_url": "https://world.openfoodfacts.org/product/3596710375554/huile-vierge-de-colza-auchan-bio",
         "score": 10
     },
@@ -621,9 +562,7 @@
         "categories": [
             "Surgelés"
         ],
-        "stores": [
-            "Leclerc"
-        ],
+        "stores": "Leclerc",
         "site_url": "https://world.openfoodfacts.org/product/3564700006344/pommes-dauphine-pom-lisse",
         "score": 7
     },
@@ -637,9 +576,7 @@
             "Pains",
             "Pains spéciaux"
         ],
-        "stores": [
-            "Aldi"
-        ],
+        "stores": "Aldi",
         "site_url": "https://world.openfoodfacts.org/product/26006321/pain-special-multicereales-aldi",
         "score": 5
     },
@@ -647,14 +584,11 @@
         "name": "12 Œufs Moyens de Poules Élevées en Plein Air Label Rouge",
         "description": "",
         "categories": [
-            "Produits labellisés",
             "Produits d'élevages",
             "Œufs d'oiseau",
             "Œufs"
         ],
-        "stores": [
-            "Auchan"
-        ],
+        "stores": "Auchan",
         "site_url": "https://world.openfoodfacts.org/product/3596710405695/12-oeufs-moyens-de-poules-elevees-en-plein-air-label-rouge-auchan",
         "score": -1
     },
@@ -667,9 +601,7 @@
             "Produits laitiers fermentés",
             "Fromages"
         ],
-        "stores": [
-            "Magasins U"
-        ],
+        "stores": "Magasins U",
         "site_url": "https://world.openfoodfacts.org/product/3256225060504/fromage-frais-au-lait-pasteurise-sucre-aux-fruits-2-demg-u-mat-lou",
         "score": 1
     },
@@ -686,9 +618,7 @@
             "Laits végétaux",
             "Boissons non sucrées"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3259011010806/boisson-plaisir-au-soja-chocolat-soy",
         "score": -1
     },
@@ -703,9 +633,7 @@
             "Plats préparés",
             "Pâtes alimentaires"
         ],
-        "stores": [
-            "Leclerc"
-        ],
+        "stores": "Leclerc",
         "site_url": "https://world.openfoodfacts.org/product/3564707086646/ravioli-au-3-fromages-bio-village",
         "score": 10
     },
@@ -717,9 +645,7 @@
             "Sauces",
             "Sauces tomate"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/7613312013915/salsa-all-italiena-basilico-migros",
         "score": 2
     },
@@ -731,9 +657,7 @@
             "Biscuits et gâteaux",
             "Gâteaux"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3760129920647/nonnette-de-dijon-mulot-petitjean",
         "score": 13
     },
@@ -749,9 +673,7 @@
             "Compotes",
             "Compotes de pomme"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3596710347421/puree-de-fruits-pomme-auchan",
         "score": -4
     },
@@ -767,9 +689,7 @@
             "Fruits à coques et dérivés",
             "Fruits à coques"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3336971506041/cacahuetes-delicatement-salees-vico",
         "score": 13
     },
@@ -782,9 +702,7 @@
             "Jambons",
             "Jambons blancs"
         ],
-        "stores": [
-            "Lidl"
-        ],
+        "stores": "Lidl",
         "site_url": "https://world.openfoodfacts.org/product/2205877002883/jambon-cuit-fume-tradition-saint-alby",
         "score": 12
     },
@@ -799,9 +717,7 @@
             "Aliments à base de plantes en conserve",
             "Légumineuses en conserve"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3450120000584/haricots-blancs-olabe",
         "score": -6
     },
@@ -814,9 +730,7 @@
             "Sauces tomate",
             "Ketchup"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3596710174485/auchan-tomato-ketchup",
         "score": 12
     },
@@ -833,9 +747,7 @@
             "Céréales et dérivés",
             "Céréales en grains"
         ],
-        "stores": [
-            "Lidl"
-        ],
+        "stores": "Lidl",
         "site_url": "https://world.openfoodfacts.org/product/20247935/corn-on-the-cob-oaklands",
         "score": -12
     },
@@ -849,26 +761,9 @@
             "Matières grasses végétales",
             "Huiles"
         ],
-        "stores": [
-            "Super U",
-            " Magasins U"
-        ],
+        "stores": "Super U, Magasins U",
         "site_url": "https://world.openfoodfacts.org/product/3256222648774/huile-speciale-pizza-u",
         "score": 10
-    },
-    {
-        "name": "Truite Fumée Bretagne",
-        "description": "",
-        "categories": [
-            "Produits de la mer",
-            "Poissons",
-            "Poissons fumés"
-        ],
-        "stores": [
-            "Leclerc"
-        ],
-        "site_url": "https://world.openfoodfacts.org/product/3392780002464/truite-fumee-bretagne-ovive",
-        "score": 12
     },
     {
         "name": "Spécialité de saucisson sec",
@@ -877,9 +772,7 @@
             "Viandes",
             "Charcuteries"
         ],
-        "stores": [
-            "Magasins U"
-        ],
+        "stores": "Magasins U",
         "site_url": "https://world.openfoodfacts.org/product/3256222972831/specialite-de-saucisson-sec-u",
         "score": 17
     },
@@ -892,9 +785,7 @@
             "Sirops aromatisés",
             "Boissons non sucrées"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3052910041106/le-sirop-de-monin-pamplemousse-rose",
         "score": 20
     },
@@ -907,9 +798,7 @@
             "Céréales et pommes de terre",
             "Céréales et dérivés"
         ],
-        "stores": [
-            "Casino"
-        ],
+        "stores": "Casino",
         "site_url": "https://world.openfoodfacts.org/product/8011033000884/couscous-moyen-sahara",
         "score": -5
     },
@@ -919,9 +808,7 @@
         "categories": [
             "Tartes"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3660992025176/tartelettes-a-l-abricot-bien-vu",
         "score": 20
     },
@@ -934,9 +821,7 @@
             "Biscuits",
             "Biscuits au chocolat"
         ],
-        "stores": [
-            "Carrefour"
-        ],
+        "stores": "Carrefour",
         "site_url": "https://world.openfoodfacts.org/product/3560070894550/batonnets-chocolat-au-lait-carrefour-bio",
         "score": 22
     },
@@ -949,9 +834,7 @@
             "Plats à base de viande bovine",
             "Plats à base de volaille"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3700518700061/magret-de-canard-fume-au-bois-de-hetre-pierre-fossat-saveurs-gourmandes",
         "score": 26
     },
@@ -963,9 +846,7 @@
             "Sirops",
             "Sirops aromatisés"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3263855095318/sirop-d-anis-leader-price",
         "score": 20
     },
@@ -980,9 +861,7 @@
             "Soupes",
             "Soupes de légumes"
         ],
-        "stores": [
-            "Leclerc Drive"
-        ],
+        "stores": "Leclerc Drive",
         "site_url": "https://world.openfoodfacts.org/product/3564707112284/veloute-saveurs-du-sud-bio-village",
         "score": 0
     },
@@ -995,9 +874,7 @@
             "Biscuits",
             "Biscuits au chocolat"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3250391984350/biscuits-nappes-chocolat-regain-bio",
         "score": 20
     },
@@ -1011,9 +888,7 @@
             "Glaces et sorbets",
             "Glaces"
         ],
-        "stores": [
-            "Aldi"
-        ],
+        "stores": "Aldi",
         "site_url": "https://world.openfoodfacts.org/product/26056074/creme-glacee-rhum-raisins-mucci",
         "score": 12
     },
@@ -1025,9 +900,7 @@
             "Biscuits et gâteaux",
             "Biscuits"
         ],
-        "stores": [
-            "Super U"
-        ],
+        "stores": "Super U",
         "site_url": "https://world.openfoodfacts.org/product/3226219007488/le-grand-sable-biscuiterie-de-l-abbaye",
         "score": 21
     },
@@ -1041,9 +914,7 @@
             "Matières grasses végétales",
             "Huiles"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3291960011107/huile-vierge-biologique-chanvre-emile-noel",
         "score": 11
     },
@@ -1054,9 +925,7 @@
             "Boissons",
             "Boissons sucrées"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3450970006699/preparation-au-cacao-maigre-eco",
         "score": 16
     },
@@ -1066,9 +935,7 @@
         "categories": [
             "Édulcorants"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3165437602009/stevia-daddy",
         "score": 0
     },
@@ -1078,9 +945,7 @@
         "categories": [
             "Tartes"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3410280020570/abrikozentaartjes-tartelettes-a-l-abricot-top-budget",
         "score": 21
     },
@@ -1091,9 +956,7 @@
             "Epicerie",
             "Condiments"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3165720448819/sel-d-einville-le-tresor-des-dieux",
         "score": 10
     },
@@ -1110,9 +973,7 @@
             "Jus de fruits",
             "Boissons non sucrées"
         ],
-        "stores": [
-            "Intermarché"
-        ],
+        "stores": "Intermarché",
         "site_url": "https://world.openfoodfacts.org/product/3250392222581/jus-de-citron-bouton-d-or",
         "score": -6
     },
@@ -1124,9 +985,7 @@
             "Laits",
             "Laits demi écrémés"
         ],
-        "stores": [
-            "Match"
-        ],
+        "stores": "Match",
         "site_url": "https://world.openfoodfacts.org/product/3257981677265/lait-demi-ecreme-bio-nature-bio",
         "score": 0
     },
@@ -1140,9 +999,7 @@
             "Poissons fumés",
             "Saumons fumés"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3222472261889/saumon-fume-eleve-en-norvege-casino",
         "score": 14
     },
@@ -1155,9 +1012,7 @@
             "Sauces tomate",
             "Ketchup"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3222474972417/tomato-ketchup-hot-casino",
         "score": 14
     },
@@ -1170,9 +1025,7 @@
             "Sodas",
             "Boissons sucrées"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3250391122431/limonade-a-l-ancienne",
         "score": 12
     },
@@ -1186,9 +1039,7 @@
             "Pains",
             "Pains spéciaux"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3350033048683/6-pitas-monoprix",
         "score": 0
     },
@@ -1202,9 +1053,7 @@
             "Poissons en conserve",
             "Saumons"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3019081237936/emiette-de-saumon-citron-thym-petit-navire",
         "score": 2
     },
@@ -1216,9 +1065,7 @@
             "Sauces",
             "Sauces tomate"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/8001060023697/tomates-cerises-basilic-sacla",
         "score": 8
     },
@@ -1233,9 +1080,7 @@
             "Fruits et produits dérivés",
             "Compotes"
         ],
-        "stores": [
-            "Biocoop"
-        ],
+        "stores": "Biocoop",
         "site_url": "https://world.openfoodfacts.org/product/3760121211866/puree-pommes-fruits-rouges-biocoop",
         "score": -5
     },
@@ -1248,9 +1093,7 @@
             "Biscuits et gâteaux",
             "Gâteaux"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3222472624400/amandine-poire-casino",
         "score": 10
     },
@@ -1266,9 +1109,7 @@
             "Produits à tartiner sucrés",
             "Fruits en conserve"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3250390105237/gelee-de-groseille-elodie",
         "score": 12
     },
@@ -1281,9 +1122,7 @@
             "Desserts lactés",
             "Desserts au chocolat"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3660992009640/creme-dessert-bien-vu",
         "score": 3
     },
@@ -1297,9 +1136,7 @@
             "Poissons fumés",
             "Saumons fumés"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3033610084792/le-norvege-25-sel-labeyrie",
         "score": 11
     },
@@ -1313,9 +1150,7 @@
             "Condiments",
             "Epices"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3278584140086/extrait-de-vanille-bourbon-la-pateliere",
         "score": 0
     },
@@ -1327,9 +1162,7 @@
             "Confiseries",
             "Bonbons"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/7610700922347/bonbons-suisses-aux-plantes-menthe-des-glaciers-ricola",
         "score": 2
     },
@@ -1343,10 +1176,7 @@
             "Céréales et pommes de terre",
             "Pains"
         ],
-        "stores": [
-            "Cora",
-            "Match"
-        ],
+        "stores": "Cora,Match",
         "site_url": "https://world.openfoodfacts.org/product/3257982123976/nature-bio-petits-pains-grilles",
         "score": -1
     },
@@ -1363,9 +1193,7 @@
             "Légumineuses et dérivés",
             "Légumes frais"
         ],
-        "stores": [
-            "Lidl"
-        ],
+        "stores": "Lidl",
         "site_url": "https://world.openfoodfacts.org/product/20253400/pommes-de-terre-rouge-chair-ferme-cote-marche",
         "score": -6
     },
@@ -1377,9 +1205,7 @@
             "Sirops",
             "Sirops aromatisés"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3242611111066/sirop-menthe-citron-vert-eyguebelle",
         "score": 20
     },
@@ -1393,9 +1219,7 @@
             "Produits laitiers",
             "Yaourts"
         ],
-        "stores": [
-            "..."
-        ],
+        "stores": "...",
         "site_url": "https://world.openfoodfacts.org/product/6111242100992/perly-ja",
         "score": 0
     },
@@ -1407,9 +1231,7 @@
             "Biscuits et gâteaux",
             "Biscuits"
         ],
-        "stores": [
-            "Leader Price"
-        ],
+        "stores": "Leader Price",
         "site_url": "https://world.openfoodfacts.org/product/3263852923195/florentins-aux-amandes-leader-price",
         "score": 26
     },
@@ -1417,14 +1239,12 @@
         "name": "Œufs Frais Bio Moyens",
         "description": "",
         "categories": [
-            "Produits labellisés",
             "Produits d'élevages",
+            "Produits labellisés",
             "Œufs d'oiseau",
             "Œufs"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3287251005061/oeufs-frais-bio-moyens-villeneuve",
         "score": -1
     },
@@ -1434,9 +1254,7 @@
         "categories": [
             "Matières grasses"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3760142290239/macerat-de-basilic-bio-melange-huile-olive-et-colza-bio-vigean",
         "score": 11
     },
@@ -1447,9 +1265,7 @@
             "Surgelés",
             "Plats préparés"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/5900972004349/batonnets-au-poisson-ocean-catch",
         "score": 0
     },
@@ -1468,9 +1284,7 @@
             "Chips de pommes de terre aromatisées",
             "Chips de pommes de terre à l'huile de tournesol"
         ],
-        "stores": [
-            "Magasins U"
-        ],
+        "stores": "Magasins U",
         "site_url": "https://world.openfoodfacts.org/product/3256221011487/chips-arome-ketchup-moutarde-barbecue-u",
         "score": 14
     },
@@ -1483,9 +1297,7 @@
             "Chips et frites",
             "Chips"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3386030001017/chips-a-la-crevette-kroepoek-delices-d-orient",
         "score": 17
     },
@@ -1501,9 +1313,7 @@
             "Aliments à base de plantes en conserve",
             "Légumes en conserve"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3250390001010/salsifis-saint-eloi",
         "score": -5
     },
@@ -1513,9 +1323,7 @@
         "categories": [
             "Boissons"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/54492578/fanta-orange-mini-can",
         "score": 9
     },
@@ -1525,9 +1333,7 @@
         "categories": [
             "Surgelés"
         ],
-        "stores": [
-            "Auchan"
-        ],
+        "stores": "Auchan",
         "site_url": "https://world.openfoodfacts.org/product/3596710352296/20-fingers-de-poulet-auchan",
         "score": -1
     },
@@ -1542,9 +1348,7 @@
             "Pickles d'origine végétale",
             "Olives"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3478790019170/olives-vertes-denoyautees-nature-mille-et-un-sud",
         "score": 14
     },
@@ -1552,11 +1356,11 @@
         "name": "Bâtonnets saveur Crabe",
         "description": "",
         "categories": [
-            "Produits de la mer"
+            "Plats préparés",
+            "Produits de la mer",
+            "Plats à base de poisson"
         ],
-        "stores": [
-            "Cora"
-        ],
+        "stores": "Cora",
         "site_url": "https://world.openfoodfacts.org/product/3257984478821/batonnets-saveur-crabe-cora",
         "score": 3
     },
@@ -1569,9 +1373,7 @@
             "Céréales et pommes de terre",
             "Pains"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/7610200302847/extra-rustica-microc",
         "score": 8
     },
@@ -1587,9 +1389,7 @@
             "Céréales en grains",
             "Riz"
         ],
-        "stores": [
-            "Magasins U"
-        ],
+        "stores": "Magasins U",
         "site_url": "https://world.openfoodfacts.org/product/3256221671940/melange-de-riz-basmati-et-sauvage-u",
         "score": -3
     },
@@ -1603,9 +1403,7 @@
             "Plats préparés",
             "Plats préparés en conserve"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3760052231209/piperade-a-la-basquaise-karine-jeff",
         "score": 5
     },
@@ -1618,9 +1416,7 @@
             "Produits laitiers fermentés",
             "Yaourts"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3578840000049/yaourts-de-brebis-pays-basque-nature-baskalia",
         "score": 1
     },
@@ -1632,9 +1428,7 @@
             "Biscuits et gâteaux",
             "Biscuits"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3222471855775/sables-des-druides-casino",
         "score": 23
     },
@@ -1644,9 +1438,7 @@
         "categories": [
             "Produits laitiers"
         ],
-        "stores": [
-            "Lidl"
-        ],
+        "stores": "Lidl",
         "site_url": "https://world.openfoodfacts.org/product/3329770058361/perle-de-lait-vanille-yoplait",
         "score": 6
     },
@@ -1663,9 +1455,7 @@
             "Flocons",
             "Flocons de céréales"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3273120011080/flocons-de-riz-toastes-celnat",
         "score": -2
     },
@@ -1677,9 +1467,7 @@
             "Surgelés",
             "Bœuf"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3222475403132/steak-haches-casino",
         "score": 1
     },
@@ -1694,9 +1482,7 @@
             "Pickles d'origine végétale",
             "Olives"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3565280001033/olives-vertes-denoyautees-bellenature",
         "score": 10
     },
@@ -1706,9 +1492,7 @@
         "categories": [
             "Produits de la mer"
         ],
-        "stores": [
-            "Monoprix"
-        ],
+        "stores": "Monoprix",
         "site_url": "https://world.openfoodfacts.org/product/3350030167738/tarama-aux-oeufs-de-cabillaud-monoprix",
         "score": 17
     },
@@ -1718,9 +1502,7 @@
         "categories": [
             "Boissons"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3228886045121/lipton-ice-tea-saveur-mangue",
         "score": 6
     },
@@ -1736,9 +1518,7 @@
             "Compotes",
             "Compotes de pomme"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3301597000648/puree-pommes-sans-sucres-ajoutes-coteaux-nantais",
         "score": -5
     },
@@ -1749,9 +1529,7 @@
             "Snacks salés",
             "Apéritif"
         ],
-        "stores": [
-            "Leader Price"
-        ],
+        "stores": "Leader Price",
         "site_url": "https://world.openfoodfacts.org/product/3263853004718/les-craquines-olive-parmesan-leader-price",
         "score": 25
     },
@@ -1769,9 +1547,7 @@
             "Chips de pommes de terre",
             "Chips de pommes de terre aromatisées"
         ],
-        "stores": [
-            "Cora"
-        ],
+        "stores": "Cora",
         "site_url": "https://world.openfoodfacts.org/product/3168930010043/saveur-roti-braise-de-boeuf-lay-s",
         "score": 10
     },
@@ -1783,9 +1559,7 @@
             "Biscuits et gâteaux",
             "Biscuits"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/5425032930678/sylvain-speculoos-generous",
         "score": 16
     },
@@ -1800,9 +1574,7 @@
             "Surgelés",
             "Aliments à base de plantes surgelés"
         ],
-        "stores": [
-            "Leclerc"
-        ],
+        "stores": "Leclerc",
         "site_url": "https://world.openfoodfacts.org/product/3564707087100/melange-de-legumes-surgele-bio-village",
         "score": -4
     },
@@ -1813,9 +1585,7 @@
             "Produits de la mer",
             "Poissons"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3599740008973/dos-de-cabillaud-findus",
         "score": -5
     },
@@ -1831,9 +1601,7 @@
             "Substitut du lait",
             "Laits végétaux"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3248340020136/lait-au-soja-helior",
         "score": -1
     },
@@ -1845,10 +1613,7 @@
             "Aliments d'origine végétale",
             "Graines"
         ],
-        "stores": [
-            "Leclerc",
-            "Carrefour"
-        ],
+        "stores": "Leclerc,Carrefour",
         "site_url": "https://world.openfoodfacts.org/product/3270720000308/salade-futee-la-croquante-daco-bello",
         "score": 9
     },
@@ -1860,9 +1625,7 @@
             "Chocolats",
             "Chocolats au lait"
         ],
-        "stores": [
-            "Aldi"
-        ],
+        "stores": "Aldi",
         "site_url": "https://world.openfoodfacts.org/product/26055657/chocolat-lait-amandes-chateau",
         "score": 25
     },
@@ -1881,9 +1644,7 @@
             "Mélanges de flocons de céréales",
             "Mueslis"
         ],
-        "stores": [
-            "Intermarché"
-        ],
+        "stores": "Intermarché",
         "site_url": "https://world.openfoodfacts.org/product/3250391785278/crisp-muesli-2-chocolats-et-caramel-chabrior",
         "score": 12
     },
@@ -1897,9 +1658,7 @@
             "Céréales et dérivés",
             "Pâtes alimentaires"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3380390017268/les-patinettes-coquillettes-ble-quinoa-carotte-primeal",
         "score": -4
     },
@@ -1913,9 +1672,7 @@
             "Fromages",
             "Fromages de vache"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3258561429236/cheddar-en-tranches-belle-france",
         "score": 15
     },
@@ -1928,9 +1685,7 @@
             "Jambons blancs",
             "Viandes"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3700133900372/jambon-cuit-superieur-sans-marque",
         "score": 4
     },
@@ -1940,9 +1695,7 @@
         "categories": [
             "Produits de la mer"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3261080085029/calamar-romana-escal",
         "score": 5
     },
@@ -1957,9 +1710,7 @@
             "Apéritif",
             "Pains"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3396413711884/gressins-olive-romarin-bonneterre",
         "score": 8
     },
@@ -1972,9 +1723,7 @@
             "Céréales et pommes de terre",
             "Céréales et dérivés"
         ],
-        "stores": [
-            "Carrefour"
-        ],
+        "stores": "Carrefour",
         "site_url": "https://world.openfoodfacts.org/product/3276650115617/durum-special-kebab-samia",
         "score": 12
     },
@@ -1989,9 +1738,7 @@
             "Fruits et produits dérivés",
             "Compotes"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3608580790266/pomme-ananas-passion-andros",
         "score": -5
     },
@@ -2007,9 +1754,7 @@
             "Compotes",
             "Compotes de pomme"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3608580787242/dessert-fruitier-pomme-mangue-sans-sucres-ajoutes-andros",
         "score": -5
     },
@@ -2025,9 +1770,7 @@
             "Aliments à base de plantes séchées",
             "Fruits secs"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3760123181303/baies-de-goji-bio-125g-comptoirs-compagnies",
         "score": -1
     },
@@ -2038,9 +1781,7 @@
             "Epicerie",
             "Sauces"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3760103145905/pate-de-curry-thai-vert-biologique-autour-du-riz",
         "score": 20
     },
@@ -2052,9 +1793,7 @@
             "Aliments d'origine végétale",
             "Graines"
         ],
-        "stores": [
-            "Bio14"
-        ],
+        "stores": "Bio14",
         "site_url": "https://world.openfoodfacts.org/product/3329488411205/graines-de-tournesol-decortiquees-markal",
         "score": 0
     },
@@ -2067,9 +1806,7 @@
             "Fruits à coques et dérivés",
             "Fruits à coques"
         ],
-        "stores": [
-            "Monoprix"
-        ],
+        "stores": "Monoprix",
         "site_url": "https://world.openfoodfacts.org/product/3350031531910/cocktail-aperitif-monoprix",
         "score": 12
     },
@@ -2081,9 +1818,7 @@
             "Confiseries",
             "Bonbons"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3048281250223/carambar-gouts-fruits",
         "score": 16
     },
@@ -2099,9 +1834,7 @@
             "Jus et nectars de fruits",
             "Nectars de fruits"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/6111179003847/nectar-orange-al-boustane",
         "score": 18
     },
@@ -2111,9 +1844,7 @@
         "categories": [
             "Tartes"
         ],
-        "stores": [
-            "Lidl"
-        ],
+        "stores": "Lidl",
         "site_url": "https://world.openfoodfacts.org/product/3663219003629/tarte-aux-abricots-lidl",
         "score": 15
     },
@@ -2126,9 +1857,7 @@
             "Gâteaux",
             "Gâteaux au chocolat"
         ],
-        "stores": [
-            "Franprix"
-        ],
+        "stores": "Franprix",
         "site_url": "https://world.openfoodfacts.org/product/3263858056514/chocolate-fudge-cake-a-partager-franprix",
         "score": 19
     },
@@ -2138,11 +1867,10 @@
         "categories": [
             "Snacks sucrés",
             "Biscuits et gâteaux",
-            "Gâteaux"
+            "Gâteaux",
+            "Gâteaux au chocolat"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3250392135508/brownie-choco-pepites-chabrior",
         "score": 24
     },
@@ -2154,9 +1882,7 @@
             "Biscuits et gâteaux",
             "Gâteaux"
         ],
-        "stores": [
-            "Intermarché"
-        ],
+        "stores": "Intermarché",
         "site_url": "https://world.openfoodfacts.org/product/3250390107460/le-marbre-au-chocolat-chabrior",
         "score": 12
     },
@@ -2172,9 +1898,7 @@
             "Céréales en grains",
             "Riz"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3380390010306/riz-de-camargue-rouge-long-complet-primeal",
         "score": -3
     },
@@ -2184,9 +1908,7 @@
         "categories": [
             "Produits à tartiner"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/4104420142589/hummus-classic-alnatura",
         "score": 3
     },
@@ -2205,9 +1927,7 @@
             "Mélanges de flocons de céréales",
             "Mueslis"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3111900350588/muesli-croustillant-miel-sarrasin-favrichon",
         "score": 5
     },
@@ -2221,9 +1941,7 @@
             "Plats préparés",
             "Plats préparés surgelés"
         ],
-        "stores": [
-            "Carrefour"
-        ],
+        "stores": "Carrefour",
         "site_url": "https://world.openfoodfacts.org/product/3270190024989/poelee-champetre-carrefour",
         "score": -1
     },
@@ -2236,9 +1954,7 @@
             "Sodas",
             "Boissons sucrées"
         ],
-        "stores": [
-            "Bio14"
-        ],
+        "stores": "Bio14",
         "site_url": "https://world.openfoodfacts.org/product/3289196810014/limonade-bio-d-antan-vitamont",
         "score": 13
     },
@@ -2252,9 +1968,7 @@
             "Pâtes à tartiner végétales",
             "Biscuits apéritifs"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/8714685902086/houmous-libanais-florentin",
         "score": 5
     },
@@ -2266,9 +1980,7 @@
             "Charcuteries",
             "Jambons"
         ],
-        "stores": [
-            "Casino"
-        ],
+        "stores": "Casino",
         "site_url": "https://world.openfoodfacts.org/product/3222472310235/chiffonnade-de-jambon-sec-italien-80-grammes-marque-casino",
         "score": 17
     },
@@ -2281,9 +1993,7 @@
             "Biscuits",
             "Biscuits au chocolat"
         ],
-        "stores": [
-            "Magasins U"
-        ],
+        "stores": "Magasins U",
         "site_url": "https://world.openfoodfacts.org/product/3256221136203/assortiment-biscuits-patissiers-u",
         "score": 24
     },
@@ -2299,9 +2009,7 @@
             "Surgelés",
             "Aliments à base de plantes surgelés"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/26016450/oignon-eminces-all-seasons",
         "score": -5
     },
@@ -2313,9 +2021,7 @@
             "Charcuteries",
             "Saucisses"
         ],
-        "stores": [
-            "Food & Wine"
-        ],
+        "stores": "Food & Wine",
         "site_url": "https://world.openfoodfacts.org/product/4010198022773/genuine-german-10-frankfurters-skinless-ready-to-eat-delicatessen-fine-eating",
         "score": 19
     },
@@ -2329,9 +2035,7 @@
             "Pâtes à tartiner végétales",
             "Biscuits apéritifs"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3760253460002/houmous-de-lentilles-corail-l-atelier-v",
         "score": 5
     },
@@ -2345,9 +2049,7 @@
             "Yaourts",
             "Yaourts natures"
         ],
-        "stores": [
-            "Auchan"
-        ],
+        "stores": "Auchan",
         "site_url": "https://world.openfoodfacts.org/product/3254560303218/auchan-yaourt-nature-0",
         "score": -1
     },
@@ -2360,9 +2062,7 @@
             "Jambons",
             "Jambons blancs"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3180940081110/jambon-a-la-broche-4tr-vpf-madrange",
         "score": 5
     },
@@ -2372,9 +2072,7 @@
         "categories": [
             "Boissons"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3187571102757/deca-aqua-malongo",
         "score": 0
     },
@@ -2386,9 +2084,7 @@
             "Biscuits et gâteaux",
             "Gâteaux"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/4001518000274/soft-cake-himbeer-griesson",
         "score": 17
     },
@@ -2400,9 +2096,7 @@
             "Charcuteries",
             "Jambons"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3367824926556/jambon-de-bayonne-michel-dupuy",
         "score": 16
     },
@@ -2414,9 +2108,7 @@
             "Chocolats",
             "Chocolats noirs"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3025640086037/chocolat-pur-criollo-klaus",
         "score": 17
     },
@@ -2432,9 +2124,7 @@
             "Huiles",
             "Huiles d'olive"
         ],
-        "stores": [
-            "Carrefour Market"
-        ],
+        "stores": "Carrefour Market",
         "site_url": "https://world.openfoodfacts.org/product/3560070858163/specialite-huile-d-olive-aromatisee-au-basilic-carrefour",
         "score": 12
     },
@@ -2445,9 +2135,7 @@
             "Viandes",
             "Charcuteries"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3564700745403/saint-azay-chorizo",
         "score": 26
     },
@@ -2464,9 +2152,7 @@
             "Jus de fruits",
             "Jus multifruits"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3222476282880/100-pur-jus-petit-dejeuner-casino",
         "score": 4
     },
@@ -2480,9 +2166,7 @@
             "Yaourts",
             "Yaourts natures"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3700036900608/yaourt-nature-0-naturalia",
         "score": -2
     },
@@ -2493,9 +2177,7 @@
             "Snacks salés",
             "Apéritif"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/8710398502285/grills-fume-lay-s",
         "score": 15
     },
@@ -2506,9 +2188,7 @@
             "Viandes",
             "Charcuteries"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/8433635152462/chorizo-chiffonnade-co-saveur",
         "score": 20
     },
@@ -2524,9 +2204,7 @@
             "Sodas",
             "Boissons sucrées"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3484700001159/breizh-agrum-phare-d-eckmuhl",
         "score": 12
     },
@@ -2539,9 +2217,7 @@
             "Céréales et pommes de terre",
             "Céréales et dérivés"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3090070105207/polenta-instantanee-bloch",
         "score": 2
     },
@@ -2549,11 +2225,10 @@
         "name": "Rape de surimi saveur crabe Ouverture facile!",
         "description": "",
         "categories": [
-            "Produits de la mer"
+            "Plats préparés",
+            "Plats à base de poisson"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3254560406216/rape-de-surimi-saveur-crabe-ouverture-facile-auchan",
         "score": 4
     },
@@ -2566,9 +2241,7 @@
             "Sirops aromatisés",
             "Boissons sucrées"
         ],
-        "stores": [
-            "Bi1"
-        ],
+        "stores": "Bi1",
         "site_url": "https://world.openfoodfacts.org/product/3596710400461/sirop-concentre-a-la-grenadine-auchan",
         "score": 21
     },
@@ -2580,9 +2253,7 @@
             "Desserts",
             "Desserts lactés"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3023290115046/le-viennois-dessert-facon-banana-split-nestle",
         "score": 9
     },
@@ -2599,9 +2270,7 @@
             "Jus de fruits",
             "Jus multifruits"
         ],
-        "stores": [
-            "Carrefour"
-        ],
+        "stores": "Carrefour",
         "site_url": "https://world.openfoodfacts.org/product/3560070889549/jus-multifruits-pomme-litchi-goyave-carrefour",
         "score": 6
     },
@@ -2617,9 +2286,7 @@
             "Jus et nectars de fruits",
             "Jus de fruits"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/0775462980206/nectar-de-pruneaux-tradition",
         "score": 10
     },
@@ -2632,9 +2299,7 @@
             "Jambons",
             "Jambons blancs"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3095758238017/le-paris-cuit-a-l-etouffee-fleury-michon",
         "score": 3
     },
@@ -2648,9 +2313,7 @@
             "Fromages",
             "Fromages italiens"
         ],
-        "stores": [
-            "Rewe"
-        ],
+        "stores": "Rewe",
         "site_url": "https://world.openfoodfacts.org/product/4388840217335/mozzarella-45-fett-i-tr-ja",
         "score": 10
     },
@@ -2662,9 +2325,7 @@
             "Biscuits et gâteaux",
             "Biscuits"
         ],
-        "stores": [
-            "Rewe"
-        ],
+        "stores": "Rewe",
         "site_url": "https://world.openfoodfacts.org/product/4017100206009/leibniz-minis-choco-bahlsen",
         "score": 23
     },
@@ -2676,9 +2337,7 @@
             "Pizzas surgelées",
             "Pizzas et tartes surgelées"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/7613034642271/pizza-fiesta-regina-buitoni",
         "score": 12
     },
@@ -2690,9 +2349,7 @@
             "Sauces",
             "Sauces tomate"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3038359003332/xtra-chicken-poulet-xxl-panzani",
         "score": 0
     },
@@ -2703,9 +2360,7 @@
             "Viandes",
             "Charcuteries"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3560070361717/260g-figatelli-corse-reflets-de-france",
         "score": 26
     },
@@ -2717,9 +2372,7 @@
             "Pizzas tartes salées et quiches",
             "Pizzas"
         ],
-        "stores": [
-            "Franprix"
-        ],
+        "stores": "Franprix",
         "site_url": "https://world.openfoodfacts.org/product/3263858400119/pizza-aux-3-fromages-bio-franprix-bio",
         "score": 3
     },
@@ -2730,9 +2383,7 @@
             "Produits laitiers",
             "Laits"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3176010760009/raib",
         "score": -1
     },
@@ -2744,9 +2395,7 @@
             "Desserts",
             "Desserts lactés"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3273220140765/dessert-brebis-vanille-la-bergerie",
         "score": 4
     },
@@ -2759,9 +2408,7 @@
             "Biscuits et gâteaux",
             "Gâteaux"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3263850577215/quatre-quarts-breton-franprix",
         "score": 19
     },
@@ -2774,9 +2421,7 @@
             "Produits laitiers fermentés",
             "Fromages"
         ],
-        "stores": [
-            "Magasins U"
-        ],
+        "stores": "Magasins U",
         "site_url": "https://world.openfoodfacts.org/product/3256223375679/melange-de-fromages-rapes-special-gratin-31-mg-u",
         "score": 12
     },
@@ -2790,9 +2435,7 @@
             "Glaces et sorbets",
             "Glaces"
         ],
-        "stores": [
-            "Carrefour Market"
-        ],
+        "stores": "Carrefour Market",
         "site_url": "https://world.openfoodfacts.org/product/7613034098373/creme-glacee-parfum-creme-brulee-la-laitiere",
         "score": 7
     },
@@ -2806,10 +2449,7 @@
             "Yaourts",
             "Yaourts brassés"
         ],
-        "stores": [
-            "Super U",
-            " Magasins U"
-        ],
+        "stores": "Super U, Magasins U",
         "site_url": "https://world.openfoodfacts.org/product/3256222254203/yaourt-brasse-nature-sur-lit-de-fruits-frambois-myrtille-poire-u-bio",
         "score": 4
     },
@@ -2819,9 +2459,7 @@
         "categories": [
             "Boissons"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/7610057012562/schorle-ramseier",
         "score": 4
     },
@@ -2831,9 +2469,7 @@
         "categories": [
             "Snacks sucrés"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3378730113268/banane-chips-vijaya",
         "score": 19
     },
@@ -2845,9 +2481,7 @@
             "Plats à base de viande",
             "Plats à base de viande bovine"
         ],
-        "stores": [
-            "Intermarché"
-        ],
+        "stores": "Intermarché",
         "site_url": "https://world.openfoodfacts.org/product/3261055930286/paella-aux-fruits-de-mer-riz-et-legumes-william-saurin",
         "score": 2
     },
@@ -2858,9 +2492,7 @@
             "Epicerie",
             "Condiments"
         ],
-        "stores": [
-            "Cora"
-        ],
+        "stores": "Cora",
         "site_url": "https://world.openfoodfacts.org/product/3272970150017/creme-de-vinaigre-balsamique-segreti-di-riva",
         "score": 5
     },
@@ -2872,9 +2504,7 @@
             "Desserts",
             "Desserts lactés"
         ],
-        "stores": [
-            "Leclerc"
-        ],
+        "stores": "Leclerc",
         "site_url": "https://world.openfoodfacts.org/product/3564700198322/mr-flan-nappe-caramel-delisse",
         "score": 3
     },
@@ -2886,9 +2516,7 @@
             "Desserts",
             "Desserts lactés"
         ],
-        "stores": [
-            "Leclerc"
-        ],
+        "stores": "Leclerc",
         "site_url": "https://world.openfoodfacts.org/product/3564700508527/tiramisu-au-speculoos-delisse",
         "score": 16
     },
@@ -2901,9 +2529,7 @@
             "Chips et frites",
             "Chips"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3258561011158/tortilla-gout-chili-belle-france",
         "score": 8
     },
@@ -2915,9 +2541,7 @@
             "Plats à base de viande",
             "Plats à base de viande bovine"
         ],
-        "stores": [
-            "Magasins U"
-        ],
+        "stores": "Magasins U",
         "site_url": "https://world.openfoodfacts.org/product/3256221923339/boeuf-bourguignon-u",
         "score": -2
     },
@@ -2927,9 +2551,7 @@
         "categories": [
             "Matières grasses"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3173980010400/beurre-extra-fin-verneuil",
         "score": 26
     },
@@ -2944,9 +2566,7 @@
             "Laits végétaux",
             "Boissons non sucrées"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3760092217096/boisson-vegetale-riz-amande-viadelice",
         "score": 1
     },
@@ -2962,9 +2582,7 @@
             "Légumineuses et dérivés",
             "Légumes frais"
         ],
-        "stores": [
-            "Leader Price"
-        ],
+        "stores": "Leader Price",
         "site_url": "https://world.openfoodfacts.org/product/3263851513618/asperges-moyennes-leader-price",
         "score": -4
     },
@@ -2976,9 +2594,7 @@
             "Snacks sucrés",
             "Chocolats"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/0752612000052/camino-chocolat-chaud-noir-classique",
         "score": 11
     },
@@ -2990,9 +2606,7 @@
             "Biscuits et gâteaux",
             "Biscuits"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3337442012023/galettes-de-bretagne-jacques-menou",
         "score": 27
     },
@@ -3001,12 +2615,11 @@
         "description": "rillettes de poisson",
         "categories": [
             "Produits à tartiner",
+            "Plats préparés",
             "Biscuits apéritifs",
-            "Produits de la mer"
+            "Plats à base de poisson"
         ],
-        "stores": [
-            "Casino"
-        ],
+        "stores": "Casino",
         "site_url": "https://world.openfoodfacts.org/product/3760056410594/rillettes-de-sardine-au-piment-d-espelette-groix-nature",
         "score": 14
     },
@@ -3019,10 +2632,7 @@
             "Biscuits",
             "Biscuits au chocolat"
         ],
-        "stores": [
-            "Super U",
-            " Magasins U"
-        ],
+        "stores": "Super U, Magasins U",
         "site_url": "https://world.openfoodfacts.org/product/3256220022712/biscuits-petit-beurre-choco-lait-fourre-lait-u",
         "score": 24
     },
@@ -3034,9 +2644,7 @@
             "Charcuteries",
             "Saucisses"
         ],
-        "stores": [
-            "Carrefour"
-        ],
+        "stores": "Carrefour",
         "site_url": "https://world.openfoodfacts.org/product/3560070405923/saucisson-sec-bio-carrefour",
         "score": 25
     },
@@ -3048,9 +2656,7 @@
             "Biscuits et gâteaux",
             "Gâteaux"
         ],
-        "stores": [
-            "Leclerc"
-        ],
+        "stores": "Leclerc",
         "site_url": "https://world.openfoodfacts.org/product/3564700693490/pain-d-epices-au-lait-pre-tranche-p-tit-deli",
         "score": 10
     },
@@ -3064,9 +2670,7 @@
             "Réfrigérés",
             "Plats préparés réfrigérés"
         ],
-        "stores": [
-            "Migros"
-        ],
+        "stores": "Migros",
         "site_url": "https://world.openfoodfacts.org/product/7613269501688/edamame-migros",
         "score": -4
     },
@@ -3078,9 +2682,7 @@
             "Desserts",
             "Desserts lactés"
         ],
-        "stores": [
-            "Leclerc"
-        ],
+        "stores": "Leclerc",
         "site_url": "https://world.openfoodfacts.org/product/3450970060516/petit-suisse-eco-co",
         "score": 1
     },
@@ -3095,9 +2697,7 @@
             "Aliments à base de plantes en conserve",
             "Légumineuses en conserve"
         ],
-        "stores": [
-            "Intermarché"
-        ],
+        "stores": "Intermarché",
         "site_url": "https://world.openfoodfacts.org/product/3292320048634/haricots-cuisines-biraben",
         "score": 5
     },
@@ -3108,9 +2708,7 @@
             "Epicerie",
             "Sauces"
         ],
-        "stores": [
-            "leclerc"
-        ],
+        "stores": "leclerc",
         "site_url": "https://world.openfoodfacts.org/product/5606456011024/sauce-piquante-a-base-de-piment-molho-piripiri-rustica",
         "score": 11
     },
@@ -3125,9 +2723,7 @@
             "Laits végétaux",
             "Boissons sucrées"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3396411221361/chocolat-noisette-bonneterre",
         "score": 2
     },
@@ -3140,9 +2736,7 @@
             "Chips et frites",
             "Chips"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3222475985423/tortilla-chips-gout-fromage-casino",
         "score": 8
     },
@@ -3156,9 +2750,7 @@
             "Poissons en conserve",
             "Thons"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/20003739/nixe-tuna-filet-in-sunflower-oil-185g",
         "score": 1
     },
@@ -3171,9 +2763,7 @@
             "Boissons à base de végétaux",
             "Boissons aux fruits"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3383810002486/cocktail-ace-tentation-de-fruits",
         "score": 15
     },
@@ -3185,9 +2775,7 @@
             "Biscuits et gâteaux",
             "Biscuits"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/20706982/grandino-soft-baked-triple-choc-sondey",
         "score": 23
     },
@@ -3204,9 +2792,7 @@
             "Aliments à base de plantes en conserve",
             "Légumes en conserve"
         ],
-        "stores": [
-            "Magasins U"
-        ],
+        "stores": "Magasins U",
         "site_url": "https://world.openfoodfacts.org/product/3256220573566/pommes-de-terre-u",
         "score": -3
     },
@@ -3222,9 +2808,7 @@
             "Aliments à base de plantes en conserve",
             "Légumes en conserve"
         ],
-        "stores": [
-            "Leclerc"
-        ],
+        "stores": "Leclerc",
         "site_url": "https://world.openfoodfacts.org/product/3564700004920/garniture-de-celeris-notre-jardin",
         "score": -3
     },
@@ -3236,9 +2820,7 @@
             "Chocolats",
             "Chocolats noirs"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/7622210232434/cote-d-or",
         "score": 20
     },
@@ -3251,9 +2833,7 @@
             "Produits laitiers fermentés",
             "Yaourts"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3023290639429/yaourt-a-la-grecque-framboise-7-2-nestle",
         "score": 7
     },
@@ -3267,9 +2847,7 @@
             "Poissons en conserve",
             "Thons"
         ],
-        "stores": [
-            "Magasins U"
-        ],
+        "stores": "Magasins U",
         "site_url": "https://world.openfoodfacts.org/product/3256225454969/thon-entier-listao-naturel-peche-ligne-u",
         "score": 1
     },
@@ -3282,9 +2860,7 @@
             "Boissons à base de végétaux",
             "Boissons non sucrées"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/5038862356107/smoothie-pur-fruits-fraise-mure-innocent",
         "score": 4
     },
@@ -3297,9 +2873,7 @@
             "Biscuits",
             "Biscuits au chocolat"
         ],
-        "stores": [
-            "Grand Frais"
-        ],
+        "stores": "Grand Frais",
         "site_url": "https://world.openfoodfacts.org/product/3173990026361/gouter-fourre-cacao-bio-albon",
         "score": 14
     },
@@ -3314,9 +2888,7 @@
             "Plats préparés en conserve",
             "Plats à base de viande porcine"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3017800226438/poelee-de-porc-a-la-parisienne-d-aucy",
         "score": 1
     },
@@ -3326,9 +2898,7 @@
         "categories": [
             "Boissons"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3502110003157/ice-tea-saveur-tropical-lipton",
         "score": 6
     },
@@ -3340,9 +2910,7 @@
             "Boissons édulcorées",
             "Boissons sucrées"
         ],
-        "stores": [
-            "Carrefour"
-        ],
+        "stores": "Carrefour",
         "site_url": "https://world.openfoodfacts.org/product/3608330031199/energy-drink-taurine-impact",
         "score": 11
     },
@@ -3354,9 +2922,7 @@
             "Œufs d'oiseau",
             "Œufs"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3414280130062/gros-oeufs-de-poules-elevees-en-plein-air-oeufs-de-nos-regions",
         "score": 1
     },
@@ -3368,9 +2934,7 @@
             "Poissons",
             "Poissons fumés"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3038680063999/hareng-fume-delpierre",
         "score": 15
     },
@@ -3381,9 +2945,7 @@
             "Surgelés",
             "Plats préparés"
         ],
-        "stores": [
-            "Netto"
-        ],
+        "stores": "Netto",
         "site_url": "https://world.openfoodfacts.org/product/3250390025474/cabillaud-pane-odyssee",
         "score": 0
     },
@@ -3398,9 +2960,7 @@
             "Céréales et dérivés",
             "Pâtes à tartiner végétales"
         ],
-        "stores": [
-            "Super U"
-        ],
+        "stores": "Super U",
         "site_url": "https://world.openfoodfacts.org/product/3390390001631/puree-de-sesame-blanc-tahin-ti-bio",
         "score": 12
     },
@@ -3411,12 +2971,9 @@
             "Frais",
             "Plats préparés",
             "Pizzas tartes salées et quiches",
-            "Plats préparés frais",
-            "Pizzas"
+            "Plats préparés frais"
         ],
-        "stores": [
-            "Marks & Spencer"
-        ],
+        "stores": "Marks & Spencer",
         "site_url": "https://world.openfoodfacts.org/product/2000000035799/pollo-arrabiata-parmigiano-wood-fired-pizza-marks-spencer",
         "score": 2
     },
@@ -3428,10 +2985,7 @@
             "Biscuits et gâteaux",
             "Biscuits"
         ],
-        "stores": [
-            "Super U",
-            " Magasins U"
-        ],
+        "stores": "Super U, Magasins U",
         "site_url": "https://world.openfoodfacts.org/product/3256224066620/gaufrettes-fourrees-vanille-u",
         "score": 23
     },
@@ -3445,9 +2999,7 @@
             "Glaces et sorbets",
             "Glaces"
         ],
-        "stores": [
-            "Leclerc"
-        ],
+        "stores": "Leclerc",
         "site_url": "https://world.openfoodfacts.org/product/3415581376142/strawberry-cheesecake-haagen-dazs",
         "score": 17
     },
@@ -3464,9 +3016,7 @@
             "Jus de fruits",
             "Jus de fruits 100% pur jus"
         ],
-        "stores": [
-            "Carrefour"
-        ],
+        "stores": "Carrefour",
         "site_url": "https://world.openfoodfacts.org/product/3352271120060/jus-ananas-rotui",
         "score": 5
     },
@@ -3477,9 +3027,7 @@
             "Édulcorants",
             "Sucres"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3165433612002/petits-sucres-morceaux-pur-canne-daddy",
         "score": 15
     },
@@ -3494,9 +3042,7 @@
             "Pickles d'origine végétale",
             "Olives"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3257984524849/olives-denoyautees-piquantes-cora",
         "score": 8
     },
@@ -3511,9 +3057,7 @@
             "Céréales et dérivés",
             "Céréales pour petit déjeuner"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3421557501463/petales-epeautre-complet-riz-terres-cereales",
         "score": -2
     },
@@ -3526,9 +3070,7 @@
             "Produits laitiers fermentés",
             "Fromages"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/5400112160800/roquefort-aop-delhaize",
         "score": 19
     },
@@ -3549,9 +3091,7 @@
             "Confitures de fruits",
             "Confitures d'abricot"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3324490000201/confiture-cuite-abricots-aux-amandes-les-comtes-de-provence",
         "score": 7
     },
@@ -3561,9 +3101,7 @@
         "categories": [
             "Surgelés"
         ],
-        "stores": [
-            "Picard"
-        ],
+        "stores": "Picard",
         "site_url": "https://world.openfoodfacts.org/product/3270160641451/2-coquilles-aux-noix-de-saint-jacques-et-au-vin-de-sancerre-picard",
         "score": 5
     },
@@ -3577,9 +3115,7 @@
             "Yaourts",
             "Yaourts sucrés"
         ],
-        "stores": [
-            "Intermarché"
-        ],
+        "stores": "Intermarché",
         "site_url": "https://world.openfoodfacts.org/product/3250390007357/pat-yt-nat-sucre-canne-paturages",
         "score": 2
     },
@@ -3593,9 +3129,7 @@
             "Poissons fumés",
             "Saumons fumés"
         ],
-        "stores": [
-            "Magasins U"
-        ],
+        "stores": "Magasins U",
         "site_url": "https://world.openfoodfacts.org/product/3368956340647/saumon-fume-d-ecosse-label-rouge-u",
         "score": 14
     },
@@ -3605,11 +3139,10 @@
         "categories": [
             "Snacks sucrés",
             "Confiseries",
+            "Produits de la ruche",
             "Bonbons"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3257981663268/bonbons-au-miel-cora",
         "score": 14
     },
@@ -3622,9 +3155,7 @@
             "Produits laitiers fermentés",
             "Fromages"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3073780808125/ma-p-tite-vache-qui-rit-bel",
         "score": 15
     },
@@ -3636,9 +3167,7 @@
             "Desserts",
             "Desserts lactés"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3279231590001/le-pot-de-creme-au-cafe-la-fermiere",
         "score": 13
     },
@@ -3650,9 +3179,7 @@
             "Sauces",
             "Sauces pour pâtes"
         ],
-        "stores": [
-            "Magasins U"
-        ],
+        "stores": "Magasins U",
         "site_url": "https://world.openfoodfacts.org/product/3368957106877/sauce-pistache-roquette-u-saveurs",
         "score": 16
     },
@@ -3664,9 +3191,7 @@
             "Laits",
             "Laits demi écrémés"
         ],
-        "stores": [
-            "Norma"
-        ],
+        "stores": "Norma",
         "site_url": "https://world.openfoodfacts.org/product/20016555/lait-bio-demi-ecreme-sterilise-uht-bio-sonne",
         "score": 0
     },
@@ -3684,9 +3209,7 @@
             "Chips de pommes de terre",
             "Chips de pommes de terre à l'huile de tournesol"
         ],
-        "stores": [
-            "Franprix"
-        ],
+        "stores": "Franprix",
         "site_url": "https://world.openfoodfacts.org/product/3263850581311/chips-a-l-ancienne-franprix",
         "score": 10
     },
@@ -3699,9 +3222,7 @@
             "Biscuits",
             "Biscuits au chocolat"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/7622210353016/mikado-chocolat-noir-lu",
         "score": 19
     },
@@ -3718,13 +3239,10 @@
             "Fromages",
             "Fromages de vache",
             "Fromages de France",
-            "Fromages industriels",
-            "Fromages pasteurisés"
+            "Fromages pasteurisés",
+            "Fromages industriels"
         ],
-        "stores": [
-            "Leclerc",
-            "Cora"
-        ],
+        "stores": "Leclerc,Cora",
         "site_url": "https://world.openfoodfacts.org/product/3073781069259/ail-fines-herbes-40-mg-format-gourmand-boursin",
         "score": 15
     },
@@ -3738,9 +3256,7 @@
             "Biscuits au chocolat",
             "Cookies"
         ],
-        "stores": [
-            "Rewe"
-        ],
+        "stores": "Rewe",
         "site_url": "https://world.openfoodfacts.org/product/4001518111161/soft-baked-brown-style-cookies-cookies-bakery",
         "score": 20
     },
@@ -3753,11 +3269,21 @@
             "Sirops aromatisés",
             "Boissons non sucrées"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3336770000023/sirop-citron-jinot-acidule-bigallet",
         "score": 20
+    },
+    {
+        "name": "Knoppers",
+        "description": "",
+        "categories": [
+            "Snacks sucrés",
+            "Biscuits et gâteaux",
+            "Biscuits"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/40358802/knoppers-storck",
+        "score": 24
     },
     {
         "name": "Jus de raisin rouge",
@@ -3772,9 +3298,7 @@
             "Jus de fruits",
             "Jus de fruits 100% pur jus"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3564700769225/jus-de-raisin-rouge-jafaden",
         "score": 9
     },
@@ -3784,9 +3308,7 @@
         "categories": [
             "Produits de la mer"
         ],
-        "stores": [
-            "Lidl"
-        ],
+        "stores": "Lidl",
         "site_url": "https://world.openfoodfacts.org/product/20797454/crevettes-cuites-refrigerees-lidl",
         "score": 5
     },
@@ -3798,9 +3320,7 @@
             "Sauces",
             "Sauces pour pâtes"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3596710399963/sauce-bolognaise-auchan",
         "score": 2
     },
@@ -3815,9 +3335,7 @@
             "Soupes",
             "Soupes de légumes"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/8710908948282/veloute-de-12-legumes-knorr",
         "score": 2
     },
@@ -3828,9 +3346,7 @@
             "Boissons",
             "Boissons sucrées"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3119780256068/desperados-lime",
         "score": 9
     },
@@ -3842,9 +3358,7 @@
             "Produits à tartiner",
             "Produits à tartiner sucrés"
         ],
-        "stores": [
-            "COOP"
-        ],
+        "stores": "COOP",
         "site_url": "https://world.openfoodfacts.org/product/7613033281594/le-parfait-nestle",
         "score": 17
     },
@@ -3856,9 +3370,7 @@
             "Viennoiseries",
             "Brioches"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3279840001882/brioche-de-vendee-label-rouge-brioche-fonteneau",
         "score": 19
     },
@@ -3871,9 +3383,7 @@
             "Produits à tartiner sucrés",
             "Pâtes à tartiner au chocolat"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3330720237255/pate-a-tartiner-bio-lucien-georgelin",
         "score": 27
     },
@@ -3885,9 +3395,7 @@
             "Chocolats",
             "Chocolats au lait"
         ],
-        "stores": [
-            "Carrefour"
-        ],
+        "stores": "Carrefour",
         "site_url": "https://world.openfoodfacts.org/product/3560070875429/choc-o-tiz-carrefour",
         "score": 24
     },
@@ -3899,9 +3407,7 @@
             "Charcuteries",
             "Jambons"
         ],
-        "stores": [
-            "Casino"
-        ],
+        "stores": "Casino",
         "site_url": "https://world.openfoodfacts.org/product/3449865262289/le-quart-tranche-40-gratuit-aoste",
         "score": 20
     },
@@ -3912,9 +3418,7 @@
             "Epicerie",
             "Sauces"
         ],
-        "stores": [
-            "Netto"
-        ],
+        "stores": "Netto",
         "site_url": "https://world.openfoodfacts.org/product/3302762103188/3-doses-nantua-christian-potier",
         "score": 9
     },
@@ -3928,9 +3432,7 @@
             "Saucisses",
             "Poulets"
         ],
-        "stores": [
-            "Magasins U"
-        ],
+        "stores": "Magasins U",
         "site_url": "https://world.openfoodfacts.org/product/3256220173575/knacks-de-poulet-fumes-au-bois-de-hetre-u",
         "score": 14
     },
@@ -3941,9 +3443,7 @@
             "Snacks salés",
             "Apéritif"
         ],
-        "stores": [
-            "Intermarché"
-        ],
+        "stores": "Intermarché",
         "site_url": "https://world.openfoodfacts.org/product/3250391923403/boule-tomate-bouton-d-or",
         "score": 19
     },
@@ -3956,10 +3456,7 @@
             "Biscuits et gâteaux",
             "Biscuits"
         ],
-        "stores": [
-            "Hyper U",
-            " Magasins U"
-        ],
+        "stores": "Hyper U, Magasins U",
         "site_url": "https://world.openfoodfacts.org/product/3256224878414/biscuits-sables-pur-beurre-fourre-caramel-u",
         "score": 24
     },
@@ -3971,10 +3468,7 @@
             "Pizzas surgelées",
             "Pizzas et tartes surgelées"
         ],
-        "stores": [
-            "Edeka",
-            "Veganz"
-        ],
+        "stores": "Edeka,Veganz",
         "site_url": "https://world.openfoodfacts.org/product/4260402484037/pizza-vegana-veganz",
         "score": 7
     },
@@ -3987,9 +3481,7 @@
             "Produits laitiers fermentés",
             "Fromages"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3222475753640/compte-casino",
         "score": 13
     },
@@ -4002,9 +3494,7 @@
             "Légumes et dérivés",
             "Substituts de viande"
         ],
-        "stores": [
-            "La ruche d'Alésia"
-        ],
+        "stores": "La ruche d'Alésia",
         "site_url": "https://world.openfoodfacts.org/product/3576566005003/tofu-lactofermente-baies-roses-sojami",
         "score": 1
     },
@@ -4019,9 +3509,7 @@
             "Yaourts aux fruits",
             "Yaourts sucrés"
         ],
-        "stores": [
-            "LIDL"
-        ],
+        "stores": "LIDL",
         "site_url": "https://world.openfoodfacts.org/product/3262970001150/delice-de-yaourt-mirabelles-alsace-lait",
         "score": 4
     },
@@ -4033,9 +3521,7 @@
             "Biscuits et gâteaux",
             "Biscuits"
         ],
-        "stores": [
-            "Simply Market"
-        ],
+        "stores": "Simply Market",
         "site_url": "https://world.openfoodfacts.org/product/3596710220403/25-bolachas-pouce",
         "score": 17
     },
@@ -4047,9 +3533,7 @@
             "Biscuits et gâteaux",
             "Gâteaux"
         ],
-        "stores": [
-            "LIDL"
-        ],
+        "stores": "LIDL",
         "site_url": "https://world.openfoodfacts.org/product/20534691/nonnettes-de-dijon-a-la-confiture-de-mirabelle-saveurs-de-nos-regions",
         "score": 15
     },
@@ -4065,9 +3549,7 @@
             "Aliments à base de plantes en conserve",
             "Légumes en conserve"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3083681059731/legumes-cuisines-a-la-mexicaine-cassegrain",
         "score": -6
     },
@@ -4079,9 +3561,7 @@
             "Desserts",
             "Desserts lactés"
         ],
-        "stores": [
-            "Cora"
-        ],
+        "stores": "Cora",
         "site_url": "https://world.openfoodfacts.org/product/3456774797849/risotto-cremissimo-au-lait-de-coco-sur-lit-de-mangue-mamie-nova",
         "score": 7
     },
@@ -4093,9 +3573,7 @@
             "Tartes",
             "Pizzas tartes salées et quiches"
         ],
-        "stores": [
-            "LIDL"
-        ],
+        "stores": "LIDL",
         "site_url": "https://world.openfoodfacts.org/product/3420136011935/tarte-aux-3-fromages-savoyards-domaine-de-st-humbert",
         "score": 18
     },
@@ -4107,9 +3585,7 @@
             "Charcuteries",
             "Saucisses"
         ],
-        "stores": [
-            "LIDL"
-        ],
+        "stores": "LIDL",
         "site_url": "https://world.openfoodfacts.org/product/20020965/gendarme-fume-alpenfest",
         "score": 25
     },
@@ -4125,9 +3601,7 @@
             "Milkfat",
             "Beurres"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3257981225190/beurre-moule-de-bretagne-cora",
         "score": 19
     },
@@ -4140,9 +3614,7 @@
             "Produits à tartiner sucrés",
             "Pâtes à tartiner au chocolat"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3760094200294/pate-a-tartiner-noisette-cacao-baobab-francis-bonheur",
         "score": 19
     },
@@ -4157,9 +3629,7 @@
             "Fruits et produits dérivés",
             "Compotes"
         ],
-        "stores": [
-            "Biocoop"
-        ],
+        "stores": "Biocoop",
         "site_url": "https://world.openfoodfacts.org/product/3431590001998/dani-pom-pomme-vanille-danival",
         "score": -5
     },
@@ -4174,9 +3644,7 @@
             "Fruits et produits dérivés",
             "Compotes"
         ],
-        "stores": [
-            "Biocoop"
-        ],
+        "stores": "Biocoop",
         "site_url": "https://world.openfoodfacts.org/product/3431590002582/dani-pom-pomme-banane-danival",
         "score": -5
     },
@@ -4188,9 +3656,7 @@
             "Charcuteries",
             "Saucisses"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3254560250871/saucisse-de-toulouse-auchan",
         "score": 14
     },
@@ -4202,9 +3668,7 @@
             "Bœuf",
             "Viandes fraîches"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3222471099049/steak-hache-frais-pur-boeuf-5-m-g-casino",
         "score": -3
     },
@@ -4221,9 +3685,7 @@
             "Jus de fruits",
             "Jus multifruits"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3222475975516/100-pur-jus-orange-raisin-passion-casino",
         "score": 5
     },
@@ -4244,9 +3706,7 @@
             "Confitures de fruits",
             "Confitures de fruits rouges"
         ],
-        "stores": [
-            "Aldi"
-        ],
+        "stores": "Aldi",
         "site_url": "https://world.openfoodfacts.org/product/26052649/confiture-extra-fruits-des-bois-tamara",
         "score": 12
     },
@@ -4258,9 +3718,7 @@
             "Surgelés",
             "Bœuf"
         ],
-        "stores": [
-            "Cora"
-        ],
+        "stores": "Cora",
         "site_url": "https://world.openfoodfacts.org/product/3512690000163/le-steak-hache-100-boeuf-isla-delice",
         "score": 13
     },
@@ -4270,9 +3728,7 @@
         "categories": [
             "Produits de la mer"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/5601159207866/moules-a-l-escabeche-bon-appetit",
         "score": 2
     },
@@ -4285,9 +3741,7 @@
             "Produits à tartiner sucrés",
             "Pâtes à tartiner au chocolat"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3760170098272/pate-a-tartiner-noir-noisette-orange-le-comptoir-de-mathilde",
         "score": 19
     },
@@ -4306,9 +3760,7 @@
             "Mélanges de flocons de céréales",
             "Mueslis"
         ],
-        "stores": [
-            "Marks & Spencer"
-        ],
+        "stores": "Marks & Spencer",
         "site_url": "https://world.openfoodfacts.org/product/819282/fruit-nut-muesli-marks-spencer",
         "score": -1
     },
@@ -4320,9 +3772,7 @@
             "Charcuteries",
             "Saucisses"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3466140000107/veritables-merguez-piveteau",
         "score": 23
     },
@@ -4333,9 +3783,7 @@
             "Snacks sucrés",
             "Biscuits et gâteaux"
         ],
-        "stores": [
-            "Carrefour"
-        ],
+        "stores": "Carrefour",
         "site_url": "https://world.openfoodfacts.org/product/3560070406845/crepes-dentelle-de-bretagne-reflets-de-france",
         "score": 22
     },
@@ -4354,9 +3802,7 @@
             "Mélanges de flocons de céréales",
             "Mueslis"
         ],
-        "stores": [
-            "satoriz"
-        ],
+        "stores": "satoriz",
         "site_url": "https://world.openfoodfacts.org/product/3465511310371/muesli-bio-cereales-germees-chocolat-noisette-germline",
         "score": 13
     },
@@ -4371,9 +3817,7 @@
             "Céréales et dérivés",
             "Céréales en grains"
         ],
-        "stores": [
-            "Leclerc"
-        ],
+        "stores": "Leclerc",
         "site_url": "https://world.openfoodfacts.org/product/3600900002066/cereales-gourmandes-tipiak",
         "score": -1
     },
@@ -4388,9 +3832,7 @@
             "Céréales et dérivés",
             "Céréales pour petit déjeuner"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3111900330023/crosti-riz-souffle-choco-favrichon",
         "score": 3
     },
@@ -4406,9 +3848,7 @@
             "Compotes",
             "Compotes de pomme"
         ],
-        "stores": [
-            "Géant"
-        ],
+        "stores": "Géant",
         "site_url": "https://world.openfoodfacts.org/product/3222473167241/puree-de-fruits-pomme-abricot-casino",
         "score": -5
     },
@@ -4421,9 +3861,7 @@
             "Céréales et pommes de terre",
             "Céréales et dérivés"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/5412514350000/6-wraps-original-poco-loco",
         "score": 12
     },
@@ -4440,9 +3878,7 @@
             "Céréales et dérivés",
             "Céréales en grains"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3760105561345/mais-frit-spanico",
         "score": 13
     },
@@ -4453,9 +3889,7 @@
             "Viandes",
             "Volailles"
         ],
-        "stores": [
-            "Leclerc"
-        ],
+        "stores": "Leclerc",
         "site_url": "https://world.openfoodfacts.org/product/3661112056803/blanc-de-dinde-qualite-superieure-tradilege",
         "score": 4
     },
@@ -4471,9 +3905,7 @@
             "Jus et nectars de fruits",
             "Nectars de fruits"
         ],
-        "stores": [
-            "Auchan"
-        ],
+        "stores": "Auchan",
         "site_url": "https://world.openfoodfacts.org/product/3289196100498/nectar-mangue-au-sirop-d-agave-le-verger-bio",
         "score": 13
     },
@@ -4491,9 +3923,7 @@
             "Chips de pommes de terre",
             "Chips de pommes de terre aromatisées"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3396111000310/chips-craquantes-saveur-ail-olives-sibell",
         "score": 11
     },
@@ -4501,14 +3931,13 @@
         "name": "Lait stérilisé U.H.T. demi-écrémé",
         "description": "Lait demi-écrémé stérilisé UHT",
         "categories": [
+            "Boissons",
             "Produits laitiers",
             "Laits",
             "Laits homogénéisés",
             "Laits demi écrémés"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3228020127492/lait-sterilise-u-h-t-demi-ecreme-lait-des-elevages-francais",
         "score": 0
     },
@@ -4519,9 +3948,7 @@
             "Viandes",
             "Bœuf"
         ],
-        "stores": [
-            "Lidl"
-        ],
+        "stores": "Lidl",
         "site_url": "https://world.openfoodfacts.org/product/20534486/2-steaks-a-griller-l-etal-du-boucher",
         "score": -4
     },
@@ -4532,9 +3959,7 @@
             "Snacks sucrés",
             "Biscuits et gâteaux"
         ],
-        "stores": [
-            "sky"
-        ],
+        "stores": "sky",
         "site_url": "https://world.openfoodfacts.org/product/4260012975277/bio-dominosteine-alnatura",
         "score": 17
     },
@@ -4543,13 +3968,10 @@
         "description": "Jambon cuit supérieur avec couenne Label Rouge",
         "categories": [
             "Viandes",
-            "Produits labellisés",
             "Charcuteries",
             "Jambons"
         ],
-        "stores": [
-            "LIDL"
-        ],
+        "stores": "LIDL",
         "site_url": "https://world.openfoodfacts.org/product/20711429/jambon-cuit-superieur-avec-couenne-label-rouge-saint-alby",
         "score": 11
     },
@@ -4560,9 +3982,7 @@
             "Plats préparés",
             "Plats préparés d'origine végétale"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3700009204252/carottes-finement-rapees-carrefour",
         "score": -3
     },
@@ -4577,9 +3997,7 @@
             "Fromages de France",
             "Fromages de chèvre"
         ],
-        "stores": [
-            "Leclerc"
-        ],
+        "stores": "Leclerc",
         "site_url": "https://world.openfoodfacts.org/product/3564709020464/petit-pouligny-saint-pierre-nos-regions-ont-du-talent",
         "score": 14
     },
@@ -4590,9 +4008,7 @@
             "Epicerie",
             "Sauces"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/5020744340038/worcestershire-sauce-bairds",
         "score": 15
     },
@@ -4604,9 +4020,7 @@
             "Boissons édulcorées",
             "Sirops"
         ],
-        "stores": [
-            "Carrefour"
-        ],
+        "stores": "Carrefour",
         "site_url": "https://world.openfoodfacts.org/product/8718692614888/concentre-saveur-the-citron-sodastream",
         "score": 4
     },
@@ -4619,9 +4033,7 @@
             "Plats préparés à réchauffer au micro ondes",
             "Plats préparés surgelés"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/0042272009053/gratin-de-pates-brocolis-et-cheddar-amy-s-kitchen",
         "score": 4
     },
@@ -4634,9 +4046,7 @@
             "Céréales et pommes de terre",
             "Céréales et dérivés"
         ],
-        "stores": [
-            "La Ruche d'Alésia"
-        ],
+        "stores": "La Ruche d'Alésia",
         "site_url": "https://world.openfoodfacts.org/product/3259011140862/galettes-de-polenta-comte-et-tomates-sechees-cerealpes",
         "score": 1
     },
@@ -4650,9 +4060,7 @@
             "Confiseries",
             "Fruits à coques et dérivés"
         ],
-        "stores": [
-            "Intermarché"
-        ],
+        "stores": "Intermarché",
         "site_url": "https://world.openfoodfacts.org/product/3330319300018/pralines-amandes-entieres-sans-marque",
         "score": 14
     },
@@ -4667,9 +4075,7 @@
             "Pâtes alimentaires",
             "Pâtes sèches"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3267460050267/tagliatelles-au-quinoa-les-moulins-de-provence",
         "score": -4
     },
@@ -4686,9 +4092,7 @@
             "Jus de fruits",
             "Jus de fruits 100% pur jus"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/5410188030570/pure-premium-pamplemousse-rose-100-pur-jus-presse-tropicana",
         "score": 2
     },
@@ -4699,9 +4103,7 @@
             "Snacks salés",
             "Apéritif"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3018930005542/bretzel-ancel",
         "score": 14
     },
@@ -4721,9 +4123,7 @@
             "Confitures",
             "Confitures de fruits"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3452200001283/orange-pamplemousse-citron-confiturelle",
         "score": 1
     },
@@ -4736,9 +4136,7 @@
             "Céréales et pommes de terre",
             "Pains"
         ],
-        "stores": [
-            "sky"
-        ],
+        "stores": "sky",
         "site_url": "https://world.openfoodfacts.org/product/4000358051217/bio-barbara-rutting-brot-pema",
         "score": -3
     },
@@ -4751,9 +4149,7 @@
             "Plats préparés d'origine végétale",
             "Plats préparés surgelés"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3564700458433/puree-cuisinee-harcots-vets-courgettes-epinards-petits-pois-notre-jardin",
         "score": -7
     },
@@ -4765,9 +4161,7 @@
             "Charcuteries",
             "Jambons"
         ],
-        "stores": [
-            "Auchan"
-        ],
+        "stores": "Auchan",
         "site_url": "https://world.openfoodfacts.org/product/3596710249084/jambon-sec-superieur-tranchex6-auchan",
         "score": 19
     },
@@ -4778,9 +4172,7 @@
             "Viandes",
             "Charcuteries"
         ],
-        "stores": [
-            "Intermarché"
-        ],
+        "stores": "Intermarché",
         "site_url": "https://world.openfoodfacts.org/product/3325420889392/veritable-saucisson-cuit-de-lyon-nature-randy",
         "score": 21
     },
@@ -4792,9 +4184,7 @@
             "Poissons",
             "Saumons"
         ],
-        "stores": [
-            "Carrefour Market"
-        ],
+        "stores": "Carrefour Market",
         "site_url": "https://world.openfoodfacts.org/product/3586410323177/pave-de-saumon-rose-du-pacifique-gimbert-ocean",
         "score": -3
     },
@@ -4802,20 +4192,13 @@
         "name": "Ravioli au Saumon & Fondue d'Épinards à la Crème",
         "description": "",
         "categories": [
-            "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
-            "Céréales et pommes de terre",
-            "Céréales et dérivés",
             "Plats préparés",
-            "Pâtes alimentaires",
-            "Plats préparés à réchauffer au micro ondes",
             "Plats à base de poisson",
+            "Plats préparés à réchauffer au micro ondes",
             "Réfrigérés",
             "Plats préparés réfrigérés"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3248832940690/ravioli-au-saumon-fondue-d-epinards-a-la-creme-weight-watchers",
         "score": -1
     },
@@ -4827,9 +4210,7 @@
             "Sauces",
             "Sauces pour pâtes"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3257981939523/pesto-verde-cora",
         "score": 11
     },
@@ -4841,9 +4222,7 @@
             "Chocolats",
             "Chocolats noirs"
         ],
-        "stores": [
-            "sky"
-        ],
+        "stores": "sky",
         "site_url": "https://world.openfoodfacts.org/product/4006574067674/64-peru-edelbitter-heilemann",
         "score": 23
     },
@@ -4853,9 +4232,7 @@
         "categories": [
             "Produits à tartiner"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/8033866853345/mousse-dried-tomatoes-and-lentils-mastrototaro",
         "score": 7
     },
@@ -4867,9 +4244,7 @@
             "Charcuteries",
             "Jambons"
         ],
-        "stores": [
-            "Carrefour"
-        ],
+        "stores": "Carrefour",
         "site_url": "https://world.openfoodfacts.org/product/3560070909520/jamon-de-cebo-iberico-carrefour",
         "score": 21
     },
@@ -4882,9 +4257,7 @@
             "Biscuits",
             "Biscuits au chocolat"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3222476416780/biscuit-matin-casino",
         "score": 12
     },
@@ -4896,9 +4269,7 @@
             "Biscuits et gâteaux",
             "Biscuits"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3173990025647/mon-gouter-st-georges",
         "score": 14
     },
@@ -4908,9 +4279,7 @@
         "categories": [
             "Produits à tartiner"
         ],
-        "stores": [
-            "sky"
-        ],
+        "stores": "sky",
         "site_url": "https://world.openfoodfacts.org/product/4058700645454/barlauch-aufstrich-kattus",
         "score": 12
     },
@@ -4920,9 +4289,7 @@
         "categories": [
             "Boissons"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3564700391075/boliane",
         "score": 0
     },
@@ -4938,9 +4305,7 @@
             "Yaourts brassés",
             "Yaourts entiers"
         ],
-        "stores": [
-            "Magasins U"
-        ],
+        "stores": "Magasins U",
         "site_url": "https://world.openfoodfacts.org/product/3256222647081/yaourts-brasses-sucres-aux-myrtilles-u-bio",
         "score": 2
     },
@@ -4954,9 +4319,7 @@
             "Fromages",
             "Fromages pasteurisés"
         ],
-        "stores": [
-            "Leclerc"
-        ],
+        "stores": "Leclerc",
         "site_url": "https://world.openfoodfacts.org/product/3564700723326/le-fruite-les-croises",
         "score": 14
     },
@@ -4968,10 +4331,7 @@
             "Desserts",
             "Desserts lactés"
         ],
-        "stores": [
-            "Franprix",
-            " Leclerc"
-        ],
+        "stores": "Franprix, Leclerc",
         "site_url": "https://world.openfoodfacts.org/product/3184670006658/la-panna-cotta-et-son-coulis-de-mure-et-cassis-rians",
         "score": 12
     },
@@ -4983,9 +4343,7 @@
             "Chocolats",
             "Chocolats noirs"
         ],
-        "stores": [
-            "Intermarché"
-        ],
+        "stores": "Intermarché",
         "site_url": "https://world.openfoodfacts.org/product/3250392298500/noir-quinoa-ivoria",
         "score": 22
     },
@@ -4998,9 +4356,7 @@
             "Biscuits",
             "Biscuits au chocolat"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3258561020907/gouters-fourres-belle-france",
         "score": 21
     },
@@ -5012,9 +4368,7 @@
             "Biscuits et gâteaux",
             "Biscuits"
         ],
-        "stores": [
-            "Biocoop"
-        ],
+        "stores": "Biocoop",
         "site_url": "https://world.openfoodfacts.org/product/8001091002814/tartelettes-myrtilles-gaia",
         "score": 19
     },
@@ -5025,9 +4379,7 @@
             "Viandes",
             "Charcuteries"
         ],
-        "stores": [
-            "sky"
-        ],
+        "stores": "sky",
         "site_url": "https://world.openfoodfacts.org/product/4104420045187/sommer-salami-alnatura",
         "score": 24
     },
@@ -5040,9 +4392,7 @@
             "Céréales et pommes de terre",
             "Pains"
         ],
-        "stores": [
-            "Magasins U"
-        ],
+        "stores": "Magasins U",
         "site_url": "https://world.openfoodfacts.org/product/3256224801559/toasts-ronds-au-froment-u",
         "score": 3
     },
@@ -5054,9 +4404,7 @@
             "Biscuits et gâteaux",
             "Biscuits"
         ],
-        "stores": [
-            "sky"
-        ],
+        "stores": "sky",
         "site_url": "https://world.openfoodfacts.org/product/4104420053960/schoko-butterkeks-vollmilch-alnatura",
         "score": 22
     },
@@ -5067,9 +4415,7 @@
             "Snacks salés",
             "Apéritif"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3596710336562/crackers-graines-et-fromage-auchan",
         "score": 21
     },
@@ -5083,9 +4429,7 @@
             "Plats préparés à réchauffer au micro ondes",
             "Plats à base de volaille"
         ],
-        "stores": [
-            "carrefour market"
-        ],
+        "stores": "carrefour market",
         "site_url": "https://world.openfoodfacts.org/product/3261055942258/tajine-poulet-citron-et-olives-garbit",
         "score": 1
     },
@@ -5099,9 +4443,7 @@
             "Confiseries",
             "Fruits à coques et dérivés"
         ],
-        "stores": [
-            "sky"
-        ],
+        "stores": "sky",
         "site_url": "https://world.openfoodfacts.org/product/4008155031623/mandelsplitter-hachez",
         "score": 24
     },
@@ -5112,9 +4454,7 @@
             "Plats préparés",
             "Salades composées"
         ],
-        "stores": [
-            "Carrefour market"
-        ],
+        "stores": "Carrefour market",
         "site_url": "https://world.openfoodfacts.org/product/3560070997664/taboule-aux-5-legumes-bon-app",
         "score": 4
     },
@@ -5132,9 +4472,7 @@
             "Jus d'orange",
             "Jus de fruits 100% pur jus"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3770001414010/jus-ultra-frais",
         "score": 3
     },
@@ -5145,12 +4483,9 @@
             "Frais",
             "Plats préparés",
             "Pizzas tartes salées et quiches",
-            "Plats préparés frais",
-            "Pizzas"
+            "Plats préparés frais"
         ],
-        "stores": [
-            "Casino"
-        ],
+        "stores": "Casino",
         "site_url": "https://world.openfoodfacts.org/product/3222476187864/pizza-a-pate-fine-poulet-et-legumes-grilles-casino",
         "score": 0
     },
@@ -5161,9 +4496,7 @@
             "Plats préparés",
             "Plats préparés à réchauffer au micro ondes"
         ],
-        "stores": [
-            "Casino"
-        ],
+        "stores": "Casino",
         "site_url": "https://world.openfoodfacts.org/product/3302747875024/box-beef-onion-cheddar-torsades-sauce-au-boeuf-oignons-cheddar-fleury-michon",
         "score": 2
     },
@@ -5179,9 +4512,7 @@
             "Plats à base de volaille",
             "Plats préparés frais"
         ],
-        "stores": [
-            "Casino"
-        ],
+        "stores": "Casino",
         "site_url": "https://world.openfoodfacts.org/product/3242272254454/asianbox-poulet-legumes-croquants-curry-vert-sodebo",
         "score": 0
     },
@@ -5195,9 +4526,7 @@
             "Plats préparés à réchauffer au micro ondes",
             "Plats préparés d'origine végétale"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3760020503482/puree-gourmande-lentille-corail-carotte-jardin-bio",
         "score": -3
     },
@@ -5208,9 +4537,7 @@
             "Epicerie",
             "Sauces"
         ],
-        "stores": [
-            "Ikea"
-        ],
+        "stores": "Ikea",
         "site_url": "https://world.openfoodfacts.org/product/1502710510002/sauce-citron-aneth-ikea",
         "score": 11
     },
@@ -5222,9 +4549,7 @@
             "Chocolats",
             "Chocolats au lait"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3263852200210/chocolat-au-lait-noisettes-entieres-leader-price",
         "score": 23
     },
@@ -5237,9 +4562,7 @@
             "Céréales et pommes de terre",
             "Pains"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3760049796667/pain-de-mie-complet-bio-la-boulangere",
         "score": 1
     },
@@ -5249,9 +4572,7 @@
         "categories": [
             "Desserts"
         ],
-        "stores": [
-            "Biocoop"
-        ],
+        "stores": "Biocoop",
         "site_url": "https://world.openfoodfacts.org/product/3431590008218/les-petits-desserts-amande-danival",
         "score": 0
     },
@@ -5264,9 +4585,7 @@
             "Produits laitiers fermentés",
             "Fromages"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3257983721973/duo-emmental-mimolette-cora",
         "score": 19
     },
@@ -5280,11 +4599,19 @@
             "Fruits et produits dérivés",
             "Fruits"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3276550063575/pommes-gala-carrefour-bio",
         "score": -3
+    },
+    {
+        "name": "Taboulé aux légumes frais & raisins secs BIO",
+        "description": "",
+        "categories": [
+            "Plats préparés"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/3399130006035/taboule-aux-legumes-frais-raisins-secs-bio-raoul-est-dans-le-potager",
+        "score": 1
     },
     {
         "name": "Salade Gesiers de canard",
@@ -5293,14 +4620,12 @@
             "Plats préparés",
             "Plats à base de viande",
             "Plats à base de viande bovine",
-            "Plats à base de volaille",
             "Salades composées",
+            "Plats à base de volaille",
             "Réfrigérés",
             "Plats préparés réfrigérés"
         ],
-        "stores": [
-            "Intermarché"
-        ],
+        "stores": "Intermarché",
         "site_url": "https://world.openfoodfacts.org/product/3250392194185/salade-gesiers-de-canard-monique-ranou",
         "score": 4
     },
@@ -5315,9 +4640,7 @@
             "Fromages de France",
             "Fromages de chèvre"
         ],
-        "stores": [
-            "Leclerc"
-        ],
+        "stores": "Leclerc",
         "site_url": "https://world.openfoodfacts.org/product/3564709005683/fromage-de-chevre-sainte-mauree-nos-regions-ont-du-talent",
         "score": 13
     },
@@ -5330,9 +4653,7 @@
             "Céréales et pommes de terre",
             "Céréales et dérivés"
         ],
-        "stores": [
-            "La Ruche d'Alésia"
-        ],
+        "stores": "La Ruche d'Alésia",
         "site_url": "https://world.openfoodfacts.org/product/3259011169405/galettes-de-polenta-feta-et-olives-noires-cerealpes",
         "score": 6
     },
@@ -5346,9 +4667,7 @@
             "Fruits à coques et dérivés",
             "Pâtes à tartiner végétales"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3267110001199/puree-d-amande-blanche-crue-perlamande",
         "score": 8
     },
@@ -5361,9 +4680,7 @@
             "Sirops",
             "Sirops aromatisés"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3564700785577/frucci-sirop-menthe-zero-sucres",
         "score": 0
     },
@@ -5374,9 +4691,7 @@
             "Viandes",
             "Charcuteries"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3466250015015/mini-sticks-roquefort-noix-auvernou",
         "score": 26
     },
@@ -5384,19 +4699,10 @@
         "name": "Purée de Légumes Cuisinée Brocoli",
         "description": "",
         "categories": [
-            "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
-            "Frais",
-            "Aliments à base de fruits et de légumes",
-            "Aliments à base de plantes frais",
-            "Légumineuses et dérivés",
-            "Légumes frais",
             "Plats préparés",
             "Plats préparés d'origine végétale"
         ],
-        "stores": [
-            "Carrefour"
-        ],
+        "stores": "Carrefour",
         "site_url": "https://world.openfoodfacts.org/product/3245411171193/puree-de-legumes-cuisinee-brocoli-carrefour",
         "score": -7
     },
@@ -5413,9 +4719,7 @@
             "Pâtes alimentaires",
             "Plats préparés frais"
         ],
-        "stores": [
-            "Carrefour City"
-        ],
+        "stores": "Carrefour City",
         "site_url": "https://world.openfoodfacts.org/product/3266140050801/ravioles-au-basilic-saint-jean",
         "score": 13
     },
@@ -5429,9 +4733,7 @@
             "Gâteaux",
             "Gâteaux au chocolat"
         ],
-        "stores": [
-            "Leclerc"
-        ],
+        "stores": "Leclerc",
         "site_url": "https://world.openfoodfacts.org/product/3564707115322/mini-moelleux-chocolat-bio-village",
         "score": 15
     },
@@ -5443,9 +4745,7 @@
             "Charcuteries",
             "Saucisses"
         ],
-        "stores": [
-            "Rewe"
-        ],
+        "stores": "Rewe",
         "site_url": "https://world.openfoodfacts.org/product/4000404935751/schinkenwurstchen-boklunder",
         "score": 20
     },
@@ -5456,9 +4756,7 @@
             "Epicerie",
             "Sauces"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/0024463061095/sriracha-hot-chili-sauce-tuong-ot-sriracha",
         "score": 12
     },
@@ -5468,9 +4766,7 @@
         "categories": [
             "Produits à tartiner"
         ],
-        "stores": [
-            "Franprix"
-        ],
+        "stores": "Franprix",
         "site_url": "https://world.openfoodfacts.org/product/3263853005913/compotee-d-artichaut-franprix",
         "score": 4
     },
@@ -5488,9 +4784,7 @@
             "Jus de pomme",
             "Jus de fruits 100% pur jus"
         ],
-        "stores": [
-            "Auchan"
-        ],
+        "stores": "Auchan",
         "site_url": "https://world.openfoodfacts.org/product/3760195900000/jus-de-pomme-naturel-fruite-equilibre-coeur-de-pom",
         "score": 5
     },
@@ -5501,9 +4795,7 @@
             "Snacks sucrés",
             "Biscuits et gâteaux"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3760129927431/pain-d-epices-au-miel-de-bourgogne-mulot-petitjean",
         "score": 11
     },
@@ -5514,13 +4806,11 @@
             "Snacks sucrés",
             "Desserts",
             "Biscuits et gâteaux",
-            "Gâteaux",
             "Viennoiseries",
-            "Brioches"
+            "Brioches",
+            "Gâteaux"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/8008853000378/panettone-la-fornareta",
         "score": 17
     },
@@ -5532,10 +4822,7 @@
             "Sirops",
             "Boissons sucrées"
         ],
-        "stores": [
-            "Super U",
-            " Magasins U"
-        ],
+        "stores": "Super U, Magasins U",
         "site_url": "https://world.openfoodfacts.org/product/3256220513173/sirop-de-the-peche-u",
         "score": 20
     },
@@ -5552,9 +4839,7 @@
             "Chips",
             "Chips de pommes de terre"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/20638689/chips-de-pomme-de-terre-a-l-ancienne-crusti-croc",
         "score": 15
     },
@@ -5566,9 +4851,7 @@
             "Produits à tartiner",
             "Produits à tartiner sucrés"
         ],
-        "stores": [
-            "Rewe"
-        ],
+        "stores": "Rewe",
         "site_url": "https://world.openfoodfacts.org/product/4388844016101/dunkles-geheimnis-rewe-feine-welt",
         "score": 23
     },
@@ -5581,10 +4864,7 @@
             "Thons",
             "Poissons fumés"
         ],
-        "stores": [
-            "Super U",
-            " Magasins U"
-        ],
+        "stores": "Super U, Magasins U",
         "site_url": "https://world.openfoodfacts.org/product/3368954207355/eminces-de-thon-albacore-fumes-u-saveurs",
         "score": 11
     },
@@ -5596,9 +4876,7 @@
             "Condiments",
             "Sauces"
         ],
-        "stores": [
-            "Magasins U"
-        ],
+        "stores": "Magasins U",
         "site_url": "https://world.openfoodfacts.org/product/3256225269044/sauce-soja-sucree-u",
         "score": 20
     },
@@ -5609,9 +4887,7 @@
             "Snacks salés",
             "Apéritif"
         ],
-        "stores": [
-            "Magasins U"
-        ],
+        "stores": "Magasins U",
         "site_url": "https://world.openfoodfacts.org/product/3368957901908/triangles-romarin-et-sel-de-camargue-u-saveurs",
         "score": 23
     },
@@ -5629,9 +4905,7 @@
             "Plats préparés",
             "Plats préparés en conserve"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3250392270384/lentilles-vertes-du-berry-cuisinees-a-la-graisse-d-oie-itineraire-des-saveurs",
         "score": 3
     },
@@ -5645,9 +4919,7 @@
             "Fromages",
             "Fromages industriels"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/5011069171940/ficello-au-cheddar",
         "score": 16
     },
@@ -5660,9 +4932,7 @@
             "Sirops aromatisés",
             "Boissons non sucrées"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3560071008963/fraise-banane-carrefour",
         "score": 20
     },
@@ -5674,9 +4944,7 @@
             "Boissons chaudes",
             "Boissons sucrées"
         ],
-        "stores": [
-            "Super U"
-        ],
+        "stores": "Super U",
         "site_url": "https://world.openfoodfacts.org/product/3256225041503/choco-p-tit-dej-mat-lou",
         "score": 16
     },
@@ -5688,9 +4956,7 @@
             "Volailles",
             "Poulets"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3095758154010/chicken-innerfillets-roasted-tomato-and-basil-fleury-michon",
         "score": 3
     },
@@ -5701,9 +4967,7 @@
             "Snacks sucrés",
             "Barres"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3560070820054/stylesse-chocolat-noir-carrefour",
         "score": 13
     },
@@ -5714,9 +4978,7 @@
             "Snacks sucrés",
             "Barres"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3560070820061/carrefour",
         "score": 9
     },
@@ -5728,9 +4990,7 @@
             "Charcuteries",
             "Jambons"
         ],
-        "stores": [
-            "Lidl"
-        ],
+        "stores": "Lidl",
         "site_url": "https://world.openfoodfacts.org/product/20406660/jambon-cru-au-poivre-dulano",
         "score": 12
     },
@@ -5741,9 +5001,7 @@
             "Snacks sucrés",
             "Confiseries"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/20389307/smile-chewing-gum-gout-menthe-forte-jet-gum",
         "score": 1
     },
@@ -5758,9 +5016,7 @@
             "Pâtes alimentaires",
             "Pâtes sèches"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/5410028050249/capeline-integral-soubry",
         "score": -6
     },
@@ -5772,9 +5028,7 @@
             "Chocolats",
             "Chocolats noirs"
         ],
-        "stores": [
-            "Carrefour"
-        ],
+        "stores": "Carrefour",
         "site_url": "https://world.openfoodfacts.org/product/3046920047364/creation-menthe-frappee-fraicheur-intense-lindt",
         "score": 26
     },
@@ -5788,10 +5042,7 @@
             "Jus et nectars",
             "Boissons non sucrées"
         ],
-        "stores": [
-            "Auchan",
-            "Geant Casino"
-        ],
+        "stores": "Auchan,Geant Casino",
         "site_url": "https://world.openfoodfacts.org/product/3222473274505/cocktail-de-legumes-casino",
         "score": -3
     },
@@ -5803,9 +5054,7 @@
             "Desserts",
             "Desserts lactés"
         ],
-        "stores": [
-            "Auchan"
-        ],
+        "stores": "Auchan",
         "site_url": "https://world.openfoodfacts.org/product/3700279305833/recre-o-le-caramel-mont-blanc",
         "score": 4
     },
@@ -5820,9 +5069,7 @@
             "Pickles d'origine végétale",
             "Olives"
         ],
-        "stores": [
-            "Leclerc"
-        ],
+        "stores": "Leclerc",
         "site_url": "https://world.openfoodfacts.org/product/3076820002040/olives-noires-crespo",
         "score": 11
     },
@@ -5835,9 +5082,7 @@
             "Céréales et pommes de terre",
             "Céréales et dérivés"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/6920386769381/feuille-de-riz-greenfood",
         "score": 0
     },
@@ -5850,9 +5095,7 @@
             "Céréales et pommes de terre",
             "Pains"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3560070400188/pain-de-mie-au-riz-carrefour",
         "score": 9
     },
@@ -5867,10 +5110,7 @@
             "Condiments",
             "Légumineuses et dérivés"
         ],
-        "stores": [
-            "Super U",
-            "Magasins U"
-        ],
+        "stores": "Super U,Magasins U",
         "site_url": "https://world.openfoodfacts.org/product/3256225446100/topping-croustillade-oignons-frits-u",
         "score": 12
     },
@@ -5885,9 +5125,7 @@
             "Aliments à base de plantes en conserve",
             "Légumineuses en conserve"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3021690203127/flageolets-cuisines-a-l-auvergnat-raynal-et-roquelaure",
         "score": -4
     },
@@ -5901,9 +5139,7 @@
             "Fromages",
             "Fromages pasteurisés"
         ],
-        "stores": [
-            "Carrefour"
-        ],
+        "stores": "Carrefour",
         "site_url": "https://world.openfoodfacts.org/product/3560070900718/le-pave-doux-et-onctueux-carrefour",
         "score": 14
     },
@@ -5916,9 +5152,7 @@
             "Sauces",
             "Moutardes"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3222473156924/moutarde-casino-delices",
         "score": 12
     },
@@ -5929,9 +5163,7 @@
             "Viandes",
             "Charcuteries"
         ],
-        "stores": [
-            "Casino"
-        ],
+        "stores": "Casino",
         "site_url": "https://world.openfoodfacts.org/product/3222471706237/salami-danois-fume-casino",
         "score": 25
     },
@@ -5941,9 +5173,7 @@
         "categories": [
             "Boissons"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3124480164148/ricqles-schweppes",
         "score": 9
     },
@@ -5956,9 +5186,7 @@
             "Sodas",
             "Boissons sucrées"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3596710431946/mojito-boisson-petillante-sans-alcool-auchan",
         "score": 15
     },
@@ -5969,9 +5197,7 @@
             "Produits à tartiner",
             "Biscuits apéritifs"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3512680000067/tapenade-a-l-ancienne-a-paesana",
         "score": 16
     },
@@ -5983,9 +5209,7 @@
             "Charcuteries",
             "Saucisses"
         ],
-        "stores": [
-            "Carrefour"
-        ],
+        "stores": "Carrefour",
         "site_url": "https://world.openfoodfacts.org/product/3220120005151/l-originale-cocktail-jean-caby",
         "score": 19
     },
@@ -5998,9 +5222,7 @@
             "Chips et frites",
             "Chips"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3760091721044/chips-fruitees-banane-plantain-ethiquable",
         "score": 19
     },
@@ -6013,9 +5235,7 @@
             "Produits laitiers fermentés",
             "Fromages"
         ],
-        "stores": [
-            "Magasins U"
-        ],
+        "stores": "Magasins U",
         "site_url": "https://world.openfoodfacts.org/product/3256225230822/fromage-pasteurise-triangles-fondants-fromagers-5-mg-u-mat-lou",
         "score": 16
     },
@@ -6031,9 +5251,7 @@
             "Plats à base de volaille",
             "Plats préparés surgelés"
         ],
-        "stores": [
-            "Picard"
-        ],
+        "stores": "Picard",
         "site_url": "https://world.openfoodfacts.org/product/3270160729210/poulet-sauce-basilic-thai-et-riz-gluant-cuisine-picard",
         "score": -1
     },
@@ -6044,9 +5262,7 @@
             "Epicerie",
             "Sauces"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3760077534866/le-pesto-alla-rucola-florelli",
         "score": 15
     },
@@ -6066,9 +5282,7 @@
             "Confitures",
             "Confitures de fruits"
         ],
-        "stores": [
-            "Intermarché"
-        ],
+        "stores": "Intermarché",
         "site_url": "https://world.openfoodfacts.org/product/3250391765003/mirabelles-de-lorraine-itineraire-des-saveurs",
         "score": 10
     },
@@ -6079,9 +5293,7 @@
             "Snacks sucrés",
             "Confiseries"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/30034617/chewing-gum-hollywood",
         "score": 13
     },
@@ -6092,9 +5304,7 @@
             "Plats préparés",
             "Plats à base de poisson"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3165950209013/thon-sauce-citronnee-saupiquet",
         "score": 2
     },
@@ -6105,9 +5315,7 @@
             "Boissons",
             "Boissons non sucrées"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3503780004062/granini-fraise",
         "score": 14
     },
@@ -6119,9 +5327,7 @@
             "Sirops",
             "Sirops aromatisés"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/7290010498161/concentre-cola-50-gratuit-3009816-sodastream",
         "score": 20
     },
@@ -6132,9 +5338,7 @@
             "Boissons",
             "Boissons sucrées"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3119780262717/biere-sans-alcools-citron-menthe-et-fleur-de-sureau-6x33cl-panach",
         "score": 10
     },
@@ -6143,11 +5347,12 @@
         "description": "Truffes au chocolat",
         "categories": [
             "Snacks sucrés",
+            "Confiseries",
+            "Confiseries chocolatées",
+            "Bonbons",
             "Chocolats"
         ],
-        "stores": [
-            "LIDL"
-        ],
+        "stores": "LIDL",
         "site_url": "https://world.openfoodfacts.org/product/20431525/truffes-fantaisie-favorina",
         "score": 22
     },
@@ -6156,13 +5361,24 @@
         "description": "Truffes au chocolat",
         "categories": [
             "Snacks sucrés",
-            "Chocolats"
+            "Confiseries",
+            "Confiseries chocolatées",
+            "Bonbons"
         ],
-        "stores": [
-            "LIDL"
-        ],
+        "stores": "LIDL",
         "site_url": "https://world.openfoodfacts.org/product/20431532/truffes-frantaisie-aux-ecorces-d-orange-confites-favorina",
         "score": 22
+    },
+    {
+        "name": "Gaufre chocolat",
+        "description": "",
+        "categories": [
+            "Snacks sucrés",
+            "Biscuits et gâteaux"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/5410495002185/gaufre-chocolat-biscuiterie-j-l-brichard",
+        "score": 20
     },
     {
         "name": "Tuiles Crème Oignons",
@@ -6173,9 +5389,7 @@
             "Chips et frites",
             "Chips"
         ],
-        "stores": [
-            "Picard"
-        ],
+        "stores": "Picard",
         "site_url": "https://world.openfoodfacts.org/product/3270160850143/tuiles-creme-oignons-picard",
         "score": 10
     },
@@ -6191,9 +5405,7 @@
             "Compotes",
             "Compotes de pomme"
         ],
-        "stores": [
-            "LIDL"
-        ],
+        "stores": "LIDL",
         "site_url": "https://world.openfoodfacts.org/product/20816995/compote-pomme-abricot-vergers-gourmands",
         "score": -3
     },
@@ -6208,9 +5420,7 @@
             "Céréales et dérivés",
             "Céréales en grains"
         ],
-        "stores": [
-            "Monoprix"
-        ],
+        "stores": "Monoprix",
         "site_url": "https://world.openfoodfacts.org/product/3770002946480/quinoa-blanc-quinola-mothergrain",
         "score": -6
     },
@@ -6221,9 +5431,7 @@
             "Epicerie",
             "Sauces"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3760077534835/le-pesto-alla-siciliana-florelli",
         "score": 20
     },
@@ -6235,9 +5443,7 @@
             "Biscuits et gâteaux",
             "Biscuits"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3178530411379/le-sable-tres-citron-l-atelier-st-michel",
         "score": 27
     },
@@ -6249,9 +5455,7 @@
             "Boissons chaudes",
             "Boissons non sucrées"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3560070330546/cappucino-sans-sucres-ajoutes-carrefour-discount",
         "score": 36
     },
@@ -6264,9 +5468,7 @@
             "Céréales et pommes de terre",
             "Pains"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3273670002361/petits-grilles-aixois-cereales-roger",
         "score": 3
     },
@@ -6276,9 +5478,7 @@
         "categories": [
             "Boissons"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3502110007674/7up-cocktail-exotique",
         "score": 15
     },
@@ -6293,9 +5493,7 @@
             "Plats préparés frais",
             "Plats à base de viande porcine"
         ],
-        "stores": [
-            "Géant Casino"
-        ],
+        "stores": "Géant Casino",
         "site_url": "https://world.openfoodfacts.org/product/3366760023008/4-nems-au-porc-1-sauce-nuoc-mam-collection-saveurs-d-asie",
         "score": 7
     },
@@ -6310,9 +5508,7 @@
             "Biscuits apéritifs",
             "Fromages"
         ],
-        "stores": [
-            "Cora"
-        ],
+        "stores": "Cora",
         "site_url": "https://world.openfoodfacts.org/product/3023260030157/societe-creme-maxi-format",
         "score": 16
     },
@@ -6324,9 +5520,7 @@
             "Desserts",
             "Desserts lactés"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3023290112960/la-laitiere-secret-de-mousse-duo-chocolat-au-lait-caramel-nestle",
         "score": 11
     },
@@ -6337,9 +5531,7 @@
             "Boissons",
             "Boissons sucrées"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3502110007575/green-ice-tea-agrumes-lipton",
         "score": 6
     },
@@ -6353,9 +5545,7 @@
             "Poissons fumés",
             "Saumons fumés"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3033610075004/grandes-origines-saumon-fume-sauvage-d-alaska-labeyrie",
         "score": 11
     },
@@ -6370,9 +5560,7 @@
             "Fromages de vache",
             "Fromages de France"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3304420071006/petit-munster-bio-haxaire",
         "score": 16
     },
@@ -6385,9 +5573,7 @@
             "Biscuits",
             "Biscuits au chocolat"
         ],
-        "stores": [
-            "Carrefour"
-        ],
+        "stores": "Carrefour",
         "site_url": "https://world.openfoodfacts.org/product/5410126844054/dinosaurus-fourrage-au-veritable-chocolat-noir-lotus",
         "score": 22
     },
@@ -6402,9 +5588,7 @@
             "Sardines",
             "Sardines en conserve"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3257984770338/sardines-citron-basilic-cora",
         "score": 2
     },
@@ -6420,9 +5604,7 @@
             "Yaourts à boire",
             "Boissons sucrées"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3350033214033/yaourt-saveur-fraise-monoprix",
         "score": 3
     },
@@ -6436,9 +5618,7 @@
             "Glaces et sorbets",
             "Glaces"
         ],
-        "stores": [
-            "Super U"
-        ],
+        "stores": "Super U",
         "site_url": "https://world.openfoodfacts.org/product/8712100883002/les-authentiques-menthe-et-eclats-de-chocolat-noir-carte-d-or",
         "score": 13
     },
@@ -6450,11 +5630,20 @@
             "Viennoiseries",
             "Brioches"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3587220002054/la-brioche-tressee-au-beurre-frais-la-fournee-doree",
         "score": 16
+    },
+    {
+        "name": "Super Suzy",
+        "description": "Gaufre de Liège aux perles de sucre",
+        "categories": [
+            "Snacks sucrés",
+            "Biscuits et gâteaux"
+        ],
+        "stores": "Carrefour",
+        "site_url": "https://world.openfoodfacts.org/product/5410126042023/super-suzy-lotus",
+        "score": 23
     },
     {
         "name": "Spaghetti de Riz",
@@ -6466,9 +5655,7 @@
             "Céréales et dérivés",
             "Pâtes alimentaires"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3760038707667/spaghetti-de-riz-valpi-bio",
         "score": -1
     },
@@ -6482,9 +5669,7 @@
             "Céréales et dérivés",
             "Pâtes alimentaires"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3267460050236/torsades-aux-lentilles-corail-les-moulins-de-provence",
         "score": -6
     },
@@ -6500,9 +5685,7 @@
             "Sardines en conserve",
             "Sardines à l'huile"
         ],
-        "stores": [
-            "Biocoop"
-        ],
+        "stores": "Biocoop",
         "site_url": "https://world.openfoodfacts.org/product/3263670124668/sardines-de-bretagne-a-l-huile-d-olive-vierge-extra-bio-et-au-citron-bio-phare-d-eckmuhl",
         "score": 4
     },
@@ -6515,9 +5698,7 @@
             "Céréales et pommes de terre",
             "Pains"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3245390196743/pain-de-mie-cereales-grand-jury",
         "score": -1
     },
@@ -6531,11 +5712,21 @@
             "Charcuteries",
             "Biscuits apéritifs"
         ],
-        "stores": [
-            "Leclerc"
-        ],
+        "stores": "Leclerc",
         "site_url": "https://world.openfoodfacts.org/product/3537580700497/confit-de-foie-a-la-fine-champagne-henaff",
         "score": 18
+    },
+    {
+        "name": "Mon Gâteau de Semoule au Caramel",
+        "description": "",
+        "categories": [
+            "Produits laitiers",
+            "Desserts",
+            "Desserts lactés"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/3027030047468/mon-gateau-de-semoule-au-caramel-ancel",
+        "score": 14
     },
     {
         "name": "Coke",
@@ -6544,12 +5735,9 @@
             "Boissons",
             "Boissons gazeuses",
             "Sodas",
-            "Sodas au cola",
             "Boissons sucrées"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/7501055300075/coke-coca-cola-mexico",
         "score": 10
     },
@@ -6561,9 +5749,7 @@
             "Charcuteries",
             "Saucisses"
         ],
-        "stores": [
-            "Intermarché"
-        ],
+        "stores": "Intermarché",
         "site_url": "https://world.openfoodfacts.org/product/3220120422101/l-originale-cocktail-jean-caby",
         "score": 19
     },
@@ -6577,9 +5763,7 @@
             "Yaourts",
             "Yaourts aux fruits"
         ],
-        "stores": [
-            "Auchan"
-        ],
+        "stores": "Auchan",
         "site_url": "https://world.openfoodfacts.org/product/3596710327904/yaourts-fruits-fruits-jaunes-avec-morceaux-auchan",
         "score": 4
     },
@@ -6591,9 +5775,7 @@
             "Produits à tartiner",
             "Produits à tartiner sucrés"
         ],
-        "stores": [
-            "Carrefour City"
-        ],
+        "stores": "Carrefour City",
         "site_url": "https://world.openfoodfacts.org/product/3560071010591/squiiiz-marron-carrefour",
         "score": 12
     },
@@ -6614,9 +5796,7 @@
             "Confitures de fruits",
             "Confitures de fruits rouges"
         ],
-        "stores": [
-            "Carrefour City"
-        ],
+        "stores": "Carrefour City",
         "site_url": "https://world.openfoodfacts.org/product/3560071010621/squiiiz-confiture-de-cassis-carrefour",
         "score": 10
     },
@@ -6637,10 +5817,7 @@
             "Confitures de fruits",
             "Confitures d'abricot"
         ],
-        "stores": [
-            "Carrefour City",
-            "Carrefour"
-        ],
+        "stores": "Carrefour City,Carrefour",
         "site_url": "https://world.openfoodfacts.org/product/3560071010607/squiiiz-confiture-d-abricot-carrefour",
         "score": 11
     },
@@ -6659,9 +5836,7 @@
             "Mélanges de flocons de céréales",
             "Mueslis"
         ],
-        "stores": [
-            "Erdi"
-        ],
+        "stores": "Erdi",
         "site_url": "https://world.openfoodfacts.org/product/7610023002238/swiss-babymuesli-familia",
         "score": -3
     },
@@ -6672,9 +5847,7 @@
             "Viandes",
             "Viandes fraîches"
         ],
-        "stores": [
-            "Intermarché"
-        ],
+        "stores": "Intermarché",
         "site_url": "https://world.openfoodfacts.org/product/3250391327348/farce-a-legumes-jean-roze",
         "score": 19
     },
@@ -6686,9 +5859,7 @@
             "Desserts",
             "Desserts lactés"
         ],
-        "stores": [
-            "Intermarché"
-        ],
+        "stores": "Intermarché",
         "site_url": "https://world.openfoodfacts.org/product/3250392231644/mousse-a-la-liegeoise-marrons-paturages",
         "score": 11
     },
@@ -6703,9 +5874,7 @@
             "Pickles d'origine végétale",
             "Olives"
         ],
-        "stores": [
-            "Intermarché"
-        ],
+        "stores": "Intermarché",
         "site_url": "https://world.openfoodfacts.org/product/3250391721467/olives-grecques-denoyautees-aux-herbes-de-provence-itineraire-des-saveurs",
         "score": 13
     },
@@ -6716,9 +5885,7 @@
             "Snacks salés",
             "Apéritif"
         ],
-        "stores": [
-            "Intermarché"
-        ],
+        "stores": "Intermarché",
         "site_url": "https://world.openfoodfacts.org/product/3250391723133/antipasti-poivrons-grilles-itineraire-des-saveurs",
         "score": 7
     },
@@ -6731,9 +5898,7 @@
             "Biscuits",
             "Biscuits au chocolat"
         ],
-        "stores": [
-            "Migros"
-        ],
+        "stores": "Migros",
         "site_url": "https://world.openfoodfacts.org/product/7617400032796/petit-beurre-chocolat-noir-migros",
         "score": 20
     },
@@ -6749,9 +5914,7 @@
             "Fromages de vache",
             "Fromages pasteurisés"
         ],
-        "stores": [
-            "Simply Market"
-        ],
+        "stores": "Simply Market",
         "site_url": "https://world.openfoodfacts.org/product/3596710423774/meule-fruitee-auchan",
         "score": 14
     },
@@ -6762,9 +5925,7 @@
             "Snacks sucrés",
             "Confiseries"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3173289218668/petit-ourson-guimauve-babies-cemoi",
         "score": 18
     },
@@ -6778,9 +5939,7 @@
             "Yaourts",
             "Yaourts aux fruits"
         ],
-        "stores": [
-            "sky"
-        ],
+        "stores": "sky",
         "site_url": "https://world.openfoodfacts.org/product/4104420076747/mango-vanille-joghurt-mild-alnatura",
         "score": 2
     },
@@ -6795,9 +5954,7 @@
             "Plats préparés",
             "Pâtes alimentaires"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3564700505366/cannelloni-pur-boeuf-sauce-napolitaine-turini",
         "score": 0
     },
@@ -6808,10 +5965,7 @@
             "Snacks sucrés",
             "Matières grasses"
         ],
-        "stores": [
-            "Auchan",
-            "Leclerc"
-        ],
+        "stores": "Auchan,Leclerc",
         "site_url": "https://world.openfoodfacts.org/product/3545360006844/beurre-de-cacahuete-enrobe-de-chocolat-reese-s",
         "score": 24
     },
@@ -6826,9 +5980,7 @@
             "Yaourts aromatisés",
             "Yaourts sucrés"
         ],
-        "stores": [
-            ""
-        ],
+        "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3033491096044/yaourt-gervais-citron",
         "score": 7
     },
@@ -6840,9 +5992,7 @@
             "Viennoiseries",
             "Brioches"
         ],
-        "stores": [
-            "Migros"
-        ],
+        "stores": "Migros",
         "site_url": "https://world.openfoodfacts.org/product/7616700006773/panettoncino-san-antonio",
         "score": 11
     },
@@ -6854,26 +6004,8 @@
             "Chocolats",
             "Chocolats au lait"
         ],
-        "stores": [
-            "Migros"
-        ],
+        "stores": "Migros",
         "site_url": "https://world.openfoodfacts.org/product/7616500653511/noxana-frey",
         "score": 23
-    },
-    {
-        "name": "Piment doux",
-        "description": "",
-        "categories": [
-            "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
-            "Epicerie",
-            "Condiments",
-            "Epices"
-        ],
-        "stores": [
-            ""
-        ],
-        "site_url": "https://world.openfoodfacts.org/product/3166291465007/piment-doux-ducros",
-        "score": 0
     }
 ]

@@ -1,6 +1,6 @@
 # Foodlik, an API for good people
 
-TRELLO's link: https://trello.com/b/6xV0TMFR/p5-foodlik
+[TRELLO's link](https://trello.com/b/6xV0TMFR/p5-foodlik)
 
 ``` acsii
 oooooooooooo                           .o8  oooo   o8o  oooo
@@ -23,15 +23,18 @@ This UI need some other programs to work well.
 ### Install Python
 
 Foodlik is based on python, an elegant coding langage.
-Get the last Python's version at the following link: **link**
+Get the last Python's version at the [following link](https://www.python.org/).
 Be sure you got the 3.6 version (or newer).
 Check for "pip" and for the root integration in the installation.
 
 ### Install the database
 
-Curently, Foodlik only support MySQL.
-Go to the following like and install MySQL on your computer : **link**
-some others instructions...
+Curently, Foodlik only support PostgreSQL.
+Go to the [following link](https://www.postgresql.org/) and install PostgreSQL on your computer.
+
+#### Why PostgreSQL
+
+C'est un choix arbitraire. J'ai surtout voulu garder la version 3.6 de Python et, il semblait après quelques recherches que seul les extension python pour Postgres supportent la 3.6.
 
 ### Install some Python's librairies
 
@@ -50,6 +53,8 @@ Foodlik uses some third-party Python's librairie.
 
 1. Create a new virtual environment and install the required programs.
 1. Open your favorite SHELL at the root of the folder.
+1. Launch postgresql.
+1. Type ```python main.py --create_database``` and wait few minutes.
 1. Simply type ```python main.py```.
 1. Enjoy.
 
@@ -115,28 +120,16 @@ The UI has several options that have passed since the SHELL.
 
 ### Update the database
 
-**Note:** The update is done slowly. Do not be presced. 
+**Note:** The update is done slowly. Do not be presced.
 
 1. Type ```python main.py --load_pages```. This option retrieve data from the OpenFoodFact site.
 
 **Note:** You can also specify the desired page number by typing ```python main.py --load_pages 1-5```. The pattern is as follows: ```main.py (--load_pages | -l) [<first_page>[-<last_page>]]```
 
-2. The data was stored in a json file. Let's go to the Data-base : ```python main.py --refurbish_database```.
+1. The data was stored in a json file. Let's go to the Data-base : ```python main.py --refurbish_database```.
 
 ### Advanced management of the database
 
 * ```python main.py --recreate_database``` will delete and recreate the database. Warning: all data will be lost !
 
 ## Changelog
-
- IDEE:
-- on récupère x noms de catégories francais (30?)
-- on filtre les catégories des objets (si aucune, on jette, sinon on filtre seulement celles qu'on a)
-
-- on réfléchis à la doc
-- UML
-
-- on crée la base de données; les catégories et les aliments
-- vues et autres saloperies :D
-
-On passe à l'UI (CLI)

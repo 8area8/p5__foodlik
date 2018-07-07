@@ -7,7 +7,6 @@ Usage:
     main.py
     main.py load_pages [FIRST-PAGE [to LAST-PAGE]]
     main.py create_database
-    main.py fill_in_database
     main.py --admin
     main.py (-h | --help)
     main.py --version
@@ -28,6 +27,7 @@ Options:
 from docopt import docopt
 
 import core.back.requests.load_pages as load_pages
+import core.back.database.create_database as create_database
 
 
 def main():
@@ -35,18 +35,20 @@ def main():
     arguments = docopt(__doc__, version='0.1')
 
     if arguments["load_pages"]:
-        first_p = arguments["FIRST-PAGE"]
-        last_p = arguments["LAST-PAGE"]
+        first_p = max(arguments["FIRST-PAGE"], 1, key=bool)
+        last_p = max(arguments["LAST-PAGE"], 30, key=bool)
         load_pages.init(first_p, last_p)
 
-    elif arguments["fill_in_database"]:
-        fill_in.init()
+    elif arguments["create_database"]:
+        create_database.init()
 
     elif arguments["--admin"]:
-        admin.init()
+        # admin.init()
+        pass
 
     elif not any(arguments.values()):
-        user_interface.init()
+        # user_interface.init()
+        pass
 
     else:
         print("Argument error.")

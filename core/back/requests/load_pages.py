@@ -9,14 +9,15 @@ import os
 from pathlib import Path
 
 
-with open("datas/categories_fr.json", encoding='utf-8') as file:
+DATAS_PATH = Path().resolve() / "core" / "back" / "requests" / "datas"
+with open(DATAS_PATH / "categories_fr.json", encoding='utf-8') as file:
     CATEGORIES_FR = json.load(file)
-with open("datas/categories_en.json", encoding='utf-8') as file:
+with open(DATAS_PATH / "categories_en.json", encoding='utf-8') as file:
     CATEGORIES_EN = json.load(file)
 USED_NAMES = []  # Avoid duplicates.
 
 
-def init(start=1, end=30):
+def init(start, end):
     """Load the products from OpenFoodFact."""
     try:
         assert 0 < start <= end
@@ -37,7 +38,7 @@ def _load_pages(start, end):
         resp = requests.get(url).json()
 
         datas = _filtered_datas(resp)
-        file_path = f"datas/products/products{index}.json"
+        file_path = DATAS_PATH / "products" / f"products{index}.json"
 
         with open(file_path, "w", encoding='utf8') as file:
             json.dump(datas, file, indent=4, ensure_ascii=False)
@@ -47,8 +48,7 @@ def _load_pages(start, end):
 
 def _remove_data_files():  # https: // stackoverflow.com/questions/185936
     """Remove each file from "products folder."""
-    folder = Path().resolve() / "core" / "back"
-    folder = folder / "requests" / "datas" / "products"
+    folder = DATAS_PATH / "products"
 
     for the_file in os.listdir(folder):
         file_path = os.path.join(folder, the_file)
@@ -62,17 +62,16 @@ def _remove_data_files():  # https: // stackoverflow.com/questions/185936
 def _filtered_datas(datas):
     """Filter the datas."""
     datas = datas["products"]
-    filtered = []
+    filtered_datas = []
 
     for product in datas:
         categories = product.get("categories_tags", [])
-        stores = product.get("stores", "").split(",")
 
         product = {
             "name": product.get('product_name', None),
             "description": product.get("generic_name", None),
             "categories": _translate_categories(categories),
-            "stores": stores,
+            "stores": product.get("stores", ""),
             "site_url": product.get("url", None),
             "score": int(product["nutriments"].get("nutrition-score-fr", 100))
         }
@@ -84,8 +83,8 @@ def _filtered_datas(datas):
             continue
 
         USED_NAMES.append(product["name"])
-        filtered.append(product)
-    return filtered
+        filtered_datas.append(product)
+    return filtered_datas
 
 
 def _translate_categories(categories):
@@ -105,4 +104,4 @@ def _translate_categories(categories):
 
 
 if __name__ == "__main__":
-    init()
+    init(1, 30)

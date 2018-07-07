@@ -4,35 +4,45 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>330</x>
-      <y>140</y>
+      <x>410</x>
+      <y>190</y>
       <w>130</w>
-      <h>80</h>
+      <h>50</h>
     </coordinates>
     <panel_attributes>Categorie
 --
-id: number
-name: string
-id_product: string</panel_attributes>
+name: string</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>130</x>
-      <y>140</y>
+      <x>40</x>
+      <y>150</y>
       <w>130</w>
-      <h>140</h>
+      <h>110</h>
     </coordinates>
     <panel_attributes>Product
 --
-id: number
 name: string
 description: string
-id_categorie: string
 stores: string
 site_url: string
 score: number</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>220</x>
+      <y>190</y>
+      <w>130</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Categorie_per_product
+--
+categorie_name: string
+product_name: string</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>
