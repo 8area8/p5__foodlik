@@ -51,11 +51,12 @@ Foodlik uses some third-party Python's librairie.
 
 ## Quickstart
 
-1. Create a new virtual environment and install the required programs.
+1. Install python 3.6 and PostgreSQL.
+1. Create a new virtual environment and install the required modules (```pip install -r requirements.txt``` will install all required packages).
+1. Launch the postgreSQL server.
 1. Open your favorite SHELL at the root of the folder.
-1. Launch postgresql.
 1. Type ```python main.py --create_database``` and wait few minutes.
-1. Simply type ```python main.py```.
+1. Type ```python main.py```.
 1. Enjoy.
 
 ## Structure

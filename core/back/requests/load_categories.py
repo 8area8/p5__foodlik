@@ -53,7 +53,7 @@ def filtered_categories(datas, max_categories):
         if not only_roman_chars(name):
             continue
 
-        name = name.replace("-", " ")
+        name = name.replace("-", " ").replace("'", " ")
         categories.append(name)
 
     return categories

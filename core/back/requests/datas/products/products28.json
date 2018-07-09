@@ -1,18 +1,5 @@
 [
     {
-        "name": "Yaourt Bifidus nature",
-        "description": "yaourt au bifidus",
-        "categories": [
-            "Produits laitiers",
-            "Produits fermentés",
-            "Produits laitiers fermentés",
-            "Yaourts"
-        ],
-        "stores": "La Vie Claire",
-        "site_url": "https://world.openfoodfacts.org/product/3273220133989/yaourt-bifidus-nature-tante-helene",
-        "score": 0
-    },
-    {
         "name": "Bifidus, Saveur Citron",
         "description": "Lait fermenté au Bifidus, sucré, aromatisé goût citron, au lait demi-écrémé",
         "categories": [
@@ -32,7 +19,7 @@
         "description": "Hamburguesas vegetales de soja",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Substituts de viande"
         ],
         "stores": "Supermercados Gigante",
@@ -44,7 +31,7 @@
         "description": "Hamburguesas vegetales de soja",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Substituts de viande"
         ],
         "stores": "Alcampo,Carrefour,El corte inglés",
@@ -53,10 +40,10 @@
     },
     {
         "name": "Soja Cuisine (17 % MG) ",
-        "description": "Spécialité culinaire à base de soja et de matières grasses végétales, stérilisée UHT, issue de l'agriculture biologique",
+        "description": "Spécialité culinaire à base de soja et de matières grasses végétales, stérilisée UHT, issue de l agriculture biologique",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale"
+            "Aliments d origine végétale"
         ],
         "stores": "El Corte Inglés,Veritas",
         "site_url": "https://world.openfoodfacts.org/product/3273227088213/soja-cuisine-17-mg-sojade",
@@ -67,7 +54,7 @@
         "description": "Préparation à base de soja précuite aromatisée aux herbes de Provence",
         "categories": [
             "Plats préparés",
-            "Plats préparés d'origine végétale"
+            "Plats préparés d origine végétale"
         ],
         "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3273220086971/boulettes-vegetales-aux-herbes-sojasun",
@@ -88,7 +75,7 @@
     },
     {
         "name": "Fromage Blanc au Lait de Brebis",
-        "description": "Fromage blanc au lait de brebis issu de l'agriculture biologique",
+        "description": "Fromage blanc au lait de brebis issu de l agriculture biologique",
         "categories": [
             "Produits laitiers",
             "Produits fermentés",
@@ -126,8 +113,8 @@
         "score": 19
     },
     {
-        "name": "L'Ordinaire",
-        "description": "Soda aux arômes naturels d'anis",
+        "name": "L Ordinaire",
+        "description": "Soda aux arômes naturels d anis",
         "categories": [
             "Boissons",
             "Boissons gazeuses",
@@ -143,7 +130,7 @@
         "description": "Copos de trigo de la variedad espelta ecológicos ",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Petit déjeuners",
             "Céréales et pommes de terre",
             "Céréales et dérivés",
@@ -160,7 +147,7 @@
         "description": "",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Céréales et pommes de terre",
             "Graines",
             "Céréales et dérivés",
@@ -175,7 +162,7 @@
         "description": "",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Aliments à base de fruits et de légumes",
             "Plats préparés",
             "Soupes",
@@ -190,7 +177,7 @@
         "description": "",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Aliments à base de fruits et de légumes",
             "Plats préparés",
             "Soupes",
@@ -205,7 +192,7 @@
         "description": "",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Aliments à base de fruits et de légumes",
             "Plats préparés",
             "Soupes",
@@ -220,7 +207,7 @@
         "description": "Velouté de carottes, légumes et crème fraiche - Potage prêt à consommer",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Aliments à base de fruits et de légumes",
             "Plats préparés",
             "Soupes",
@@ -435,7 +422,7 @@
         "description": "Carottes (Catégorie 1, Calibre 20/35 mm) ",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Frais",
             "Aliments à base de fruits et de légumes",
             "Aliments à base de plantes frais",
@@ -451,7 +438,7 @@
         "description": "",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Frais",
             "Aliments à base de fruits et de légumes",
             "Aliments à base de plantes frais",
@@ -468,7 +455,7 @@
         "description": "Pommes de terre de consommation à chair ferme",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Frais",
             "Aliments à base de fruits et de légumes",
             "Céréales et pommes de terre",
@@ -485,7 +472,7 @@
         "description": "baguette de pain",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Céréales et pommes de terre",
             "Pains"
         ],
@@ -546,7 +533,7 @@
         "description": "",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Graines"
         ],
         "stores": "Carrefour",
@@ -558,7 +545,7 @@
         "description": "",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Céréales et pommes de terre",
             "Graines",
             "Céréales et dérivés",
@@ -573,7 +560,7 @@
         "description": "Raisins secs",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Aliments à base de fruits et de légumes",
             "Fruits et produits dérivés",
             "Produits déshydratés",
@@ -589,7 +576,7 @@
         "description": "Mélange Fruits Secs et Fruits Secs à Coque",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Aliments à base de fruits et de légumes",
             "Snacks sucrés",
             "Fruits et produits dérivés",
@@ -615,7 +602,7 @@
         "score": 26
     },
     {
-        "name": "L'original Tartare Ail & Fines Herbes",
+        "name": "L original Tartare Ail & Fines Herbes",
         "description": "Fromage Ail & Fines Herbes au lait pasteurisé",
         "categories": [
             "Produits laitiers",
@@ -680,7 +667,7 @@
         "score": 15
     },
     {
-        "name": "L'Original Tartare, Ail & Fines Herbes (8 portions) - (32,2 % MG)",
+        "name": "L Original Tartare, Ail & Fines Herbes (8 portions) - (32,2 % MG)",
         "description": "Fromage industriel de France, à pâte fraîche, au lait pasteurisé de vache, à tartiner",
         "categories": [
             "Frais",
@@ -700,7 +687,7 @@
         "score": 13
     },
     {
-        "name": "Moussaka au boeuf et à l'agneau",
+        "name": "Moussaka au boeuf et à l agneau",
         "description": "",
         "categories": [
             "Plats préparés",
@@ -740,10 +727,10 @@
     },
     {
         "name": "Cacahuètes Grillées Salées",
-        "description": "Cacahuètes grillées à l'huile et salées",
+        "description": "Cacahuètes grillées à l huile et salées",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Légumes et dérivés",
             "Légumineuses",
             "Snacks salés",
@@ -796,7 +783,7 @@
         "description": "Châtaignes pelées au feu",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Aliments à base de fruits et de légumes",
             "Conserves",
             "Légumineuses et dérivés",
@@ -814,7 +801,7 @@
         "description": "Pâtes alimentaires Tagliatelles aux oeufs frais cuites, cuisinées à la crème fraîche et aux lardons fumés VPF",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Céréales et pommes de terre",
             "Céréales et dérivés",
             "Plats préparés",
@@ -826,7 +813,7 @@
         "score": 10
     },
     {
-        "name": "Jambon de Paris Cuit à l'étouffée",
+        "name": "Jambon de Paris Cuit à l étouffée",
         "description": "Jambon cuit de Paris qualité choix. Sans polyphosphates ajoutés.",
         "categories": [
             "Frais",
@@ -894,7 +881,7 @@
         "description": "",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Légumes et dérivés",
             "Conserves",
             "Aliments à base de plantes en conserve"
@@ -919,7 +906,7 @@
     },
     {
         "name": "Gâteaux de semoule aux raisins sur lit de caramel",
-        "description": "Gâteau de semoule aux oeufs extra-frais, au caramel et aux raisins macérés à l'Armagnac",
+        "description": "Gâteau de semoule aux oeufs extra-frais, au caramel et aux raisins macérés à l Armagnac",
         "categories": [
             "Produits laitiers",
             "Snacks sucrés",
@@ -934,7 +921,7 @@
     },
     {
         "name": "Lardons de saumon fumé",
-        "description": "Découpe de saumon Atlantique d'élevage salé au sel sec et fumé au bois de hêtre",
+        "description": "Découpe de saumon Atlantique d élevage salé au sel sec et fumé au bois de hêtre",
         "categories": [
             "Produits de la mer",
             "Poissons",
@@ -947,7 +934,7 @@
         "score": 13
     },
     {
-        "name": "Chorizo Au piment d'Espagne (Extra Fort)",
+        "name": "Chorizo Au piment d Espagne (Extra Fort)",
         "description": "Chorizo",
         "categories": [
             "Viandes",
@@ -959,7 +946,7 @@
     },
     {
         "name": "Poêlée gourmande - Riz cantonais",
-        "description": "Riz blanc précuit accompagné d'omelette, d'épaule cuite goût fumée et d'un mélange de petits pois et de carottes - Surgelé",
+        "description": "Riz blanc précuit accompagné d omelette, d épaule cuite goût fumée et d un mélange de petits pois et de carottes - Surgelé",
         "categories": [
             "Surgelés",
             "Plats préparés",
@@ -973,7 +960,7 @@
         "score": 2
     },
     {
-        "name": "Véritable Cervelas d'Alsace",
+        "name": "Véritable Cervelas d Alsace",
         "description": "Cervelas qualité supérieure",
         "categories": [
             "Viandes",
@@ -985,8 +972,8 @@
         "score": 20
     },
     {
-        "name": "Saucisson à l'ail nature",
-        "description": "Saucisson cuit à l'ail qualité supérieure",
+        "name": "Saucisson à l ail nature",
+        "description": "Saucisson cuit à l ail qualité supérieure",
         "categories": [
             "Viandes",
             "Charcuteries"
@@ -996,8 +983,8 @@
         "score": 19
     },
     {
-        "name": "Saucisson à l'Ail, Fumé",
-        "description": "Saucisson cuit à l'ail qualité supérieure fumé",
+        "name": "Saucisson à l Ail, Fumé",
+        "description": "Saucisson cuit à l ail qualité supérieure fumé",
         "categories": [
             "Frais",
             "Viandes",
@@ -1020,17 +1007,17 @@
         "score": 2
     },
     {
-        "name": "Huile d'olive vierge bio",
+        "name": "Huile d olive vierge bio",
         "description": "",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Matières grasses",
-            "Produits de l'olivier",
+            "Produits de l olivier",
             "Matières grasses végétales",
             "Huiles",
-            "Huiles d'olive",
-            "Huiles d'olive vierges extra"
+            "Huiles d olive",
+            "Huiles d olive vierges extra"
         ],
         "stores": "Carrefour",
         "site_url": "https://world.openfoodfacts.org/product/3270190128489/huile-d-olive-vierge-bio-carrefour",
@@ -1041,7 +1028,7 @@
         "description": "",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Aliments à base de fruits et de légumes",
             "Conserves",
             "Aliments à base de plantes en conserve",
@@ -1057,7 +1044,7 @@
         "description": "Riz basmati long grain de qualité supérieure",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Céréales et pommes de terre",
             "Graines",
             "Céréales et dérivés",
@@ -1111,7 +1098,7 @@
         "description": "Quinoa",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Céréales et pommes de terre",
             "Graines",
             "Céréales et dérivés",
@@ -1133,11 +1120,11 @@
         "score": 15
     },
     {
-        "name": "Pâtes d'Alsace 7 œufs frais, Macaroni",
-        "description": "Pâtes d'Alsace IGP aux 7 œufs frais au kilo de semoule de blé dur",
+        "name": "Pâtes d Alsace 7 œufs frais, Macaroni",
+        "description": "Pâtes d Alsace IGP aux 7 œufs frais au kilo de semoule de blé dur",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Céréales et pommes de terre",
             "Céréales et dérivés",
             "Produits labellisés",
@@ -1153,7 +1140,7 @@
         "description": "Gelée de Mûres",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Petit déjeuners",
             "Produits à tartiner",
             "Pâtes à tartiner végétales",
@@ -1169,7 +1156,7 @@
         "description": "Grains de blé précuit",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Céréales et pommes de terre",
             "Graines",
             "Céréales et dérivés",
@@ -1180,8 +1167,8 @@
         "score": -6
     },
     {
-        "name": "Filets de Sardines à l'huile d'olive vierge extra",
-        "description": "Filets de sardines à l'huile d'olive vierge extra ",
+        "name": "Filets de Sardines à l huile d olive vierge extra",
+        "description": "Filets de sardines à l huile d olive vierge extra ",
         "categories": [
             "Conserves",
             "Produits de la mer",
@@ -1190,7 +1177,7 @@
             "Filets de poissons",
             "Sardines",
             "Sardines en conserve",
-            "Sardines à l'huile"
+            "Sardines à l huile"
         ],
         "stores": "Carrefour",
         "site_url": "https://world.openfoodfacts.org/product/3270190177722/filets-de-sardines-a-l-huile-d-olive-vierge-extra-carrefour",
@@ -1238,7 +1225,7 @@
         "description": "",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Céréales et pommes de terre",
             "Graines",
             "Céréales et dérivés",
@@ -1254,7 +1241,7 @@
         "description": "Maïs",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Céréales et pommes de terre",
             "Graines",
             "Céréales et dérivés",
@@ -1415,7 +1402,7 @@
         "description": "Melon en billes, surgelé.",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Aliments à base de fruits et de légumes",
             "Surgelés",
             "Fruits et produits dérivés"
@@ -1425,8 +1412,8 @@
         "score": -4
     },
     {
-        "name": "Colin d'Alaska sauce provençale, Surgelé",
-        "description": "Colin d'Alaska sauce provençale",
+        "name": "Colin d Alaska sauce provençale, Surgelé",
+        "description": "Colin d Alaska sauce provençale",
         "categories": [
             "Surgelés",
             "Plats préparés",
@@ -1645,7 +1632,7 @@
         "description": "Bouchées vapeur aux crevettes sauce soja",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Céréales et pommes de terre",
             "Céréales et dérivés",
             "Surgelés",
@@ -1699,7 +1686,7 @@
         "categories": [
             "Surgelés",
             "Plats préparés",
-            "Plats préparés d'origine végétale",
+            "Plats préparés d origine végétale",
             "Plats préparés surgelés"
         ],
         "stores": "",
@@ -1843,7 +1830,7 @@
         "description": "",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Frais",
             "Aliments à base de fruits et de légumes",
             "Aliments à base de plantes frais",
@@ -1862,7 +1849,7 @@
         "description": "Mélange de Légumes - Bol Vapeur Surgéle Brocolis, Chou-fleurs, Jeunes Carottes",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Surgelés",
             "Plats préparés",
             "Plats préparés à réchauffer au micro ondes",
@@ -1905,7 +1892,7 @@
         "description": "Ciboulette coupée surgelée",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Epicerie",
             "Condiments",
             "Surgelés"
@@ -1976,11 +1963,11 @@
         "score": 1
     },
     {
-        "name": "6 petits pains à l'italienne",
+        "name": "6 petits pains à l italienne",
         "description": "",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Céréales et pommes de terre",
             "Pains"
         ],
@@ -2001,10 +1988,10 @@
     },
     {
         "name": "Poêlée Asperge Verte - Cèpe - Morille",
-        "description": "   Poêlée aux pointes d'asperges vertes, aux cèpes et aux morilles",
+        "description": "   Poêlée aux pointes d asperges vertes, aux cèpes et aux morilles",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Aliments à base de fruits et de légumes",
             "Légumineuses et dérivés",
             "Surgelés",
@@ -2021,7 +2008,7 @@
         "description": "",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Aliments à base de fruits et de légumes",
             "Légumineuses et dérivés",
             "Surgelés",
@@ -2033,10 +2020,10 @@
     },
     {
         "name": "Duo de fleurettes brocolis, chou-fleur Bio Picard",
-        "description": "Fleurettes surgelées de brocolis et de chou-fleur issus de l'agriculture bio",
+        "description": "Fleurettes surgelées de brocolis et de chou-fleur issus de l agriculture bio",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Aliments à base de fruits et de légumes",
             "Légumineuses et dérivés",
             "Surgelés",
@@ -2051,7 +2038,7 @@
         "description": "Mélange de legumes surgelés",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Aliments à base de fruits et de légumes",
             "Légumineuses et dérivés",
             "Surgelés",
@@ -2078,7 +2065,7 @@
         "description": "Graines de soja dans leur gousse",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Graines",
             "Surgelés"
         ],
@@ -2141,7 +2128,7 @@
         "score": 10
     },
     {
-        "name": "8 fusées de glace à l'eau",
+        "name": "8 fusées de glace à l eau",
         "description": "",
         "categories": [
             "Desserts",
@@ -2166,18 +2153,18 @@
         "score": 13
     },
     {
-        "name": "A l'heure de - Chips sel et poivre",
+        "name": "A l heure de - Chips sel et poivre",
         "description": "Chips sel et poivre",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Céréales et pommes de terre",
             "Snacks salés",
             "Apéritif",
             "Chips et frites",
             "Chips",
             "Chips de pommes de terre",
-            "Chips de pommes de terre à l'huile de tournesol"
+            "Chips de pommes de terre à l huile de tournesol"
         ],
         "stores": "Picard",
         "site_url": "https://world.openfoodfacts.org/product/3270160853564/a-l-heure-de-chips-sel-et-poivre-picard",
@@ -2311,7 +2298,7 @@
         "description": "",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Frais",
             "Aliments à base de fruits et de légumes",
             "Conserves",
@@ -2319,7 +2306,7 @@
             "Légumineuses et dérivés",
             "Légumes frais",
             "Plats préparés",
-            "Plats préparés d'origine végétale",
+            "Plats préparés d origine végétale",
             "Plats préparés en conserve"
         ],
         "stores": "Carrefour",
@@ -2331,10 +2318,10 @@
         "description": "",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Conserves",
             "Plats préparés",
-            "Plats préparés d'origine végétale",
+            "Plats préparés d origine végétale",
             "Plats préparés en conserve"
         ],
         "stores": "",
@@ -2346,7 +2333,7 @@
         "description": "Taboulé ",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Céréales et pommes de terre",
             "Céréales et dérivés",
             "Plats préparés"
@@ -2360,7 +2347,7 @@
         "description": "Feuilles de vigne farcies au riz",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Conserves",
             "Plats préparés",
             "Plats préparés en conserve"
@@ -2383,7 +2370,7 @@
         "score": 24
     },
     {
-        "name": "Foglie d'ulivo agli spinaci",
+        "name": "Foglie d ulivo agli spinaci",
         "description": "Teigwaren aus Hartweizengrieß und getrocknetem Spinat",
         "categories": [
             "Nouilles"
@@ -2393,8 +2380,8 @@
         "score": -3
     },
     {
-        "name": "4 Tranches de filets de colin d'Alaska, Surgelé",
-        "description": "Filets de colin d'Alaska",
+        "name": "4 Tranches de filets de colin d Alaska, Surgelé",
+        "description": "Filets de colin d Alaska",
         "categories": [
             "Surgelés",
             "Produits de la mer",
@@ -2443,7 +2430,7 @@
         "score": 11
     },
     {
-        "name": "Pâte d'amande tricolore",
+        "name": "Pâte d amande tricolore",
         "description": "",
         "categories": [
             "Snacks sucrés",
@@ -2459,7 +2446,7 @@
         "description": "",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Céréales et pommes de terre",
             "Céréales et dérivés"
         ],
@@ -2472,7 +2459,7 @@
         "description": "Galettes de Maïs",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Céréales et pommes de terre",
             "Céréales et dérivés"
         ],
@@ -2495,7 +2482,7 @@
         "description": "Pains spéciaux pour hamburger",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Céréales et pommes de terre",
             "Pains",
             "Pains spéciaux"
@@ -2509,7 +2496,7 @@
         "description": "",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Petit déjeuners",
             "Produits à tartiner",
             "Pâtes à tartiner végétales",
@@ -2550,11 +2537,10 @@
         "description": "",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Céréales et pommes de terre",
             "Pains",
-            "Pains spéciaux",
-            "Pains"
+            "Pains spéciaux"
         ],
         "stores": "Marks & Spencer",
         "site_url": "https://world.openfoodfacts.org/product/00485418/2-large-garlic-and-coriander-naans-marks-spencer",
@@ -2577,7 +2563,7 @@
         "description": "",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Produits à tartiner",
             "Matières grasses",
             "Pâtes à tartiner végétales",
@@ -2603,7 +2589,7 @@
     },
     {
         "name": "Hamoud boualem",
-        "description": null,
+        "description": "",
         "categories": [
             "Boissons"
         ],
@@ -2628,7 +2614,7 @@
         "description": "Galettes de Riz Complet Saveur Choco-Noisette",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Céréales et pommes de terre",
             "Céréales et dérivés"
         ],
@@ -2641,7 +2627,7 @@
         "description": "Muesli croustillant aux éclats de chocolat au lait",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Petit déjeuners",
             "Céréales et pommes de terre",
             "Céréales et dérivés",
@@ -2660,7 +2646,7 @@
         "description": "Boules de céréales soufflées au miel",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Petit déjeuners",
             "Céréales et pommes de terre",
             "Céréales et dérivés",
@@ -2688,7 +2674,7 @@
         "description": "",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Aliments à base de fruits et de légumes",
             "Petit déjeuners",
             "Produits à tartiner",
@@ -2746,7 +2732,7 @@
     },
     {
         "name": "Barres céréales Abricot",
-        "description": "Barre céréalière à l'abricot",
+        "description": "Barre céréalière à l abricot",
         "categories": [
             "Snacks sucrés",
             "Barres"
@@ -2793,7 +2779,7 @@
     },
     {
         "name": "6 Petits moelleux tout chocolat",
-        "description": "Petits gâteau au chocolat issu de l'agriculture biologique",
+        "description": "Petits gâteau au chocolat issu de l agriculture biologique",
         "categories": [
             "Snacks sucrés",
             "Desserts",
@@ -2807,7 +2793,7 @@
     },
     {
         "name": "Moussaka à la Crétoise, Surgelé",
-        "description": "Gratin d'aubergines cuisiné à la tomate et à la viande",
+        "description": "Gratin d aubergines cuisiné à la tomate et à la viande",
         "categories": [
             "Surgelés",
             "Plats préparés",
@@ -2920,7 +2906,7 @@
     },
     {
         "name": "Tarte Framboises pâte sablée pur beurre",
-        "description": "Tarte aux framboises composée d'une pâte sablée pur beurre 35%, garnie de compotée 21% et de framboises nappées 44%, surgelée.",
+        "description": "Tarte aux framboises composée d une pâte sablée pur beurre 35%, garnie de compotée 21% et de framboises nappées 44%, surgelée.",
         "categories": [
             "Snacks sucrés",
             "Surgelés",
@@ -2933,26 +2919,26 @@
         "score": 8
     },
     {
-        "name": "Farfalle à la tomate et aux épinards ",
-        "description": "Pâtes alimentaires de qualité supérieure et pâtes alimentaires aromatisées à la tomate et aux épinards ",
+        "name": "Farfalle à la Tomate et aux Épinards",
+        "description": "Pâtes alimentaires de qualité supérieure et pâtes alimentaires aromatisées à la tomate et aux épinards. Farfalle à la Tomate et aux Épinards",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Céréales et pommes de terre",
             "Céréales et dérivés",
             "Pâtes alimentaires",
             "Pâtes sèches"
         ],
-        "stores": "Leader Price, Franprix",
+        "stores": "Leader Price,Franprix",
         "site_url": "https://world.openfoodfacts.org/product/3263850515712/farfalle-a-la-tomate-et-aux-epinards-leader-price",
-        "score": -4
+        "score": -3
     },
     {
         "name": "Tagliatelles aux œufs",
         "description": "Pâtes alimentaires de qualité supérieure aux œufs",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Céréales et pommes de terre",
             "Céréales et dérivés",
             "Pâtes alimentaires",
@@ -2965,10 +2951,10 @@
     },
     {
         "name": "Torsades BIO",
-        "description": "Pâtes alimentaires de qualité supérieure issues de l'agriculture biologique",
+        "description": "Pâtes alimentaires de qualité supérieure issues de l agriculture biologique",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Céréales et pommes de terre",
             "Céréales et dérivés",
             "Pâtes alimentaires",
@@ -3020,7 +3006,7 @@
         "description": "",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Céréales et pommes de terre",
             "Pains"
         ],
@@ -3070,7 +3056,7 @@
         "description": "Compote",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Aliments à base de fruits et de légumes",
             "Desserts",
             "Fruits et produits dérivés",
@@ -3086,7 +3072,7 @@
         "description": "Purée de pomme fraise sans sucres ajoutés",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Aliments à base de fruits et de légumes",
             "Desserts",
             "Fruits et produits dérivés",
@@ -3101,7 +3087,7 @@
         "description": "",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Aliments à base de fruits et de légumes",
             "Desserts",
             "Fruits et produits dérivés",
@@ -3127,8 +3113,8 @@
         "score": 1
     },
     {
-        "name": "Saumon à l'oseille",
-        "description": "Plat à base de riz cuisiné et de saumon à l'oseille",
+        "name": "Saumon à l oseille",
+        "description": "Plat à base de riz cuisiné et de saumon à l oseille",
         "categories": [
             "Plats préparés",
             "Plats à base de poisson",
@@ -3254,7 +3240,7 @@
         "description": "Mélange de cacahuètes, raisins secs, noix de cajou, noisettes",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Aliments à base de fruits et de légumes",
             "Snacks salés",
             "Apéritif",
@@ -3309,14 +3295,14 @@
         "description": "Olives & fromages",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Produits laitiers",
             "Produits fermentés",
             "Produits laitiers fermentés",
             "Pickles",
             "Fromages",
-            "Produits de l'olivier",
-            "Pickles d'origine végétale",
+            "Produits de l olivier",
+            "Pickles d origine végétale",
             "Fromages de vache",
             "Olives",
             "Fromages pasteurisés"
@@ -3339,8 +3325,8 @@
         "name": "30 oeufs frais moyens",
         "description": "Oeufs de poules élevées en cage, catégorie A",
         "categories": [
-            "Produits d'élevages",
-            "Œufs d'oiseau",
+            "Produits d élevages",
+            "Œufs d oiseau",
             "Œufs"
         ],
         "stores": "Leader Price",
@@ -3351,8 +3337,8 @@
         "name": "12 Oeufs Datés du Jour de Ponte moyen",
         "description": "oeufs de poules élevées en cage, catégorie A, calibre moyen.",
         "categories": [
-            "Produits d'élevages",
-            "Œufs d'oiseau",
+            "Produits d élevages",
+            "Œufs d oiseau",
             "Œufs"
         ],
         "stores": "Franprix",
@@ -3364,7 +3350,7 @@
         "description": "Mélange de légumes assaisonnés, surgelés.",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Aliments à base de fruits et de légumes",
             "Légumineuses et dérivés",
             "Surgelés",
@@ -3382,7 +3368,7 @@
         "description": "",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Aliments à base de fruits et de légumes",
             "Epicerie",
             "Condiments",
@@ -3409,8 +3395,8 @@
         "score": 18
     },
     {
-        "name": "Pur jus d'orange du Brésil avec pulpe",
-        "description": "Pur jus d'orange du Brésil",
+        "name": "Pur jus d orange du Brésil avec pulpe",
+        "description": "Pur jus d orange du Brésil",
         "categories": [
             "Aliments et boissons à base de végétaux",
             "Boissons",
@@ -3419,7 +3405,7 @@
             "Jus et nectars",
             "Jus et nectars de fruits",
             "Jus de fruits",
-            "Jus d'orange",
+            "Jus d orange",
             "Jus de fruits 100% pur jus"
         ],
         "stores": "Franprix",
@@ -3427,8 +3413,8 @@
         "score": 3
     },
     {
-        "name": "Jus d'Orange 100% pur jus",
-        "description": "Pur jus d'orange traité à haute pression",
+        "name": "Jus d Orange 100% pur jus",
+        "description": "Pur jus d orange traité à haute pression",
         "categories": [
             "Aliments et boissons à base de végétaux",
             "Boissons",
@@ -3437,7 +3423,7 @@
             "Jus et nectars",
             "Jus et nectars de fruits",
             "Jus de fruits",
-            "Jus d'orange",
+            "Jus d orange",
             "Jus de fruits 100% pur jus"
         ],
         "stores": "Franprix",
@@ -3495,7 +3481,7 @@
     },
     {
         "name": "100 % pur jus Ananas",
-        "description": "Jus d'ananas",
+        "description": "Jus d ananas",
         "categories": [
             "Aliments et boissons à base de végétaux",
             "Boissons",
@@ -3545,7 +3531,7 @@
         "score": 2
     },
     {
-        "name": "Pomme Cassis à l'eau de source",
+        "name": "Pomme Cassis à l eau de source",
         "description": "Boisson aux fruits à base de jus concentrés aromatisée",
         "categories": [
             "Aliments et boissons à base de végétaux",
@@ -3560,7 +3546,7 @@
     },
     {
         "name": "Pulpé orange",
-        "description": "Boisson gazeuse au jus et à la pulpe d'orange",
+        "description": "Boisson gazeuse au jus et à la pulpe d orange",
         "categories": [
             "Aliments et boissons à base de végétaux",
             "Boissons",
@@ -3576,7 +3562,7 @@
     },
     {
         "name": "Pur jus Ananas",
-        "description": "Jus d'Ananas",
+        "description": "Jus d Ananas",
         "categories": [
             "Aliments et boissons à base de végétaux",
             "Boissons",
@@ -3607,7 +3593,7 @@
         "description": "",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Céréales et pommes de terre",
             "Graines",
             "Céréales et dérivés",
@@ -3631,7 +3617,7 @@
     },
     {
         "name": "Poudre instantanée cacaotée Leader Quick",
-        "description": "Préparation pour boisson instantanée diététique de l'effort et d'apport glucidique au cacao maigre",
+        "description": "Préparation pour boisson instantanée diététique de l effort et d apport glucidique au cacao maigre",
         "categories": [
             "Petit déjeuners",
             "Snacks sucrés",
@@ -3702,7 +3688,7 @@
     },
     {
         "name": "Biscuits tablette chocolat au lait bio",
-        "description": "Biscuits avec tablette de chocolat au lait issu de l'agriculture biologique",
+        "description": "Biscuits avec tablette de chocolat au lait issu de l agriculture biologique",
         "categories": [
             "Snacks sucrés",
             "Biscuits et gâteaux",
@@ -3718,7 +3704,7 @@
         "description": "",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Céréales et pommes de terre",
             "Snacks salés",
             "Apéritif",
@@ -3839,14 +3825,14 @@
         "description": "",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Céréales et pommes de terre",
             "Snacks salés",
             "Apéritif",
             "Chips et frites",
             "Chips",
             "Chips de pommes de terre",
-            "Chips de pommes de terre à l'huile de tournesol"
+            "Chips de pommes de terre à l huile de tournesol"
         ],
         "stores": "Leader Price",
         "site_url": "https://world.openfoodfacts.org/product/3263853107013/fine-ligne-chips-legeres-leader-price",
@@ -4010,8 +3996,8 @@
         "score": 14
     },
     {
-        "name": "Crème d'Isigny (40% MG)",
-        "description": "Crème fraîche d'Isigny AOP à 40% de Mat. Gr.",
+        "name": "Crème d Isigny (40% MG)",
+        "description": "Crème fraîche d Isigny AOP à 40% de Mat. Gr.",
         "categories": [
             "Produits laitiers",
             "Produits fermentés",
@@ -4036,7 +4022,7 @@
     },
     {
         "name": "Emmental râpé Bio ",
-        "description": "Fromage à pâte pressé cuite issu de l'agriculture biologique",
+        "description": "Fromage à pâte pressé cuite issu de l agriculture biologique",
         "categories": [
             "Produits laitiers",
             "Produits fermentés",
@@ -4126,7 +4112,7 @@
     },
     {
         "name": "Ail et fines herbes fromage à tartiner (27% MG)",
-        "description": "Fromage à tartiner au lait et à la crème pasteurisés,à l'ail et aux fines herbres - 27% Mat.gr dans la produit fini",
+        "description": "Fromage à tartiner au lait et à la crème pasteurisés,à l ail et aux fines herbres - 27% Mat.gr dans la produit fini",
         "categories": [
             "Produits laitiers",
             "Produits fermentés",
@@ -4141,7 +4127,7 @@
         "score": 16
     },
     {
-        "name": "Jambon cuisiné à l'os",
+        "name": "Jambon cuisiné à l os",
         "description": "Jambon de porc cuit supérieur avec couenne",
         "categories": [
             "Viandes",
@@ -4197,14 +4183,14 @@
         "description": "Cornichons au vinaigre extra-fins",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Aliments à base de fruits et de légumes",
             "Conserves",
             "Légumineuses et dérivés",
             "Aliments à base de plantes en conserve",
             "Pickles",
             "Légumes en conserve",
-            "Pickles d'origine végétale"
+            "Pickles d origine végétale"
         ],
         "stores": "Franprix",
         "site_url": "https://world.openfoodfacts.org/product/3263850361616/mini-cornichons-extra-fins-franprix",
@@ -4215,14 +4201,14 @@
         "description": "Cornichons malossol",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Aliments à base de fruits et de légumes",
             "Conserves",
             "Légumineuses et dérivés",
             "Aliments à base de plantes en conserve",
             "Pickles",
             "Légumes en conserve",
-            "Pickles d'origine végétale"
+            "Pickles d origine végétale"
         ],
         "stores": "Leader Price,Franprix",
         "site_url": "https://world.openfoodfacts.org/product/3263850362910/cornichons-molossol-leader-price",
@@ -4253,8 +4239,8 @@
         "score": 16
     },
     {
-        "name": "Filets de Colin d'Alaska",
-        "description": "Filets de colin d'Alaska",
+        "name": "Filets de Colin d Alaska",
+        "description": "Filets de colin d Alaska",
         "categories": [
             "Surgelés",
             "Produits de la mer",
@@ -4279,7 +4265,7 @@
     },
     {
         "name": "Riz à la Cantonaise",
-        "description": "Plat préparé à base de riz basmati, de légumes, d'épaule de porc cuite standard traitée en salaison et d'omelette, surgelée.",
+        "description": "Plat préparé à base de riz basmati, de légumes, d épaule de porc cuite standard traitée en salaison et d omelette, surgelée.",
         "categories": [
             "Surgelés",
             "Plats préparés",
@@ -4291,7 +4277,7 @@
     },
     {
         "name": "Les papillotes colin riz noir petits legumes",
-        "description": "Plat cuisiné à base de colin d'Alaska qualité sans arête, d'un mélange de riz et de légumes accompagnés d'échalotes cuisinées et d'huile d'olive vierge extra 3%, surgelé",
+        "description": "Plat cuisiné à base de colin d Alaska qualité sans arête, d un mélange de riz et de légumes accompagnés d échalotes cuisinées et d huile d olive vierge extra 3%, surgelé",
         "categories": [
             "Surgelés",
             "Plats préparés",
@@ -4303,7 +4289,7 @@
     },
     {
         "name": "Poêlée Périgourdine",
-        "description": "Mélange de pommes de terre enrobées de sauce à la graisse de canard, de lardons cuits fumés, de gésiers de canard confits et d'émincés de canard cuit fumé traité en salaison, surgelé",
+        "description": "Mélange de pommes de terre enrobées de sauce à la graisse de canard, de lardons cuits fumés, de gésiers de canard confits et d émincés de canard cuit fumé traité en salaison, surgelé",
         "categories": [
             "Surgelés",
             "Plats préparés",
@@ -4334,10 +4320,10 @@
         "description": "Olives vertes dénoyautées aux herbes de Provence",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Pickles",
-            "Produits de l'olivier",
-            "Pickles d'origine végétale",
+            "Produits de l olivier",
+            "Pickles d origine végétale",
             "Olives"
         ],
         "stores": "Franprix",
@@ -4349,7 +4335,7 @@
         "description": "8 Feuilles de Brick",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Céréales et pommes de terre",
             "Céréales et dérivés",
             "Pâtes alimentaires"
@@ -4380,14 +4366,14 @@
         "score": 4
     },
     {
-        "name": "Olives vertes à l'ail",
-        "description": "Olives vertes dénoyautées  à l'ail",
+        "name": "Olives vertes à l ail",
+        "description": "Olives vertes dénoyautées  à l ail",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Pickles",
-            "Produits de l'olivier",
-            "Pickles d'origine végétale",
+            "Produits de l olivier",
+            "Pickles d origine végétale",
             "Olives"
         ],
         "stores": "Franprix",
@@ -4406,7 +4392,7 @@
         "score": 10
     },
     {
-        "name": "Max l'Hippo Chocolat",
+        "name": "Max l Hippo Chocolat",
         "description": "Gâteau avec fourrage au chocolat",
         "categories": [
             "Snacks sucrés",
@@ -4420,8 +4406,8 @@
         "score": 16
     },
     {
-        "name": "Madeleines au Beurre d'Isigny",
-        "description": "Madeleines au beurre d'Isigny AOP",
+        "name": "Madeleines au Beurre d Isigny",
+        "description": "Madeleines au beurre d Isigny AOP",
         "categories": [
             "Snacks sucrés",
             "Desserts",
@@ -4473,7 +4459,7 @@
     },
     {
         "name": "Pizza Jambon Emmental Pâte Fine",
-        "description": "Pizza garnie de jambon cuit standard , d'emmental et d'olives noires entières.",
+        "description": "Pizza garnie de jambon cuit standard , d emmental et d olives noires entières.",
         "categories": [
             "Plats préparés",
             "Plats à base de viande",
@@ -4488,10 +4474,10 @@
     },
     {
         "name": "Haricots verts extra-fins Bio",
-        "description": "Haricots verts extra-fins issus de l'agriculture biologique",
+        "description": "Haricots verts extra-fins issus de l agriculture biologique",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Frais",
             "Aliments à base de fruits et de légumes",
             "Légumes et dérivés",
@@ -4576,7 +4562,7 @@
     },
     {
         "name": "2 Croque Monsieur Jambon Emmental",
-        "description": "2 croque-monsieur au jambon cuit choix et à l'emmental",
+        "description": "2 croque-monsieur au jambon cuit choix et à l emmental",
         "categories": [
             "Sandwichs"
         ],
@@ -4599,7 +4585,7 @@
     },
     {
         "name": "Lait BIO demi-écrémé",
-        "description": "Lait demi-écrémé stérilisé UHT issu de l'agriculture biologique.",
+        "description": "Lait demi-écrémé stérilisé UHT issu de l agriculture biologique.",
         "categories": [
             "Produits laitiers",
             "Laits",
@@ -4614,7 +4600,7 @@
         "description": "Purée de pomme banane sans sucres ajoutés",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Frais",
             "Aliments à base de fruits et de légumes",
             "Desserts",
@@ -4631,7 +4617,7 @@
         "description": "purée de tomates",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Aliments à base de fruits et de légumes",
             "Epicerie",
             "Légumineuses et dérivés",
@@ -4648,7 +4634,7 @@
         "description": "",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Céréales et pommes de terre",
             "Pains"
         ],
@@ -4661,7 +4647,7 @@
         "description": "Pains spéciaux à garnir ",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Céréales et pommes de terre",
             "Pains",
             "Pains spéciaux"
@@ -4675,7 +4661,7 @@
         "description": "Croûtons goût fromage",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Céréales et pommes de terre",
             "Pains"
         ],
@@ -4688,7 +4674,7 @@
         "description": "Toasts briochés ",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Céréales et pommes de terre",
             "Pains"
         ],
@@ -4701,7 +4687,7 @@
         "description": "Riz Arborio long grain de qualité supérieure",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Céréales et pommes de terre",
             "Graines",
             "Céréales et dérivés",
@@ -4717,7 +4703,7 @@
         "description": "",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Céréales et pommes de terre",
             "Graines",
             "Céréales et dérivés",
@@ -4729,7 +4715,7 @@
         "score": 0
     },
     {
-        "name": "Le Jambon à l'Ancienne",
+        "name": "Le Jambon à l Ancienne",
         "description": "",
         "categories": [
             "Viandes",
@@ -4743,7 +4729,7 @@
     },
     {
         "name": "Faiselle",
-        "description": "Fromage frais en faiselle en cours d'égouttage",
+        "description": "Fromage frais en faiselle en cours d égouttage",
         "categories": [
             "Produits laitiers",
             "Produits fermentés",
@@ -4770,10 +4756,10 @@
     },
     {
         "name": "Les veloutés Légumes du Soleil",
-        "description": "Velouté de légumes à l'huile d'olive vierge extra 1.5%",
+        "description": "Velouté de légumes à l huile d olive vierge extra 1.5%",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Aliments à base de fruits et de légumes",
             "Plats préparés",
             "Soupes",
@@ -4788,7 +4774,7 @@
         "description": "Semoule de blé dur de qualité supérieure",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Céréales et pommes de terre",
             "Céréales et dérivés"
         ],
@@ -4810,10 +4796,10 @@
     },
     {
         "name": "Tomates séchées Antipasti",
-        "description": "Tomates séchées à l'huile de tournesol",
+        "description": "Tomates séchées à l huile de tournesol",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Aliments à base de fruits et de légumes",
             "Légumineuses et dérivés",
             "Produits déshydratés",
@@ -4877,8 +4863,8 @@
         "score": 17
     },
     {
-        "name": "Filets de Sardines (à l'Huile d'Olive vierge extra)",
-        "description": "Filets de sardines à l'huile d'olive vierge extra",
+        "name": "Filets de Sardines (à l Huile d Olive vierge extra)",
+        "description": "Filets de sardines à l huile d olive vierge extra",
         "categories": [
             "Conserves",
             "Produits de la mer",
@@ -4887,7 +4873,7 @@
             "Filets de poissons",
             "Sardines",
             "Sardines en conserve",
-            "Sardines à l'huile"
+            "Sardines à l huile"
         ],
         "stores": "Leader-Price",
         "site_url": "https://world.openfoodfacts.org/product/3263851286512/filets-de-sardines-a-l-huile-d-olive-vierge-extra-leader-price",
@@ -4923,7 +4909,7 @@
         "description": "",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Légumes et dérivés",
             "Conserves",
             "Aliments à base de plantes en conserve",
@@ -4938,7 +4924,7 @@
         "description": "Tomates pelées concassées au jus",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Aliments à base de fruits et de légumes",
             "Conserves",
             "Légumineuses et dérivés",
@@ -4963,8 +4949,8 @@
         "score": 26
     },
     {
-        "name": "Sucre Vanillé à l'Extrait Naturel de Vanille",
-        "description": "Sucre vanillé à l'extrait naturel de vanille",
+        "name": "Sucre Vanillé à l Extrait Naturel de Vanille",
+        "description": "Sucre vanillé à l extrait naturel de vanille",
         "categories": [
             "Édulcorants",
             "Sucres"
@@ -5036,7 +5022,7 @@
         "score": 9
     },
     {
-        "name": "Equi'libre chocolat",
+        "name": "Equi libre chocolat",
         "description": "Biscuits bio aux pépites de chocolat",
         "categories": [
             "Snacks sucrés",
@@ -5062,7 +5048,7 @@
         "score": 16
     },
     {
-        "name": "Equi'libre Noix de coco",
+        "name": "Equi libre Noix de coco",
         "description": "Biscuits bio à la noix de coco",
         "categories": [
             "Snacks sucrés",
@@ -5078,7 +5064,7 @@
         "description": "Petits pains grillés céréales et graines",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Céréales et pommes de terre",
             "Pains"
         ],
@@ -5135,7 +5121,7 @@
         "score": 22
     },
     {
-        "name": "Pain d'épice à l'ancienne",
+        "name": "Pain d épice à l ancienne",
         "description": "",
         "categories": [
             "Snacks sucrés",
@@ -5147,7 +5133,7 @@
     },
     {
         "name": "Mogettes cuisinees a la paysanne",
-        "description": "Préparation à base d'haricots blancs",
+        "description": "Préparation à base d haricots blancs",
         "categories": [
             "Plats préparés"
         ],
@@ -5160,7 +5146,7 @@
         "description": "Croûtons",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Céréales et pommes de terre",
             "Pains"
         ],
@@ -5185,7 +5171,7 @@
     },
     {
         "name": "Emietté de Thon aux Tomates Séchées",
-        "description": "Emietté de thon à l'huile d'olive vierge extra aux tomates séchées",
+        "description": "Emietté de thon à l huile d olive vierge extra aux tomates séchées",
         "categories": [
             "Conserves",
             "Produits de la mer",
@@ -5223,8 +5209,8 @@
         "score": 17
     },
     {
-        "name": "Sardines à l'Ancienne à l'Huile d'Olive vierge extra au Piment de Cayenne",
-        "description": "Sardines à l'ancienne à l'huile d'olive vierge extra au piment de Cayenne",
+        "name": "Sardines à l Ancienne à l Huile d Olive vierge extra au Piment de Cayenne",
+        "description": "Sardines à l ancienne à l huile d olive vierge extra au piment de Cayenne",
         "categories": [
             "Conserves",
             "Produits de la mer",
@@ -5232,7 +5218,7 @@
             "Poissons en conserve",
             "Sardines",
             "Sardines en conserve",
-            "Sardines à l'huile"
+            "Sardines à l huile"
         ],
         "stores": "Intermarché",
         "site_url": "https://world.openfoodfacts.org/product/3263670123715/sardines-a-l-ancienne-a-l-huile-d-olive-vierge-extra-au-piment-de-cayenne-connetable",
@@ -5266,11 +5252,11 @@
         "score": -1
     },
     {
-        "name": "Langue d' oiseau semi complet",
+        "name": "Langue d  oiseau semi complet",
         "description": "Pâtes alimentaire biologique",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Céréales et pommes de terre",
             "Céréales et dérivés",
             "Pâtes alimentaires",
@@ -5386,7 +5372,7 @@
     },
     {
         "name": "Camembert Bio au lait cru fabriqué en Normandie (22 % MG)",
-        "description": "Fromage de France, à pâte molle à croûte fleurie, au lait cru de vache, issu de l'agriculture biologique",
+        "description": "Fromage de France, à pâte molle à croûte fleurie, au lait cru de vache, issu de l agriculture biologique",
         "categories": [
             "Frais",
             "Produits laitiers",
@@ -5407,11 +5393,11 @@
         "description": "Olives noires dénoyautés",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Conserves",
             "Pickles",
-            "Produits de l'olivier",
-            "Pickles d'origine végétale",
+            "Produits de l olivier",
+            "Pickles d origine végétale",
             "Olives"
         ],
         "stores": "Leclerc",
@@ -5484,8 +5470,8 @@
         "name": "Apéri Caille",
         "description": "Oeufs durs de cailles",
         "categories": [
-            "Produits d'élevages",
-            "Œufs d'oiseau"
+            "Produits d élevages",
+            "Œufs d oiseau"
         ],
         "stores": "Franprix",
         "site_url": "https://world.openfoodfacts.org/product/3266980153106/aperi-caille-le-gaulois",
@@ -5616,7 +5602,7 @@
         "description": "Pâtes fraîches farcies au Comté et au basilic. Fagottini Comté-Basilic aux Œufs frais",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Frais",
             "Céréales et pommes de terre",
             "Céréales et dérivés",
@@ -5644,7 +5630,7 @@
         "description": "",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Matières grasses",
             "Matières grasses végétales",
             "Huiles"
@@ -5654,7 +5640,7 @@
         "score": 11
     },
     {
-        "name": "Isio 4 Mayo'",
+        "name": "Isio 4 Mayo ",
         "description": "",
         "categories": [
             "Epicerie",
@@ -5684,7 +5670,7 @@
         "categories": [
             "Aliments et boissons à base de végétaux",
             "Boissons",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Fruits à coques et dérivés",
             "Boissons à base de végétaux",
             "Substitut du lait",
@@ -5700,7 +5686,7 @@
         "description": "",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Produits à tartiner",
             "Fruits à coques et dérivés",
             "Pâtes à tartiner végétales"
@@ -5711,7 +5697,7 @@
     },
     {
         "name": "Tartinade Amande Orange",
-        "description": "Pâte à tartiner d'amandes et d'oranges",
+        "description": "Pâte à tartiner d amandes et d oranges",
         "categories": [
             "Petit déjeuners",
             "Produits à tartiner",
@@ -5722,11 +5708,11 @@
         "score": 13
     },
     {
-        "name": "Purée d'amande blanche",
+        "name": "Purée d amande blanche",
         "description": "",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Produits à tartiner",
             "Fruits à coques et dérivés",
             "Pâtes à tartiner végétales"
@@ -5817,7 +5803,7 @@
         "description": "Fagottini au jambon cru",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Conserves",
             "Céréales et pommes de terre",
             "Céréales et dérivés",
@@ -5922,7 +5908,7 @@
         "score": 1
     },
     {
-        "name": "Les Cocottes Cassoulet à la Graisse d'Oie",
+        "name": "Les Cocottes Cassoulet à la Graisse d Oie",
         "description": "",
         "categories": [
             "Plats préparés",
@@ -5966,7 +5952,7 @@
         "description": "Riz complet",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Céréales et pommes de terre",
             "Graines",
             "Céréales et dérivés",
@@ -5982,7 +5968,7 @@
         "description": "Lentilles Corail en Torsades",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Céréales et pommes de terre",
             "Céréales et dérivés",
             "Pâtes alimentaires",
@@ -6009,7 +5995,7 @@
         "description": "Mélange de céréales croustillantes au quinoa et au chocolat",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Petit déjeuners",
             "Céréales et pommes de terre",
             "Céréales et dérivés",
@@ -6024,11 +6010,11 @@
         "score": 7
     },
     {
-        "name": "Purée d'amandes",
+        "name": "Purée d amandes",
         "description": "",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Produits à tartiner",
             "Fruits à coques et dérivés",
             "Pâtes à tartiner végétales"
@@ -6042,7 +6028,7 @@
         "description": "Purée de Cajou",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Produits à tartiner",
             "Fruits à coques et dérivés",
             "Pâtes à tartiner végétales"
@@ -6052,8 +6038,8 @@
         "score": 14
     },
     {
-        "name": "Sève d'érable medium",
-        "description": "sirop d'érable",
+        "name": "Sève d érable medium",
+        "description": "sirop d érable",
         "categories": [
             "Édulcorants",
             "Sirops"
@@ -6067,7 +6053,7 @@
         "description": "",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Céréales et pommes de terre",
             "Pains"
         ],
@@ -6080,7 +6066,7 @@
         "description": "",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Céréales et pommes de terre",
             "Graines",
             "Céréales et dérivés",
@@ -6095,11 +6081,11 @@
         "description": "",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Céréales et pommes de terre",
             "Céréales et dérivés",
             "Plats préparés",
-            "Plats préparés d'origine végétale"
+            "Plats préparés d origine végétale"
         ],
         "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3266191054810/2-galettes-de-cereales-epinards-pignons-de-pin-la-vie-claire",
@@ -6110,7 +6096,7 @@
         "description": "Céréales soufflées au chocolat",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Petit déjeuners",
             "Céréales et pommes de terre",
             "Céréales et dérivés",
@@ -6140,7 +6126,7 @@
     },
     {
         "name": "Tarama (25 %)",
-        "description": "Tarama à base d'œufs de cabillaud fumés (25 %)",
+        "description": "Tarama à base d œufs de cabillaud fumés (25 %)",
         "categories": [
             "Frais",
             "Produits de la mer"
@@ -6166,7 +6152,7 @@
         "description": "",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Aliments à base de fruits et de légumes",
             "Conserves",
             "Aliments à base de plantes en conserve",
@@ -6198,7 +6184,7 @@
         "description": "Soupe froide Méditerranéenne de légumes frais",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Aliments à base de fruits et de légumes",
             "Plats préparés",
             "Soupes",
@@ -6210,7 +6196,7 @@
     },
     {
         "name": "Liodoro Amande",
-        "description": "Biscuits sablés aux amandes, décorés de chocolat au lait et d'éclats d'amandes caramélisés",
+        "description": "Biscuits sablés aux amandes, décorés de chocolat au lait et d éclats d amandes caramélisés",
         "categories": [
             "Snacks sucrés",
             "Biscuits et gâteaux",
@@ -6235,7 +6221,7 @@
         "description": "Soupes de légumes",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Aliments à base de fruits et de légumes",
             "Plats préparés",
             "Soupes",
@@ -6367,7 +6353,7 @@
         "description": "",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Aliments à base de fruits et de légumes",
             "Conserves",
             "Aliments à base de plantes en conserve",
@@ -6383,7 +6369,7 @@
         "description": "Soupe de légumes",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Aliments à base de fruits et de légumes",
             "Plats préparés",
             "Soupes",
@@ -6398,7 +6384,7 @@
         "description": "Soupe de légumes",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Aliments à base de fruits et de légumes",
             "Plats préparés",
             "Soupes",
@@ -6409,11 +6395,11 @@
         "score": 1
     },
     {
-        "name": "PurSoup' Oseille Cresson et crème fraîche",
+        "name": "PurSoup  Oseille Cresson et crème fraîche",
         "description": "Soupe",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Aliments à base de fruits et de légumes",
             "Plats préparés",
             "Soupes",
@@ -6424,11 +6410,11 @@
         "score": 4
     },
     {
-        "name": "Pur Soup' Mouliné de 10 légumes variés",
+        "name": "Pur Soup  Mouliné de 10 légumes variés",
         "description": "",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Aliments à base de fruits et de légumes",
             "Plats préparés",
             "Soupes",
@@ -6469,7 +6455,7 @@
         "description": "Cornichons malossol",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Aliments à base de fruits et de légumes",
             "Epicerie",
             "Conserves",
@@ -6478,18 +6464,18 @@
             "Aliments à base de plantes en conserve",
             "Pickles",
             "Légumes en conserve",
-            "Pickles d'origine végétale"
+            "Pickles d origine végétale"
         ],
         "stores": "Super U",
         "site_url": "https://world.openfoodfacts.org/product/3036812513350/cornichons-malossol-a-la-russe-820-g-maille",
         "score": 5
     },
     {
-        "name": "Pur Soup' Épinards Artichauts",
+        "name": "Pur Soup  Épinards Artichauts",
         "description": "",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Aliments à base de fruits et de légumes",
             "Plats préparés",
             "Soupes",
@@ -6536,7 +6522,7 @@
         "score": 10
     },
     {
-        "name": "Buitoni Fraich'up",
+        "name": "Buitoni Fraich up",
         "description": "Pizza surgelée",
         "categories": [
             "Surgelés",
@@ -6780,7 +6766,7 @@
         "description": "haricots blancs",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Légumes et dérivés",
             "Légumineuses",
             "Graines",
@@ -6795,7 +6781,7 @@
         "description": "Flageolets verts",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Légumes et dérivés",
             "Légumineuses",
             "Graines",
@@ -6810,7 +6796,7 @@
         "description": "",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Légumes et dérivés",
             "Légumineuses",
             "Graines",
@@ -6825,7 +6811,7 @@
         "description": "Lentilles cuisinées",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Légumes et dérivés",
             "Légumineuses",
             "Graines",
@@ -6841,7 +6827,7 @@
         "description": "Lentilles vertes",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Aliments à base de fruits et de légumes",
             "Légumes et dérivés",
             "Céréales et pommes de terre",
@@ -6871,7 +6857,7 @@
     },
     {
         "name": "Céréales Pilaf Saveurs Forestières Lustucru",
-        "description": "Préparation de graines de couscous cuisinée avec de l'épeautre, de graines de lin brun, oignons et bolets jaune",
+        "description": "Préparation de graines de couscous cuisinée avec de l épeautre, de graines de lin brun, oignons et bolets jaune",
         "categories": [
             "Plats préparés"
         ],
@@ -6908,7 +6894,7 @@
         "description": "Pâtes alimentaires au blé dur de qualité supérieure",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Céréales et pommes de terre",
             "Céréales et dérivés",
             "Pâtes alimentaires",
@@ -6948,7 +6934,7 @@
         "description": "Purée de tomate mi-réduite à 11%",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Aliments à base de fruits et de légumes",
             "Légumineuses et dérivés",
             "Tomates et dérivés"
@@ -6962,7 +6948,7 @@
         "description": "Pâtes alimentaires au blé dur de qualité supérieure",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Céréales et pommes de terre",
             "Céréales et dérivés",
             "Pâtes alimentaires",
@@ -6987,7 +6973,7 @@
     },
     {
         "name": "Le Cannelloni",
-        "description": "Cannellonis accompagnés d'une sauce tomate et de viande de bœuf",
+        "description": "Cannellonis accompagnés d une sauce tomate et de viande de bœuf",
         "categories": [
             "Conserves",
             "Plats préparés",
@@ -7004,7 +6990,7 @@
         "description": "",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Céréales et pommes de terre",
             "Céréales et dérivés",
             "Pâtes alimentaires",
@@ -7041,7 +7027,7 @@
         "description": "",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Céréales et pommes de terre",
             "Céréales et dérivés",
             "Pâtes alimentaires",
@@ -7091,7 +7077,7 @@
         "description": "Mélange de riz long grain étuvé et céréales",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Céréales et pommes de terre",
             "Graines",
             "Céréales et dérivés",
@@ -7102,11 +7088,11 @@
         "score": -4
     },
     {
-        "name": "Riz Thaï à l'heure de Bangkok",
-        "description": "Mélange de riz thaï long grain naturellement parfumé et d'épices",
+        "name": "Riz Thaï à l heure de Bangkok",
+        "description": "Mélange de riz thaï long grain naturellement parfumé et d épices",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Céréales et pommes de terre",
             "Graines",
             "Céréales et dérivés",
@@ -7160,7 +7146,7 @@
         "description": "Pâtes alimentaires au blé dur de qualité supérieure",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Céréales et pommes de terre",
             "Céréales et dérivés",
             "Pâtes alimentaires",
@@ -7202,7 +7188,7 @@
         "description": "Céréales au chocolat",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Petit déjeuners",
             "Céréales et pommes de terre",
             "Céréales et dérivés",
@@ -7239,7 +7225,7 @@
         "score": 14
     },
     {
-        "name": "L'Original (format familial)",
+        "name": "L Original (format familial)",
         "description": "",
         "categories": [
             "Produits laitiers",
@@ -7268,7 +7254,7 @@
         "score": 11
     },
     {
-        "name": "Saumon Fumé l'Écosse",
+        "name": "Saumon Fumé l Écosse",
         "description": "Saumon fumé au bois de chêne",
         "categories": [
             "Produits de la mer",
@@ -7297,7 +7283,7 @@
         "score": 23
     },
     {
-        "name": "Saumon fumé L'Écosse",
+        "name": "Saumon fumé L Écosse",
         "description": "Saumon fumé",
         "categories": [
             "Produits de la mer",
@@ -7333,7 +7319,7 @@
         "score": 1
     },
     {
-        "name": "The Dark Chocolate Lover's Chocolate Bar",
+        "name": "The Dark Chocolate Lover s Chocolate Bar",
         "description": "",
         "categories": [
             "Snacks sucrés",
@@ -7455,7 +7441,7 @@
         "description": "muesli aux fruits rouges",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Petit déjeuners",
             "Céréales et pommes de terre",
             "Céréales et dérivés",
@@ -7474,7 +7460,7 @@
         "description": "",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Petit déjeuners",
             "Céréales et pommes de terre",
             "Céréales et dérivés",
@@ -7489,8 +7475,8 @@
         "score": 12
     },
     {
-        "name": "Beurre d'arachide",
-        "description": null,
+        "name": "Beurre d arachide",
+        "description": "",
         "categories": [
             "Matières grasses"
         ],
@@ -7503,7 +7489,7 @@
         "description": "",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Produits à tartiner",
             "Matières grasses",
             "Pâtes à tartiner végétales",
@@ -7520,7 +7506,7 @@
         "description": "Gelée de groseilles",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Petit déjeuners",
             "Produits à tartiner",
             "Pâtes à tartiner végétales",
@@ -7536,7 +7522,7 @@
         "description": "",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Céréales et pommes de terre",
             "Pains"
         ],
@@ -7576,7 +7562,7 @@
         "description": "",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Petit déjeuners",
             "Céréales et pommes de terre",
             "Céréales et dérivés",
@@ -7595,7 +7581,7 @@
         "description": "",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Céréales et pommes de terre",
             "Snacks salés",
             "Apéritif",
@@ -7630,7 +7616,7 @@
         "description": "",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Matières grasses",
             "Matières grasses végétales",
             "Huiles"
@@ -7686,7 +7672,7 @@
         "description": "",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Epicerie",
             "Condiments"
         ],
@@ -7699,7 +7685,7 @@
         "description": "Pain croustillant complet biologique au mélange de graines",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Céréales et pommes de terre",
             "Pains"
         ],
@@ -7751,7 +7737,7 @@
         "description": "Bio Reiswaffeln, natur",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Céréales et pommes de terre",
             "Céréales et dérivés"
         ],
@@ -7827,7 +7813,7 @@
         "description": "",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Petit déjeuners",
             "Céréales et pommes de terre",
             "Céréales et dérivés",
@@ -7868,9 +7854,8 @@
         "description": "Tofu ahumado. Producto vegetal a base de soja",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Légumes et dérivés",
-            "Substituts de viande",
             "Substituts de viande"
         ],
         "stores": "",
@@ -7882,7 +7867,7 @@
         "description": "Mélange de graines grillées et de noix de pécan ",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Légumes et dérivés",
             "Légumineuses",
             "Snacks salés",
@@ -7925,7 +7910,7 @@
         "description": "Champignons de Paris (Pieds et morceaux)",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Conserves",
             "Aliments à base de plantes en conserve",
             "Champignons et produits dérivés"
@@ -7939,7 +7924,7 @@
         "description": "Champignons de Paris, 1er choix",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Conserves",
             "Aliments à base de plantes en conserve",
             "Champignons et produits dérivés"
@@ -8052,7 +8037,7 @@
         "description": "Huile de lin vierge première pression à froid",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Céréales et pommes de terre",
             "Céréales et dérivés",
             "Matières grasses",
@@ -8126,7 +8111,7 @@
         "description": "",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Conserves",
             "Aliments à base de plantes en conserve",
             "Champignons et produits dérivés"
@@ -8162,7 +8147,7 @@
         "description": "Billes de blé, maïs, riz soufflés sucrée au cacao sucré maigre en poudre",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Petit déjeuners",
             "Céréales et pommes de terre",
             "Céréales et dérivés",
@@ -8189,7 +8174,7 @@
         "score": 3
     },
     {
-        "name": "Moutarde au piment d'espelette",
+        "name": "Moutarde au piment d espelette",
         "description": "",
         "categories": [
             "Epicerie",
@@ -8340,7 +8325,7 @@
         "description": "Tomato Soup",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d'origine végétale",
+            "Aliments d origine végétale",
             "Aliments à base de fruits et de légumes",
             "Plats préparés",
             "Soupes",

@@ -16,6 +16,7 @@ def init():
     """Initialize the database creation."""
     user = input("PostgreSQL user:")
     pwd = getpass.getpass("PostgreSQL password:")
+    print("Wait few minutes...")
 
     _create_foodlik(user, pwd)
 
@@ -29,6 +30,7 @@ def init():
 
     cur.close()
     conn.close()
+    print("database ready for use.")
 
 
 def _create_foodlik(user, pwd):
@@ -54,33 +56,54 @@ def _create_structure(user, pwd, cursor):
 
 
 def _fill_in_database(cursor):
-    """Full in top 'foodlik' of datas."""
+    """Fill in 'foodlik' of datas."""
     datas_path = Path().resolve() / "core" / "back" / "requests"
     datas_path = datas_path / "datas"
+    _fill_in_categories(datas_path, cursor)
+    _fill_in_products(datas_path, cursor)
 
+
+def _fill_in_categories(datas_path, cursor):
+    """Fill in database of categories."""
     cat_fr = str(datas_path / "categories_fr.json")
     with open(cat_fr, "r", encoding="utf8") as file:
         categories = json.load(file)
     for name in categories:
-        cursor.execute(f"""INSERT INTO category (title) VALUES ("{name}")""")
+        cursor.execute(f"INSERT INTO category (title) VALUES ('{name}')")
     print("Categories done.")
 
-    for file in listdir(datas_path / "products"):
-        with open(file, "r", encoding='utf8') as file:
-            datas = json.load(file)
+
+def _fill_in_products(datas_path, cursor):
+    """Fill in database of products."""
+    prod_path = datas_path / "products"
+    for index, file in enumerate(listdir(prod_path)):
+        with open(str(prod_path / file), "r", encoding='utf8') as product_file:
+            datas = json.load(product_file)
 
         for product in datas:
+            _insert_product(product, cursor)
             name = product["name"]
-            descr = product["description"]
-            stores = product["stores"]
-            url = product["site_url"]
-            score = product["score"]
-            cursor.execute("INSERT INTO product (title, description, "
-                           "stores, site_url, score) VALUES "
-                           f"""("{name}", "{descr}", "{stores}","""
-                           f""" "{url}", {score})""")
 
-            for ctg in product["categories"]:
-                cursor.execute("INSERT INTO category_per_product "
-                               "(category_title, product_title) "
-                               f"""VALUES ("{ctg}", "{name}")""")
+            for ctg in set(product["categories"]):  # lazy set, sorry. :p
+                _insert_categorie_per_product(ctg, name, cursor)
+        print(f"file {index} done.")
+
+
+def _insert_product(product, cursor):
+    """Insert a product into the database."""
+    name = product["name"]
+    descr = product["description"]
+    stores = product["stores"]
+    url = product["site_url"]
+    score = product["score"]
+    cursor.execute("INSERT INTO product (title, description, "
+                   "stores, site_url, score) VALUES "
+                   f"('{name}', '{descr}', '{stores}',"
+                   f" '{url}', '{score}')")
+
+
+def _insert_categorie_per_product(ctg, name, cursor):
+    """Insert all categories of a product."""
+    cursor.execute("INSERT INTO category_per_product "
+                   "(category_title, product_title) "
+                   f"VALUES ('{ctg}', '{name}')")

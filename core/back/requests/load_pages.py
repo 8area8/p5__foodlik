@@ -47,7 +47,7 @@ def _load_pages(start, end):
 
 
 def _remove_data_files():  # https: // stackoverflow.com/questions/185936
-    """Remove each file from "products folder."""
+    """Remove each file from products folder."""
     folder = DATAS_PATH / "products"
 
     for the_file in os.listdir(folder):
@@ -68,14 +68,14 @@ def _filtered_datas(datas):
         categories = product.get("categories_tags", [])
 
         product = {
-            "name": product.get('product_name', None),
-            "description": product.get("generic_name", None),
+            "name": product.get('product_name', "").replace("'", " "),
+            "description": product.get("generic_name", "").replace("'", " "),
             "categories": _translate_categories(categories),
-            "stores": product.get("stores", ""),
-            "site_url": product.get("url", None),
+            "stores": product.get("stores", "").replace("'", " "),
+            "site_url": product.get("url", "").replace("'", " "),
             "score": int(product["nutriments"].get("nutrition-score-fr", 100))
         }
-        if not product["categories"]:
+        if not product["categories"] or not product["name"]:
             continue
         if product["score"] == 100:
             continue
@@ -91,8 +91,11 @@ def _translate_categories(categories):
     """Translate the english categories to french."""
     french_categories = []
     for name in categories:
-        name = name.replace("-", " ")
+        name = name.replace("-", " ").replace("'", " ")
         name = name[3:].capitalize()
+
+        if name in french_categories:
+            continue
 
         if name in CATEGORIES_EN:
             index = CATEGORIES_EN.index(name)
