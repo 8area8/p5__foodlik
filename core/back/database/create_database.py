@@ -86,7 +86,7 @@ def _fill_in_products(datas_path, cursor):
 
             for ctg in set(product["categories"]):  # lazy set, sorry. :p
                 _insert_categorie_per_product(ctg, name, cursor)
-        print(f"file {index} done.")
+        print(f"file {index + 1} done.")
 
 
 def _insert_product(product, cursor):

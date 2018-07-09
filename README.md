@@ -45,7 +45,7 @@ Foodlik uses some third-party Python's librairie.
 * ```pip install terminaltables```. Allow you to display console tables.
 * ```pip install pyfiglet```. Allow you to display texts in ASCII art.
 * ```pip install termcolor```. Allow you to display colored texts.
-* ```pip install colorama```. Allow you to color the text.
+* ```pip install colorama```. works with termcolor.
 
 **Optionnal:** ```pip install pytest```. For those who want to run the tests.
 
@@ -55,7 +55,7 @@ Foodlik uses some third-party Python's librairie.
 1. Create a new virtual environment and install the required modules (```pip install -r requirements.txt``` will install all required packages).
 1. Launch the postgreSQL server.
 1. Open your favorite SHELL at the root of the folder.
-1. Type ```python main.py --create_database``` and wait few minutes.
+1. Type ```python main.py create_database``` and wait few minutes.
 1. Type ```python main.py```.
 1. Enjoy.
 
