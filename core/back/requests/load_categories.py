@@ -4,7 +4,7 @@
 """Load the categories from OpenFoodFact.
 
 NOTE: this script does not allow to have categories that
-correspond to each other. Read 'NOTE.txt' from the '1_requests' folder.
+correspond to each other. Read 'NOTE.txt' from the 'requests' folder.
 
 For this reason, the files created by this script will not replace
 the base category files.

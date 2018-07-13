@@ -43,9 +43,6 @@ Foodlik uses some third-party Python's librairie.
 **Note:** You should set a new virtual environment before installing.
 
 * ```pip install terminaltables```. Allow you to display console tables.
-* ```pip install pyfiglet```. Allow you to display texts in ASCII art.
-* ```pip install termcolor```. Allow you to display colored texts.
-* ```pip install colorama```. works with termcolor.
 
 **Optionnal:** ```pip install pytest```. For those who want to run the tests.
 

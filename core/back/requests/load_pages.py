@@ -33,14 +33,13 @@ def init(start, end):
 
 
 async def _load_pages(loop, start, end):
-    """Create or overwrite the datas file."""
+    """Create the datas file."""
     base_url = ("https://world.openfoodfacts.org/cgi/search.pl?"
                 "action=process&tagtype_0=categories&tagtype_1=countries"
                 "&tag_contains_1=france&page_size=1000&json=1")
 
     responses = []
     for index in range(start, end):
-        print("top")
         url = base_url + f"&page={index}"
         async with MAX_ASYNC_IO:
             responses.append(loop.run_in_executor(None, requests.get, url))

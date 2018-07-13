@@ -3,30 +3,55 @@
 
 """Title screen."""
 
-import sys
 from datetime import datetime
 
-from colorama import init
-from termcolor import cprint
-from pyfiglet import figlet_format
-init(strip=not sys.stdout.isatty())  # strip colors if stdout is redirected
+from termcolor import colored
 
-url = 'https://github.com/8area8/P4_OpenFoodFact_interface'
-version = "version 0.2"
-
-print(f"Foodlik {version}", datetime.now().strftime('%Y-%m-%d %H:%M:%S'))
-print(f"Documentation available at {url}")
-print('\n' * 3)
-cprint(figlet_format('Foodlik', font='roman'), 'yellow', attrs=['bold'])
-print('\n' * 3)
-cprint("Welcome to Foodlik !", "yellow", attrs=['bold'])
-print("-" * 20)
-print("blablalba")
+from core.front.classes.globals import BaseSection
 
 
-class TitleScreen():
+TITLE = """
+    oooooooooooo                           .o8  oooo   o8o  oooo   COPYRIGHT
+    '888'     '8                          "888  '888   '"'  `888
+     888          .ooooo.   .ooooo.   .oooo888   888  oooo   888  oooo
+     888oooo8    d88' '88b d88' '88b d88' '888   888  `888   888 .8P'
+     888    "    888   888 888   888 888   888   888   888   888888.
+     888         888   888 888   888 888   888   888   888   888 `88b.
+    o888o        'Y8bod8P' 'Y8bod8P' `Y8bod88P" o888o o888o o888o o888o"""
+
+
+class TitleScreen(BaseSection):
     """This class show the title screen of the application."""
 
     def __init__(self):
         """Initialization."""
+        super().__init__()
+
+        url = 'https://github.com/8area8/P4_OpenFoodFact_interface'
+        version = "version 0.2"
+
+        self.header = (f"Foodlik {version} "
+                       f"{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}."
+                       f"\nDocumentation available at {colored(url, 'cyan')}."
+                       + "\n" * 2 + colored(TITLE, "green") + "\n" * 3 +
+                       colored("Welcome to Foodlik !", "yellow") +
+                       "\n" + colored("-" * 20, "yellow"))  # YOLO.
+
+    @property
+    def content(self):
+        """Return the content informations."""
+        return ""
+
+    @property
+    def footer(self):
+        """Return the footer informations."""
+        return f"Simply type {colored('ENTER', 'green')} to begin." + "\n" * 2
+
+    @property
+    def actions(self):
+        """Return the possible actions."""
+        return "yes"
+
+    def apply(self, action):
+        """Apply an action."""
         pass

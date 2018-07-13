@@ -5,17 +5,22 @@
 
 import os
 
+from core.front.classes.title import TitleScreen
+
 
 def init():
     """Initialize the interface."""
     running = True
     page = Interface()
     while running:
-        action = input("type an action:")
+
+        page.show_content()
+
+        action = input("type an action: ")
 
         if action in page.actions:
             page.apply(action)
-        elif action == "quit()":
+        elif action == "quit":
             print("good bye!")
             running = False
         else:
@@ -33,8 +38,8 @@ class Interface():
     def actions(self):
         """Show the possibles actions."""
         return self.section.actions
-    
-    def display(self):
+
+    def show_content(self):
         """Display the current section."""
         clear()
         print(self.section)
@@ -50,4 +55,5 @@ class Interface():
 
 def clear():
     """Clear the console."""
-    os.system('cls' if os.name == 'nt' else 'clear')
+    os.system('cls')
+    os.system('clear')
