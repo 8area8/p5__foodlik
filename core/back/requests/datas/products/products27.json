@@ -1,87 +1,5 @@
 [
     {
-        "name": "Gros oeufs frais Première Fraîcheur",
-        "description": "6 oeufs de poule élevées en cage - catégorie A source naturelle d oméga 3",
-        "categories": [
-            "Produits d élevages",
-            "Œufs d oiseau",
-            "Œufs"
-        ],
-        "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/3760150111342/gros-oeufs-frais-premiere-fraicheur-lustucru",
-        "score": -1
-    },
-    {
-        "name": "Cakes au chocolat",
-        "description": "",
-        "categories": [
-            "Snacks sucrés",
-            "Desserts",
-            "Biscuits et gâteaux",
-            "Gâteaux",
-            "Gâteaux au chocolat"
-        ],
-        "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/3760154260930/cakes-au-chocolat-nature-cie",
-        "score": 11
-    },
-    {
-        "name": "Pains à Hamburger",
-        "description": "pain hamburger",
-        "categories": [
-            "Aliments et boissons à base de végétaux",
-            "Aliments d origine végétale",
-            "Céréales et pommes de terre",
-            "Pains",
-            "Pains spéciaux"
-        ],
-        "stores": "Intermarché,leglutenenmoins.com",
-        "site_url": "https://world.openfoodfacts.org/product/3760154260510/pains-a-hamburger-nature-cie",
-        "score": -2
-    },
-    {
-        "name": "Cidou Orange",
-        "description": "",
-        "categories": [
-            "Aliments et boissons à base de végétaux",
-            "Boissons",
-            "Boissons à base de végétaux",
-            "Boissons aux fruits",
-            "Jus et nectars",
-            "Jus et nectars de fruits",
-            "Nectars de fruits"
-        ],
-        "stores": "Cora",
-        "site_url": "https://world.openfoodfacts.org/product/3760225491287/cidou-orange",
-        "score": 14
-    },
-    {
-        "name": "Nouilles instantanées saveur crevette TOM YUM",
-        "description": "Nouilles chinoises",
-        "categories": [
-            "Aliments et boissons à base de végétaux",
-            "Aliments d origine végétale",
-            "Céréales et pommes de terre",
-            "Céréales et dérivés",
-            "Nouilles"
-        ],
-        "stores": "Auchan",
-        "site_url": "https://world.openfoodfacts.org/product/3760092457478/nouilles-instantanees-saveur-crevette-tom-yum-waiwai",
-        "score": 26
-    },
-    {
-        "name": "Chocolat noir caramel pointe de sel Cacao origine Pérou Haïti Ethiquable",
-        "description": "Chocolat noir caramel",
-        "categories": [
-            "Snacks sucrés",
-            "Chocolats",
-            "Chocolats noirs"
-        ],
-        "stores": "Carrefour",
-        "site_url": "https://world.openfoodfacts.org/product/3760091723574/chocolat-noir-caramel-pointe-de-sel-cacao-origine-perou-haiti-ethiquable",
-        "score": 21
-    },
-    {
         "name": "Chips salées banane plantain",
         "description": "",
         "categories": [
@@ -872,7 +790,7 @@
         ],
         "stores": "ALDI",
         "site_url": "https://world.openfoodfacts.org/product/26043159/pains-pour-4-kebab-mannapain",
-        "score": 4
+        "score": 3
     },
     {
         "name": "Cornichons Recette Paysanne, Aigres-doux",
@@ -1584,10 +1502,9 @@
         "description": "",
         "categories": [
             "Snacks sucrés",
-            "Desserts",
             "Biscuits et gâteaux",
             "Biscuits",
-            "Gâteaux"
+            "Biscuits au chocolat"
         ],
         "stores": "Carrefour",
         "site_url": "https://world.openfoodfacts.org/product/3328481290374/les-florentins-chocolat-noir-et-caramel-au-beurre-sale-michel-chatillon",
@@ -7081,7 +6998,7 @@
         ],
         "stores": "leclerc",
         "site_url": "https://world.openfoodfacts.org/product/3272036001147/capital-vitamine-orange-carotte-citron-moulin-de-valdonne",
-        "score": 11
+        "score": 10
     },
     {
         "name": "Capital cranberry",
@@ -7324,5 +7241,79 @@
         "stores": "La Vie Claire",
         "site_url": "https://world.openfoodfacts.org/product/3273220133989/yaourt-bifidus-nature-tante-helene",
         "score": 0
+    },
+    {
+        "name": "Bifidus, Saveur Citron",
+        "description": "Lait fermenté au Bifidus, sucré, aromatisé goût citron, au lait demi-écrémé",
+        "categories": [
+            "Produits laitiers",
+            "Produits fermentés",
+            "Produits laitiers fermentés",
+            "Yaourts",
+            "Yaourts aromatisés",
+            "Yaourts sucrés"
+        ],
+        "stores": "Satoriz,Bio14",
+        "site_url": "https://world.openfoodfacts.org/product/3273220135419/bifidus-saveur-citron-tante-helene",
+        "score": 3
+    },
+    {
+        "name": "Hamburguesas vegetales Tomate y albahaca",
+        "description": "Hamburguesas vegetales de soja",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Aliments d origine végétale",
+            "Substituts de viande"
+        ],
+        "stores": "Supermercados Gigante",
+        "site_url": "https://world.openfoodfacts.org/product/3273228086072/hamburguesas-vegetales-tomate-y-albahaca-sojasun",
+        "score": -1
+    },
+    {
+        "name": "Hamburguesas vegetales Provenzal",
+        "description": "Hamburguesas vegetales de soja",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Aliments d origine végétale",
+            "Substituts de viande"
+        ],
+        "stores": "Alcampo,Carrefour,El corte inglés",
+        "site_url": "https://world.openfoodfacts.org/product/3273228086102/hamburguesas-vegetales-provenzal-sojasun",
+        "score": -2
+    },
+    {
+        "name": "Soja Cuisine (17 % MG) ",
+        "description": "Spécialité culinaire à base de soja et de matières grasses végétales, stérilisée UHT, issue de l agriculture biologique",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Aliments d origine végétale"
+        ],
+        "stores": "El Corte Inglés,Veritas",
+        "site_url": "https://world.openfoodfacts.org/product/3273227088213/soja-cuisine-17-mg-sojade",
+        "score": 3
+    },
+    {
+        "name": "Boulettes végétales aux herbes",
+        "description": "Préparation à base de soja précuite aromatisée aux herbes de Provence",
+        "categories": [
+            "Plats préparés",
+            "Plats préparés d origine végétale"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/3273220086971/boulettes-vegetales-aux-herbes-sojasun",
+        "score": -5
+    },
+    {
+        "name": "Fromage blanc Tante Hélène",
+        "description": "Fromage blanc",
+        "categories": [
+            "Produits laitiers",
+            "Produits fermentés",
+            "Produits laitiers fermentés",
+            "Fromages"
+        ],
+        "stores": "Bio C bon",
+        "site_url": "https://world.openfoodfacts.org/product/3273220154052/fromage-blanc-tante-helene",
+        "score": -2
     }
 ]

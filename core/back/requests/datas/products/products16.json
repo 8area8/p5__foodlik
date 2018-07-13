@@ -1,42 +1,5 @@
 [
     {
-        "name": "Avocat au jus de citron vert",
-        "description": "Soupe froide à l avocat au jus de citron vert",
-        "categories": [
-            "Plats préparés",
-            "Soupes"
-        ],
-        "stores": "carrefour",
-        "site_url": "https://world.openfoodfacts.org/product/3760132081397/avocat-au-jus-de-citron-vert-green-shoot",
-        "score": 3
-    },
-    {
-        "name": "Mon fournil préparation pour pain aux graines sans gluten",
-        "description": "",
-        "categories": [
-            "Aliments et boissons à base de végétaux",
-            "Aliments d origine végétale",
-            "Farines"
-        ],
-        "stores": "Auchan",
-        "site_url": "https://world.openfoodfacts.org/product/3760130560443/mon-fournil-preparation-pour-pain-aux-graines-sans-gluten",
-        "score": 10
-    },
-    {
-        "name": "Préparation pour brioche",
-        "description": "Préparation pour brioche",
-        "categories": [
-            "Aliments et boissons à base de végétaux",
-            "Aliments d origine végétale",
-            "Céréales et pommes de terre",
-            "Céréales et dérivés",
-            "Farines"
-        ],
-        "stores": "Auchan,Carrefour Market",
-        "site_url": "https://world.openfoodfacts.org/product/3760130560047/preparation-pour-brioche-mon-fournil",
-        "score": 0
-    },
-    {
         "name": "Pizza Bio Emmental Jambon",
         "description": "",
         "categories": [
@@ -447,7 +410,7 @@
         "score": 25
     },
     {
-        "name": "Galettes Bretonnes pur beurre de baratte",
+        "name": "Galettes  bretonnes",
         "description": "Galettes Bretonnes",
         "categories": [
             "Snacks sucrés",
@@ -455,7 +418,7 @@
             "Biscuits"
         ],
         "stores": "Biocoop",
-        "site_url": "https://world.openfoodfacts.org/product/3760121211071/galettes-bretonnes-pur-beurre-de-baratte-biocoop",
+        "site_url": "https://world.openfoodfacts.org/product/3760121211071/galettes-bretonnes-biocoop",
         "score": 24
     },
     {
@@ -6344,8 +6307,8 @@
         "score": 5
     },
     {
-        "name": "Tofu tradicional",
-        "description": "Tofu elaboración tradicional",
+        "name": "Tofu natur",
+        "description": "Tofu natur",
         "categories": [
             "Aliments et boissons à base de végétaux",
             "Aliments d origine végétale",
@@ -6353,7 +6316,7 @@
             "Substituts de viande"
         ],
         "stores": "Natureo",
-        "site_url": "https://world.openfoodfacts.org/product/4012359110107/tofu-tradicional-taifun",
+        "site_url": "https://world.openfoodfacts.org/product/4012359110107/tofu-natur-taifun",
         "score": -3
     },
     {
@@ -7255,9 +7218,9 @@
             "Plats préparés d origine végétale",
             "Plats préparés frais"
         ],
-        "stores": "Carrefour",
+        "stores": "Carrefour,Intermarché",
         "site_url": "https://world.openfoodfacts.org/product/3281780063509/ma-salade-de-lentilles-a-la-lyonnaise-pierre-martinet",
-        "score": 2
+        "score": 0
     },
     {
         "name": "Mon Taboulé Oriental à l Huile d Olive Vierge Extra ",
@@ -8914,5 +8877,65 @@
         "stores": "Carrefour Market",
         "site_url": "https://world.openfoodfacts.org/product/3092718612276/mix-go-trio-d-agrumes-teisseire",
         "score": 10
+    },
+    {
+        "name": "Sirop cola",
+        "description": "",
+        "categories": [
+            "Boissons",
+            "Sirops",
+            "Sirops aromatisés"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/3092718605544/sirop-cola-teisseire",
+        "score": 20
+    },
+    {
+        "name": "Fruit Shoot Tropical",
+        "description": "Boisson rafraîchissante aux fruits - Saveur Tropicale",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Boissons",
+            "Boissons à base de végétaux",
+            "Boissons aux fruits",
+            "Boissons non sucrées",
+            "Boissons sucrées"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/3092718607791/fruit-shoot-tropical-teisseire",
+        "score": 8
+    },
+    {
+        "name": "Sirop de Pomme",
+        "description": "Sirop de Pomme",
+        "categories": [
+            "Boissons",
+            "Boissons sucrées"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/3092718605063/sirop-de-pomme-teisseire",
+        "score": 20
+    },
+    {
+        "name": "Teisseire 0% Grenadine",
+        "description": "Sirop sans sucre",
+        "categories": [
+            "Boissons",
+            "Boissons édulcorées",
+            "Sirops"
+        ],
+        "stores": "Intermarché",
+        "site_url": "https://world.openfoodfacts.org/product/3092718605605/teisseire-0-grenadine",
+        "score": 0
+    },
+    {
+        "name": "Tropical fruits exotiques",
+        "description": "",
+        "categories": [
+            "Boissons"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/3092718605483/tropical-fruits-exotiques-teisseire",
+        "score": 20
     }
 ]

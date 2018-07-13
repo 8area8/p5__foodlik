@@ -1,19 +1,5 @@
 [
     {
-        "name": "Super Poulain",
-        "description": "Préparation en poudre pour boisson instantanée cacaotée",
-        "categories": [
-            "Boissons",
-            "Petit déjeuners",
-            "Snacks sucrés",
-            "Chocolats",
-            "Boissons sucrées"
-        ],
-        "stores": "Intermarché",
-        "site_url": "https://world.openfoodfacts.org/product/3538280030631/super-poulain",
-        "score": 15
-    },
-    {
         "name": "Sojasun Natural",
         "description": "Postre de soja natural con Bífidus enriquecido con calcio",
         "categories": [
@@ -1667,7 +1653,7 @@
         ],
         "stores": "Leclerc",
         "site_url": "https://world.openfoodfacts.org/product/3017760329798/pepito-pockitos-lu",
-        "score": 23
+        "score": 22
     },
     {
         "name": "Oasis pomme cassis framboise",
@@ -2918,7 +2904,7 @@
         "score": 13
     },
     {
-        "name": "Scrabble",
+        "name": "Miel pops",
         "description": "Maïs soufflé au miel enrichi en vitamines (B1, B2, niacine, B6, acide folique, B12, D), en calcium et en fer",
         "categories": [
             "Aliments et boissons à base de végétaux",
@@ -2929,7 +2915,7 @@
             "Céréales pour petit déjeuner"
         ],
         "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/5053827110983/scrabble-kellogg-s",
+        "site_url": "https://world.openfoodfacts.org/product/5053827110983/miel-pops-kellogg-s",
         "score": 9
     },
     {
@@ -4569,7 +4555,7 @@
         "score": -3
     },
     {
-        "name": "Petit Brun extra",
+        "name": "Petit brun extra",
         "description": "Biscuit sec",
         "categories": [
             "Snacks sucrés",
@@ -4897,6 +4883,19 @@
         "stores": "auchan,Kvickly",
         "site_url": "https://world.openfoodfacts.org/product/5449000052407/coca-cola-life",
         "score": 8
+    },
+    {
+        "name": "Grenadine",
+        "description": "",
+        "categories": [
+            "Boissons",
+            "Sirops",
+            "Sirops aromatisés",
+            "Boissons sucrées"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/3272030002232/grenadine-moulin-de-valdonne",
+        "score": 10
     },
     {
         "name": "Orange, 100 % Pur Fruit Pressé",
@@ -7465,7 +7464,7 @@
         "score": 13
     },
     {
-        "name": "Blé sésame bio",
+        "name": "Sablés Sésame & Pavot",
         "description": "Biscuits à la farine de blé et aux graines de sésame",
         "categories": [
             "Snacks sucrés",
@@ -7473,7 +7472,7 @@
             "Biscuits"
         ],
         "stores": "Leclerc",
-        "site_url": "https://world.openfoodfacts.org/product/3229820181738/ble-sesame-bio-bjorg",
+        "site_url": "https://world.openfoodfacts.org/product/3229820181738/sables-sesame-pavot-bjorg",
         "score": 9
     },
     {
@@ -7486,7 +7485,7 @@
         ],
         "stores": "Carrefour",
         "site_url": "https://world.openfoodfacts.org/product/3229820783659/le-sable-bjorg",
-        "score": 10
+        "score": 19
     },
     {
         "name": "Thon entier au naturel Albacore",
@@ -7688,6 +7687,20 @@
         "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3161879072400/pastilles-parfum-menthe-comptoir-du-grain",
         "score": 15
+    },
+    {
+        "name": "Bonne Purée",
+        "description": "purée de pommes de terre",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Aliments d origine végétale",
+            "Céréales et pommes de terre",
+            "Produits déshydratés",
+            "Produits lyophilisés à reconstituer"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/3162080201146/bonne-puree-vico",
+        "score": -1
     },
     {
         "name": "Sauce pesto alla genovese",
@@ -8174,7 +8187,7 @@
             "Pâtes alimentaires",
             "Plats préparés frais"
         ],
-        "stores": "Super U, Franprix",
+        "stores": "Super U,Franprix",
         "site_url": "https://world.openfoodfacts.org/product/3240930007787/demi-lune-tomate-basilic-mozzarella-lustucru",
         "score": 1
     },
@@ -9818,19 +9831,17 @@
         "score": 17
     },
     {
-        "name": "Dessert végétal, Fruits mixés (Mandarine-Citron Vert) 4 Pots",
+        "name": "Dessert végétal, Fruits mixés (Mandarine-Citron Vert)",
         "description": "Spécialité végétale au soja fermentée, sucrée, à la pulpe de fruit, enrichie en calcium",
         "categories": [
-            "Frais",
             "Produits laitiers",
             "Produits fermentés",
             "Desserts",
             "Produits laitiers fermentés",
-            "Yaourts",
-            "Yaourts aux fruits"
+            "Yaourts"
         ],
         "stores": "Auchan",
-        "site_url": "https://world.openfoodfacts.org/product/3273220083758/dessert-vegetal-fruits-mixes-mandarine-citron-vert-4-pots-sojasun",
+        "site_url": "https://world.openfoodfacts.org/product/3273220083758/dessert-vegetal-fruits-mixes-mandarine-citron-vert-sojasun",
         "score": 0
     },
     {
@@ -11146,15 +11157,12 @@
         "name": "Dessert végétal chocolat",
         "description": "Dessert au soja au chocolat, enrichi au calcium",
         "categories": [
-            "Produits laitiers",
-            "Produits fermentés",
             "Desserts",
-            "Produits laitiers fermentés",
-            "Yaourts"
+            "Desserts au chocolat"
         ],
         "stores": "Leclerc",
         "site_url": "https://world.openfoodfacts.org/product/3273220085523/dessert-vegetal-chocolat-sojasun",
-        "score": 1
+        "score": 2
     },
     {
         "name": "Sorbet cerise griotte",
@@ -11385,7 +11393,7 @@
         "score": 11
     },
     {
-        "name": "Jus  Ananas Pressés",
+        "name": "Jus  Ananas Andros",
         "description": "Jus d ananas",
         "categories": [
             "Aliments et boissons à base de végétaux",
@@ -11397,7 +11405,7 @@
             "Jus de fruits"
         ],
         "stores": "Simply Market,Franprix",
-        "site_url": "https://world.openfoodfacts.org/product/3045320104196/jus-ananas-presses-andros",
+        "site_url": "https://world.openfoodfacts.org/product/3045320104196/jus-ananas-andros",
         "score": 7
     },
     {

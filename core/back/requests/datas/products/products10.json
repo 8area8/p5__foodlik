@@ -1,75 +1,5 @@
 [
     {
-        "name": "Camembert Grand Coeur (21% MG)",
-        "description": "Camembert au lait pasteurisé",
-        "categories": [
-            "Produits laitiers",
-            "Produits fermentés",
-            "Produits laitiers fermentés",
-            "Fromages",
-            "Fromages de vache",
-            "Fromages à pâte molle à croûte fleurie",
-            "Fromages pasteurisés",
-            "Fromages industriels"
-        ],
-        "stores": "Cora,Leclerc",
-        "site_url": "https://world.openfoodfacts.org/product/3176582003016/camembert-grand-coeur-21-mg-coeur-de-lion",
-        "score": 14
-    },
-    {
-        "name": "La Raclette Classique (26% MG) Format familial",
-        "description": "Fromage industriel, à pâte pressée non cuite, au lait pasteurisé de vache, en tranches",
-        "categories": [
-            "Frais",
-            "Produits laitiers",
-            "Produits fermentés",
-            "Produits laitiers fermentés",
-            "Fromages",
-            "Fromages de vache",
-            "Fromages pasteurisés",
-            "Fromages industriels"
-        ],
-        "stores": "Carrefour Market",
-        "site_url": "https://world.openfoodfacts.org/product/3176584514008/la-raclette-classique-26-mg-format-familial-richesmonts",
-        "score": 15
-    },
-    {
-        "name": "Blonvilliers Pure canne petits morceaux",
-        "description": "Sucre de canne",
-        "categories": [
-            "Édulcorants",
-            "Sucres"
-        ],
-        "stores": "Leclerc",
-        "site_url": "https://world.openfoodfacts.org/product/3174660055216/blonvilliers-pure-canne-petits-morceaux-beghin-say",
-        "score": 14
-    },
-    {
-        "name": "Galettes de Polenta Méditerranéenne",
-        "description": "Galettes de Polenta au comté, tomates séchées et basilic",
-        "categories": [
-            "Frais",
-            "Plats préparés",
-            "Plats préparés à réchauffer au micro ondes",
-            "Plats préparés frais"
-        ],
-        "stores": "Franprix",
-        "site_url": "https://world.openfoodfacts.org/product/3175681137851/galettes-de-polenta-mediterraneenne-cereal-bio",
-        "score": 1
-    },
-    {
-        "name": "Palets de Céréales au Riz Coco & saveur Citron Bio",
-        "description": "Biscuits riches en céréales, au riz, à la noix de coco, saveur citron, issus de l agriculture biologique",
-        "categories": [
-            "Snacks sucrés",
-            "Biscuits et gâteaux",
-            "Biscuits"
-        ],
-        "stores": "Banque alimentaire",
-        "site_url": "https://world.openfoodfacts.org/product/3175681140806/palets-de-cereales-au-riz-coco-saveur-citron-bio-cereal-bio",
-        "score": 13
-    },
-    {
         "name": "Palets de Céréales à l Avoine Amande & Abricot",
         "description": "",
         "categories": [
@@ -1519,7 +1449,7 @@
         "score": 18
     },
     {
-        "name": "14 Mini-cakes aux Pépites de Chocolat",
+        "name": "14 mini-cakes aux pépites de chocolat",
         "description": "14 petits gâteaux aux pépites de chocolat",
         "categories": [
             "Snacks sucrés",
@@ -6860,20 +6790,6 @@
         "score": -4
     },
     {
-        "name": "Surimi",
-        "description": "Préparation à base de chair de poisson",
-        "categories": [
-            "Frais",
-            "Plats préparés",
-            "Produits de la mer",
-            "Poissons",
-            "Plats à base de poisson"
-        ],
-        "stores": "Auchan",
-        "site_url": "https://world.openfoodfacts.org/product/3254560406094/surimi-auchan",
-        "score": 3
-    },
-    {
         "name": "Extra croquant",
         "description": "Maïs doux en grains",
         "categories": [
@@ -7203,7 +7119,7 @@
         ],
         "stores": "Intermarché",
         "site_url": "https://world.openfoodfacts.org/product/3250390002130/cacahuetes-grillees-salees-bouton-d-or",
-        "score": 16
+        "score": 18
     },
     {
         "name": "Boisson au Soja, Saveur Vanille",
@@ -9780,5 +9696,74 @@
         "stores": "Hyper U",
         "site_url": "https://world.openfoodfacts.org/product/3184670004623/le-yaourt-au-lait-de-chevre-citron-rians",
         "score": 3
+    },
+    {
+        "name": "Minisel",
+        "description": "",
+        "categories": [
+            "Epicerie",
+            "Condiments"
+        ],
+        "stores": "SImply Market",
+        "site_url": "https://world.openfoodfacts.org/product/3183280012578/minisel-la-baleine",
+        "score": 10
+    },
+    {
+        "name": "Bio bis",
+        "description": "",
+        "categories": [
+            "Snacks sucrés",
+            "Biscuits et gâteaux"
+        ],
+        "stores": "Bio14",
+        "site_url": "https://world.openfoodfacts.org/product/3184340000542/bio-bis-pural",
+        "score": 21
+    },
+    {
+        "name": "Aceitunas verdes rellenas de pimiento",
+        "description": "Aceitunas verdes rellenas de pimiento",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Aliments d origine végétale",
+            "Pickles",
+            "Produits de l olivier",
+            "Pickles d origine végétale",
+            "Olives",
+            "Conserves"
+        ],
+        "stores": "Lidl",
+        "site_url": "https://world.openfoodfacts.org/product/20033378/aceitunas-verdes-rellenas-de-pimiento-baresa",
+        "score": 13
+    },
+    {
+        "name": "Craquante nature",
+        "description": "Chips de pommes de terre salées, ondulées",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Aliments d origine végétale",
+            "Céréales et pommes de terre",
+            "Snacks salés",
+            "Apéritif",
+            "Chips et frites",
+            "Chips",
+            "Chips de pommes de terre",
+            "Chips de pommes de terre à l huile de tournesol"
+        ],
+        "stores": "Lidl",
+        "site_url": "https://world.openfoodfacts.org/product/20095000/craquante-nature-crusti-croc",
+        "score": 14
+    },
+    {
+        "name": "Crème Dessert saveur Vanille",
+        "description": "",
+        "categories": [
+            "Frais",
+            "Produits laitiers",
+            "Desserts",
+            "Desserts lactés"
+        ],
+        "stores": "Lidl",
+        "site_url": "https://world.openfoodfacts.org/product/20094638/creme-dessert-saveur-vanille-kingfrais",
+        "score": 4
     }
 ]

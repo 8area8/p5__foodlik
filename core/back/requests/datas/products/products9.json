@@ -1,61 +1,5 @@
 [
     {
-        "name": "Gaufrettes fines au beurre",
-        "description": "",
-        "categories": [
-            "Snacks sucrés",
-            "Biscuits et gâteaux",
-            "Biscuits"
-        ],
-        "stores": "Aldi",
-        "site_url": "https://world.openfoodfacts.org/product/26034669/gaufrettes-fines-au-beurre-delice",
-        "score": 26
-    },
-    {
-        "name": "Cranberry original",
-        "description": "Cranberries séchées",
-        "categories": [
-            "Aliments et boissons à base de végétaux",
-            "Aliments d origine végétale",
-            "Aliments à base de fruits et de légumes",
-            "Fruits et produits dérivés",
-            "Produits déshydratés",
-            "Fruits",
-            "Aliments à base de plantes séchées",
-            "Fruits secs"
-        ],
-        "stores": "leclerc,Cora",
-        "site_url": "https://world.openfoodfacts.org/product/3231200920264/cranberry-original-ocean-spray",
-        "score": 4
-    },
-    {
-        "name": "Coq Ailes Mexicain",
-        "description": "Manchons de poulet marinés, rôtis",
-        "categories": [
-            "Viandes",
-            "Plats préparés",
-            "Volailles",
-            "Poulets"
-        ],
-        "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/3230890016806/coq-ailes-mexicain-maitre-coq",
-        "score": 11
-    },
-    {
-        "name": "Purée de piments",
-        "description": "",
-        "categories": [
-            "Aliments et boissons à base de végétaux",
-            "Aliments d origine végétale",
-            "Epicerie",
-            "Condiments",
-            "Epices"
-        ],
-        "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/3233783625000/puree-de-piments-suzi-wan",
-        "score": 5
-    },
-    {
         "name": "Les Galettes Bretonnes Pur Beurre",
         "description": "galettes bretonnes",
         "categories": [
@@ -555,7 +499,7 @@
         "score": 4
     },
     {
-        "name": "Farine de blé bio",
+        "name": "Farine de blé bio T55",
         "description": "Farine de blé",
         "categories": [
             "Aliments et boissons à base de végétaux",
@@ -565,7 +509,7 @@
             "Farines"
         ],
         "stores": "Intermarché",
-        "site_url": "https://world.openfoodfacts.org/product/3068110703249/farine-de-ble-bio-francine",
+        "site_url": "https://world.openfoodfacts.org/product/3068110703249/farine-de-ble-bio-t55-francine",
         "score": -5
     },
     {
@@ -9526,5 +9470,75 @@
         "stores": "Leclerc",
         "site_url": "https://world.openfoodfacts.org/product/3176582003009/coulommiers-l-extra-cremeux-coeur-de-lion",
         "score": 14
+    },
+    {
+        "name": "Camembert Grand Coeur (21% MG)",
+        "description": "Camembert au lait pasteurisé",
+        "categories": [
+            "Produits laitiers",
+            "Produits fermentés",
+            "Produits laitiers fermentés",
+            "Fromages",
+            "Fromages de vache",
+            "Fromages à pâte molle à croûte fleurie",
+            "Fromages pasteurisés",
+            "Fromages industriels"
+        ],
+        "stores": "Cora,Leclerc",
+        "site_url": "https://world.openfoodfacts.org/product/3176582003016/camembert-grand-coeur-21-mg-coeur-de-lion",
+        "score": 14
+    },
+    {
+        "name": "La Raclette Classique (26% MG) Format familial",
+        "description": "Fromage industriel, à pâte pressée non cuite, au lait pasteurisé de vache, en tranches",
+        "categories": [
+            "Frais",
+            "Produits laitiers",
+            "Produits fermentés",
+            "Produits laitiers fermentés",
+            "Fromages",
+            "Fromages de vache",
+            "Fromages pasteurisés",
+            "Fromages industriels"
+        ],
+        "stores": "Carrefour Market",
+        "site_url": "https://world.openfoodfacts.org/product/3176584514008/la-raclette-classique-26-mg-format-familial-richesmonts",
+        "score": 15
+    },
+    {
+        "name": "Blonvilliers Pure canne petits morceaux",
+        "description": "Sucre de canne",
+        "categories": [
+            "Édulcorants",
+            "Sucres"
+        ],
+        "stores": "Leclerc",
+        "site_url": "https://world.openfoodfacts.org/product/3174660055216/blonvilliers-pure-canne-petits-morceaux-beghin-say",
+        "score": 14
+    },
+    {
+        "name": "Galettes de Polenta Méditerranéenne",
+        "description": "Galettes de Polenta au comté, tomates séchées et basilic",
+        "categories": [
+            "Frais",
+            "Plats préparés",
+            "Plats préparés à réchauffer au micro ondes",
+            "Plats préparés frais"
+        ],
+        "stores": "Franprix",
+        "site_url": "https://world.openfoodfacts.org/product/3175681137851/galettes-de-polenta-mediterraneenne-cereal-bio",
+        "score": 1
+    },
+    {
+        "name": "Palets de Céréales au Riz Coco & saveur Citron Bio",
+        "description": "Biscuits riches en céréales, au riz, à la noix de coco, saveur citron, issus de l agriculture biologique",
+        "categories": [
+            "Snacks sucrés",
+            "Biscuits et gâteaux",
+            "Biscuits"
+        ],
+        "stores": "Banque alimentaire",
+        "site_url": "https://world.openfoodfacts.org/product/3175681140806/palets-de-cereales-au-riz-coco-saveur-citron-bio-cereal-bio",
+        "score": 13
     }
 ]

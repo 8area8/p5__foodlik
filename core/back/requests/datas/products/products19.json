@@ -1,76 +1,5 @@
 [
     {
-        "name": "Brioche tressée à la main aux oeufs frais",
-        "description": "Brioche tressée",
-        "categories": [
-            "Petit déjeuners",
-            "Snacks sucrés",
-            "Viennoiseries",
-            "Brioches"
-        ],
-        "stores": "Intermarché",
-        "site_url": "https://world.openfoodfacts.org/product/3250391588749/brioche-tressee-a-la-main-aux-oeufs-frais-chabrior",
-        "score": 15
-    },
-    {
-        "name": "Tableau d honneur chocolat au lait",
-        "description": "12 biscuits au beurre avec tablette de chocolat au lait",
-        "categories": [
-            "Snacks sucrés",
-            "Biscuits et gâteaux",
-            "Biscuits",
-            "Biscuits au chocolat"
-        ],
-        "stores": "Intermarché",
-        "site_url": "https://world.openfoodfacts.org/product/3250390145561/tableau-d-honneur-chocolat-au-lait-chabrior",
-        "score": 23
-    },
-    {
-        "name": "P tit Crémeux (x 12 portions) - (30 % MG)",
-        "description": "Fromage industriel de France, à pâte fondue, au lait de vache, à tartiner",
-        "categories": [
-            "Frais",
-            "Produits laitiers",
-            "Produits fermentés",
-            "Produits à tartiner",
-            "Produits laitiers fermentés",
-            "Biscuits apéritifs",
-            "Fromages",
-            "Fromages de vache",
-            "Fromages de France",
-            "Fromages industriels"
-        ],
-        "stores": "Intermarché",
-        "site_url": "https://world.openfoodfacts.org/product/3250390521167/p-tit-cremeux-x-12-portions-30-mg-paturages",
-        "score": 13
-    },
-    {
-        "name": "La Viande Hachée (15 % MG) - Pur Bœuf",
-        "description": "Viande hachée",
-        "categories": [
-            "Frais",
-            "Viandes",
-            "Bœuf",
-            "Viandes fraîches"
-        ],
-        "stores": "Intermarché",
-        "site_url": "https://world.openfoodfacts.org/product/3250390303237/la-viande-hachee-15-mg-pur-boeuf-jean-roze",
-        "score": 3
-    },
-    {
-        "name": "Biscuits pour le petit déjeuner pépites de chocolat & cacao",
-        "description": "Biscuits cacaotés aux pépites de chocolat",
-        "categories": [
-            "Snacks sucrés",
-            "Biscuits et gâteaux",
-            "Biscuits",
-            "Biscuits au chocolat"
-        ],
-        "stores": "Netto",
-        "site_url": "https://world.openfoodfacts.org/product/3250390736356/biscuits-pour-le-petit-dejeuner-pepites-de-chocolat-cacao-netto",
-        "score": 9
-    },
-    {
         "name": "Purée de pomme, pêche, mangue Bio",
         "description": "Purée de pomme, pêche, mangue Bio",
         "categories": [
@@ -2385,7 +2314,7 @@
             "Epicerie",
             "Sauces"
         ],
-        "stores": "U Express, Magasins U",
+        "stores": "U Express,Magasins U,Super U",
         "site_url": "https://world.openfoodfacts.org/product/3256222254227/sauce-vinaigrette-au-vinaigre-de-vin-rouge-et-a-l-echalote-u",
         "score": 20
     },
@@ -7113,7 +7042,7 @@
         "score": 1
     },
     {
-        "name": "Le Spécial à la Tomate",
+        "name": "Le spécial à la tomate",
         "description": "Préparation surgelée à 51% de viande de boeuf hachée à la tomate avec des protéines végétales - Le Spécial à la Tomate",
         "categories": [
             "Viandes",
@@ -9315,5 +9244,70 @@
         "stores": "Auchan",
         "site_url": "https://world.openfoodfacts.org/product/3596710402014/filets-de-maquereaux-marines-au-muscadet-et-aux-5-aromates-auchan",
         "score": 4
+    },
+    {
+        "name": "Noir pépites cranberries",
+        "description": "Chocolat noir",
+        "categories": [
+            "Snacks sucrés",
+            "Chocolats",
+            "Chocolats noirs"
+        ],
+        "stores": "Auchan",
+        "site_url": "https://world.openfoodfacts.org/product/3596710402830/noir-pepites-cranberries-auchan",
+        "score": 26
+    },
+    {
+        "name": "Blanc de Poulet Cuit Supérieur Doré au Four",
+        "description": "",
+        "categories": [
+            "Viandes",
+            "Volailles",
+            "Poulets"
+        ],
+        "stores": "Auchan",
+        "site_url": "https://world.openfoodfacts.org/product/3596710409990/blanc-de-poulet-cuit-superieur-dore-au-four-auchan",
+        "score": 4
+    },
+    {
+        "name": "Véritable chorizo fort",
+        "description": "chorizo fort extra",
+        "categories": [
+            "Viandes",
+            "Charcuteries"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/3596710401567/veritable-chorizo-fort-auchan",
+        "score": 7
+    },
+    {
+        "name": "10 Oeufs Bios",
+        "description": "10 oeufs de poules élevées en plein air Bio",
+        "categories": [
+            "Produits d élevages",
+            "Œufs d oiseau",
+            "Œufs"
+        ],
+        "stores": "Auchan",
+        "site_url": "https://world.openfoodfacts.org/product/3596710405664/10-oeufs-bios-auchan",
+        "score": -1
+    },
+    {
+        "name": "Yaourt brassé à la vanille (8 pots)",
+        "description": "Yaourt brassé sucré à la vanille",
+        "categories": [
+            "Frais",
+            "Produits laitiers",
+            "Produits fermentés",
+            "Desserts",
+            "Produits laitiers fermentés",
+            "Yaourts",
+            "Yaourts brassés",
+            "Yaourts sucrés",
+            "Yaourts entiers"
+        ],
+        "stores": "Auchan",
+        "site_url": "https://world.openfoodfacts.org/product/3596710402922/yaourt-brasse-a-la-vanille-8-pots-auchan",
+        "score": 3
     }
 ]

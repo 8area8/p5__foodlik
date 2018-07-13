@@ -22,3 +22,11 @@ print('\n' * 3)
 cprint("Welcome to Foodlik !", "yellow", attrs=['bold'])
 print("-" * 20)
 print("blablalba")
+
+
+class TitleScreen():
+    """This class show the title screen of the application."""
+
+    def __init__(self):
+        """Initialization."""
+        pass

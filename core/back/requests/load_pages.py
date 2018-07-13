@@ -7,6 +7,7 @@ import requests
 import json
 import os
 from pathlib import Path
+import asyncio
 
 
 DATAS_PATH = Path().resolve() / "core" / "back" / "requests" / "datas"
@@ -15,6 +16,7 @@ with open(DATAS_PATH / "categories_fr.json", encoding='utf-8') as file:
 with open(DATAS_PATH / "categories_en.json", encoding='utf-8') as file:
     CATEGORIES_EN = json.load(file)
 USED_NAMES = []  # Avoid duplicates.
+MAX_ASYNC_IO = asyncio.Semaphore(30)
 
 
 def init(start, end):
@@ -23,27 +25,40 @@ def init(start, end):
         assert 0 < start <= end
     except Exception as error:
         raise error
-    _load_pages(start, end + 1)
-
-
-def _load_pages(start, end):
-    """Create or overwrite the datas file."""
     _remove_data_files()
+    print("wait few minutes for the requests...")
+    loop = asyncio.get_event_loop()
+    loop.run_until_complete(_load_pages(loop, start, end + 1))
+    loop.close()
+
+
+async def _load_pages(loop, start, end):
+    """Create or overwrite the datas file."""
     base_url = ("https://world.openfoodfacts.org/cgi/search.pl?"
                 "action=process&tagtype_0=categories&tagtype_1=countries"
                 "&tag_contains_1=france&page_size=1000&json=1")
 
+    responses = []
     for index in range(start, end):
+        print("top")
         url = base_url + f"&page={index}"
-        resp = requests.get(url).json()
+        async with MAX_ASYNC_IO:
+            responses.append(loop.run_in_executor(None, requests.get, url))
 
-        datas = _filtered_datas(resp)
-        file_path = DATAS_PATH / "products" / f"products{index}.json"
-
-        with open(file_path, "w", encoding='utf8') as file:
-            json.dump(datas, file, indent=4, ensure_ascii=False)
-
+    index = 1
+    for response in await asyncio.gather(*responses):  # == time.sleep(1.4) :D
+        _filter_and_dump(response.json(), index)
         print(f"page {index}/{end - 1} done.")
+        index += 1
+
+
+def _filter_and_dump(resp, index):
+    """Filter and dump the datas."""
+    datas = _filtered_datas(resp)
+    file_path = DATAS_PATH / "products" / f"products{index}.json"
+
+    with open(file_path, "w", encoding='utf8') as file:
+        json.dump(datas, file, indent=4, ensure_ascii=False)
 
 
 def _remove_data_files():  # https: // stackoverflow.com/questions/185936
@@ -57,6 +72,7 @@ def _remove_data_files():  # https: // stackoverflow.com/questions/185936
                 os.unlink(file_path)
         except Exception as error:
             print(error)
+    print("datas files removed.")
 
 
 def _filtered_datas(datas):

@@ -1,72 +1,5 @@
 [
     {
-        "name": "Coffret thés parfumés",
-        "description": "",
-        "categories": [
-            "Boissons"
-        ],
-        "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/8712566275007/coffret-thes-parfumes-lipton",
-        "score": 2
-    },
-    {
-        "name": "Demae Ramen Bœuf",
-        "description": "Soupe de Nouilles Instantanée au goût artificiel de boeuf",
-        "categories": [
-            "Aliments et boissons à base de végétaux",
-            "Aliments d origine végétale",
-            "Céréales et pommes de terre",
-            "Céréales et dérivés",
-            "Produits déshydratés",
-            "Produits lyophilisés à reconstituer",
-            "Nouilles"
-        ],
-        "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/8712429350209/demae-ramen-boeuf-nissin",
-        "score": 4
-    },
-    {
-        "name": "Balisto goût miel-Amandes",
-        "description": "Biscuit aux céréales complètes (36%) et crème aux amandes goût miel, le tout enrobé de chocolat au lait (39%)",
-        "categories": [
-            "Snacks sucrés",
-            "Confiseries",
-            "Confiseries chocolatées",
-            "Barres"
-        ],
-        "stores": "Super U",
-        "site_url": "https://world.openfoodfacts.org/product/5000159487566/balisto-gout-miel-amandes-mars",
-        "score": 27
-    },
-    {
-        "name": "Fromage de brebis",
-        "description": "",
-        "categories": [
-            "Produits laitiers",
-            "Produits fermentés",
-            "Produits laitiers fermentés",
-            "Fromages"
-        ],
-        "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/3222472982890/fromage-de-brebis-casino",
-        "score": 18
-    },
-    {
-        "name": "Pom potes sans sucres ajoutés (format familial)",
-        "description": "",
-        "categories": [
-            "Aliments et boissons à base de végétaux",
-            "Aliments d origine végétale",
-            "Aliments à base de fruits et de légumes",
-            "Desserts",
-            "Fruits et produits dérivés",
-            "Compotes"
-        ],
-        "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/3021762420360/pom-potes-sans-sucres-ajoutes-format-familial-materne",
-        "score": -3
-    },
-    {
         "name": "Cookies aux Pépites de Chocolat (Mous)",
         "description": "",
         "categories": [
@@ -2382,7 +2315,7 @@
         ],
         "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3291337605557/boisson-prune-de-cythere-caresse-antillaise",
-        "score": 15
+        "score": 14
     },
     {
         "name": "Dessert chocolat lait",
@@ -8311,5 +8244,88 @@
         "stores": "Leclerc",
         "site_url": "https://world.openfoodfacts.org/product/3564700511428/plaisir-gourmandise-surimi-crudites-cote-snack",
         "score": 2
+    },
+    {
+        "name": "Mini Penne Rigate",
+        "description": "Pâtes alimentaires au blé dur de qualité supérieure",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Aliments d origine végétale",
+            "Céréales et pommes de terre",
+            "Céréales et dérivés",
+            "Pâtes alimentaires",
+            "Pâtes sèches"
+        ],
+        "stores": "Leclerc",
+        "site_url": "https://world.openfoodfacts.org/product/3564700512531/mini-penne-rigate-turini",
+        "score": -3
+    },
+    {
+        "name": "Haricots beurre très fins",
+        "description": "",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Aliments d origine végétale",
+            "Légumes et dérivés",
+            "Conserves",
+            "Aliments à base de plantes en conserve",
+            "Légumineuses en conserve"
+        ],
+        "stores": "Leclerc",
+        "site_url": "https://world.openfoodfacts.org/product/3564700015179/haricots-beurre-tres-fins-notre-jardin",
+        "score": -1
+    },
+    {
+        "name": "Thaï sélection riz long",
+        "description": "Riz long thaï",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Aliments d origine végétale",
+            "Céréales et pommes de terre",
+            "Graines",
+            "Céréales et dérivés",
+            "Céréales en grains",
+            "Riz"
+        ],
+        "stores": "Leclerc",
+        "site_url": "https://world.openfoodfacts.org/product/3564700010211/thai-selection-riz-long-comptoir-du-grain",
+        "score": -1
+    },
+    {
+        "name": "Confiture Extra Abricot",
+        "description": "",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Aliments d origine végétale",
+            "Aliments à base de fruits et de légumes",
+            "Petit déjeuners",
+            "Produits à tartiner",
+            "Fruits et produits dérivés",
+            "Pâtes à tartiner végétales",
+            "Produits à tartiner sucrés",
+            "Fruits en conserve",
+            "Confitures",
+            "Confitures de fruits",
+            "Confitures d abricot"
+        ],
+        "stores": "Leclerc",
+        "site_url": "https://world.openfoodfacts.org/product/3564700011126/confiture-extra-abricot-mamie-douceur",
+        "score": 12
+    },
+    {
+        "name": "Riz Long Méditerranéen",
+        "description": "Riz long",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Aliments d origine végétale",
+            "Céréales et pommes de terre",
+            "Graines",
+            "Céréales et dérivés",
+            "Céréales en grains",
+            "Riz"
+        ],
+        "stores": "leclerc",
+        "site_url": "https://world.openfoodfacts.org/product/3564700010143/riz-long-mediterraneen-comptoir-du-grain",
+        "score": -1
     }
 ]

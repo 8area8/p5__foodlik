@@ -42,7 +42,7 @@ page.py---------------------------------------
 class Page:
 	"""Affiche les informations."""
 	
-	section = Ecran_titre()
+	section = EcranTitre()
 
 	def affiche():
 		clear_console()

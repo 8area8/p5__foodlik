@@ -1,30 +1,5 @@
 [
     {
-        "name": "Mimi génoise fourrée cacao",
-        "description": "Produit de pâtisserie mini génoises cuites au four et fourrage (26%) au cacao maigre",
-        "categories": [
-            "Snacks sucrés",
-            "Biscuits et gâteaux",
-            "Gâteaux",
-            "Gâteaux au chocolat"
-        ],
-        "stores": "Aldi",
-        "site_url": "https://world.openfoodfacts.org/product/26035536/mimi-genoise-fourree-cacao-petit-choisi",
-        "score": 17
-    },
-    {
-        "name": "Lait Amandes entières",
-        "description": "Chocolat au lait extra fin aux amandes entières",
-        "categories": [
-            "Snacks sucrés",
-            "Chocolats",
-            "Chocolats au lait"
-        ],
-        "stores": "Lidl",
-        "site_url": "https://world.openfoodfacts.org/product/20005795/lait-amandes-entieres-bellarom",
-        "score": 20
-    },
-    {
         "name": "Chocolat noir pâtissier 64%",
         "description": "",
         "categories": [
@@ -2610,17 +2585,6 @@
         "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/8016438002068/jus-de-citron-vert-bio-juic",
         "score": -3
-    },
-    {
-        "name": "Snacky",
-        "description": "Gâteaux apéritifs, Apéritifs",
-        "categories": [
-            "Snacks salés",
-            "Apéritif"
-        ],
-        "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/8019440085197/snacky-belin",
-        "score": 24
     },
     {
         "name": "Couscous Kamut",
@@ -6761,5 +6725,81 @@
         "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3080920981945/grand-ananas-st-mamet",
         "score": 1
+    },
+    {
+        "name": "Caviar d Artichauts",
+        "description": "Caviar d artichauts",
+        "categories": [
+            "Produits à tartiner",
+            "Biscuits apéritifs"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/8029689006341/caviar-d-artichauts-bio-gustiamo",
+        "score": 2
+    },
+    {
+        "name": "Chocolat Excellence Noir Intense 70%",
+        "description": "",
+        "categories": [
+            "Snacks sucrés",
+            "Chocolats",
+            "Chocolats noirs"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/3046920032100/chocolat-excellence-noir-intense-70-lindt",
+        "score": 23
+    },
+    {
+        "name": "Amandes Effilées ",
+        "description": "Amandes effilées blanchies",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Aliments d origine végétale",
+            "Fruits à coques et dérivés",
+            "Fruits à coques"
+        ],
+        "stores": "Lidl",
+        "site_url": "https://world.openfoodfacts.org/product/20003418/amandes-effilees-belbake",
+        "score": 12
+    },
+    {
+        "name": "Truite Fumée au Bois de Hêtre",
+        "description": "Truite fumée décongelée",
+        "categories": [
+            "Produits de la mer",
+            "Poissons",
+            "Poissons fumés"
+        ],
+        "stores": "Super U,Magasins U",
+        "site_url": "https://world.openfoodfacts.org/product/3256220031301/truite-fumee-au-bois-de-hetre-u",
+        "score": 12
+    },
+    {
+        "name": "OAT",
+        "description": "",
+        "categories": [
+            "Produits laitiers",
+            "Laits"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/5400115399276/oat-delhaize",
+        "score": 1
+    },
+    {
+        "name": "Alpro Soya Banana",
+        "description": "",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Boissons",
+            "Aliments d origine végétale",
+            "Légumes et dérivés",
+            "Boissons à base de végétaux",
+            "Substitut du lait",
+            "Laits végétaux",
+            "Boissons non sucrées"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/5411188121992/alpro-soya-banana",
+        "score": 0
     }
 ]

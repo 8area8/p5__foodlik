@@ -1,74 +1,5 @@
 [
     {
-        "name": "Graved Salmon",
-        "description": "Filet de saumon mariné pré-tranché",
-        "categories": [
-            "Produits de la mer",
-            "Poissons",
-            "Saumons",
-            "Poissons fumés",
-            "Saumons fumés"
-        ],
-        "stores": "Coop",
-        "site_url": "https://world.openfoodfacts.org/product/7611654099246/graved-salmon-coop",
-        "score": 14
-    },
-    {
-        "name": "Épinards à la crème ",
-        "description": "Epinards à la crème",
-        "categories": [
-            "Aliments et boissons à base de végétaux",
-            "Aliments d origine végétale",
-            "Aliments à base de fruits et de légumes",
-            "Légumineuses et dérivés"
-        ],
-        "stores": "Migros",
-        "site_url": "https://world.openfoodfacts.org/product/7616800810485/epinards-a-la-creme-farmer-s-best",
-        "score": -2
-    },
-    {
-        "name": "Eucalyptus",
-        "description": "Bonbons Suisse aux plantes sans sucres avec édulcorants",
-        "categories": [
-            "Snacks sucrés",
-            "Confiseries",
-            "Bonbons"
-        ],
-        "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/7610700601396/eucalyptus-ricola",
-        "score": 2
-    },
-    {
-        "name": "Flûtes sesame",
-        "description": "Flûtes croustillantes",
-        "categories": [
-            "Snacks salés",
-            "Apéritif"
-        ],
-        "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/7610216184000/flutes-sesame-kambly",
-        "score": 18
-    },
-    {
-        "name": "Paprika original chips",
-        "description": "Chips aux paprika",
-        "categories": [
-            "Aliments et boissons à base de végétaux",
-            "Aliments d origine végétale",
-            "Céréales et pommes de terre",
-            "Snacks salés",
-            "Apéritif",
-            "Chips et frites",
-            "Chips",
-            "Chips de pommes de terre",
-            "Chips de pommes de terre aromatisées",
-            "Chips de pommes de terre à l huile de tournesol"
-        ],
-        "stores": "Coop",
-        "site_url": "https://world.openfoodfacts.org/product/7610095013002/paprika-original-chips-zweifel",
-        "score": 9
-    },
-    {
         "name": "Hummus Nature",
         "description": "Préparation de pois chiches",
         "categories": [
@@ -365,7 +296,7 @@
         "score": 9
     },
     {
-        "name": "Oreo original",
+        "name": "Oreo Original",
         "description": "Biscuit cacaotés fourrés goût vanille (29%)",
         "categories": [
             "Snacks sucrés",
@@ -1281,7 +1212,7 @@
         "score": 8
     },
     {
-        "name": "Muesli Crisp 3 Chocolats",
+        "name": "Muesli Crisp 3 chocolats",
         "description": "Pépites croustillantes de céréales aux 3 chocolats",
         "categories": [
             "Aliments et boissons à base de végétaux",
@@ -2731,7 +2662,7 @@
         "score": 14
     },
     {
-        "name": "Jambon Cuit Supérieur Label Rouge sans couenne",
+        "name": "Jambon cuit supérieur Label Rouge sans couenne",
         "description": "Jambon cuit supérieur Label Rouge sans couenne",
         "categories": [
             "Frais",
@@ -4456,6 +4387,8 @@
         "name": "Chocolate en polvo Original",
         "description": "Chocolate en polvo",
         "categories": [
+            "Petit déjeuners",
+            "Snacks sucrés",
             "Chocolats"
         ],
         "stores": "",
@@ -6194,7 +6127,7 @@
         ],
         "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/4017100527104/curly-cacahuete-l-original-vico",
-        "score": 11
+        "score": 16
     },
     {
         "name": "M&m s peanut",
@@ -7048,8 +6981,8 @@
         "categories": [
             "Snacks sucrés",
             "Biscuits et gâteaux",
-            "Biscuits",
-            "Biscuits au chocolat"
+            "Gâteaux",
+            "Gâteaux au chocolat"
         ],
         "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3175681135024/moelleux-aux-pepites-de-chocolat-gerble",
@@ -10237,5 +10170,61 @@
         "stores": "Super U",
         "site_url": "https://world.openfoodfacts.org/product/30113152/mini-bn-gout-chocolat",
         "score": 21
+    },
+    {
+        "name": "Gaufrettes fines au beurre",
+        "description": "",
+        "categories": [
+            "Snacks sucrés",
+            "Biscuits et gâteaux",
+            "Biscuits"
+        ],
+        "stores": "Aldi",
+        "site_url": "https://world.openfoodfacts.org/product/26034669/gaufrettes-fines-au-beurre-delice",
+        "score": 26
+    },
+    {
+        "name": "Cranberry original",
+        "description": "Cranberries séchées",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Aliments d origine végétale",
+            "Aliments à base de fruits et de légumes",
+            "Fruits et produits dérivés",
+            "Produits déshydratés",
+            "Fruits",
+            "Aliments à base de plantes séchées",
+            "Fruits secs"
+        ],
+        "stores": "leclerc,Cora",
+        "site_url": "https://world.openfoodfacts.org/product/3231200920264/cranberry-original-ocean-spray",
+        "score": 4
+    },
+    {
+        "name": "Coq Ailes Mexicain",
+        "description": "Manchons de poulet marinés, rôtis",
+        "categories": [
+            "Viandes",
+            "Plats préparés",
+            "Volailles",
+            "Poulets"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/3230890016806/coq-ailes-mexicain-maitre-coq",
+        "score": 11
+    },
+    {
+        "name": "Purée de piments",
+        "description": "",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Aliments d origine végétale",
+            "Epicerie",
+            "Condiments",
+            "Epices"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/3233783625000/puree-de-piments-suzi-wan",
+        "score": 5
     }
 ]

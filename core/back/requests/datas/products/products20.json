@@ -1,70 +1,5 @@
 [
     {
-        "name": "Noir pépites cranberries",
-        "description": "Chocolat noir",
-        "categories": [
-            "Snacks sucrés",
-            "Chocolats",
-            "Chocolats noirs"
-        ],
-        "stores": "Auchan",
-        "site_url": "https://world.openfoodfacts.org/product/3596710402830/noir-pepites-cranberries-auchan",
-        "score": 26
-    },
-    {
-        "name": "Blanc de Poulet Cuit Supérieur Doré au Four",
-        "description": "",
-        "categories": [
-            "Viandes",
-            "Volailles",
-            "Poulets"
-        ],
-        "stores": "Auchan",
-        "site_url": "https://world.openfoodfacts.org/product/3596710409990/blanc-de-poulet-cuit-superieur-dore-au-four-auchan",
-        "score": 4
-    },
-    {
-        "name": "Véritable chorizo fort",
-        "description": "chorizo fort extra",
-        "categories": [
-            "Viandes",
-            "Charcuteries"
-        ],
-        "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/3596710401567/veritable-chorizo-fort-auchan",
-        "score": 24
-    },
-    {
-        "name": "10 Oeufs Bios",
-        "description": "10 oeufs de poules élevées en plein air Bio",
-        "categories": [
-            "Produits d élevages",
-            "Œufs d oiseau",
-            "Œufs"
-        ],
-        "stores": "Auchan",
-        "site_url": "https://world.openfoodfacts.org/product/3596710405664/10-oeufs-bios-auchan",
-        "score": -1
-    },
-    {
-        "name": "Yaourt brassé à la vanille (8 pots)",
-        "description": "Yaourt brassé sucré à la vanille",
-        "categories": [
-            "Frais",
-            "Produits laitiers",
-            "Produits fermentés",
-            "Desserts",
-            "Produits laitiers fermentés",
-            "Yaourts",
-            "Yaourts brassés",
-            "Yaourts sucrés",
-            "Yaourts entiers"
-        ],
-        "stores": "Auchan",
-        "site_url": "https://world.openfoodfacts.org/product/3596710402922/yaourt-brasse-a-la-vanille-8-pots-auchan",
-        "score": 3
-    },
-    {
         "name": "Camembert au lait pasteurisé 22 % MG",
         "description": "Camembert au lait pasteurisé",
         "categories": [
@@ -8665,5 +8600,66 @@
         "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/76224935/choco-supreme-milka",
         "score": 24
+    },
+    {
+        "name": "Dark chocolate 50% cocoa",
+        "description": "Zartbitterschokolade 50% Kakao",
+        "categories": [
+            "Snacks sucrés",
+            "Chocolats",
+            "Chocolats noirs"
+        ],
+        "stores": "Lidl",
+        "site_url": "https://world.openfoodfacts.org/product/20005832/dark-chocolate-50-cocoa-fin-carre",
+        "score": 26
+    },
+    {
+        "name": "Dessert au lait de noix de coco",
+        "description": "Dessert végétal à base de noix de coco",
+        "categories": [
+            "Desserts"
+        ],
+        "stores": "Super U",
+        "site_url": "https://world.openfoodfacts.org/product/0680569854100/dessert-au-lait-de-noix-de-coco-the-coconut-co",
+        "score": 11
+    },
+    {
+        "name": "Duo twists provençal",
+        "description": "Bâtonnets en pâte levée au beurre, au fromage de chevre et au romarin",
+        "categories": [
+            "Snacks salés"
+        ],
+        "stores": "Lidl",
+        "site_url": "https://world.openfoodfacts.org/product/20501525/duo-twists-provencal-crusti-croc-selection",
+        "score": 24
+    },
+    {
+        "name": "Tarte au citron pâte sablée croustillante pur beurre",
+        "description": "Tarte au citron à base de pâte sablée (36%) garnie d une crème citronnée - surgelée",
+        "categories": [
+            "Snacks sucrés",
+            "Desserts",
+            "Surgelés",
+            "Biscuits et gâteaux",
+            "Desserts glacés",
+            "Tartes"
+        ],
+        "stores": "Franprix",
+        "site_url": "https://world.openfoodfacts.org/product/3263859925116/tarte-au-citron-pate-sablee-croustillante-pur-beurre-leader-price",
+        "score": 19
+    },
+    {
+        "name": "Saumon fumé au bois de hêtre élevé en Ecosse",
+        "description": "Saumon Atlantique, élevé en Ecosse, salé au sel sec et fumé au bois de hêtre",
+        "categories": [
+            "Produits de la mer",
+            "Poissons",
+            "Saumons",
+            "Poissons fumés",
+            "Saumons fumés"
+        ],
+        "stores": "Leader Price",
+        "site_url": "https://world.openfoodfacts.org/product/3263859435608/saumon-fume-au-bois-de-hetre-eleve-en-ecosse-leader-price",
+        "score": 13
     }
 ]

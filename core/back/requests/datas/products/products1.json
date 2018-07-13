@@ -1674,7 +1674,7 @@
         ],
         "stores": "Banque alimentaire",
         "site_url": "https://world.openfoodfacts.org/product/3017760756198/granola-l-original-gros-eclats-de-chocolat-lu",
-        "score": 24
+        "score": 25
     },
     {
         "name": "Pâte à Tartiner Chocolat Noisette",
@@ -1795,7 +1795,7 @@
         "score": 26
     },
     {
-        "name": "Gnocchi à Poêler (+ 15 % Gratuit) ",
+        "name": "Gnocchi à Poêler (+ 15 % Gratuit)",
         "description": "Gnocchi à la semoule de blé dur et aux flocons de pommes de terre",
         "categories": [
             "Aliments et boissons à base de végétaux",
@@ -1852,7 +1852,7 @@
         ],
         "stores": "Cora,Carrefour Market,Dia",
         "site_url": "https://world.openfoodfacts.org/product/3387390321357/fitness-nature-nestle",
-        "score": 0
+        "score": -4
     },
     {
         "name": "Country Crisp 4 Noix",
@@ -2444,19 +2444,17 @@
         "score": 2
     },
     {
-        "name": "Fruits mixés (Framboise Passion) 4 Pots",
+        "name": "Fruits mixés (Framboise Passion)",
         "description": "Spécialité au soja fermentée, sucrée, aux fruits, enrichie en calcium",
         "categories": [
-            "Frais",
             "Produits laitiers",
             "Produits fermentés",
             "Desserts",
             "Produits laitiers fermentés",
-            "Yaourts",
-            "Yaourts aux fruits"
+            "Yaourts"
         ],
         "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/3273220082188/fruits-mixes-framboise-passion-4-pots-sojasun",
+        "site_url": "https://world.openfoodfacts.org/product/3273220082188/fruits-mixes-framboise-passion-sojasun",
         "score": 1
     },
     {
@@ -2602,7 +2600,7 @@
         "score": 3
     },
     {
-        "name": "La vosgienne",
+        "name": "La vosgienne seve de pine",
         "description": "Confiseries",
         "categories": [
             "Snacks sucrés",
@@ -2610,7 +2608,7 @@
             "Bonbons"
         ],
         "stores": "monoprix,Carrefour",
-        "site_url": "https://world.openfoodfacts.org/product/3014680009175/la-vosgienne",
+        "site_url": "https://world.openfoodfacts.org/product/3014680009175/la-vosgienne-seve-de-pine",
         "score": 11
     },
     {
@@ -4239,8 +4237,7 @@
         "description": "Spécialité à base de soja",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d origine végétale",
-            "Substituts de viande"
+            "Aliments d origine végétale"
         ],
         "stores": "Franprix,Casino",
         "site_url": "https://world.openfoodfacts.org/product/3273220086056/steaks-de-soja-a-l-indienne-sojasun",
@@ -5011,19 +5008,17 @@
         "score": 8
     },
     {
-        "name": "Fruits mixés (Abricot Goyave) 4 Pots ",
+        "name": "Fruits mixés (Abricot Goyave)",
         "description": "Spécialité au soja fermentée, sucrée, aux fruits, enrichie en calcium",
         "categories": [
-            "Frais",
             "Produits laitiers",
             "Produits fermentés",
             "Desserts",
             "Produits laitiers fermentés",
-            "Yaourts",
-            "Yaourts aux fruits"
+            "Yaourts"
         ],
         "stores": "Carrefour,Super U,Leclerc",
-        "site_url": "https://world.openfoodfacts.org/product/3273220082058/fruits-mixes-abricot-goyave-4-pots-sojasun",
+        "site_url": "https://world.openfoodfacts.org/product/3273220082058/fruits-mixes-abricot-goyave-sojasun",
         "score": 0
     },
     {
@@ -5799,7 +5794,7 @@
         ],
         "stores": "Distributeur,Distributeur d entreprise,Irma.dk,Tabac Presse Rennes Alma",
         "site_url": "https://world.openfoodfacts.org/product/40111216/bounty",
-        "score": 22
+        "score": 27
     },
     {
         "name": "Beurre de cacahuètes",
@@ -6309,18 +6304,6 @@
         "score": 9
     },
     {
-        "name": "Dessert végétal, Chocolat (4 Pots)",
-        "description": "Dessert au soja au chocolat, enrichi en calcium",
-        "categories": [
-            "Frais",
-            "Desserts",
-            "Desserts au chocolat"
-        ],
-        "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/3273220085349/dessert-vegetal-chocolat-4-pots-sojasun",
-        "score": 2
-    },
-    {
         "name": "16 macarons (chocolat, vanille, framboise, café)",
         "description": "",
         "categories": [
@@ -6802,7 +6785,7 @@
         ],
         "stores": "Carrefour",
         "site_url": "https://world.openfoodfacts.org/product/3273220086070/steaks-de-soja-tomates-basilic-sojasun",
-        "score": -4
+        "score": -3
     },
     {
         "name": "Emmental Français Râpé (28 % MG)",
@@ -8474,7 +8457,7 @@
         "score": 19
     },
     {
-        "name": "Dessert végétal, Noisettes Amandes (4 Pots) ",
+        "name": "Dessert végétal, Noisettes Amandes (4 Pots)",
         "description": "Dessert au soja aux noisettes et amandes, enrichi en calcium",
         "categories": [
             "Frais",
@@ -8715,7 +8698,7 @@
         ],
         "stores": "Carrefour",
         "site_url": "https://world.openfoodfacts.org/product/3229820004334/le-cookie-chocolat-noisettes-bjorg",
-        "score": 20
+        "score": 14
     },
     {
         "name": "Soja Vanille Bio",
@@ -11152,7 +11135,7 @@
     },
     {
         "name": "Steaks de soja fines herbes",
-        "description": "Spécialité à base de soja",
+        "description": "Spécialité à base de soja, préfrite",
         "categories": [
             "Aliments et boissons à base de végétaux",
             "Aliments d origine végétale",
@@ -11930,5 +11913,19 @@
         "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/5000159451864/mars-coeur-fondant",
         "score": 24
+    },
+    {
+        "name": "Super Poulain",
+        "description": "Préparation en poudre pour boisson instantanée cacaotée",
+        "categories": [
+            "Boissons",
+            "Petit déjeuners",
+            "Snacks sucrés",
+            "Chocolats",
+            "Boissons sucrées"
+        ],
+        "stores": "Intermarché",
+        "site_url": "https://world.openfoodfacts.org/product/3538280030631/super-poulain",
+        "score": 15
     }
 ]

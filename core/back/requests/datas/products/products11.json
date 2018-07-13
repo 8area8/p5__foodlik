@@ -1,74 +1,5 @@
 [
     {
-        "name": "Minisel",
-        "description": "",
-        "categories": [
-            "Epicerie",
-            "Condiments"
-        ],
-        "stores": "SImply Market",
-        "site_url": "https://world.openfoodfacts.org/product/3183280012578/minisel-la-baleine",
-        "score": 10
-    },
-    {
-        "name": "Bio bis",
-        "description": "",
-        "categories": [
-            "Snacks sucrés",
-            "Biscuits et gâteaux"
-        ],
-        "stores": "Bio14",
-        "site_url": "https://world.openfoodfacts.org/product/3184340000542/bio-bis-pural",
-        "score": 21
-    },
-    {
-        "name": "Aceitunas verdes rellenas de pimiento",
-        "description": "Aceitunas verdes rellenas de pimiento",
-        "categories": [
-            "Aliments et boissons à base de végétaux",
-            "Aliments d origine végétale",
-            "Pickles",
-            "Produits de l olivier",
-            "Pickles d origine végétale",
-            "Olives",
-            "Conserves"
-        ],
-        "stores": "Lidl",
-        "site_url": "https://world.openfoodfacts.org/product/20033378/aceitunas-verdes-rellenas-de-pimiento-baresa",
-        "score": 13
-    },
-    {
-        "name": "Craquante nature",
-        "description": "Chips de pommes de terre salées, ondulées",
-        "categories": [
-            "Aliments et boissons à base de végétaux",
-            "Aliments d origine végétale",
-            "Céréales et pommes de terre",
-            "Snacks salés",
-            "Apéritif",
-            "Chips et frites",
-            "Chips",
-            "Chips de pommes de terre",
-            "Chips de pommes de terre à l huile de tournesol"
-        ],
-        "stores": "Lidl",
-        "site_url": "https://world.openfoodfacts.org/product/20095000/craquante-nature-crusti-croc",
-        "score": 14
-    },
-    {
-        "name": "Crème Dessert saveur Vanille",
-        "description": "",
-        "categories": [
-            "Frais",
-            "Produits laitiers",
-            "Desserts",
-            "Desserts lactés"
-        ],
-        "stores": "Lidl",
-        "site_url": "https://world.openfoodfacts.org/product/20094638/creme-dessert-saveur-vanille-kingfrais",
-        "score": 4
-    },
-    {
         "name": "Medaillon Classic",
         "description": "Meringue fourrée chocolat-noisette, chocolat au lait et décorée de chocolat blanc",
         "categories": [
@@ -1794,7 +1725,7 @@
         "score": 7
     },
     {
-        "name": "Max Chocolat",
+        "name": "Lactel Max Chocolat",
         "description": "Boisson lactée au chocolat sucrée stérilisée UHT enrichie en vitamines et minéraux",
         "categories": [
             "Boissons",
@@ -1802,8 +1733,8 @@
             "Boissons sucrées"
         ],
         "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/3428272130077/max-chocolat-lactel",
-        "score": 1
+        "site_url": "https://world.openfoodfacts.org/product/3428272130077/lactel-max-chocolat",
+        "score": 0
     },
     {
         "name": "La purée provençale",
@@ -5738,7 +5669,7 @@
         ],
         "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/8016438001078/jus-de-citron-succo-limone-euro-food",
-        "score": -3
+        "score": -4
     },
     {
         "name": "Ananas en tranches au sirop léger",
@@ -9878,5 +9809,60 @@
         "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3564707087551/tartelettes-framboise-bio-village",
         "score": 17
+    },
+    {
+        "name": "Tomates Cerises",
+        "description": "",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Aliments d origine végétale",
+            "Frais",
+            "Aliments à base de fruits et de légumes",
+            "Aliments à base de plantes frais",
+            "Légumineuses et dérivés",
+            "Légumes frais",
+            "Tomates et dérivés"
+        ],
+        "stores": "Leclerc",
+        "site_url": "https://world.openfoodfacts.org/product/3564707083720/tomates-cerises-bio-village",
+        "score": -5
+    },
+    {
+        "name": "Limonade au sucre de canne",
+        "description": "Soda",
+        "categories": [
+            "Boissons",
+            "Boissons gazeuses",
+            "Sodas",
+            "Boissons sucrées"
+        ],
+        "stores": "Leclerc",
+        "site_url": "https://world.openfoodfacts.org/product/3564707087346/limonade-au-sucre-de-canne-bio-village",
+        "score": 11
+    },
+    {
+        "name": "Barres pomme aux 5 céréales",
+        "description": "",
+        "categories": [
+            "Snacks sucrés",
+            "Barres"
+        ],
+        "stores": "Leclerc",
+        "site_url": "https://world.openfoodfacts.org/product/3564700563762/barres-pomme-aux-5-cereales-brin-de-jour",
+        "score": 7
+    },
+    {
+        "name": "Yaourts aux fruits jaunes avec morceaux",
+        "description": "Yaourt brassé, sucré, aux fruits: Ananas ou Abricot ou Pêche ou Poire",
+        "categories": [
+            "Produits laitiers",
+            "Produits fermentés",
+            "Produits laitiers fermentés",
+            "Yaourts",
+            "Yaourts aux fruits"
+        ],
+        "stores": "Leclerc",
+        "site_url": "https://world.openfoodfacts.org/product/3564700565384/yaourts-aux-fruits-jaunes-avec-morceaux-delisse",
+        "score": 3
     }
 ]

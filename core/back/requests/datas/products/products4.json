@@ -1,21 +1,5 @@
 [
     {
-        "name": "Le bio pour toute la famille orange",
-        "description": "Nectar de jus d orange à base de jus concentré",
-        "categories": [
-            "Aliments et boissons à base de végétaux",
-            "Boissons",
-            "Boissons à base de végétaux",
-            "Boissons aux fruits",
-            "Jus et nectars",
-            "Jus et nectars de fruits",
-            "Nectars de fruits"
-        ],
-        "stores": "Casino,Auchan,Intermarché",
-        "site_url": "https://world.openfoodfacts.org/product/3254690086005/le-bio-pour-toute-la-famille-orange-pressade",
-        "score": 15
-    },
-    {
         "name": "Mayonnaise fine qualité traiteur 100g",
         "description": "Mayonnaise rayon frais",
         "categories": [
@@ -708,15 +692,14 @@
     },
     {
         "name": "Steaks de Soja Curry",
-        "description": "Spécialité préfrite à base de soja, aromatisée à la tomate et au curry",
+        "description": "Spécialité à base de soja préfrite",
         "categories": [
             "Aliments et boissons à base de végétaux",
-            "Aliments d origine végétale",
-            "Substituts de viande"
+            "Aliments d origine végétale"
         ],
         "stores": "Carrefour",
         "site_url": "https://world.openfoodfacts.org/product/3273220086223/steaks-de-soja-curry-sojasun",
-        "score": -3
+        "score": -4
     },
     {
         "name": "Spécialité au soja, Pêche Fleur de Sureau",
@@ -1859,18 +1842,6 @@
         "stores": "Carrefour market",
         "site_url": "https://world.openfoodfacts.org/product/3245414668058/taboule-oriental-carrefour-discount",
         "score": 3
-    },
-    {
-        "name": "Quenelles nature",
-        "description": "Quenelles nature",
-        "categories": [
-            "Frais",
-            "Plats préparés",
-            "Plats préparés frais"
-        ],
-        "stores": "Banque alimentaire",
-        "site_url": "https://world.openfoodfacts.org/product/3240937200051/quenelles-nature-lustucru-selection",
-        "score": 7
     },
     {
         "name": "Snack poppé soja bbq",
@@ -5341,7 +5312,7 @@
         ],
         "stores": "Carrefour",
         "site_url": "https://world.openfoodfacts.org/product/5060042641000/tyrrell-s-hand-cooked-enhlish-crisps-lightly-sea-salted-tyrrells",
-        "score": 11
+        "score": 7
     },
     {
         "name": "Cassoulet de Castelnaudary au Confit de Canard du Sud-Ouest",
@@ -9322,6 +9293,25 @@
         "score": 12
     },
     {
+        "name": "Muesli aux fruit",
+        "description": "Muesli aux Fruits Bio",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Aliments d origine végétale",
+            "Petit déjeuners",
+            "Céréales et pommes de terre",
+            "Céréales et dérivés",
+            "Céréales pour petit déjeuner",
+            "Flocons",
+            "Flocons de céréales",
+            "Mélanges de flocons de céréales",
+            "Mueslis"
+        ],
+        "stores": "carrefour",
+        "site_url": "https://world.openfoodfacts.org/product/3421557501630/muesli-aux-fruit-terres-et-cereales",
+        "score": -4
+    },
+    {
         "name": "Lait matin leger",
         "description": "Lait écrémé stérilisé UHT à teneur réduite en lactose (&lt;0,5 g / 100ml) et enrichi en vitamine D",
         "categories": [
@@ -10912,5 +10902,55 @@
         "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3560070850297/pistaches-grillees-salees-carrefour",
         "score": 11
+    },
+    {
+        "name": "Jambon cru italien",
+        "description": "Jambon cru bio",
+        "categories": [
+            "Viandes",
+            "Charcuteries",
+            "Jambons"
+        ],
+        "stores": "Carrefour",
+        "site_url": "https://world.openfoodfacts.org/product/3560070551187/jambon-cru-italien-carrefour-bio",
+        "score": 20
+    },
+    {
+        "name": "Cancoillotte Ail Bio Carrefour",
+        "description": "Cancoillotte Ail Bio",
+        "categories": [
+            "Produits laitiers",
+            "Produits fermentés",
+            "Produits laitiers fermentés",
+            "Fromages",
+            "Fromages de France"
+        ],
+        "stores": "Carrefour",
+        "site_url": "https://world.openfoodfacts.org/product/3560070617456/cancoillotte-ail-bio-carrefour",
+        "score": 10
+    },
+    {
+        "name": "Pasta sauce Basilic Tomates & Basilic",
+        "description": "",
+        "categories": [
+            "Epicerie",
+            "Sauces",
+            "Sauces tomate"
+        ],
+        "stores": "Carrefour",
+        "site_url": "https://world.openfoodfacts.org/product/3560070669905/pasta-sauce-basilic-tomates-basilic-carrefour",
+        "score": 2
+    },
+    {
+        "name": "Provençale",
+        "description": "Sauce tomate à la Provençale, à l’huile d’olive vierge extra 2%",
+        "categories": [
+            "Epicerie",
+            "Sauces",
+            "Sauces tomate"
+        ],
+        "stores": "Carrefour,Carrefour Market",
+        "site_url": "https://world.openfoodfacts.org/product/3560070669875/provencale-carrefour",
+        "score": 4
     }
 ]

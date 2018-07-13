@@ -1,15 +1,5 @@
 [
     {
-        "name": "Gâteau au fromage Betty Bossi",
-        "description": "Tranche de gâteau au fromage",
-        "categories": [
-            "Plats préparés"
-        ],
-        "stores": "Coop",
-        "site_url": "https://world.openfoodfacts.org/product/7610807087680/gateau-au-fromage-betty-bossi-coop",
-        "score": 17
-    },
-    {
         "name": "Jus d orange doux",
         "description": "Jus d orange",
         "categories": [
@@ -1276,7 +1266,7 @@
         "score": 5
     },
     {
-        "name": " Les Ficelles aux Tomates et Fines Herbes",
+        "name": "Les Ficelles aux Tomates et Fines Herbes",
         "description": "Biscuits feuilletés.",
         "categories": [
             "Snacks salés",
@@ -4072,7 +4062,7 @@
         "score": 12
     },
     {
-        "name": "Galettes Bretonnes au Beurre Frais",
+        "name": "Galettes bretonnes au beurre frais",
         "description": "",
         "categories": [
             "Snacks sucrés",
@@ -4081,7 +4071,7 @@
         ],
         "stores": "Casino",
         "site_url": "https://world.openfoodfacts.org/product/3222473585830/galettes-bretonnes-au-beurre-frais-casino",
-        "score": 23
+        "score": 26
     },
     {
         "name": "Sauce samouraï piquante",
@@ -4767,7 +4757,7 @@
         "score": 15
     },
     {
-        "name": "Starbucks Discoveries - Chocolate Mocha Flavour",
+        "name": "Chocolate Mocha",
         "description": "Boisson lactée au café arabica Starbucks® certifié Fairtrade saveur chocolat, stérilisée UHT",
         "categories": [
             "Boissons",
@@ -4777,7 +4767,7 @@
             "Boissons sucrées"
         ],
         "stores": "Monoprix",
-        "site_url": "https://world.openfoodfacts.org/product/5760466995917/starbucks-discoveries-chocolate-mocha-flavour",
+        "site_url": "https://world.openfoodfacts.org/product/5760466995917/chocolate-mocha-starbucks",
         "score": 2
     },
     {
@@ -7633,14 +7623,14 @@
         "score": 24
     },
     {
-        "name": "Mini choux",
-        "description": "",
+        "name": "Mini choux saveur Bleu-Noix",
+        "description": "Mini-choux fourrés au fromage saveur bleu et noix",
         "categories": [
             "Snacks salés",
             "Apéritif"
         ],
-        "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/3250390370062/mini-choux-bouton-d-or",
+        "stores": "Intermarché",
+        "site_url": "https://world.openfoodfacts.org/product/3250390370062/mini-choux-saveur-bleu-noix-bouton-d-or",
         "score": 23
     },
     {
@@ -7858,5 +7848,18 @@
         "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3250390000761/petit-pois-saint-eloi",
         "score": -9
+    },
+    {
+        "name": "Look Limonade à l eau de source",
+        "description": "",
+        "categories": [
+            "Boissons",
+            "Boissons gazeuses",
+            "Sodas",
+            "Boissons sucrées"
+        ],
+        "stores": "Intermarché",
+        "site_url": "https://world.openfoodfacts.org/product/3250390006312/look-limonade-a-l-eau-de-source-intermarche",
+        "score": 10
     }
 ]

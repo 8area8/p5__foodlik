@@ -1,33 +1,5 @@
 [
     {
-        "name": "Secret de Mousse Duo - Chocolat Noir & Chocolat Blanc",
-        "description": "",
-        "categories": [
-            "Produits laitiers",
-            "Desserts",
-            "Desserts lactés"
-        ],
-        "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/3023290230183/secret-de-mousse-duo-chocolat-noir-chocolat-blanc-la-laitiere",
-        "score": 5
-    },
-    {
-        "name": "Pur jus de citron de Sicile Bio",
-        "description": "Jus de citron",
-        "categories": [
-            "Aliments et boissons à base de végétaux",
-            "Boissons",
-            "Boissons à base de végétaux",
-            "Boissons aux fruits",
-            "Jus et nectars",
-            "Jus et nectars de fruits",
-            "Jus de fruits"
-        ],
-        "stores": "Auchan",
-        "site_url": "https://world.openfoodfacts.org/product/3596710413218/pur-jus-de-citron-de-sicile-bio-auchan",
-        "score": -4
-    },
-    {
         "name": "Filets de poulet rôtis",
         "description": "",
         "categories": [
@@ -6105,7 +6077,7 @@
         ],
         "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/20158125/fromage-blanc-saveur-vanille-milbona",
-        "score": 2
+        "score": 1
     },
     {
         "name": "쌀떡",
@@ -6678,7 +6650,7 @@
         "score": 21
     },
     {
-        "name": "Jelly Belly 20 Saveurs Assorties",
+        "name": "Jelly Belly 20 saveurs assorties",
         "description": "",
         "categories": [
             "Snacks sucrés",
@@ -9030,5 +9002,67 @@
         "stores": "Casino",
         "site_url": "https://world.openfoodfacts.org/product/3222475308550/jus-orange-banane-a-base-de-concentre-et-de-puree-casino",
         "score": 7
+    },
+    {
+        "name": "Biscuits Petit déjeuner céréales et pépies de chocolat",
+        "description": "",
+        "categories": [
+            "Snacks sucrés",
+            "Biscuits et gâteaux",
+            "Biscuits"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/3222475752599/biscuits-petit-dejeuner-cereales-et-pepies-de-chocolat-casino",
+        "score": 17
+    },
+    {
+        "name": "Val d Automne (28 % MG)",
+        "description": "Fromage industriel de France, à pâte molle à croûte lavée, au lait pasteurisé de vache",
+        "categories": [
+            "Frais",
+            "Produits laitiers",
+            "Produits fermentés",
+            "Produits laitiers fermentés",
+            "Fromages",
+            "Fromages de vache",
+            "Fromages de France",
+            "Fromages pasteurisés",
+            "Fromages industriels"
+        ],
+        "stores": "Casino",
+        "site_url": "https://world.openfoodfacts.org/product/3222472118800/val-d-automne-28-mg-casino",
+        "score": 17
+    },
+    {
+        "name": "Compote allégée Pomme Pêche",
+        "description": "Compote de pommes et de pêches allégée en sucres (30 % de sucres en moins)",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Aliments d origine végétale",
+            "Aliments à base de fruits et de légumes",
+            "Desserts",
+            "Fruits et produits dérivés",
+            "Compotes",
+            "Compotes de pomme"
+        ],
+        "stores": "Casino",
+        "site_url": "https://world.openfoodfacts.org/product/3222472861836/compote-allegee-pomme-peche-casino",
+        "score": -4
+    },
+    {
+        "name": "Compote allégée Pomme Poire",
+        "description": "Compote de pommes et de poires allégée en sucres (30 % de sucres en moins)",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Aliments d origine végétale",
+            "Aliments à base de fruits et de légumes",
+            "Desserts",
+            "Fruits et produits dérivés",
+            "Compotes",
+            "Compotes de pomme"
+        ],
+        "stores": "Casino",
+        "site_url": "https://world.openfoodfacts.org/product/3222472861775/compote-allegee-pomme-poire-casino",
+        "score": -4
     }
 ]

@@ -1,60 +1,5 @@
 [
     {
-        "name": "Tomates Cerises",
-        "description": "",
-        "categories": [
-            "Aliments et boissons à base de végétaux",
-            "Aliments d origine végétale",
-            "Frais",
-            "Aliments à base de fruits et de légumes",
-            "Aliments à base de plantes frais",
-            "Légumineuses et dérivés",
-            "Légumes frais",
-            "Tomates et dérivés"
-        ],
-        "stores": "Leclerc",
-        "site_url": "https://world.openfoodfacts.org/product/3564707083720/tomates-cerises-bio-village",
-        "score": -5
-    },
-    {
-        "name": "Limonade au sucre de canne",
-        "description": "Soda",
-        "categories": [
-            "Boissons",
-            "Boissons gazeuses",
-            "Sodas",
-            "Boissons sucrées"
-        ],
-        "stores": "Leclerc",
-        "site_url": "https://world.openfoodfacts.org/product/3564707087346/limonade-au-sucre-de-canne-bio-village",
-        "score": 11
-    },
-    {
-        "name": "Barres pomme aux 5 céréales",
-        "description": "",
-        "categories": [
-            "Snacks sucrés",
-            "Barres"
-        ],
-        "stores": "Leclerc",
-        "site_url": "https://world.openfoodfacts.org/product/3564700563762/barres-pomme-aux-5-cereales-brin-de-jour",
-        "score": 7
-    },
-    {
-        "name": "Yaourts aux fruits jaunes avec morceaux",
-        "description": "Yaourt brassé, sucré, aux fruits: Ananas ou Abricot ou Pêche ou Poire",
-        "categories": [
-            "Produits laitiers",
-            "Produits fermentés",
-            "Produits laitiers fermentés",
-            "Yaourts",
-            "Yaourts aux fruits"
-        ],
-        "stores": "Leclerc",
-        "site_url": "https://world.openfoodfacts.org/product/3564700565384/yaourts-aux-fruits-jaunes-avec-morceaux-delisse",
-        "score": 3
-    },
-    {
         "name": "Cookies Chocolat Blanc Cranberries",
         "description": "Cookies au chocolat blanc, aux raisins secs, aux cranberries.",
         "categories": [
@@ -129,7 +74,8 @@
         "categories": [
             "Snacks sucrés",
             "Biscuits et gâteaux",
-            "Biscuits"
+            "Biscuits",
+            "Biscuits au chocolat"
         ],
         "stores": "Leclerc",
         "site_url": "https://world.openfoodfacts.org/product/3564700023426/florentin-saveurs-suisses-p-tit-deli",
@@ -1115,19 +1061,6 @@
         "stores": "Carrefour market",
         "site_url": "https://world.openfoodfacts.org/product/3245413161840/colin-d-alaska-a-la-florentine-surgele-carrefour",
         "score": -1
-    },
-    {
-        "name": "Noix de cajou grillées sans sel",
-        "description": "",
-        "categories": [
-            "Aliments et boissons à base de végétaux",
-            "Aliments d origine végétale",
-            "Fruits à coques et dérivés",
-            "Fruits à coques"
-        ],
-        "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/3245412901454/noix-de-cajou-grillees-sans-sel-carrefour",
-        "score": 11
     },
     {
         "name": "Blinis cocktail x16",
@@ -4196,7 +4129,7 @@
         "score": 12
     },
     {
-        "name": "100 % Pur Jus Raisin ",
+        "name": "100 % Pur Jus Raisin",
         "description": "Jus de raisin issu de l agriculture biologique",
         "categories": [
             "Aliments et boissons à base de végétaux",
@@ -4858,7 +4791,7 @@
         ],
         "stores": "Carrefour, Franprix",
         "site_url": "https://world.openfoodfacts.org/product/3356531160001/porc-au-caramel-riz-parfume-marie",
-        "score": 16
+        "score": 18
     },
     {
         "name": "Soja Doux Saveur Noisette",
@@ -7253,20 +7186,6 @@
         "score": 11
     },
     {
-        "name": "Café",
-        "description": "Crème glacée café au café Arabica de Colombie (1,5%) avec des morceaux de chocolat aromatisés au café (7%)",
-        "categories": [
-            "Desserts",
-            "Surgelés",
-            "Desserts glacés",
-            "Glaces et sorbets",
-            "Glaces"
-        ],
-        "stores": "Géant Casino",
-        "site_url": "https://world.openfoodfacts.org/product/3013520080343/cafe-carte-d-or",
-        "score": 12
-    },
-    {
         "name": "schoks l original",
         "description": "",
         "categories": [
@@ -9241,5 +9160,46 @@
         "stores": "Naturalia,Biocoop",
         "site_url": "https://world.openfoodfacts.org/product/3184340061024/crusty-fromage-graines-de-courge-pural",
         "score": 13
+    },
+    {
+        "name": "Tuiles Salees",
+        "description": "Tuiles",
+        "categories": [
+            "Snacks salés",
+            "Apéritif",
+            "Chips et frites",
+            "Chips"
+        ],
+        "stores": "Aldi",
+        "site_url": "https://world.openfoodfacts.org/product/26035352/tuiles-salees-pirato",
+        "score": 15
+    },
+    {
+        "name": "yaourt grec",
+        "description": "yaourt grec",
+        "categories": [
+            "Produits laitiers",
+            "Produits fermentés",
+            "Produits laitiers fermentés",
+            "Yaourts"
+        ],
+        "stores": "Boucheries André",
+        "site_url": "https://world.openfoodfacts.org/product/5202425001029/yaourt-grec-hotos",
+        "score": 4
+    },
+    {
+        "name": "Ebly® 5 min",
+        "description": "Blé dur précuit",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Aliments d origine végétale",
+            "Céréales et pommes de terre",
+            "Graines",
+            "Céréales et dérivés",
+            "Céréales en grains"
+        ],
+        "stores": "Franprix",
+        "site_url": "https://world.openfoodfacts.org/product/3487400001603/ebly-5-min",
+        "score": -6
     }
 ]

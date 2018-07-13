@@ -1,18 +1,5 @@
 [
     {
-        "name": "Look Limonade à l eau de source",
-        "description": "",
-        "categories": [
-            "Boissons",
-            "Boissons gazeuses",
-            "Sodas",
-            "Boissons sucrées"
-        ],
-        "stores": "Intermarché",
-        "site_url": "https://world.openfoodfacts.org/product/3250390006312/look-limonade-a-l-eau-de-source-intermarche",
-        "score": 10
-    },
-    {
         "name": "Sirop Citron",
         "description": "Sirop de citron",
         "categories": [
@@ -3726,6 +3713,20 @@
         "stores": "Super U, Magasins U",
         "site_url": "https://world.openfoodfacts.org/product/3256221462562/puree-saveur-d-antan-a-la-creme-et-noix-de-muscade-u",
         "score": -1
+    },
+    {
+        "name": "Purée nature",
+        "description": "Purée",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Aliments d origine végétale",
+            "Céréales et pommes de terre",
+            "Produits déshydratés",
+            "Produits lyophilisés à reconstituer"
+        ],
+        "stores": "Magasins U,Hyper U",
+        "site_url": "https://world.openfoodfacts.org/product/3256221462531/puree-nature-u",
+        "score": -2
     },
     {
         "name": "Jambon cuit au torchon découenné",
@@ -8426,5 +8427,60 @@
         "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/8710532438265/chips-kettle-cooked-sea-salt-chio",
         "score": 13
+    },
+    {
+        "name": "Cornetto vanilla shake",
+        "description": "glaces",
+        "categories": [
+            "Desserts",
+            "Surgelés",
+            "Desserts glacés",
+            "Glaces et sorbets",
+            "Glaces"
+        ],
+        "stores": "Leclerc drive",
+        "site_url": "https://world.openfoodfacts.org/product/8718114735252/cornetto-vanilla-shake",
+        "score": 18
+    },
+    {
+        "name": "Viennetta Choco-nut",
+        "description": "Gelado de avelã, gelado aromatizado com chocolate e avelã, cobertura aromatizada com chocolate (9%), biscoito crocante (6%), xarope de chocolate e avelã (4,5%) e pedaços de chocolate branco e chocolate (0,5%).",
+        "categories": [
+            "Desserts",
+            "Surgelés",
+            "Desserts glacés",
+            "Glaces et sorbets",
+            "Glaces"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/8718114889023/viennetta-choco-nut-ola",
+        "score": 19
+    },
+    {
+        "name": "Délice de Poireaux aux Saint-Jacques",
+        "description": "",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Aliments d origine végétale",
+            "Aliments à base de fruits et de légumes",
+            "Plats préparés",
+            "Soupes",
+            "Soupes de légumes"
+        ],
+        "stores": "Cora",
+        "site_url": "https://world.openfoodfacts.org/product/8712100598548/delice-de-poireaux-aux-saint-jacques-knorr",
+        "score": 2
+    },
+    {
+        "name": "Gâteau aux Amandes saveur d Antan",
+        "description": "",
+        "categories": [
+            "Snacks sucrés",
+            "Biscuits et gâteaux",
+            "Gâteaux"
+        ],
+        "stores": "Cora",
+        "site_url": "https://world.openfoodfacts.org/product/8712100463303/gateau-aux-amandes-saveur-d-antan-alsa",
+        "score": 20
     }
 ]

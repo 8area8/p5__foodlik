@@ -1,55 +1,5 @@
 [
     {
-        "name": "Jambon cru italien",
-        "description": "Jambon cru bio",
-        "categories": [
-            "Viandes",
-            "Charcuteries",
-            "Jambons"
-        ],
-        "stores": "Carrefour",
-        "site_url": "https://world.openfoodfacts.org/product/3560070551187/jambon-cru-italien-carrefour-bio",
-        "score": 20
-    },
-    {
-        "name": "Cancoillotte Ail Bio Carrefour",
-        "description": "Cancoillotte Ail Bio",
-        "categories": [
-            "Produits laitiers",
-            "Produits fermentés",
-            "Produits laitiers fermentés",
-            "Fromages",
-            "Fromages de France"
-        ],
-        "stores": "Carrefour",
-        "site_url": "https://world.openfoodfacts.org/product/3560070617456/cancoillotte-ail-bio-carrefour",
-        "score": 10
-    },
-    {
-        "name": "Pasta sauce Basilic Tomates & Basilic",
-        "description": "",
-        "categories": [
-            "Epicerie",
-            "Sauces",
-            "Sauces tomate"
-        ],
-        "stores": "Carrefour",
-        "site_url": "https://world.openfoodfacts.org/product/3560070669905/pasta-sauce-basilic-tomates-basilic-carrefour",
-        "score": 2
-    },
-    {
-        "name": "Provençale",
-        "description": "Sauce tomate à la Provençale, à l’huile d’olive vierge extra 2%",
-        "categories": [
-            "Epicerie",
-            "Sauces",
-            "Sauces tomate"
-        ],
-        "stores": "Carrefour,Carrefour Market",
-        "site_url": "https://world.openfoodfacts.org/product/3560070669875/provencale-carrefour",
-        "score": 4
-    },
-    {
         "name": "Chocolat noir corsé pâtissier",
         "description": "Chocolat noir",
         "categories": [
@@ -1224,7 +1174,7 @@
         "score": 1
     },
     {
-        "name": "Quatre quart  le moelleux",
+        "name": "Quatre quart le Moelleux",
         "description": "",
         "categories": [
             "Snacks sucrés",
@@ -5316,7 +5266,7 @@
         "score": 17
     },
     {
-        "name": "30 Bâtonnets de Surimi",
+        "name": "Surimi",
         "description": "Préparation à base de chair de poisson saveur crabe. 30 Bâtonnets de Surimi",
         "categories": [
             "Plats préparés",
@@ -5326,7 +5276,7 @@
             "Plats préparés réfrigérés"
         ],
         "stores": "Intermarché",
-        "site_url": "https://world.openfoodfacts.org/product/3250390859963/30-batonnets-de-surimi-odyssee",
+        "site_url": "https://world.openfoodfacts.org/product/3250390859963/surimi-odyssee",
         "score": 4
     },
     {
@@ -5884,7 +5834,7 @@
         "score": -4
     },
     {
-        "name": "Pom  Potes, Pomme Framboise",
+        "name": "Pom Potes (Pomme/Framboise)",
         "description": "Spécialité de fruits pomme framboise",
         "categories": [
             "Aliments et boissons à base de végétaux",
@@ -7994,7 +7944,7 @@
         ],
         "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3045320074864/pomme-rhubarbe-andros",
-        "score": -4
+        "score": -3
     },
     {
         "name": "Fraises",
@@ -10423,5 +10373,62 @@
         "stores": "Carrefour",
         "site_url": "https://world.openfoodfacts.org/product/3228850003942/brioche-tranchee-la-recette-originale-format-familial-harrys",
         "score": 18
+    },
+    {
+        "name": "Le Moment Burger Sésame",
+        "description": "",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Aliments d origine végétale",
+            "Céréales et pommes de terre",
+            "Pains",
+            "Pains spéciaux"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/3228857000357/le-moment-burger-sesame-harrys",
+        "score": 0
+    },
+    {
+        "name": "Envitas-Céréales complètes et pépites de chocolat",
+        "description": "",
+        "categories": [
+            "Petit déjeuners",
+            "Snacks sucrés",
+            "Biscuits et gâteaux",
+            "Biscuits"
+        ],
+        "stores": "Lidl",
+        "site_url": "https://world.openfoodfacts.org/product/20089986/envitas-cereales-completes-et-pepites-de-chocolat-sondey",
+        "score": 17
+    },
+    {
+        "name": "4 muffins complet",
+        "description": "4 petits pains complets",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Aliments d origine végétale",
+            "Céréales et pommes de terre",
+            "Pains",
+            "Pains spéciaux"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/3350030111908/4-muffins-complet-monoprix",
+        "score": -3
+    },
+    {
+        "name": "Mozzarella (19% MG)",
+        "description": "Fromage à pâte filée en saumure au lait pasteurisé de vache issu de l agriculture biologique",
+        "categories": [
+            "Produits laitiers",
+            "Produits fermentés",
+            "Produits laitiers fermentés",
+            "Fromages",
+            "Fromages de vache",
+            "Fromages pasteurisés",
+            "Fromages italiens"
+        ],
+        "stores": "Monoprix",
+        "site_url": "https://world.openfoodfacts.org/product/3350030109721/mozzarella-19-mg-monoprix-bio",
+        "score": 8
     }
 ]

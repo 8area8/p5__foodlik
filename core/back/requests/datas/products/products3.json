@@ -941,7 +941,7 @@
         "score": 10
     },
     {
-        "name": "Oméga 3 Demi-Sel Tartine & Cuisson (grand format)",
+        "name": "Saint Hubert Omega 3 demi sel",
         "description": "",
         "categories": [
             "Aliments et boissons à base de végétaux",
@@ -954,7 +954,7 @@
             "Matières grasses à tartiner"
         ],
         "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/3366321051396/omega-3-demi-sel-tartine-cuisson-grand-format-st-hubert",
+        "site_url": "https://world.openfoodfacts.org/product/3366321051396/saint-hubert-omega-3-demi-sel-st-hubert",
         "score": 14
     },
     {
@@ -3646,7 +3646,7 @@
         ],
         "stores": "Auchan",
         "site_url": "https://world.openfoodfacts.org/product/3596710308958/raviolis-vegetariens-auchan",
-        "score": 2
+        "score": 1
     },
     {
         "name": "Balisto miel amandes",
@@ -4314,16 +4314,6 @@
         "score": -5
     },
     {
-        "name": "Bouteille d eau",
-        "description": "",
-        "categories": [
-            "Boissons"
-        ],
-        "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/3179730256227/bouteille-d-eau-vittel",
-        "score": 0
-    },
-    {
         "name": "Financiers citron pavot",
         "description": "",
         "categories": [
@@ -4621,7 +4611,7 @@
             "Pâtes alimentaires",
             "Plats préparés frais"
         ],
-        "stores": "Leclerc, Franprix",
+        "stores": "Leclerc,Franprix",
         "site_url": "https://world.openfoodfacts.org/product/3240930000801/ravioli-4-fromages-lustucru",
         "score": 4
     },
@@ -5388,7 +5378,7 @@
         ],
         "stores": "Franprix,Leclerc",
         "site_url": "https://world.openfoodfacts.org/product/3502110005922/ice-tea-peche-lipton",
-        "score": 6
+        "score": 10
     },
     {
         "name": "Lipton Duo saveur Pêche-Abricot",
@@ -8538,7 +8528,7 @@
         ],
         "stores": "Carrefour Market",
         "site_url": "https://world.openfoodfacts.org/product/3245270001044/organic-virgin-coconut-oil-la-tourangelle",
-        "score": 20
+        "score": 10
     },
     {
         "name": "Rillettes de sardine de Bretagne",
@@ -9609,7 +9599,7 @@
         "score": -4
     },
     {
-        "name": "Riz cuisiné",
+        "name": "Riz cuisiné - Riz aux champignons de Paris",
         "description": "Riz long grain précuit à la vapeur épicé et agrémenté de champignons",
         "categories": [
             "Aliments et boissons à base de végétaux",
@@ -9618,8 +9608,8 @@
             "Plats préparés à réchauffer au micro ondes"
         ],
         "stores": "Carrefour,Franprix",
-        "site_url": "https://world.openfoodfacts.org/product/5010034516205/riz-cuisine-uncle-ben-s",
-        "score": 2
+        "site_url": "https://world.openfoodfacts.org/product/5010034516205/riz-cuisine-riz-aux-champignons-de-paris-uncle-ben-s",
+        "score": 3
     },
     {
         "name": "Dr Pepper",
@@ -11209,5 +11199,21 @@
         "stores": "Intermarché",
         "site_url": "https://world.openfoodfacts.org/product/3250391124800/biscottes-completes-sans-sucres-ajoutes-chabrior",
         "score": 0
+    },
+    {
+        "name": "Le bio pour toute la famille orange",
+        "description": "Nectar de jus d orange à base de jus concentré",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Boissons",
+            "Boissons à base de végétaux",
+            "Boissons aux fruits",
+            "Jus et nectars",
+            "Jus et nectars de fruits",
+            "Nectars de fruits"
+        ],
+        "stores": "Casino,Auchan,Intermarché",
+        "site_url": "https://world.openfoodfacts.org/product/3254690086005/le-bio-pour-toute-la-famille-orange-pressade",
+        "score": 15
     }
 ]

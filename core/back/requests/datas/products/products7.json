@@ -1,59 +1,5 @@
 [
     {
-        "name": "Tortellini ricotta épinard",
-        "description": "Pâtes fraîches à la farine de blé tendre et à la semoule de blé dur farcies d une préparation (44%) à la ricotta et aux épinards",
-        "categories": [
-            "Aliments et boissons à base de végétaux",
-            "Aliments d origine végétale",
-            "Frais",
-            "Céréales et pommes de terre",
-            "Céréales et dérivés",
-            "Plats préparés",
-            "Pâtes alimentaires",
-            "Plats préparés frais"
-        ],
-        "stores": "Carrefour,Carrefour market",
-        "site_url": "https://world.openfoodfacts.org/product/3560070816828/tortellini-ricotta-epinard-carrefour",
-        "score": 3
-    },
-    {
-        "name": "Nuggets extra croustillants",
-        "description": "Préparation de viande de poulet traitée en salaison reconstituée (65%), panée (35%) et cuite",
-        "categories": [
-            "Viandes",
-            "Volailles",
-            "Poulets"
-        ],
-        "stores": "Carrefour",
-        "site_url": "https://world.openfoodfacts.org/product/3560070812950/nuggets-extra-croustillants-carrefour",
-        "score": 3
-    },
-    {
-        "name": "Baguette précuite",
-        "description": "Pain spécial précuit",
-        "categories": [
-            "Aliments et boissons à base de végétaux",
-            "Aliments d origine végétale",
-            "Céréales et pommes de terre",
-            "Pains"
-        ],
-        "stores": "Carrefour",
-        "site_url": "https://world.openfoodfacts.org/product/3560070816507/baguette-precuite-carrefour",
-        "score": 1
-    },
-    {
-        "name": "Boudoirs aux oeufs frais",
-        "description": "Biscuits aux oeufs frais",
-        "categories": [
-            "Snacks sucrés",
-            "Biscuits et gâteaux",
-            "Biscuits"
-        ],
-        "stores": "Carrefour Market",
-        "site_url": "https://world.openfoodfacts.org/product/3560070108589/boudoirs-aux-oeufs-frais-carrefour",
-        "score": 13
-    },
-    {
         "name": "Chili con Carne (Au Bœuf) 2 Pers.",
         "description": "Chili con carne",
         "categories": [
@@ -2594,7 +2540,7 @@
         "score": -1
     },
     {
-        "name": "Muesli Croustillant 3 Chocolats",
+        "name": "Muesli croustillant 3 chocolats",
         "description": "Muesli Croustillant 3 Chocolats",
         "categories": [
             "Aliments et boissons à base de végétaux",
@@ -3853,7 +3799,7 @@
         ],
         "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3124480183347/citron-fraise-a-diluer-pulco",
-        "score": 8
+        "score": 16
     },
     {
         "name": "Saumon Fondue de Poireaux, Surgelé",
@@ -5244,7 +5190,7 @@
         ],
         "stores": "Leclerc",
         "site_url": "https://world.openfoodfacts.org/product/3533631835002/grandlait-bio-candia",
-        "score": 3
+        "score": 0
     },
     {
         "name": "Gavottes fine galette caramel au beurre salé & vanille",
@@ -5748,13 +5694,13 @@
         "score": 9
     },
     {
-        "name": "Flan de soja con vainilla &quot;Sojasun&quot; (2 Uds)",
+        "name": "Flan de soja con vainilla",
         "description": "Flan de soja sabor vainilla con caramelo enriquecido con calcio",
         "categories": [
             "Desserts"
         ],
         "stores": "Supermercados Gigante",
-        "site_url": "https://world.openfoodfacts.org/product/3273227585095/flan-de-soja-con-vainilla-sojasun-2-uds",
+        "site_url": "https://world.openfoodfacts.org/product/3273227585095/flan-de-soja-con-vainilla-sojasun",
         "score": 3
     },
     {
@@ -7229,7 +7175,7 @@
         "score": -6
     },
     {
-        "name": "Falafels Bio Pois Chiches, Épinards, Épices",
+        "name": "Falafels Pois chiches, Epinards, Epices Céréal Bio",
         "description": "Falafels Bio Pois Chiches, Épinards, Épices",
         "categories": [
             "Aliments et boissons à base de végétaux",
@@ -7239,7 +7185,7 @@
             "Plats préparés réfrigérés"
         ],
         "stores": "Carrefour",
-        "site_url": "https://world.openfoodfacts.org/product/3175681104419/falafels-bio-pois-chiches-epinards-epices-cereal-bio",
+        "site_url": "https://world.openfoodfacts.org/product/3175681104419/falafels-pois-chiches-epinards-epices-cereal-bio",
         "score": -3
     },
     {
@@ -7498,18 +7444,6 @@
         "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3111902100068/muesli-bio-charles-vignon",
         "score": -1
-    },
-    {
-        "name": "Petit brun extra",
-        "description": "",
-        "categories": [
-            "Snacks sucrés",
-            "Biscuits et gâteaux",
-            "Biscuits"
-        ],
-        "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/7622210476227/petit-brun-extra-mondelez",
-        "score": 15
     },
     {
         "name": "Moutarde Mi-forte",
@@ -10157,5 +10091,74 @@
         "stores": "Migros",
         "site_url": "https://world.openfoodfacts.org/product/7616500012134/noir-special-72-frey-migros",
         "score": 17
+    },
+    {
+        "name": "Graved Salmon",
+        "description": "Filet de saumon mariné pré-tranché",
+        "categories": [
+            "Produits de la mer",
+            "Poissons",
+            "Saumons",
+            "Poissons fumés",
+            "Saumons fumés"
+        ],
+        "stores": "Coop",
+        "site_url": "https://world.openfoodfacts.org/product/7611654099246/graved-salmon-coop",
+        "score": 14
+    },
+    {
+        "name": "Épinards à la crème ",
+        "description": "Epinards à la crème",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Aliments d origine végétale",
+            "Aliments à base de fruits et de légumes",
+            "Légumineuses et dérivés"
+        ],
+        "stores": "Migros",
+        "site_url": "https://world.openfoodfacts.org/product/7616800810485/epinards-a-la-creme-farmer-s-best",
+        "score": -2
+    },
+    {
+        "name": "Eucalyptus",
+        "description": "Bonbons Suisse aux plantes sans sucres avec édulcorants",
+        "categories": [
+            "Snacks sucrés",
+            "Confiseries",
+            "Bonbons"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/7610700601396/eucalyptus-ricola",
+        "score": 2
+    },
+    {
+        "name": "Flûtes sesame",
+        "description": "Flûtes croustillantes",
+        "categories": [
+            "Snacks salés",
+            "Apéritif"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/7610216184000/flutes-sesame-kambly",
+        "score": 18
+    },
+    {
+        "name": "Paprika original chips",
+        "description": "Chips aux paprika",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Aliments d origine végétale",
+            "Céréales et pommes de terre",
+            "Snacks salés",
+            "Apéritif",
+            "Chips et frites",
+            "Chips",
+            "Chips de pommes de terre",
+            "Chips de pommes de terre aromatisées",
+            "Chips de pommes de terre à l huile de tournesol"
+        ],
+        "stores": "Coop",
+        "site_url": "https://world.openfoodfacts.org/product/7610095013002/paprika-original-chips-zweifel",
+        "score": 9
     }
 ]

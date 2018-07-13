@@ -1,85 +1,5 @@
 [
     {
-        "name": "Pépites Choc  Nappage Choco",
-        "description": "Gâteau aux pépites de chocolats, nappé de chocolat",
-        "categories": [
-            "Snacks sucrés",
-            "Desserts",
-            "Biscuits et gâteaux",
-            "Gâteaux",
-            "Gâteaux au chocolat"
-        ],
-        "stores": "Cora",
-        "site_url": "https://world.openfoodfacts.org/product/3243610097511/pepites-choc-nappage-choco-whaou",
-        "score": 20
-    },
-    {
-        "name": "Goûters Tout caramel",
-        "description": "Gâteau au caramel, fourrage caramel",
-        "categories": [
-            "Snacks sucrés",
-            "Biscuits et gâteaux",
-            "Gâteaux"
-        ],
-        "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/3243610097894/gouters-tout-caramel-whaou",
-        "score": 18
-    },
-    {
-        "name": "Tout chocolat nappage choco",
-        "description": "Gâteau au chocolat fourré et nappé chocolat",
-        "categories": [
-            "Snacks sucrés",
-            "Desserts",
-            "Biscuits et gâteaux",
-            "Gâteaux",
-            "Gâteaux au chocolat"
-        ],
-        "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/3243610098150/tout-chocolat-nappage-choco-whaou",
-        "score": 20
-    },
-    {
-        "name": "Gaufre Flash",
-        "description": "Gaufre sucrée",
-        "categories": [
-            "Snacks sucrés",
-            "Desserts",
-            "Biscuits et gâteaux",
-            "Gâteaux"
-        ],
-        "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/3243610099911/gaufre-flash-paul-rocher-patissier",
-        "score": 18
-    },
-    {
-        "name": "Cassoulet du Pays Occitan aux saucisses de Toulouse",
-        "description": "",
-        "categories": [
-            "Conserves",
-            "Plats préparés",
-            "Plats à base de viande",
-            "Plats à base de viande bovine",
-            "Plats préparés en conserve"
-        ],
-        "stores": "Carrefour",
-        "site_url": "https://world.openfoodfacts.org/product/3245362977011/cassoulet-du-pays-occitan-aux-saucisses-de-toulouse-la-belle-chaurienne",
-        "score": 1
-    },
-    {
-        "name": "Poêlée Asiatique courgettes - Carottes, Poivrons Jaunes, Pousse de haricots mungo",
-        "description": "Poêlée Asiatique",
-        "categories": [
-            "Surgelés",
-            "Plats préparés",
-            "Plats préparés d origine végétale",
-            "Plats préparés surgelés"
-        ],
-        "stores": "Intermarché",
-        "site_url": "https://world.openfoodfacts.org/product/3248451080562/poelee-asiatique-courgettes-carottes-poivrons-jaunes-pousse-de-haricots-mungo-d-aucy",
-        "score": -2
-    },
-    {
         "name": "Poêlée Provençale",
         "description": "Poêlée de légumes surgelée",
         "categories": [
@@ -929,7 +849,7 @@
         "score": 30
     },
     {
-        "name": "Donuts Milka",
+        "name": "Donut milka",
         "description": "",
         "categories": [
             "Snacks sucrés",
@@ -937,7 +857,7 @@
             "Gâteaux"
         ],
         "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/5413321001055/donuts-milka",
+        "site_url": "https://world.openfoodfacts.org/product/5413321001055/donut-milka",
         "score": 20
     },
     {
@@ -5252,23 +5172,6 @@
         "score": -3
     },
     {
-        "name": "Casino Huile d olive",
-        "description": "Huile d olive vierge extra, extraite à froid",
-        "categories": [
-            "Aliments et boissons à base de végétaux",
-            "Aliments d origine végétale",
-            "Matières grasses",
-            "Produits de l olivier",
-            "Matières grasses végétales",
-            "Huiles",
-            "Huiles d olive",
-            "Huiles d olive vierges extra"
-        ],
-        "stores": "Petit casino",
-        "site_url": "https://world.openfoodfacts.org/product/3222472764748/casino-huile-d-olive",
-        "score": 11
-    },
-    {
         "name": "Jus Pruneau à base de pruneaux réhydratés",
         "description": "Jus de pruneau issu de l agriculture biologique",
         "categories": [
@@ -8007,7 +7910,7 @@
         ],
         "stores": "Intermarché",
         "site_url": "https://world.openfoodfacts.org/product/3250391910533/forme-chocolat-au-lait-chabrior",
-        "score": 21
+        "score": 14
     },
     {
         "name": "Crème fraîche d Isigny épaisse",
@@ -8598,5 +8501,76 @@
         "stores": "Intermarché",
         "site_url": "https://world.openfoodfacts.org/product/3250390325512/riz-rond-saint-eloi",
         "score": 0
+    },
+    {
+        "name": "Brioche tressée à la main aux oeufs frais",
+        "description": "Brioche tressée",
+        "categories": [
+            "Petit déjeuners",
+            "Snacks sucrés",
+            "Viennoiseries",
+            "Brioches"
+        ],
+        "stores": "Intermarché",
+        "site_url": "https://world.openfoodfacts.org/product/3250391588749/brioche-tressee-a-la-main-aux-oeufs-frais-chabrior",
+        "score": 15
+    },
+    {
+        "name": "Tableau d honneur chocolat au lait",
+        "description": "12 biscuits au beurre avec tablette de chocolat au lait",
+        "categories": [
+            "Snacks sucrés",
+            "Biscuits et gâteaux",
+            "Biscuits",
+            "Biscuits au chocolat"
+        ],
+        "stores": "Intermarché",
+        "site_url": "https://world.openfoodfacts.org/product/3250390145561/tableau-d-honneur-chocolat-au-lait-chabrior",
+        "score": 23
+    },
+    {
+        "name": "P tit Crémeux (x 12 portions) - (30 % MG)",
+        "description": "Fromage industriel de France, à pâte fondue, au lait de vache, à tartiner",
+        "categories": [
+            "Frais",
+            "Produits laitiers",
+            "Produits fermentés",
+            "Produits à tartiner",
+            "Produits laitiers fermentés",
+            "Biscuits apéritifs",
+            "Fromages",
+            "Fromages de vache",
+            "Fromages de France",
+            "Fromages industriels"
+        ],
+        "stores": "Intermarché",
+        "site_url": "https://world.openfoodfacts.org/product/3250390521167/p-tit-cremeux-x-12-portions-30-mg-paturages",
+        "score": 13
+    },
+    {
+        "name": "La Viande Hachée (15 % MG) - Pur Bœuf",
+        "description": "Viande hachée",
+        "categories": [
+            "Frais",
+            "Viandes",
+            "Bœuf",
+            "Viandes fraîches"
+        ],
+        "stores": "Intermarché",
+        "site_url": "https://world.openfoodfacts.org/product/3250390303237/la-viande-hachee-15-mg-pur-boeuf-jean-roze",
+        "score": 3
+    },
+    {
+        "name": "Biscuits pour le petit déjeuner pépites de chocolat & cacao",
+        "description": "Biscuits cacaotés aux pépites de chocolat",
+        "categories": [
+            "Snacks sucrés",
+            "Biscuits et gâteaux",
+            "Biscuits",
+            "Biscuits au chocolat"
+        ],
+        "stores": "Netto",
+        "site_url": "https://world.openfoodfacts.org/product/3250390736356/biscuits-pour-le-petit-dejeuner-pepites-de-chocolat-cacao-netto",
+        "score": 9
     }
 ]

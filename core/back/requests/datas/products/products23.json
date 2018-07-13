@@ -1,88 +1,5 @@
 [
     {
-        "name": "Mini Penne Rigate",
-        "description": "Pâtes alimentaires au blé dur de qualité supérieure",
-        "categories": [
-            "Aliments et boissons à base de végétaux",
-            "Aliments d origine végétale",
-            "Céréales et pommes de terre",
-            "Céréales et dérivés",
-            "Pâtes alimentaires",
-            "Pâtes sèches"
-        ],
-        "stores": "Leclerc",
-        "site_url": "https://world.openfoodfacts.org/product/3564700512531/mini-penne-rigate-turini",
-        "score": -3
-    },
-    {
-        "name": "Haricots beurre très fins",
-        "description": "",
-        "categories": [
-            "Aliments et boissons à base de végétaux",
-            "Aliments d origine végétale",
-            "Légumes et dérivés",
-            "Conserves",
-            "Aliments à base de plantes en conserve",
-            "Légumineuses en conserve"
-        ],
-        "stores": "Leclerc",
-        "site_url": "https://world.openfoodfacts.org/product/3564700015179/haricots-beurre-tres-fins-notre-jardin",
-        "score": -1
-    },
-    {
-        "name": "Thaï sélection riz long",
-        "description": "Riz long thaï",
-        "categories": [
-            "Aliments et boissons à base de végétaux",
-            "Aliments d origine végétale",
-            "Céréales et pommes de terre",
-            "Graines",
-            "Céréales et dérivés",
-            "Céréales en grains",
-            "Riz"
-        ],
-        "stores": "Leclerc",
-        "site_url": "https://world.openfoodfacts.org/product/3564700010211/thai-selection-riz-long-comptoir-du-grain",
-        "score": -1
-    },
-    {
-        "name": "Confiture Extra Abricot",
-        "description": "",
-        "categories": [
-            "Aliments et boissons à base de végétaux",
-            "Aliments d origine végétale",
-            "Aliments à base de fruits et de légumes",
-            "Petit déjeuners",
-            "Produits à tartiner",
-            "Fruits et produits dérivés",
-            "Pâtes à tartiner végétales",
-            "Produits à tartiner sucrés",
-            "Fruits en conserve",
-            "Confitures",
-            "Confitures de fruits",
-            "Confitures d abricot"
-        ],
-        "stores": "Leclerc",
-        "site_url": "https://world.openfoodfacts.org/product/3564700011126/confiture-extra-abricot-mamie-douceur",
-        "score": 12
-    },
-    {
-        "name": "Riz Long Méditerranéen",
-        "description": "Riz long",
-        "categories": [
-            "Aliments et boissons à base de végétaux",
-            "Aliments d origine végétale",
-            "Céréales et pommes de terre",
-            "Graines",
-            "Céréales et dérivés",
-            "Céréales en grains",
-            "Riz"
-        ],
-        "stores": "leclerc",
-        "site_url": "https://world.openfoodfacts.org/product/3564700010143/riz-long-mediterraneen-comptoir-du-grain",
-        "score": -1
-    },
-    {
         "name": "Fricassée de Poulet, Riz et Légumes",
         "description": "Mélange de riz, de légumes et de morceaux de filet de poulet rôti - surgelé.",
         "categories": [
@@ -3165,13 +3082,15 @@
     },
     {
         "name": "Riz Cantonais",
-        "description": "Riz cuit accompagné d oeuf, de jambon cuit et de petits pois",
+        "description": "Riz cuit accompagné d œuf, de jambon cuit et de petits pois. Riz Cantonais",
         "categories": [
-            "Plats préparés"
+            "Plats préparés",
+            "Réfrigérés",
+            "Plats préparés réfrigérés"
         ],
         "stores": "Grand Frais",
         "site_url": "https://world.openfoodfacts.org/product/3242278100410/riz-cantonais-ses",
-        "score": 3
+        "score": 12
     },
     {
         "name": "1 Galette Lardons Chèvre affiné",
@@ -7626,5 +7545,15 @@
         "stores": "Lidl",
         "site_url": "https://world.openfoodfacts.org/product/20396886/jus-d-orange-presse-sans-pulpe-vitafit",
         "score": 4
+    },
+    {
+        "name": "Gâteau au fromage Betty Bossi",
+        "description": "Tranche de gâteau au fromage",
+        "categories": [
+            "Plats préparés"
+        ],
+        "stores": "Coop",
+        "site_url": "https://world.openfoodfacts.org/product/7610807087680/gateau-au-fromage-betty-bossi-coop",
+        "score": 17
     }
 ]

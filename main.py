@@ -28,6 +28,7 @@ from docopt import docopt
 
 import core.back.requests.load_pages as load_pages
 import core.back.database.create_database as create_database
+import core.front.user_interface as user_interface
 
 
 def main():
@@ -47,8 +48,7 @@ def main():
         pass
 
     elif not any(arguments.values()):
-        # user_interface.init()
-        pass
+        user_interface.init()
 
     else:
         print("Argument error.")

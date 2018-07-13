@@ -1,81 +1,5 @@
 [
     {
-        "name": "Caviar d Artichauts",
-        "description": "Caviar d artichauts",
-        "categories": [
-            "Produits à tartiner",
-            "Biscuits apéritifs"
-        ],
-        "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/8029689006341/caviar-d-artichauts-bio-gustiamo",
-        "score": 2
-    },
-    {
-        "name": "Chocolat Excellence Noir Intense 70%",
-        "description": "",
-        "categories": [
-            "Snacks sucrés",
-            "Chocolats",
-            "Chocolats noirs"
-        ],
-        "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/3046920032100/chocolat-excellence-noir-intense-70-lindt",
-        "score": 23
-    },
-    {
-        "name": "Amandes Effilées ",
-        "description": "Amandes effilées blanchies",
-        "categories": [
-            "Aliments et boissons à base de végétaux",
-            "Aliments d origine végétale",
-            "Fruits à coques et dérivés",
-            "Fruits à coques"
-        ],
-        "stores": "Lidl",
-        "site_url": "https://world.openfoodfacts.org/product/20003418/amandes-effilees-belbake",
-        "score": 12
-    },
-    {
-        "name": "Truite Fumée au Bois de Hêtre",
-        "description": "Truite fumée décongelée",
-        "categories": [
-            "Produits de la mer",
-            "Poissons",
-            "Poissons fumés"
-        ],
-        "stores": "Super U,Magasins U",
-        "site_url": "https://world.openfoodfacts.org/product/3256220031301/truite-fumee-au-bois-de-hetre-u",
-        "score": 12
-    },
-    {
-        "name": "OAT",
-        "description": "",
-        "categories": [
-            "Produits laitiers",
-            "Laits"
-        ],
-        "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/5400115399276/oat-delhaize",
-        "score": 1
-    },
-    {
-        "name": "Alpro Soya Banana",
-        "description": "",
-        "categories": [
-            "Aliments et boissons à base de végétaux",
-            "Boissons",
-            "Aliments d origine végétale",
-            "Légumes et dérivés",
-            "Boissons à base de végétaux",
-            "Substitut du lait",
-            "Laits végétaux",
-            "Boissons non sucrées"
-        ],
-        "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/5411188121992/alpro-soya-banana",
-        "score": 0
-    },
-    {
         "name": "Café Filtre Soluble",
         "description": "",
         "categories": [
@@ -463,7 +387,7 @@
         "score": 23
     },
     {
-        "name": "Huile d olive vierge extra aromatisée au basilic",
+        "name": "Huile d olive au basilic",
         "description": "",
         "categories": [
             "Aliments et boissons à base de végétaux",
@@ -476,7 +400,7 @@
             "Huiles d olive vierges extra"
         ],
         "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/3217450004527/huile-d-olive-vierge-extra-aromatisee-au-basilic-le-jardin-d-orante",
+        "site_url": "https://world.openfoodfacts.org/product/3217450004527/huile-d-olive-au-basilic-le-jardin-d-orante",
         "score": 11
     },
     {
@@ -1213,7 +1137,8 @@
         "categories": [
             "Snacks sucrés",
             "Biscuits et gâteaux",
-            "Biscuits"
+            "Biscuits",
+            "Biscuits au chocolat"
         ],
         "stores": "Leader Price",
         "site_url": "https://world.openfoodfacts.org/product/3263852923195/florentins-aux-amandes-leader-price",
@@ -6005,5 +5930,84 @@
         "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3166291465007/piment-doux-ducros",
         "score": 0
+    },
+    {
+        "name": "Livarot",
+        "description": "",
+        "categories": [
+            "Produits laitiers",
+            "Produits fermentés",
+            "Produits laitiers fermentés",
+            "Fromages",
+            "Fromages de vache",
+            "Fromages de France"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/3252950033134/livarot-e-graindorge",
+        "score": 14
+    },
+    {
+        "name": "Le Beurre de la laiterie de Condé-sur-Vire aux cristaux de sel",
+        "description": "Beurre salé - 80% MT",
+        "categories": [
+            "Produits laitiers",
+            "Produits à tartiner",
+            "Matières grasses",
+            "Matières grasses à tartiner",
+            "Matières grasses animales",
+            "Milkfat",
+            "Beurres"
+        ],
+        "stores": "Auchan",
+        "site_url": "https://world.openfoodfacts.org/product/3451790178283/le-beurre-de-la-laiterie-de-conde-sur-vire-aux-cristaux-de-sel-elle-vire",
+        "score": 28
+    },
+    {
+        "name": "G alliers beurre frais",
+        "description": "",
+        "categories": [
+            "Snacks sucrés",
+            "Biscuits et gâteaux",
+            "Biscuits"
+        ],
+        "stores": "Aire d autoroute",
+        "site_url": "https://world.openfoodfacts.org/product/3760115210073/g-alliers-beurre-frais-l-atelier-auvergnat",
+        "score": 24
+    },
+    {
+        "name": "Craquelins",
+        "description": "",
+        "categories": [
+            "Snacks sucrés",
+            "Biscuits et gâteaux",
+            "Biscuits"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/3760043030378/craquelins-bellier",
+        "score": 0
+    },
+    {
+        "name": "Bassin de Vichy",
+        "description": "",
+        "categories": [
+            "Snacks sucrés",
+            "Confiseries",
+            "Bonbons"
+        ],
+        "stores": "Aire d autoroute",
+        "site_url": "https://world.openfoodfacts.org/product/3162210101483/bassin-de-vichy-moinet-vichy-sante",
+        "score": 14
+    },
+    {
+        "name": "Pastilles du bassin de Vichy arôme citron",
+        "description": "",
+        "categories": [
+            "Snacks sucrés",
+            "Confiseries",
+            "Bonbons"
+        ],
+        "stores": "Aire d autoroute",
+        "site_url": "https://world.openfoodfacts.org/product/3162210102664/pastilles-du-bassin-de-vichy-arome-citron-moinet",
+        "score": 15
     }
 ]

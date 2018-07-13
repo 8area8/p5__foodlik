@@ -1,67 +1,5 @@
 [
     {
-        "name": "Biscuits Petit déjeuner céréales et pépies de chocolat",
-        "description": "",
-        "categories": [
-            "Snacks sucrés",
-            "Biscuits et gâteaux",
-            "Biscuits"
-        ],
-        "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/3222475752599/biscuits-petit-dejeuner-cereales-et-pepies-de-chocolat-casino",
-        "score": 17
-    },
-    {
-        "name": "Val d Automne (28 % MG)",
-        "description": "Fromage industriel de France, à pâte molle à croûte lavée, au lait pasteurisé de vache",
-        "categories": [
-            "Frais",
-            "Produits laitiers",
-            "Produits fermentés",
-            "Produits laitiers fermentés",
-            "Fromages",
-            "Fromages de vache",
-            "Fromages de France",
-            "Fromages pasteurisés",
-            "Fromages industriels"
-        ],
-        "stores": "Casino",
-        "site_url": "https://world.openfoodfacts.org/product/3222472118800/val-d-automne-28-mg-casino",
-        "score": 17
-    },
-    {
-        "name": "Compote allégée Pomme Pêche",
-        "description": "Compote de pommes et de pêches allégée en sucres (30 % de sucres en moins)",
-        "categories": [
-            "Aliments et boissons à base de végétaux",
-            "Aliments d origine végétale",
-            "Aliments à base de fruits et de légumes",
-            "Desserts",
-            "Fruits et produits dérivés",
-            "Compotes",
-            "Compotes de pomme"
-        ],
-        "stores": "Casino",
-        "site_url": "https://world.openfoodfacts.org/product/3222472861836/compote-allegee-pomme-peche-casino",
-        "score": -4
-    },
-    {
-        "name": "Compote allégée Pomme Poire",
-        "description": "Compote de pommes et de poires allégée en sucres (30 % de sucres en moins)",
-        "categories": [
-            "Aliments et boissons à base de végétaux",
-            "Aliments d origine végétale",
-            "Aliments à base de fruits et de légumes",
-            "Desserts",
-            "Fruits et produits dérivés",
-            "Compotes",
-            "Compotes de pomme"
-        ],
-        "stores": "Casino",
-        "site_url": "https://world.openfoodfacts.org/product/3222472861775/compote-allegee-pomme-poire-casino",
-        "score": -4
-    },
-    {
         "name": "Jambon Supérieur - 25% de sel",
         "description": "Jambon cuit supérieur",
         "categories": [
@@ -554,7 +492,7 @@
         "score": 1
     },
     {
-        "name": "Charal - Le spécial à l Oignon",
+        "name": "Le spécial à l Oignon",
         "description": "Préparation surgelée à 51%  de viande de boeuf hachée à l oignon avec des protéines végétales de soja",
         "categories": [
             "Viandes",
@@ -562,7 +500,7 @@
             "Bœuf"
         ],
         "stores": "Franprix",
-        "site_url": "https://world.openfoodfacts.org/product/3227061000061/charal-le-special-a-l-oignon",
+        "site_url": "https://world.openfoodfacts.org/product/3227061000061/le-special-a-l-oignon-charal",
         "score": 4
     },
     {
@@ -2025,7 +1963,7 @@
         "score": 4
     },
     {
-        "name": "Forme & Chocolat noir",
+        "name": "Forme & chocolat",
         "description": "",
         "categories": [
             "Aliments et boissons à base de végétaux",
@@ -2036,8 +1974,8 @@
             "Céréales pour petit déjeuner"
         ],
         "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/3250390816416/forme-chocolat-noir-chabrior",
-        "score": 6
+        "site_url": "https://world.openfoodfacts.org/product/3250390816416/forme-chocolat-chabrior",
+        "score": 7
     },
     {
         "name": "6 quenelles de volaille aux oeufs frais",
@@ -7083,7 +7021,7 @@
         ],
         "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3180840008842/les-moelleux-abricots-maitre-prunille",
-        "score": -4
+        "score": -2
     },
     {
         "name": "Le Torchon (lot de 2)",
@@ -9200,5 +9138,42 @@
         "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/5000328230603/sauce-salsa-douce-doritos",
         "score": 5
+    },
+    {
+        "name": "Avocat au jus de citron vert",
+        "description": "Soupe froide à l avocat au jus de citron vert",
+        "categories": [
+            "Plats préparés",
+            "Soupes"
+        ],
+        "stores": "carrefour",
+        "site_url": "https://world.openfoodfacts.org/product/3760132081397/avocat-au-jus-de-citron-vert-green-shoot",
+        "score": 3
+    },
+    {
+        "name": "Mon fournil préparation pour pain aux graines sans gluten",
+        "description": "",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Aliments d origine végétale",
+            "Farines"
+        ],
+        "stores": "Auchan",
+        "site_url": "https://world.openfoodfacts.org/product/3760130560443/mon-fournil-preparation-pour-pain-aux-graines-sans-gluten",
+        "score": 10
+    },
+    {
+        "name": "Préparation pour brioche",
+        "description": "Préparation pour brioche",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Aliments d origine végétale",
+            "Céréales et pommes de terre",
+            "Céréales et dérivés",
+            "Farines"
+        ],
+        "stores": "Auchan,Carrefour Market",
+        "site_url": "https://world.openfoodfacts.org/product/3760130560047/preparation-pour-brioche-mon-fournil",
+        "score": 0
     }
 ]

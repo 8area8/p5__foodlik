@@ -1,65 +1,5 @@
 [
     {
-        "name": "Sirop cola",
-        "description": "",
-        "categories": [
-            "Boissons",
-            "Sirops",
-            "Sirops aromatisés"
-        ],
-        "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/3092718605544/sirop-cola-teisseire",
-        "score": 20
-    },
-    {
-        "name": "Fruit Shoot Tropical",
-        "description": "Boisson rafraîchissante aux fruits - Saveur Tropicale",
-        "categories": [
-            "Aliments et boissons à base de végétaux",
-            "Boissons",
-            "Boissons à base de végétaux",
-            "Boissons aux fruits",
-            "Boissons non sucrées",
-            "Boissons sucrées"
-        ],
-        "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/3092718607791/fruit-shoot-tropical-teisseire",
-        "score": 8
-    },
-    {
-        "name": "Sirop de Pomme",
-        "description": "Sirop de Pomme",
-        "categories": [
-            "Boissons",
-            "Boissons sucrées"
-        ],
-        "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/3092718605063/sirop-de-pomme-teisseire",
-        "score": 20
-    },
-    {
-        "name": "Teisseire 0% Grenadine",
-        "description": "Sirop sans sucre",
-        "categories": [
-            "Boissons",
-            "Boissons édulcorées",
-            "Sirops"
-        ],
-        "stores": "Intermarché",
-        "site_url": "https://world.openfoodfacts.org/product/3092718605605/teisseire-0-grenadine",
-        "score": 0
-    },
-    {
-        "name": "Tropical fruits exotiques",
-        "description": "",
-        "categories": [
-            "Boissons"
-        ],
-        "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/3092718605483/tropical-fruits-exotiques-teisseire",
-        "score": 20
-    },
-    {
         "name": "Sirop Menthe Stevia",
         "description": "Boisson concentrée aux extraits naturels de menthe à diluer, avec édulcorants",
         "categories": [
@@ -7877,7 +7817,7 @@
         "score": 2
     },
     {
-        "name": "Olives au fromage dénoyautées",
+        "name": "Olives vertes au fromage dénoyautées",
         "description": "",
         "categories": [
             "Aliments et boissons à base de végétaux",
@@ -7888,7 +7828,7 @@
             "Olives"
         ],
         "stores": "Carrefour City",
-        "site_url": "https://world.openfoodfacts.org/product/3245414113404/olives-au-fromage-denoyautees-carrefour",
+        "site_url": "https://world.openfoodfacts.org/product/3245414113404/olives-vertes-au-fromage-denoyautees-carrefour",
         "score": 15
     },
     {
@@ -8457,5 +8397,85 @@
         "stores": "Leclerc",
         "site_url": "https://world.openfoodfacts.org/product/3243610060249/12-cakes-rocher-pepites-de-chocolat-le-ster",
         "score": 16
+    },
+    {
+        "name": "Pépites Choc  Nappage Choco",
+        "description": "Gâteau aux pépites de chocolats, nappé de chocolat",
+        "categories": [
+            "Snacks sucrés",
+            "Desserts",
+            "Biscuits et gâteaux",
+            "Gâteaux",
+            "Gâteaux au chocolat"
+        ],
+        "stores": "Cora",
+        "site_url": "https://world.openfoodfacts.org/product/3243610097511/pepites-choc-nappage-choco-whaou",
+        "score": 20
+    },
+    {
+        "name": "Goûters Tout caramel",
+        "description": "Gâteau au caramel, fourrage caramel",
+        "categories": [
+            "Snacks sucrés",
+            "Biscuits et gâteaux",
+            "Gâteaux"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/3243610097894/gouters-tout-caramel-whaou",
+        "score": 18
+    },
+    {
+        "name": "Tout chocolat nappage choco",
+        "description": "Gâteau au chocolat fourré et nappé chocolat",
+        "categories": [
+            "Snacks sucrés",
+            "Desserts",
+            "Biscuits et gâteaux",
+            "Gâteaux",
+            "Gâteaux au chocolat"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/3243610098150/tout-chocolat-nappage-choco-whaou",
+        "score": 20
+    },
+    {
+        "name": "Gaufre Flash",
+        "description": "Gaufre sucrée",
+        "categories": [
+            "Snacks sucrés",
+            "Desserts",
+            "Biscuits et gâteaux",
+            "Gâteaux"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/3243610099911/gaufre-flash-paul-rocher-patissier",
+        "score": 18
+    },
+    {
+        "name": "Cassoulet du Pays Occitan aux saucisses de Toulouse",
+        "description": "",
+        "categories": [
+            "Conserves",
+            "Plats préparés",
+            "Plats à base de viande",
+            "Plats à base de viande bovine",
+            "Plats préparés en conserve"
+        ],
+        "stores": "Carrefour",
+        "site_url": "https://world.openfoodfacts.org/product/3245362977011/cassoulet-du-pays-occitan-aux-saucisses-de-toulouse-la-belle-chaurienne",
+        "score": 1
+    },
+    {
+        "name": "Poêlée Asiatique courgettes - Carottes, Poivrons Jaunes, Pousse de haricots mungo",
+        "description": "Poêlée Asiatique",
+        "categories": [
+            "Surgelés",
+            "Plats préparés",
+            "Plats préparés d origine végétale",
+            "Plats préparés surgelés"
+        ],
+        "stores": "Intermarché",
+        "site_url": "https://world.openfoodfacts.org/product/3248451080562/poelee-asiatique-courgettes-carottes-poivrons-jaunes-pousse-de-haricots-mungo-d-aucy",
+        "score": -2
     }
 ]

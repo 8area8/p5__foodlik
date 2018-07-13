@@ -1,79 +1,5 @@
 [
     {
-        "name": "Bifidus, Saveur Citron",
-        "description": "Lait fermenté au Bifidus, sucré, aromatisé goût citron, au lait demi-écrémé",
-        "categories": [
-            "Produits laitiers",
-            "Produits fermentés",
-            "Produits laitiers fermentés",
-            "Yaourts",
-            "Yaourts aromatisés",
-            "Yaourts sucrés"
-        ],
-        "stores": "Satoriz,Bio14",
-        "site_url": "https://world.openfoodfacts.org/product/3273220135419/bifidus-saveur-citron-tante-helene",
-        "score": 3
-    },
-    {
-        "name": "Hamburguesas vegetales Tomate y albahaca",
-        "description": "Hamburguesas vegetales de soja",
-        "categories": [
-            "Aliments et boissons à base de végétaux",
-            "Aliments d origine végétale",
-            "Substituts de viande"
-        ],
-        "stores": "Supermercados Gigante",
-        "site_url": "https://world.openfoodfacts.org/product/3273228086072/hamburguesas-vegetales-tomate-y-albahaca-sojasun",
-        "score": -1
-    },
-    {
-        "name": "Hamburguesas vegetales Provenzal",
-        "description": "Hamburguesas vegetales de soja",
-        "categories": [
-            "Aliments et boissons à base de végétaux",
-            "Aliments d origine végétale",
-            "Substituts de viande"
-        ],
-        "stores": "Alcampo,Carrefour,El corte inglés",
-        "site_url": "https://world.openfoodfacts.org/product/3273228086102/hamburguesas-vegetales-provenzal-sojasun",
-        "score": -2
-    },
-    {
-        "name": "Soja Cuisine (17 % MG) ",
-        "description": "Spécialité culinaire à base de soja et de matières grasses végétales, stérilisée UHT, issue de l agriculture biologique",
-        "categories": [
-            "Aliments et boissons à base de végétaux",
-            "Aliments d origine végétale"
-        ],
-        "stores": "El Corte Inglés,Veritas",
-        "site_url": "https://world.openfoodfacts.org/product/3273227088213/soja-cuisine-17-mg-sojade",
-        "score": 3
-    },
-    {
-        "name": "Boulettes végétales aux herbes",
-        "description": "Préparation à base de soja précuite aromatisée aux herbes de Provence",
-        "categories": [
-            "Plats préparés",
-            "Plats préparés d origine végétale"
-        ],
-        "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/3273220086971/boulettes-vegetales-aux-herbes-sojasun",
-        "score": -5
-    },
-    {
-        "name": "Fromage blanc Tante Hélène",
-        "description": "Fromage blanc",
-        "categories": [
-            "Produits laitiers",
-            "Produits fermentés",
-            "Produits laitiers fermentés",
-            "Fromages"
-        ],
-        "stores": "Bio C bon",
-        "site_url": "https://world.openfoodfacts.org/product/3273220154052/fromage-blanc-tante-helene",
-        "score": -2
-    },
-    {
         "name": "Fromage Blanc au Lait de Brebis",
         "description": "Fromage blanc au lait de brebis issu de l agriculture biologique",
         "categories": [
@@ -2357,7 +2283,7 @@
         "score": 6
     },
     {
-        "name": "Gâteau moelleux aux amandes et pépites de chocolat",
+        "name": "Gateau moelleux à ka noix de coco",
         "description": "Gâteau aux noisettes",
         "categories": [
             "Snacks sucrés",
@@ -2366,7 +2292,7 @@
             "Gâteaux"
         ],
         "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/26035161/gateau-moelleux-aux-amandes-et-pepites-de-chocolat-tante-odile",
+        "site_url": "https://world.openfoodfacts.org/product/26035161/gateau-moelleux-a-ka-noix-de-coco-tante-odile",
         "score": 24
     },
     {
@@ -7850,7 +7776,7 @@
         "score": 22
     },
     {
-        "name": "Tofu Almendra-Sésamo",
+        "name": "Tofu fumé amandes - sésame",
         "description": "Tofu ahumado. Producto vegetal a base de soja",
         "categories": [
             "Aliments et boissons à base de végétaux",
@@ -7859,7 +7785,7 @@
             "Substituts de viande"
         ],
         "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/4012359113108/tofu-almendra-sesamo-taifun",
+        "site_url": "https://world.openfoodfacts.org/product/4012359113108/tofu-fume-amandes-sesame-taifun",
         "score": 3
     },
     {
@@ -8107,6 +8033,20 @@
         "score": 25
     },
     {
+        "name": "Saumon sauvage d Alaska",
+        "description": "",
+        "categories": [
+            "Produits de la mer",
+            "Poissons",
+            "Saumons",
+            "Poissons fumés",
+            "Saumons fumés"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/3440432011149/saumon-sauvage-d-alaska-fjord-king",
+        "score": 10
+    },
+    {
         "name": "Champignons de Paris émincés 1er Choix",
         "description": "",
         "categories": [
@@ -8334,5 +8274,30 @@
         "stores": "Walgreens",
         "site_url": "https://world.openfoodfacts.org/product/0051000000118/campbell-tomato-soup-campbell-s",
         "score": 5
+    },
+    {
+        "name": "Mimi génoise fourrée cacao",
+        "description": "Produit de pâtisserie mini génoises cuites au four et fourrage (26%) au cacao maigre",
+        "categories": [
+            "Snacks sucrés",
+            "Biscuits et gâteaux",
+            "Gâteaux",
+            "Gâteaux au chocolat"
+        ],
+        "stores": "Aldi",
+        "site_url": "https://world.openfoodfacts.org/product/26035536/mimi-genoise-fourree-cacao-petit-choisi",
+        "score": 17
+    },
+    {
+        "name": "Lait Amandes entières",
+        "description": "Chocolat au lait extra fin aux amandes entières",
+        "categories": [
+            "Snacks sucrés",
+            "Chocolats",
+            "Chocolats au lait"
+        ],
+        "stores": "Lidl",
+        "site_url": "https://world.openfoodfacts.org/product/20005795/lait-amandes-entieres-bellarom",
+        "score": 20
     }
 ]

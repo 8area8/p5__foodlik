@@ -1,62 +1,5 @@
 [
     {
-        "name": "Le Moment Burger Sésame",
-        "description": "",
-        "categories": [
-            "Aliments et boissons à base de végétaux",
-            "Aliments d origine végétale",
-            "Céréales et pommes de terre",
-            "Pains",
-            "Pains spéciaux"
-        ],
-        "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/3228857000357/le-moment-burger-sesame-harrys",
-        "score": 0
-    },
-    {
-        "name": "Envitas-Céréales complètes et pépites de chocolat",
-        "description": "",
-        "categories": [
-            "Petit déjeuners",
-            "Snacks sucrés",
-            "Biscuits et gâteaux",
-            "Biscuits"
-        ],
-        "stores": "Lidl",
-        "site_url": "https://world.openfoodfacts.org/product/20089986/envitas-cereales-completes-et-pepites-de-chocolat-sondey",
-        "score": 17
-    },
-    {
-        "name": "4 muffins complet",
-        "description": "4 petits pains complets",
-        "categories": [
-            "Aliments et boissons à base de végétaux",
-            "Aliments d origine végétale",
-            "Céréales et pommes de terre",
-            "Pains",
-            "Pains spéciaux"
-        ],
-        "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/3350030111908/4-muffins-complet-monoprix",
-        "score": -3
-    },
-    {
-        "name": "Mozzarella (19% MG)",
-        "description": "Fromage à pâte filée en saumure au lait pasteurisé de vache issu de l agriculture biologique",
-        "categories": [
-            "Produits laitiers",
-            "Produits fermentés",
-            "Produits laitiers fermentés",
-            "Fromages",
-            "Fromages de vache",
-            "Fromages pasteurisés",
-            "Fromages italiens"
-        ],
-        "stores": "Monoprix",
-        "site_url": "https://world.openfoodfacts.org/product/3350030109721/mozzarella-19-mg-monoprix-bio",
-        "score": 8
-    },
-    {
         "name": "Pain aux céréales Bio",
         "description": "Pain aux céréales tranché issu de l agriculture biologique",
         "categories": [
@@ -1959,7 +1902,7 @@
         "score": 9
     },
     {
-        "name": "Mais doux",
+        "name": "Maïs, sans sucres ajoutés",
         "description": "",
         "categories": [
             "Aliments et boissons à base de végétaux",
@@ -1973,7 +1916,7 @@
             "Légumes en conserve"
         ],
         "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/3083680020763/mais-doux-bonduelle",
+        "site_url": "https://world.openfoodfacts.org/product/3083680020763/mais-sans-sucres-ajoutes-bonduelle",
         "score": -8
     },
     {
@@ -2012,14 +1955,28 @@
         "score": 20
     },
     {
-        "name": "Sojasun café",
-        "description": "dessert vegetal",
+        "name": "Postre de soja Limón",
+        "description": "Postre de soja de limón",
         "categories": [
-            "Frais",
+            "Produits laitiers",
+            "Produits fermentés",
+            "Desserts",
+            "Produits laitiers fermentés",
+            "Yaourts",
+            "Yaourts aux fruits"
+        ],
+        "stores": "Supermercados Gigante",
+        "site_url": "https://world.openfoodfacts.org/product/3273227582995/postre-de-soja-limon-sojasun",
+        "score": 0
+    },
+    {
+        "name": "Café",
+        "description": "Dessert au soja au café, enrichi en calcium",
+        "categories": [
             "Desserts"
         ],
         "stores": "Super U",
-        "site_url": "https://world.openfoodfacts.org/product/3273220085196/sojasun-cafe",
+        "site_url": "https://world.openfoodfacts.org/product/3273220085196/cafe-sojasun",
         "score": 1
     },
     {
@@ -2337,7 +2294,7 @@
         "score": 14
     },
     {
-        "name": "Petit Beurre Bio",
+        "name": "Biscuits petit-beurre",
         "description": "Petit-beurre issu de l agriculture biologique",
         "categories": [
             "Snacks sucrés",
@@ -2345,7 +2302,7 @@
             "Biscuits"
         ],
         "stores": "Leader Price",
-        "site_url": "https://world.openfoodfacts.org/product/3263852922112/petit-beurre-bio-leader-price",
+        "site_url": "https://world.openfoodfacts.org/product/3263852922112/biscuits-petit-beurre-leader-price",
         "score": 21
     },
     {
@@ -2789,14 +2746,14 @@
         "score": 3
     },
     {
-        "name": "vinaigrette de vin rouge echalotte et pointe de d oignon rouge",
+        "name": "Vinaigrette de Vin Rouge Échalotes et Pointe de d Oignon Rouge",
         "description": "Vinaigrette",
         "categories": [
             "Epicerie",
             "Sauces"
         ],
-        "stores": "monoprix",
-        "site_url": "https://world.openfoodfacts.org/product/8722700422952/vinaigrette-de-vin-rouge-echalotte-et-pointe-de-d-oignon-rouge-maille",
+        "stores": "Monoprix",
+        "site_url": "https://world.openfoodfacts.org/product/8722700422952/vinaigrette-de-vin-rouge-echalotes-et-pointe-de-d-oignon-rouge-maille",
         "score": 12
     },
     {
@@ -6645,6 +6602,23 @@
         "score": -3
     },
     {
+        "name": "Pom Potes (Pomme/Poire)",
+        "description": "Pom potes ",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Aliments d origine végétale",
+            "Frais",
+            "Aliments à base de fruits et de légumes",
+            "Desserts",
+            "Fruits et produits dérivés",
+            "Compotes",
+            "Compotes de pomme"
+        ],
+        "stores": "Carrefour",
+        "site_url": "https://world.openfoodfacts.org/product/3021769505626/pom-potes-pomme-poire-materne",
+        "score": -4
+    },
+    {
         "name": "Pomme Framboise",
         "description": "Compote",
         "categories": [
@@ -7141,8 +7115,8 @@
         "score": 20
     },
     {
-        "name": "Oeufs de poules élevées en plein air Bio (x 10) ",
-        "description": "Oeufs frais de poules, élevées en plein air, catégorie A, issus de l agriculture biologique",
+        "name": "Œufs de poules élevées en plein air Bio (* 10)",
+        "description": "Œufs frais de poules, élevées en plein air, catégorie A, issus de l agriculture biologique",
         "categories": [
             "Produits d élevages",
             "Produits labellisés",
@@ -7150,7 +7124,7 @@
             "Œufs"
         ],
         "stores": "Auchan",
-        "site_url": "https://world.openfoodfacts.org/product/3596710330812/oeufs-de-poules-elevees-en-plein-air-bio-x-10-auchan-bio",
+        "site_url": "https://world.openfoodfacts.org/product/3596710330812/oeufs-de-poules-elevees-en-plein-air-bio-10-auchan-bio",
         "score": 0
     },
     {
@@ -7666,7 +7640,7 @@
         "score": 15
     },
     {
-        "name": "Crème epaisse",
+        "name": "Crème Semi Épaisse",
         "description": "Spécialité laitière 4% M.G. stérilisée UHT",
         "categories": [
             "Produits laitiers",
@@ -7675,7 +7649,7 @@
             "Crèmes"
         ],
         "stores": "Monoprix,Intermarché",
-        "site_url": "https://world.openfoodfacts.org/product/3451790852497/creme-epaisse-elle-vire",
+        "site_url": "https://world.openfoodfacts.org/product/3451790852497/creme-semi-epaisse-elle-vire",
         "score": 1
     },
     {
@@ -9325,7 +9299,7 @@
     },
     {
         "name": "Pomme Nature en Morceaux Sans Sucres Ajoutés",
-        "description": "Pulpe et purée de pommes sans sucres ajoutés",
+        "description": "Spécialité de pommes sans sucres ajoutés",
         "categories": [
             "Aliments et boissons à base de végétaux",
             "Aliments d origine végétale",
@@ -10235,5 +10209,59 @@
         "stores": "Carrefour",
         "site_url": "https://world.openfoodfacts.org/product/3560070583348/clementine-100-pur-fruit-presse-carrefour",
         "score": 5
+    },
+    {
+        "name": "Tortellini ricotta épinard",
+        "description": "Pâtes fraîches à la farine de blé tendre et à la semoule de blé dur farcies d une préparation (44%) à la ricotta et aux épinards",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Aliments d origine végétale",
+            "Frais",
+            "Céréales et pommes de terre",
+            "Céréales et dérivés",
+            "Plats préparés",
+            "Pâtes alimentaires",
+            "Plats préparés frais"
+        ],
+        "stores": "Carrefour,Carrefour market",
+        "site_url": "https://world.openfoodfacts.org/product/3560070816828/tortellini-ricotta-epinard-carrefour",
+        "score": 3
+    },
+    {
+        "name": "Nuggets extra croustillants",
+        "description": "Préparation de viande de poulet traitée en salaison reconstituée (65%), panée (35%) et cuite",
+        "categories": [
+            "Viandes",
+            "Volailles",
+            "Poulets"
+        ],
+        "stores": "Carrefour",
+        "site_url": "https://world.openfoodfacts.org/product/3560070812950/nuggets-extra-croustillants-carrefour",
+        "score": 3
+    },
+    {
+        "name": "Baguette précuite",
+        "description": "Pain spécial précuit",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Aliments d origine végétale",
+            "Céréales et pommes de terre",
+            "Pains"
+        ],
+        "stores": "Carrefour",
+        "site_url": "https://world.openfoodfacts.org/product/3560070816507/baguette-precuite-carrefour",
+        "score": 1
+    },
+    {
+        "name": "Boudoirs aux oeufs frais",
+        "description": "Biscuits aux oeufs frais",
+        "categories": [
+            "Snacks sucrés",
+            "Biscuits et gâteaux",
+            "Biscuits"
+        ],
+        "stores": "Carrefour Market",
+        "site_url": "https://world.openfoodfacts.org/product/3560070108589/boudoirs-aux-oeufs-frais-carrefour",
+        "score": 13
     }
 ]

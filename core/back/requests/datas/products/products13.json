@@ -1,46 +1,5 @@
 [
     {
-        "name": "Tuiles Salees",
-        "description": "Tuiles",
-        "categories": [
-            "Snacks salés",
-            "Apéritif",
-            "Chips et frites",
-            "Chips"
-        ],
-        "stores": "Aldi",
-        "site_url": "https://world.openfoodfacts.org/product/26035352/tuiles-salees-pirato",
-        "score": 15
-    },
-    {
-        "name": "yaourt grec",
-        "description": "yaourt grec",
-        "categories": [
-            "Produits laitiers",
-            "Produits fermentés",
-            "Produits laitiers fermentés",
-            "Yaourts"
-        ],
-        "stores": "Boucheries André",
-        "site_url": "https://world.openfoodfacts.org/product/5202425001029/yaourt-grec-hotos",
-        "score": 4
-    },
-    {
-        "name": "Ebly® 5 min",
-        "description": "Blé dur précuit",
-        "categories": [
-            "Aliments et boissons à base de végétaux",
-            "Aliments d origine végétale",
-            "Céréales et pommes de terre",
-            "Graines",
-            "Céréales et dérivés",
-            "Céréales en grains"
-        ],
-        "stores": "Franprix",
-        "site_url": "https://world.openfoodfacts.org/product/3487400001603/ebly-5-min",
-        "score": -6
-    },
-    {
         "name": "Jambon cuit découénné dégraissé Bio",
         "description": "Jambon cuit découénné dégraissé Bio",
         "categories": [
@@ -3201,9 +3160,14 @@
         "name": "Patatas fritas Al punto de sal",
         "description": "Patatas fritas lisas",
         "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Aliments d origine végétale",
+            "Céréales et pommes de terre",
+            "Snacks salés",
+            "Apéritif",
+            "Chips et frites",
             "Chips",
-            "Chips de pommes de terre",
-            "Chips et frites"
+            "Chips de pommes de terre"
         ],
         "stores": "OpenCor,El Corte Inglés,Hipercor,Carrefour,Caprabo,Condis,Alcampo,Dia,Ahorramäs,Supersol",
         "site_url": "https://world.openfoodfacts.org/product/8410199002006/patatas-fritas-al-punto-de-sal-lay-s",
@@ -3836,7 +3800,7 @@
         "score": 20
     },
     {
-        "name": "fanta citron",
+        "name": "Fanta citron",
         "description": "Boisson rafraîchissante avec jus de citron, avec sucre et édulcorant.",
         "categories": [
             "Aliments et boissons à base de végétaux",
@@ -3947,7 +3911,7 @@
         "score": -5
     },
     {
-        "name": "Boisson gourmande Soja Chocolat",
+        "name": "Boisson de soja, Chocolat + calcium",
         "description": "Boisson de soja au chocolat, riche en calcium, stérilisée UHT",
         "categories": [
             "Aliments et boissons à base de végétaux",
@@ -3961,7 +3925,7 @@
             "Boissons sucrées"
         ],
         "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/3273220080382/boisson-gourmande-soja-chocolat-sojasun",
+        "site_url": "https://world.openfoodfacts.org/product/3273220080382/boisson-de-soja-chocolat-calcium-sojasun",
         "score": -1
     },
     {
@@ -5434,6 +5398,22 @@
         "score": 2
     },
     {
+        "name": "Les Fines et Fondantes  petites sardines (Sprats) à l huile d olive",
+        "description": "petites sardines (Sprats) à l huile d olive",
+        "categories": [
+            "Conserves",
+            "Produits de la mer",
+            "Poissons",
+            "Poissons en conserve",
+            "Sardines",
+            "Sardines en conserve",
+            "Sardines à l huile"
+        ],
+        "stores": "Super U,Auchan",
+        "site_url": "https://world.openfoodfacts.org/product/3263670141016/les-fines-et-fondantes-petites-sardines-sprats-a-l-huile-d-olive-connetable",
+        "score": 11
+    },
+    {
         "name": "Sardines généreuses au piment",
         "description": "Sardines au piment",
         "categories": [
@@ -6790,7 +6770,7 @@
         ],
         "stores": "Auchan",
         "site_url": "https://world.openfoodfacts.org/product/3367651004892/thon-oeuf-sauce-cocktail-salade-et-tomates-daunat",
-        "score": 0
+        "score": 2
     },
     {
         "name": "Tiramisu aux spéculoos",
@@ -6825,7 +6805,8 @@
         "categories": [
             "Snacks sucrés",
             "Biscuits et gâteaux",
-            "Biscuits"
+            "Biscuits",
+            "Biscuits au chocolat"
         ],
         "stores": "Magasins U",
         "site_url": "https://world.openfoodfacts.org/product/3368954000451/biscuits-florentins-chocolat-au-lait-u-saveurs",
@@ -8553,6 +8534,19 @@
         "score": 14
     },
     {
+        "name": "Amandes Décortiquées",
+        "description": "",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Aliments d origine végétale",
+            "Fruits à coques et dérivés",
+            "Fruits à coques"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/3580281210246/amandes-decortiquees-bedros-et-savino",
+        "score": -5
+    },
+    {
         "name": "Truite fumee au bois de hêtre",
         "description": "",
         "categories": [
@@ -8920,5 +8914,33 @@
         "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/8710438100785/mccain-just-au-four",
         "score": 0
+    },
+    {
+        "name": "Secret de Mousse Duo - Chocolat Noir & Chocolat Blanc",
+        "description": "",
+        "categories": [
+            "Produits laitiers",
+            "Desserts",
+            "Desserts lactés"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/3023290230183/secret-de-mousse-duo-chocolat-noir-chocolat-blanc-la-laitiere",
+        "score": 5
+    },
+    {
+        "name": "Pur jus de citron de Sicile Bio",
+        "description": "Jus de citron",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Boissons",
+            "Boissons à base de végétaux",
+            "Boissons aux fruits",
+            "Jus et nectars",
+            "Jus et nectars de fruits",
+            "Jus de fruits"
+        ],
+        "stores": "Auchan",
+        "site_url": "https://world.openfoodfacts.org/product/3596710413218/pur-jus-de-citron-de-sicile-bio-auchan",
+        "score": -4
     }
 ]

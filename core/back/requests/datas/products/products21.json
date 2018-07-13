@@ -1,66 +1,5 @@
 [
     {
-        "name": "Dark chocolate 50% cocoa",
-        "description": "Zartbitterschokolade 50% Kakao",
-        "categories": [
-            "Snacks sucrés",
-            "Chocolats",
-            "Chocolats noirs"
-        ],
-        "stores": "Lidl",
-        "site_url": "https://world.openfoodfacts.org/product/20005832/dark-chocolate-50-cocoa-fin-carre",
-        "score": 26
-    },
-    {
-        "name": "Dessert au lait de noix de coco",
-        "description": "Dessert végétal à base de noix de coco",
-        "categories": [
-            "Desserts"
-        ],
-        "stores": "Super U",
-        "site_url": "https://world.openfoodfacts.org/product/0680569854100/dessert-au-lait-de-noix-de-coco-the-coconut-co",
-        "score": 11
-    },
-    {
-        "name": "Duo twists provençal",
-        "description": "Bâtonnets en pâte levée au beurre, au fromage de chevre et au romarin",
-        "categories": [
-            "Snacks salés"
-        ],
-        "stores": "Lidl",
-        "site_url": "https://world.openfoodfacts.org/product/20501525/duo-twists-provencal-crusti-croc-selection",
-        "score": 24
-    },
-    {
-        "name": "Tarte au citron pâte sablée croustillante pur beurre",
-        "description": "Tarte au citron à base de pâte sablée (36%) garnie d une crème citronnée - surgelée",
-        "categories": [
-            "Snacks sucrés",
-            "Desserts",
-            "Surgelés",
-            "Biscuits et gâteaux",
-            "Desserts glacés",
-            "Tartes"
-        ],
-        "stores": "Franprix",
-        "site_url": "https://world.openfoodfacts.org/product/3263859925116/tarte-au-citron-pate-sablee-croustillante-pur-beurre-leader-price",
-        "score": 19
-    },
-    {
-        "name": "Saumon fumé au bois de hêtre élevé en Ecosse",
-        "description": "Saumon Atlantique, élevé en Ecosse, salé au sel sec et fumé au bois de hêtre",
-        "categories": [
-            "Produits de la mer",
-            "Poissons",
-            "Saumons",
-            "Poissons fumés",
-            "Saumons fumés"
-        ],
-        "stores": "Leader Price",
-        "site_url": "https://world.openfoodfacts.org/product/3263859435608/saumon-fume-au-bois-de-hetre-eleve-en-ecosse-leader-price",
-        "score": 13
-    },
-    {
         "name": "Sauce béchamel ",
         "description": "Sauce béchamel stérilisée UHT ",
         "categories": [
@@ -1066,18 +1005,19 @@
         "score": -1
     },
     {
-        "name": "Les fines et fondantes",
-        "description": "Petites sardines de l atlantique nord est aux zestes de citron à l huile d olive vierge extra",
+        "name": "Les Fines et Fondantes petites sardines (Sprats) aux zestes de citron à l huile d olive",
+        "description": "petites sardines (Sprats) à l huile d olive aux zestes de citron",
         "categories": [
             "Conserves",
             "Produits de la mer",
             "Poissons",
             "Poissons en conserve",
             "Sardines",
-            "Sardines en conserve"
+            "Sardines en conserve",
+            "Sardines à l huile"
         ],
         "stores": "Intermarché",
-        "site_url": "https://world.openfoodfacts.org/product/3263670143010/les-fines-et-fondantes-connetable",
+        "site_url": "https://world.openfoodfacts.org/product/3263670143010/les-fines-et-fondantes-petites-sardines-sprats-aux-zestes-de-citron-a-l-huile-d-olive-connetable",
         "score": 5
     },
     {
@@ -8174,5 +8114,72 @@
         "stores": "Leclerc,Super U",
         "site_url": "https://world.openfoodfacts.org/product/3243610098136/moelleux-coeur-de-caramel-le-ster",
         "score": 18
+    },
+    {
+        "name": "Coffret thés parfumés",
+        "description": "",
+        "categories": [
+            "Boissons"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/8712566275007/coffret-thes-parfumes-lipton",
+        "score": 2
+    },
+    {
+        "name": "Demae Ramen Bœuf",
+        "description": "Soupe de Nouilles Instantanée au goût artificiel de boeuf",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Aliments d origine végétale",
+            "Céréales et pommes de terre",
+            "Céréales et dérivés",
+            "Produits déshydratés",
+            "Produits lyophilisés à reconstituer",
+            "Nouilles"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/8712429350209/demae-ramen-boeuf-nissin",
+        "score": 4
+    },
+    {
+        "name": "Balisto goût miel-Amandes",
+        "description": "Biscuit aux céréales complètes (36%) et crème aux amandes goût miel, le tout enrobé de chocolat au lait (39%)",
+        "categories": [
+            "Snacks sucrés",
+            "Confiseries",
+            "Confiseries chocolatées",
+            "Barres"
+        ],
+        "stores": "Super U",
+        "site_url": "https://world.openfoodfacts.org/product/5000159487566/balisto-gout-miel-amandes-mars",
+        "score": 27
+    },
+    {
+        "name": "Fromage de brebis",
+        "description": "",
+        "categories": [
+            "Produits laitiers",
+            "Produits fermentés",
+            "Produits laitiers fermentés",
+            "Fromages"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/3222472982890/fromage-de-brebis-casino",
+        "score": 18
+    },
+    {
+        "name": "Pom potes sans sucres ajoutés (format familial)",
+        "description": "",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Aliments d origine végétale",
+            "Aliments à base de fruits et de légumes",
+            "Desserts",
+            "Fruits et produits dérivés",
+            "Compotes"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/3021762420360/pom-potes-sans-sucres-ajoutes-format-familial-materne",
+        "score": -3
     }
 ]

@@ -1,60 +1,5 @@
 [
     {
-        "name": "Cornetto vanilla shake",
-        "description": "glaces",
-        "categories": [
-            "Desserts",
-            "Surgelés",
-            "Desserts glacés",
-            "Glaces et sorbets",
-            "Glaces"
-        ],
-        "stores": "Leclerc drive",
-        "site_url": "https://world.openfoodfacts.org/product/8718114735252/cornetto-vanilla-shake",
-        "score": 18
-    },
-    {
-        "name": "Viennetta Choco-nut",
-        "description": "Gelado de avelã, gelado aromatizado com chocolate e avelã, cobertura aromatizada com chocolate (9%), biscoito crocante (6%), xarope de chocolate e avelã (4,5%) e pedaços de chocolate branco e chocolate (0,5%).",
-        "categories": [
-            "Desserts",
-            "Surgelés",
-            "Desserts glacés",
-            "Glaces et sorbets",
-            "Glaces"
-        ],
-        "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/8718114889023/viennetta-choco-nut-ola",
-        "score": 19
-    },
-    {
-        "name": "Délice de Poireaux aux Saint-Jacques",
-        "description": "",
-        "categories": [
-            "Aliments et boissons à base de végétaux",
-            "Aliments d origine végétale",
-            "Aliments à base de fruits et de légumes",
-            "Plats préparés",
-            "Soupes",
-            "Soupes de légumes"
-        ],
-        "stores": "Cora",
-        "site_url": "https://world.openfoodfacts.org/product/8712100598548/delice-de-poireaux-aux-saint-jacques-knorr",
-        "score": 2
-    },
-    {
-        "name": "Gâteau aux Amandes saveur d Antan",
-        "description": "",
-        "categories": [
-            "Snacks sucrés",
-            "Biscuits et gâteaux",
-            "Gâteaux"
-        ],
-        "stores": "Cora",
-        "site_url": "https://world.openfoodfacts.org/product/8712100463303/gateau-aux-amandes-saveur-d-antan-alsa",
-        "score": 20
-    },
-    {
         "name": "Douceur de poireaux pommes de terre pointe de Comté (lot de 2) Knorr",
         "description": "Soupe de légumes",
         "categories": [
@@ -351,14 +296,14 @@
         "score": 8
     },
     {
-        "name": "Lay s",
+        "name": "Bugles Nacho Cheese Flavour",
         "description": "",
         "categories": [
             "Snacks salés",
             "Apéritif"
         ],
         "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/8710398502308/lay-s",
+        "site_url": "https://world.openfoodfacts.org/product/8710398502308/bugles-nacho-cheese-flavour-lay-s",
         "score": 16
     },
     {
@@ -1278,6 +1223,20 @@
         "score": 17
     },
     {
+        "name": "4 Saucisses de Toulouse sans colorant",
+        "description": "Saucisses de Toulouse",
+        "categories": [
+            "Frais",
+            "Viandes",
+            "Charcuteries",
+            "Saucisses",
+            "Porc"
+        ],
+        "stores": "Leclerc",
+        "site_url": "https://world.openfoodfacts.org/product/3661112082659/4-saucisses-de-toulouse-sans-colorant-ferial",
+        "score": 16
+    },
+    {
         "name": "100% Charolais",
         "description": "",
         "categories": [
@@ -1934,7 +1893,7 @@
         "score": 5
     },
     {
-        "name": "Mes Lardons Fumés",
+        "name": "Mes Lardons Fumés VPF",
         "description": "Lardons fumés au bois de hêtre de qualité supérieure",
         "categories": [
             "Frais",
@@ -1943,8 +1902,8 @@
             "Porc"
         ],
         "stores": "Carrefour",
-        "site_url": "https://world.openfoodfacts.org/product/3180940081226/mes-lardons-fumes-madrange",
-        "score": 16
+        "site_url": "https://world.openfoodfacts.org/product/3180940081226/mes-lardons-fumes-vpf-madrange",
+        "score": 20
     },
     {
         "name": "Mon Jambon Blanc (lot de 2)",
@@ -7930,5 +7889,87 @@
         "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3760159011162/lait-de-coco-direct-producteurs",
         "score": 12
+    },
+    {
+        "name": "Gros oeufs frais Première Fraîcheur",
+        "description": "6 oeufs de poule élevées en cage - catégorie A source naturelle d oméga 3",
+        "categories": [
+            "Produits d élevages",
+            "Œufs d oiseau",
+            "Œufs"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/3760150111342/gros-oeufs-frais-premiere-fraicheur-lustucru",
+        "score": -1
+    },
+    {
+        "name": "Cakes au chocolat",
+        "description": "",
+        "categories": [
+            "Snacks sucrés",
+            "Desserts",
+            "Biscuits et gâteaux",
+            "Gâteaux",
+            "Gâteaux au chocolat"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/3760154260930/cakes-au-chocolat-nature-cie",
+        "score": 11
+    },
+    {
+        "name": "Pains à Hamburger",
+        "description": "pain hamburger",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Aliments d origine végétale",
+            "Céréales et pommes de terre",
+            "Pains",
+            "Pains spéciaux"
+        ],
+        "stores": "Intermarché,leglutenenmoins.com",
+        "site_url": "https://world.openfoodfacts.org/product/3760154260510/pains-a-hamburger-nature-cie",
+        "score": -2
+    },
+    {
+        "name": "Cidou Orange",
+        "description": "",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Boissons",
+            "Boissons à base de végétaux",
+            "Boissons aux fruits",
+            "Jus et nectars",
+            "Jus et nectars de fruits",
+            "Nectars de fruits"
+        ],
+        "stores": "Cora",
+        "site_url": "https://world.openfoodfacts.org/product/3760225491287/cidou-orange",
+        "score": 14
+    },
+    {
+        "name": "Nouilles instantanées saveur crevette TOM YUM",
+        "description": "Nouilles chinoises",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Aliments d origine végétale",
+            "Céréales et pommes de terre",
+            "Céréales et dérivés",
+            "Nouilles"
+        ],
+        "stores": "Auchan",
+        "site_url": "https://world.openfoodfacts.org/product/3760092457478/nouilles-instantanees-saveur-crevette-tom-yum-waiwai",
+        "score": 26
+    },
+    {
+        "name": "Chocolat noir caramel pointe de sel Cacao origine Pérou Haïti Ethiquable",
+        "description": "Chocolat noir caramel",
+        "categories": [
+            "Snacks sucrés",
+            "Chocolats",
+            "Chocolats noirs"
+        ],
+        "stores": "Carrefour",
+        "site_url": "https://world.openfoodfacts.org/product/3760091723574/chocolat-noir-caramel-pointe-de-sel-cacao-origine-perou-haiti-ethiquable",
+        "score": 21
     }
 ]
