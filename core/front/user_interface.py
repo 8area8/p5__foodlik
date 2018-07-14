@@ -4,35 +4,51 @@
 """User Interface."""
 
 import os
+from prompt_toolkit import prompt
 
 from core.front.classes.title import TitleScreen
 
 
 def init():
-    """Initialize the interface."""
+    """Launch the application in a loop."""
     running = True
     page = Interface()
     while running:
 
         page.show_content()
 
-        action = input("type an action: ")
+        action = prompt("type an action: ", completer=page.complete)
 
-        if action in page.actions:
-            page.apply(action)
-        elif action == "quit":
+        if action in ("quit", "q"):
             print("good bye!")
             running = False
+        elif action in page.actions:
+            page.apply(action)
         else:
-            page.action_error(action)
+            page.add_action_error(action)
 
 
 class Interface():
-    """This class is the UI of the application."""
+    """This class is the User Interface of the application.
+
+    It uses a strategy pattern.
+    Each strategy is a "page" that contains information to display.
+    These "pages" show the layout of the web pages with three distinct parts:
+        - a header
+        - a content
+        - a footer.
+
+    self.section can contain differents classes and is used in "duck typing".
+    """
 
     def __init__(self):
         """Initialization."""
         self.section = TitleScreen()
+
+    @property
+    def complete(self):
+        """Get the autocompletion."""
+        return self.section.auto_completion
 
     @property
     def actions(self):
@@ -48,9 +64,9 @@ class Interface():
         """Apply an action."""
         self.section.apply(action)
 
-    def action_error(self, action):
-        """Return an error message."""
-        self.section.action_error(action)
+    def add_action_error(self, action):
+        """Catch an error message."""
+        self.section.add_action_error(action)
 
 
 def clear():

@@ -27,6 +27,8 @@ class TitleScreen(BaseSection):
         """Initialization."""
         super().__init__()
 
+        self.c_enter = "\n[ENTER] keyword: go to categories."
+
         url = 'https://github.com/8area8/P4_OpenFoodFact_interface'
         version = "version 0.2"
 
@@ -40,17 +42,22 @@ class TitleScreen(BaseSection):
     @property
     def content(self):
         """Return the content informations."""
-        return ""
+        return f"Simply type {colored('ENTER', 'green')} to begin." + "\n" * 2
 
     @property
     def footer(self):
-        """Return the footer informations."""
-        return f"Simply type {colored('ENTER', 'green')} to begin." + "\n" * 2
+        """Return the footer informations.
+
+        Call 'Super().footer' to get the error messages.
+        """
+        text = self.comm + self.c_quit + self.c_enter + '\n' * 2
+        text += colored(super().footer, "red")
+        return text
 
     @property
     def actions(self):
         """Return the possible actions."""
-        return "yes"
+        return "ENTER keyword, " + super().actions
 
     def apply(self, action):
         """Apply an action."""
