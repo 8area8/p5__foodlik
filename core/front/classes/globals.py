@@ -26,8 +26,8 @@ class BaseSection():
         """Initialize the class."""
         self.change_to = ""
 
-        self.comm = "COMMANDS: "
-        self.c_quit = "\n[quit] or [q]: quit the application."
+        self.comm = "COMMANDS:\n"
+        self.c_quit = "[quit] or [q]: quit the application.\n"
 
         self.action_error = {"text": "", "active": False}
 

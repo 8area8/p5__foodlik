@@ -27,7 +27,7 @@ class TitleScreen(BaseSection):
         """Initialization."""
         super().__init__()
 
-        self.c_enter = "\n[ENTER] keyword: go to categories."
+        self.c_enter = "[ENTER] keyword: go to categories.\n"
 
         url = 'https://github.com/8area8/P4_OpenFoodFact_interface'
         version = "version 0.2"
@@ -39,7 +39,7 @@ class TitleScreen(BaseSection):
                        colored("Welcome to Foodlik !", "yellow") +
                        "\n" + colored("-" * 20, "yellow"))  # YOLO.
 
-        self.content = ("Simply type {colored('ENTER', 'green')} "
+        self.content = (f"Simply type {colored('ENTER', 'green')} "
                         "to begin." + "\n" * 2)
 
     @property
@@ -48,7 +48,7 @@ class TitleScreen(BaseSection):
 
         Call 'Super().footer' to get the error messages.
         """
-        text = self.comm + self.c_quit + self.c_enter + '\n' * 2
+        text = self.comm + self.c_quit + self.c_enter + '\n'
         text += colored(super().footer, "red")
         return text
 

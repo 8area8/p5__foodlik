@@ -23,7 +23,8 @@ class DataWrapper():
 
         self.cursor.execute("SELECT COUNT(title) FROM CATEGORY;")
         self.len_ctg = self.cursor.fetchone()[0]
-        self.ctg_book = self.len_ctg // 15 + self.len_ctg % 15
+        ctg_book = self.len_ctg // 15
+        self.ctg_book = ctg_book + 1 if self.len_ctg % 15 else ctg_book
 
     def max_products_index(self, categorie):
         """Return the max product index in the current categorie."""
@@ -31,11 +32,17 @@ class DataWrapper():
 
     def load_categories(self, page):
         """Load the categories."""
-        page = page if 0 < page < len(self.ctg_book) else 1
+        page = page if 0 < page < self.ctg_book else 1
 
-        req = self.cursor.execute("SELECT * FROM CATEGORY "
-                                  f"LIMIT 15 OFFSET {page * 15}")
-        return req.fetchall()
+        self.cursor.execute("SELECT * FROM CATEGORY "
+                            f"LIMIT 15 OFFSET {page * 15}")
+        return [wrd[0] for wrd in self.cursor.fetchall()]
+
+    def load_product_number(self, category):
+        """Return the number of product in the given category."""
+        self.cursor.execute("SELECT COUNT(*) FROM CATEGORY_PER_PRODUCT "
+                            f"WHERE category_title = '{category}'")
+        return str([dig[0] for dig in self.cursor.fetchall()][0])
 
     def load_products(self, categorie_name):
         """Load the porducts of a categorie."""
