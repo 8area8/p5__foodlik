@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
 # -*- coding=utf-8 -*-
 
-"""User Interface."""
+"""User Interface main file."""
 
 import os
+from importlib import import_module
+
 from prompt_toolkit import prompt
 
-from core.front.classes.title import TitleScreen
+from core.front.classes.titlescreen import TitleScreen
 
 
 def init():
@@ -15,6 +17,7 @@ def init():
     page = Interface()
     while running:
 
+        page.change_section()
         page.show_content()
 
         action = prompt("type an action: ", completer=page.complete)
@@ -67,6 +70,16 @@ class Interface():
     def add_action_error(self, action):
         """Catch an error message."""
         self.section.add_action_error(action)
+
+    def change_section(self):
+        """Replace the current section by another if needed.
+
+        NOTE: I did not secure this code. be carrefull with self.change_to !
+        """
+        new_section = self.section.change_to
+        if new_section:
+            path = f"core.front.classes.{new_section.lower()}"
+            self.section = getattr(import_module(path), new_section)()
 
 
 def clear():

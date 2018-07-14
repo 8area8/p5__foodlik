@@ -4,10 +4,9 @@
 """Starts the FoodLik program or follows the data instructions provided.
 
 Usage:
-    main.py
-    main.py load_pages [FIRST-PAGE [to LAST-PAGE]]
-    main.py create_database
-    main.py --admin
+    main.py (--mysql | --postgres)
+    main.py (--mysql | --postgres) --load_pages [FIRST-PAGE [to LAST-PAGE]]
+    main.py (--mysql | --postgres) --create_database
     main.py (-h | --help)
     main.py --version
 
@@ -20,7 +19,10 @@ Arguments:
 Options:
     -h --help       Show this screen.
     --version       Show version.
-    --admin         Launch the administrator interface.
+    --postgres
+    --mysql
+    --load_pages
+    --create_database
 
 """
 
@@ -29,25 +31,24 @@ from docopt import docopt
 import core.back.requests.load_pages as load_pages
 import core.back.database.create_database as create_database
 import core.front.user_interface as user_interface
+import core.passwords as passwords
 
 
 def main():
     """Core function."""
     arguments = docopt(__doc__, version='0.1')
 
-    if arguments["load_pages"]:
+    passwords.init(arguments)
+
+    if arguments["--load_pages"]:
         first_p = max(arguments["FIRST-PAGE"], 1, key=bool)
         last_p = max(arguments["LAST-PAGE"], 30, key=bool)
         load_pages.init(first_p, last_p)
 
-    elif arguments["create_database"]:
+    elif arguments["--create_database"]:
         create_database.init()
 
-    elif arguments["--admin"]:
-        # admin.init()
-        pass
-
-    elif not any(arguments.values()):
+    elif not arguments["--create_database"] and not arguments["--load_pages"]:
         user_interface.init()
 
     else:

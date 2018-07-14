@@ -39,10 +39,8 @@ class TitleScreen(BaseSection):
                        colored("Welcome to Foodlik !", "yellow") +
                        "\n" + colored("-" * 20, "yellow"))  # YOLO.
 
-    @property
-    def content(self):
-        """Return the content informations."""
-        return f"Simply type {colored('ENTER', 'green')} to begin." + "\n" * 2
+        self.content = ("Simply type {colored('ENTER', 'green')} "
+                        "to begin." + "\n" * 2)
 
     @property
     def footer(self):
@@ -56,9 +54,13 @@ class TitleScreen(BaseSection):
 
     @property
     def actions(self):
-        """Return the possible actions."""
+        """Return the possible actions.
+
+        Call 'super().actions' to get the basic actions.
+        """
         return "ENTER keyword, " + super().actions
 
     def apply(self, action):
         """Apply an action."""
-        pass
+        if action == "":
+            self.change_to = "Categories"

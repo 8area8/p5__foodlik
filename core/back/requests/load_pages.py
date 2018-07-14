@@ -25,11 +25,27 @@ def init(start, end):
         assert 0 < start <= end
     except Exception as error:
         raise error
+
     _remove_data_files()
-    print("wait few minutes for the requests...")
+    print("wait few minutes (~2min), we are requesting OpenFoodFact...")
+
     loop = asyncio.get_event_loop()
     loop.run_until_complete(_load_pages(loop, start, end + 1))
     loop.close()
+
+
+def _remove_data_files():  # https: // stackoverflow.com/questions/185936
+    """Remove each file from products folder."""
+    folder = DATAS_PATH / "products"
+
+    for the_file in os.listdir(folder):
+        file_path = os.path.join(folder, the_file)
+        try:
+            if os.path.isfile(file_path):
+                os.unlink(file_path)
+        except Exception as error:
+            print(error)
+    print("datas files removed.")
 
 
 async def _load_pages(loop, start, end):
@@ -45,7 +61,7 @@ async def _load_pages(loop, start, end):
             responses.append(loop.run_in_executor(None, requests.get, url))
 
     index = 1
-    for response in await asyncio.gather(*responses):  # == time.sleep(1.4) :D
+    for response in await asyncio.gather(*responses):  # wait ~1.5 sec
         _filter_and_dump(response.json(), index)
         print(f"page {index}/{end - 1} done.")
         index += 1
@@ -58,20 +74,6 @@ def _filter_and_dump(resp, index):
 
     with open(file_path, "w", encoding='utf8') as file:
         json.dump(datas, file, indent=4, ensure_ascii=False)
-
-
-def _remove_data_files():  # https: // stackoverflow.com/questions/185936
-    """Remove each file from products folder."""
-    folder = DATAS_PATH / "products"
-
-    for the_file in os.listdir(folder):
-        file_path = os.path.join(folder, the_file)
-        try:
-            if os.path.isfile(file_path):
-                os.unlink(file_path)
-        except Exception as error:
-            print(error)
-    print("datas files removed.")
 
 
 def _filtered_datas(datas):

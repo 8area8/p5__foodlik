@@ -12,10 +12,20 @@ def section_repr(self):
 
 
 class BaseSection():
-    """Abstract base for every sections."""
+    """Abstract base for every sections.
+
+    Child classes must contain:
+        - self.header
+        - self.content
+        - self.footer
+
+    These objects can be a string or a property (that returns a string).
+    """
 
     def __init__(self):
         """Initialize the class."""
+        self.change_to = ""
+
         self.comm = "COMMANDS: "
         self.c_quit = "\n[quit] or [q]: quit the application."
 
@@ -23,7 +33,7 @@ class BaseSection():
 
     @property
     def auto_completion(self):
-        """Return the possibles keys from self.actions for auto-completion.
+        """Return a list of keys from self.actions for auto-completion.
 
         This method uses the 'prompt_toolkit' library.
         """
@@ -53,7 +63,7 @@ class BaseSection():
         """
         return "'q', 'quit'"
 
-    def apply(self):
+    def apply(self, action):
         """Apply an action."""
         raise NotImplementedError
 
@@ -66,3 +76,18 @@ class BaseSection():
 
 
 BaseSection.__str__ = section_repr  # monkey patching.
+#                   __
+#                  / _,\
+#                  \_\
+#       ,,,,    _,_)  #      /)
+#      (= =)D__/    __/     //
+#     C/^__)/     _(    ___//
+#       \_,/  -.   '-._/,--'
+# _\\_,  /           -//.
+#  \_ \_/  -,._ _     ) )
+#    \/    /    )    / /
+#    \-__,/    (    ( (
+#               \.__,-)\_
+#                )\_ / -(
+#               / -(////
+#              ////
