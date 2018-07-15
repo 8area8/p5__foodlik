@@ -49,7 +49,7 @@ class TitleScreen(BaseSection):
         Call 'Super().footer' to get the error messages.
         """
         text = self.comm + self.c_quit + self.c_enter + '\n'
-        text += colored(super().footer, "red")
+        text += super().footer
         return text
 
     @property
@@ -58,7 +58,7 @@ class TitleScreen(BaseSection):
 
         Call 'super().actions' to get the basic actions.
         """
-        return "ENTER keyword, " + super().actions
+        return [""] + super().actions
 
     def apply(self, action):
         """Apply an action."""

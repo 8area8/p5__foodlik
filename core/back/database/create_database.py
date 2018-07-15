@@ -5,17 +5,18 @@
 
 from os import listdir
 from pathlib import Path
-import getpass
 import json
 
 import psycopg2
 from psycopg2.extensions import ISOLATION_LEVEL_AUTOCOMMIT
 
+import core.passwords as db_connect
+
 
 def init():
     """Initialize the database creation."""
-    user = input("PostgreSQL user:")
-    pwd = getpass.getpass("PostgreSQL password:")
+    user = db_connect.DB_USER
+    pwd = db_connect.DB_PASSWORD
     print("Wait few minutes...")
 
     _create_foodlik(user, pwd)
@@ -61,6 +62,7 @@ def _fill_in_database(cursor):
     datas_path = datas_path / "datas"
     _fill_in_categories(datas_path, cursor)
     _fill_in_products(datas_path, cursor)
+    _fill_in_products_number(datas_path, cursor)
 
 
 def _fill_in_categories(datas_path, cursor):
@@ -107,3 +109,22 @@ def _insert_categorie_per_product(ctg, name, cursor):
     cursor.execute("INSERT INTO category_per_product "
                    "(category_title, product_title) "
                    f"VALUES ('{ctg}', '{name}')")
+
+
+def _fill_in_products_number(datas_path, cursor):
+    """Insert the products number of each category.
+
+    Remove lines that do not contain products.
+    """
+    cursor.execute("SELECT title FROM CATEGORY")
+    result = [wrd[0] for wrd in cursor.fetchall() if wrd[0]]
+    for category in result:
+        cursor.execute("UPDATE CATEGORY "
+                       "SET product_number = subquery.count "
+                       "FROM (SELECT COUNT(*) "
+                       "FROM CATEGORY_PER_PRODUCT AS CPP "
+                       f"WHERE CPP.category_title='{category}') AS subquery "
+                       f"WHERE CATEGORY.title = '{category}'")
+
+    cursor.execute("DELETE FROM CATEGORY "
+                   "WHERE product_number = 0")

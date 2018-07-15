@@ -9,8 +9,11 @@ from psycopg2.extensions import ISOLATION_LEVEL_AUTOCOMMIT
 import core.passwords as db_connect
 
 
-class DataWrapper():
-    """Communicate and display the 'foodlik' datas."""
+class _DataWrapper():
+    """Communicate and display the 'foodlik' datas.
+
+    NOTE: don't use the class. Use the Singleton 'data_wrapper' variable below.
+    """
 
     def __init__(self):
         """Initialization."""
@@ -22,33 +25,26 @@ class DataWrapper():
         self.cursor = self.connection.cursor()
 
         self.cursor.execute("SELECT COUNT(title) FROM CATEGORY;")
-        self.len_ctg = self.cursor.fetchone()[0]
-        ctg_book = self.len_ctg // 15
-        self.ctg_book = ctg_book + 1 if self.len_ctg % 15 else ctg_book
+        self.len_category = self.cursor.fetchone()[0]
 
-    def max_products_index(self, categorie):
-        """Return the max product index in the current categorie."""
+        self.chosen_category = ""
+        self.chosen_product = ""
+
+    def len_products(self):
+        """Return the products len in the current category."""
         pass
 
     def load_categories(self, page):
         """Load the categories."""
-        page = page if 0 < page < self.ctg_book else 1
-
         self.cursor.execute("SELECT * FROM CATEGORY "
                             f"LIMIT 15 OFFSET {page * 15}")
-        return [wrd[0] for wrd in self.cursor.fetchall()]
+        return [wrd[0:2] for wrd in self.cursor.fetchall()]
 
-    def load_product_number(self, category):
-        """Return the number of product in the given category."""
-        self.cursor.execute("SELECT COUNT(*) FROM CATEGORY_PER_PRODUCT "
-                            f"WHERE category_title = '{category}'")
-        return str([dig[0] for dig in self.cursor.fetchall()][0])
-
-    def load_products(self, categorie_name):
+    def load_products(self):
         """Load the porducts of a categorie."""
         pass
 
-    def load_product(self, product_name):
+    def load_product(self):
         """Load a product."""
         pass
 
@@ -58,4 +54,4 @@ class DataWrapper():
         self.connection.close()
 
 
-datas_wrapper = DataWrapper()
+datas_wrapper = _DataWrapper()

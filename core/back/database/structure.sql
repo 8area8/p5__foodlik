@@ -1,5 +1,6 @@
 CREATE TABLE category (
-    title VARCHAR (80) PRIMARY KEY
+    title VARCHAR (80) PRIMARY KEY,
+    product_number INT DEFAULT 0
 );
 
 

@@ -4,6 +4,7 @@
 """Globals functions."""
 
 from prompt_toolkit.completion import WordCompleter
+from termcolor import colored
 
 
 def section_repr(self):
@@ -29,6 +30,8 @@ class BaseSection():
         self.comm = "COMMANDS:\n"
         self.c_quit = "[quit] or [q]: quit the application.\n"
 
+        self.a_nextbef = ["next", "n", "before", "b"]
+
         self.action_error = {"text": "", "active": False}
 
     @property
@@ -37,8 +40,7 @@ class BaseSection():
 
         This method uses the 'prompt_toolkit' library.
         """
-        res = (wrd for wrd in self.actions.split(", ") if "keyword" not in wrd)
-        return WordCompleter([wrd.replace("'", "") for wrd in res])
+        return WordCompleter(self.actions)
 
     @property
     def footer(self):
@@ -48,7 +50,7 @@ class BaseSection():
         """
         if self.action_error["active"]:
             self.action_error["active"] = False
-            return self.action_error["text"]
+            return colored(self.action_error["text"], "red")
         return ""
 
     @property
@@ -61,7 +63,7 @@ class BaseSection():
             - the keyboard keys should be written as follows: key_name keyword
             - the words should be written as follows: 'word_name'
         """
-        return "'q', 'quit'"
+        return ['q', 'quit']
 
     def apply(self, action):
         """Apply an action."""
@@ -69,8 +71,7 @@ class BaseSection():
 
     def add_action_error(self, action):
         """Return an error text."""
-        error = (f"The action '{action}' is not a valid action.\n"
-                 f"Valid actions are: {self.actions}.\n\n")
+        error = (f"The action '{action}' is not a valid action.\n")
         self.action_error["text"] = error
         self.action_error["active"] = True
 
