@@ -29,8 +29,10 @@ class BaseSection():
 
         self.comm = "COMMANDS:\n"
         self.c_quit = "[quit] or [q]: quit the application.\n"
+        self.c_return_ctgs = "[return cat]: return to the categories page.\n"
 
         self.a_nextbef = ["next", "n", "before", "b"]
+        self.a_return_ctgs = ["return cat"]
 
         self.action_error = {"text": "", "active": False}
 

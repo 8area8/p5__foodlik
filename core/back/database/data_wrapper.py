@@ -12,7 +12,8 @@ import core.passwords as db_connect
 class _DataWrapper():
     """Communicate and display the 'foodlik' datas.
 
-    NOTE: don't use the class. Use the Singleton 'data_wrapper' variable below.
+    NOTE: do not use this class.
+    Use the Singleton 'data_wrapper' variable below.
     """
 
     def __init__(self):
@@ -25,14 +26,28 @@ class _DataWrapper():
         self.cursor = self.connection.cursor()
 
         self.cursor.execute("SELECT COUNT(title) FROM CATEGORY;")
-        self.len_category = self.cursor.fetchone()[0]
+        self.len_categories = self.cursor.fetchone()[0]
 
         self.chosen_category = ""
         self.chosen_product = ""
 
-    def len_products(self):
-        """Return the products len in the current category."""
-        pass
+    def get_len_products(self):
+        """Return the products len in the current category.
+
+        Call this method when you initialize a new Category class.
+        """
+        self.cursor.execute("SELECT COUNT(*) "
+                            "FROM CATEGORY_PER_PRODUCT "
+                            f"WHERE category_title = '{self.chosen_category}'")
+        return self.cursor.fetchone()[0]
+
+    def load_products(self, page):
+        """Load the products of a category."""
+        self.cursor.execute("SELECT product_title "
+                            "FROM CATEGORY_PER_PRODUCT "
+                            f"WHERE category_title = '{self.chosen_category}' "
+                            f"LIMIT 15 OFFSET {page * 15}")
+        return [prod[0] for prod in self.cursor.fetchall()]
 
     def load_categories(self, page):
         """Load the categories."""
@@ -40,12 +55,14 @@ class _DataWrapper():
                             f"LIMIT 15 OFFSET {page * 15}")
         return [wrd[0:2] for wrd in self.cursor.fetchall()]
 
-    def load_products(self):
-        """Load the porducts of a categorie."""
-        pass
-
     def load_product(self):
         """Load a product."""
+        self.cursor.execute("SELECT * FROM PRODUCT "
+                            f"WHERE title = '{self.chosen_product}'")
+        return self.cursor.fetchone()
+
+    def load_substituts(self):
+        """Load the substituts of a product."""
         pass
 
     def close(self):

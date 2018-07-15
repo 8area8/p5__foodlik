@@ -17,8 +17,8 @@ class Categories(BaseSection):
         super().__init__()
 
         self.page = 0
-        self.max_pages = datas.len_category // 15
-        self.current_category = []
+        self.max_pages = datas.len_categories // 15
+        self.current_categories = []
 
         # FOOTER COMMANDS
         self.c_next = "[n] or [next]: go to the next page.\n"
@@ -35,11 +35,11 @@ class Categories(BaseSection):
     @property
     def content(self):
         """Return the content."""
-        self.current_category = datas.load_categories(self.page)
+        self.current_categories = datas.load_categories(self.page)
         text = ""
-        for category in self.current_category:
+        for category in self.current_categories:
             text += ("   * " + colored(category[0], "yellow") + " " +
-                     "[" + str(category[1]) + " products]" "\n")
+                     "[" + str(category[1]) + " products]\n")
         return text
 
     @property
@@ -57,7 +57,7 @@ class Categories(BaseSection):
 
         Call 'super().actions' to get the basic actions.
         """
-        categories = [cat[0] for cat in self.current_category]
+        categories = [cat[0] for cat in self.current_categories]
         return (self.a_nextbef +
                 [str(num) for num in range(1, self.max_pages + 2)] +
                 categories +
@@ -74,6 +74,6 @@ class Categories(BaseSection):
             self.page = self.max_pages if self.page < 0 else self.page
         if action.isdigit() and (0 < int(action) <= self.max_pages + 1):
             self.page = int(action) - 1
-        if action.capitalize() in self.current_category:
+        if action.capitalize() in [cat[0] for cat in self.current_categories]:
             datas.chosen_category = action.capitalize()
             self.change_to = "Category"
