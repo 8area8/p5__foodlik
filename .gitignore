@@ -108,3 +108,6 @@ venv.bak/
 
 # environnment variables
 app_env
+
+# Errors file
+error.log

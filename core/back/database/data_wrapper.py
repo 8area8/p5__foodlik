@@ -19,6 +19,7 @@ class _DataWrapper():
 
         self.chosen_category = ""
         self.chosen_product = ""
+        self.nutriscore_msg = ""
 
     def connect(self, db_name="foodlik"):
         """Connect to the database."""
@@ -57,9 +58,60 @@ class _DataWrapper():
                          f"WHERE title = '{self.chosen_product}'")
         return database.get_row()
 
-    def load_substituts(self):
+    def load_substituts(self, score, title):
         """Load the substituts of a product."""
-        pass
+        first_res = self._load_first_substituts(score, title)
+        second_res = self.load_second_substituts(title, score)
+        return (first_res, second_res)
+
+    def _load_first_substituts(self, score, title):
+        """Find two better product in the same category."""
+        database.execute("SELECT DISTINCT prod.title, prod.description, "
+                         "prod.stores, cat_prod.category_title, "
+                         "prod.site_url, prod.score FROM PRODUCT as prod "
+                         "INNER JOIN CATEGORY_PER_PRODUCT AS cat_prod "
+                         "ON prod.title=cat_prod.product_title "
+                         f"WHERE category_title='{self.chosen_category}' "
+                         f"AND prod.score < {score} "
+                         "ORDER BY prod.score ASC LIMIT 1")
+        result = database.get_row(True)
+        if result:
+            return result
+
+        database.execute("SELECT DISTINCT prod.title, prod.description, "
+                         "prod.stores, cat_prod.category_title, "
+                         "prod.site_url, prod.score FROM PRODUCT as prod "
+                         "INNER JOIN CATEGORY_PER_PRODUCT AS cat_prod "
+                         "ON prod.title=cat_prod.product_title "
+                         f"WHERE category_title='{self.chosen_category}' "
+                         f"AND prod.score >= {score} AND "
+                         f"prod.title <> '{title}' "
+                         "ORDER BY prod.score ASC LIMIT 1")
+        return database.get_row(True)
+
+    def load_second_substituts(self, title, score):
+        """Find 2 better product in the smallest product category."""
+        database.execute("SELECT cat.title, cat.product_number "
+                         "FROM CATEGORY as cat "
+                         "INNER JOIN CATEGORY_PER_PRODUCT AS cat_prod "
+                         "ON cat.title=cat_prod.category_title "
+                         "INNER JOIN PRODUCT AS prod "
+                         "ON prod.title=cat_prod.product_title "
+                         f"WHERE prod.title='{title}' "
+                         "ORDER BY cat.product_number ASC LIMIT 5")
+        result = database.get_row(True)
+        if result[0][0] == self.chosen_category:
+            return "sorry, we didn't find a better category."
+        ncategory = result[0][0]
+        database.execute("SELECT DISTINCT prod.title, prod.description, "
+                         "prod.stores, cat_prod.category_title, "
+                         "prod.site_url, prod.score FROM PRODUCT as prod "
+                         "INNER JOIN CATEGORY_PER_PRODUCT AS cat_prod "
+                         "ON prod.title=cat_prod.product_title "
+                         f"WHERE category_title='{ncategory}' "
+                         f"AND prod.score < {score} "
+                         "ORDER BY prod.score ASC LIMIT 1")
+        return database.get_row(True)
 
     def close(self):
         """Close the connection."""

@@ -3,7 +3,7 @@
 
 """Connect to the database for queries."""
 
-from os import listdir
+from os import listdir, path
 from pathlib import Path
 import json
 
@@ -75,8 +75,8 @@ def _fill_in_products(datas_path):
                 for ctg in set(product["categories"]):  # lazy set, sorry. :p
                     _insert_categorie_per_product(ctg, name)
 
-            except Exception as _:
-                pass
+            except Exception as error:
+                _write_error(error)
 
         print(f"file {index + 1} done.")
 
@@ -118,3 +118,13 @@ def _fill_in_products_number(datas_path):
 
     database.execute("DELETE FROM CATEGORY "
                      "WHERE product_number = 0")
+
+
+def _write_error(error):
+    """Write the errors in a file.
+
+    MySQL generates a lot of errors.
+    """
+    mode = "a" if path.exists("error.log") else "w"
+    with open("error.log", mode, encoding="utf8") as file:
+        file.write(str(error) + "\n")

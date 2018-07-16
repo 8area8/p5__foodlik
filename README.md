@@ -14,7 +14,7 @@ o888o        'Y8bod8P' 'Y8bod8P' `Y8bod88P" o888o o888o o888o o888o
 
 *An elegant UI based on OpenFoodFact.*
 
->**NOTE :** enlarge the window of your control console for an optimal result
+>**NOTE :** enlarge the window of your SHELL for an optimal result
 
 The application has a large portion of French food listed on OpenFoodFact. It repeats these foods, displays their information and generates substitute foods with a higher nutri-score.
 

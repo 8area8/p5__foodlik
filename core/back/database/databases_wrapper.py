@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding=utf-8 -*-
 
-"""Global functions for cross SGBDR compatibility."""
+"""Global class for cross SGBDR compatibility."""
 
 import psycopg2
 from psycopg2.extensions import ISOLATION_LEVEL_AUTOCOMMIT

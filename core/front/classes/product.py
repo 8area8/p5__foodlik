@@ -31,7 +31,7 @@ class Product(BaseSection):
     def content(self):
         """Return the content."""
         content = datas.load_product()
-        # substituts = datas.load_substituts()
+        substituts = datas.load_substituts(content[4], content[0])
         text = ""
         titles = ("name: ", "description: ",
                   "stores ", "url: ", "nutri-score: ")
@@ -40,6 +40,33 @@ class Product(BaseSection):
             infos = textwrap.wrap(str(infos), 45)
             infos = "\n     ".join(infos)
             text += ("   * " + colored(title, "yellow") + infos + " \n")
+
+        text += colored("\n\n   SUBSTITUTED FOODS FOUND\n", "green")
+        text += "   " + "-" * 23 + "\n\n"
+        subst = "   FIRST SUBSTITUT, IN THE CURRENT CATEGORY:\n"
+        text += colored(subst, "green")
+
+        titles = ("name: ", "description: ", "stores: ",
+                  "category: ", "url: ", "nutri-score: ")
+
+        for product in substituts[0]:
+            for title, caract in zip(titles, product):
+                caract = textwrap.wrap(str(caract), 45)
+                caract = "\n     ".join(caract)
+                text += "   * " + colored(title, "green") + caract + "\n"
+            text += "\n\n   "
+            subst = "SECOND SUBSTITUT, IN A MORE TARGETED PRODUCT CATEGORY:\n"
+            text += colored(subst, "green")
+
+        if isinstance(substituts[1], str):
+            text += "   * " + substituts[1] + "\n"
+            return text
+
+        for product in substituts[1]:
+            for title, caract in zip(titles, product):
+                caract = textwrap.wrap(str(caract), 45)
+                caract = "\n     ".join(caract)
+                text += "   * " + colored(title, "green") + caract + "\n"
         return text
 
     @property
