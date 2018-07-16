@@ -7,75 +7,61 @@ from os import listdir
 from pathlib import Path
 import json
 
-import psycopg2
-from psycopg2.extensions import ISOLATION_LEVEL_AUTOCOMMIT
-
-import core.passwords as db_connect
+from core.back.database.databases_wrapper import database_wrapper as database
 
 
 def init():
     """Initialize the database creation."""
-    user = db_connect.DB_USER
-    pwd = db_connect.DB_PASSWORD
     print("Wait few minutes...")
 
-    _create_foodlik(user, pwd)
+    _create_foodlik()
 
-    conn = psycopg2.connect(dbname="foodlik", user=user,
-                            host="localhost", password=pwd)
-    conn.set_isolation_level(ISOLATION_LEVEL_AUTOCOMMIT)
-    cur = conn.cursor()
+    database.connect()
 
-    _create_structure(user, pwd, cur)
-    _fill_in_database(cur)
+    _create_structure()
+    _fill_in_database()
 
-    cur.close()
-    conn.close()
+    database.close()
     print("database ready for use.")
 
 
-def _create_foodlik(user, pwd):
+def _create_foodlik():
     """Create the foodlik database."""
-    conn = psycopg2.connect(dbname="postgres", user=user,
-                            host="localhost", password=pwd)
+    database.connect("root")
 
-    conn.set_isolation_level(ISOLATION_LEVEL_AUTOCOMMIT)
-    cur = conn.cursor()
-    cur.execute(f"ALTER USER {user} CREATEDB;")
-    cur.execute("DROP DATABASE IF EXISTS foodlik")
-    cur.execute("CREATE DATABASE foodlik")
-    cur.close()
-    conn.close()
+    database.execute("DROP DATABASE IF EXISTS foodlik")
+    database.execute("CREATE DATABASE foodlik")
+    database.close()
     print("database created.")
 
 
-def _create_structure(user, pwd, cursor):
+def _create_structure():
     """Create the database structure."""
     path = str(Path().resolve() / "core" / "back" / "database")
+    database.execute(open(path + "/structure.sql", "r").read(), multi=True)
+    print("structure created.")
 
-    cursor.execute(open(path + "/structure.sql", "r").read())
 
-
-def _fill_in_database(cursor):
+def _fill_in_database():
     """Fill in 'foodlik' of datas."""
     datas_path = Path().resolve() / "core" / "back" / "requests"
     datas_path = datas_path / "datas"
-    _fill_in_categories(datas_path, cursor)
-    _fill_in_products(datas_path, cursor)
-    _fill_in_products_number(datas_path, cursor)
+    _fill_in_categories(datas_path)
+    _fill_in_products(datas_path)
+    _fill_in_products_number(datas_path)
 
 
-def _fill_in_categories(datas_path, cursor):
+def _fill_in_categories(datas_path):
     """Fill in database of categories."""
     cat_fr = str(datas_path / "categories_fr.json")
     with open(cat_fr, "r", encoding="utf8") as file:
         categories = json.load(file)
     for name in categories:
-        cursor.execute(f"INSERT INTO category (title) VALUES ('{name}')")
+        database.execute(f"INSERT INTO category (title) VALUES ('{name}')")
     print("Categories done.")
 
 
-def _fill_in_products(datas_path, cursor):
+def _fill_in_products(datas_path):
     """Fill in database of products."""
     prod_path = datas_path / "products"
     for index, file in enumerate(listdir(prod_path)):
@@ -83,48 +69,52 @@ def _fill_in_products(datas_path, cursor):
             datas = json.load(product_file)
 
         for product in datas:
-            _insert_product(product, cursor)
-            name = product["name"]
+            try:
+                _insert_product(product)
+                name = product["name"]
+                for ctg in set(product["categories"]):  # lazy set, sorry. :p
+                    _insert_categorie_per_product(ctg, name)
 
-            for ctg in set(product["categories"]):  # lazy set, sorry. :p
-                _insert_categorie_per_product(ctg, name, cursor)
+            except Exception as _:
+                pass
+
         print(f"file {index + 1} done.")
 
 
-def _insert_product(product, cursor):
+def _insert_product(product):
     """Insert a product into the database."""
     name = product["name"]
     descr = product["description"]
     stores = product["stores"]
     url = product["site_url"]
     score = product["score"]
-    cursor.execute("INSERT INTO product (title, description, "
-                   "stores, site_url, score) VALUES "
-                   f"('{name}', '{descr}', '{stores}',"
-                   f" '{url}', '{score}')")
+    database.execute("INSERT INTO product (title, description, "
+                     "stores, site_url, score) VALUES "
+                     f"('{name}', '{descr}', '{stores}',"
+                     f" '{url}', '{score}')")
 
 
-def _insert_categorie_per_product(ctg, name, cursor):
+def _insert_categorie_per_product(ctg, name):
     """Insert all categories of a product."""
-    cursor.execute("INSERT INTO category_per_product "
-                   "(category_title, product_title) "
-                   f"VALUES ('{ctg}', '{name}')")
+    database.execute("INSERT INTO category_per_product "
+                     "(category_title, product_title) "
+                     f"VALUES ('{ctg}', '{name}')")
 
 
-def _fill_in_products_number(datas_path, cursor):
+def _fill_in_products_number(datas_path):
     """Insert the products number of each category.
 
     Remove lines that do not contain products.
     """
-    cursor.execute("SELECT title FROM CATEGORY")
-    result = [wrd[0] for wrd in cursor.fetchall() if wrd[0]]
+    database.execute("SELECT title FROM CATEGORY")
+    result = [wrd[0] for wrd in database.get_row(True) if wrd[0]]
     for category in result:
-        cursor.execute("UPDATE CATEGORY "
-                       "SET product_number = subquery.count "
-                       "FROM (SELECT COUNT(*) "
-                       "FROM CATEGORY_PER_PRODUCT AS CPP "
-                       f"WHERE CPP.category_title='{category}') AS subquery "
-                       f"WHERE CATEGORY.title = '{category}'")
+        database.execute("SELECT COUNT(*) "
+                         "FROM CATEGORY_PER_PRODUCT AS CPP "
+                         f"WHERE CPP.category_title='{category}'")
+        database.execute("UPDATE CATEGORY "
+                         f"SET product_number = {database.get_row()[0]} "
+                         f"WHERE CATEGORY.title = '{category}'")
 
-    cursor.execute("DELETE FROM CATEGORY "
-                   "WHERE product_number = 0")
+    database.execute("DELETE FROM CATEGORY "
+                     "WHERE product_number = 0")

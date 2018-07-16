@@ -39,6 +39,7 @@ MySQL installation : [follow the link](https://www.mysql.com/). Install the MySQ
 #### 1.2.1 - ID, password and environnment variables
 
 You can create a new file and write your ID and password database.
+Je conseil d'entrer des utilisateurs qui possèdent tout les accès pour éviter les mauvaises surprises ("postgres" pour PostgreSQL et "root" pour MySQL).
 
 ### 1.3 - Install some Python's librairies
 

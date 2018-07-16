@@ -50,8 +50,8 @@ def init(args):
     global DB_USER
     global DB_PASSWORD
 
-    if args["--postgres"]:
-        DB_CHOICE = "postgres"
+    if args["--psql"]:
+        DB_CHOICE = "psql"
         DB_USER = POSTGRES_USER
         DB_PASSWORD = POSTGRES_PASSWORD
         if not DB_USER:
@@ -59,11 +59,13 @@ def init(args):
         if not DB_PASSWORD:
             DB_PASSWORD = getpass.getpass("PostgreSQL password:")
 
-    elif args["--mysql"]:
-        DB_CHOICE = "mysql"
+    elif args["--msql"]:
+        DB_CHOICE = "msql"
         DB_USER = MYSQL_USER
         DB_PASSWORD = MYSQL_PASSWORD
         if not DB_USER:
             DB_USER = input("MySQL user: ")
         if not DB_PASSWORD:
             DB_PASSWORD = getpass.getpass("MySQL password (invisible):")
+    else:
+        raise ValueError("No database arguments.")

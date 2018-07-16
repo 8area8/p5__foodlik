@@ -24,6 +24,7 @@ def init():
 
         if action in ("quit", "q"):
             print("good bye!")
+            page.close_connection()
             running = False
         elif action in page.actions:
             page.apply(action)
@@ -80,6 +81,10 @@ class Interface():
         if new_section:
             path = f"core.front.classes.{new_section.lower()}"
             self.section = getattr(import_module(path), new_section)()
+
+    def close_connection(self):
+        """Close the database connection."""
+        return self.section.close_connection()
 
 
 def clear():

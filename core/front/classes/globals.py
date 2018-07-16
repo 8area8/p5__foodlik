@@ -6,6 +6,8 @@
 from prompt_toolkit.completion import WordCompleter
 from termcolor import colored
 
+from core.back.database.data_wrapper import datas_wrapper as datas
+
 
 def section_repr(self):
     """Return a Command Line Interface representation."""
@@ -76,6 +78,10 @@ class BaseSection():
         error = (f"The action '{action}' is not a valid action.\n")
         self.action_error["text"] = error
         self.action_error["active"] = True
+
+    def close_connection(self):
+        """Close the database connection."""
+        return datas.close()
 
 
 BaseSection.__str__ = section_repr  # monkey patching.
