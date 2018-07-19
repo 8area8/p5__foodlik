@@ -11,9 +11,9 @@ the base category files.
 """
 
 
-import requests
 import json
 import unicodedata as unic
+import requests
 
 
 def init(max_categories=400):
