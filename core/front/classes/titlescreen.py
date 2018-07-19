@@ -27,7 +27,8 @@ class TitleScreen(BaseSection):
         """Initialization."""
         super().__init__()
 
-        self.c_enter = "[ENTER] keyword: go to categories.\n"
+        self.c_select = "[select product]: go to categories.\n"
+        self.c_see_substitus = "[see substitutes]: see the saved substituts.\n"
 
         url = 'https://github.com/8area8/P4_OpenFoodFact_interface'
         version = "version 0.2"
@@ -48,7 +49,8 @@ class TitleScreen(BaseSection):
 
         Call 'Super().footer' to get the error messages.
         """
-        text = self.comm + self.c_quit + self.c_enter + '\n'
+        text = (self.comm + self.c_quit + self.c_select +
+                self.c_see_substitus + '\n')
         text += super().footer
         return text
 
@@ -58,9 +60,11 @@ class TitleScreen(BaseSection):
 
         Call 'super().actions' to get the basic actions.
         """
-        return [""] + super().actions
+        return ["select product", "see substitutes"] + super().actions
 
     def apply(self, action):
         """Apply an action."""
-        if action == "":
+        if action == "select product":
             self.change_to = "Categories"
+        if action == "see substitutes":
+            self.change_to = "Substitutes"

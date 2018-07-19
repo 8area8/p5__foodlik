@@ -1,34 +1,5 @@
 [
     {
-        "name": "Jus d orange doux",
-        "description": "Jus d orange",
-        "categories": [
-            "Aliments et boissons à base de végétaux",
-            "Boissons",
-            "Boissons à base de végétaux",
-            "Boissons aux fruits",
-            "Jus et nectars",
-            "Jus et nectars de fruits",
-            "Jus de fruits"
-        ],
-        "stores": "Coop",
-        "site_url": "https://world.openfoodfacts.org/product/7610807105926/jus-d-orange-doux-naturaplan",
-        "score": 2
-    },
-    {
-        "name": "Caotina Surfin",
-        "description": "Préparation en poudre pour boisson instantanée au cacao",
-        "categories": [
-            "Petit déjeuners",
-            "Snacks sucrés",
-            "Confiseries",
-            "Chocolats"
-        ],
-        "stores": "Leclerc",
-        "site_url": "https://world.openfoodfacts.org/product/7612100061572/caotina-surfin",
-        "score": 11
-    },
-    {
         "name": "Petit Coeur",
         "description": "Biscuits au beurre",
         "categories": [
@@ -4671,6 +4642,19 @@
         "score": -6
     },
     {
+        "name": "American Sandwich Nature",
+        "description": "",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Aliments d origine végétale",
+            "Céréales et pommes de terre",
+            "Pains"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/3228851001831/american-sandwich-nature-harrys",
+        "score": 1
+    },
+    {
         "name": "Le Burger géant",
         "description": "",
         "categories": [
@@ -7362,14 +7346,14 @@
         "score": 0
     },
     {
-        "name": "Chantilly",
+        "name": "Crème entière fouettée",
         "description": "",
         "categories": [
             "Produits laitiers",
             "Crèmes"
         ],
         "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/3250390012313/chantilly-paturages",
+        "site_url": "https://world.openfoodfacts.org/product/3250390012313/creme-entiere-fouettee-paturages",
         "score": 15
     },
     {
@@ -7861,5 +7845,90 @@
         "stores": "Intermarché",
         "site_url": "https://world.openfoodfacts.org/product/3250390006312/look-limonade-a-l-eau-de-source-intermarche",
         "score": 10
+    },
+    {
+        "name": "Sirop Citron",
+        "description": "Sirop de citron",
+        "categories": [
+            "Boissons",
+            "Sirops",
+            "Sirops aromatisés",
+            "Boissons sucrées"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/3250390001492/sirop-citron-paquito",
+        "score": 20
+    },
+    {
+        "name": "Spaghetti (Pâtes de qualité supérieure)",
+        "description": "Pâtes alimentaires au blé dur de qualité supérieure",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Aliments d origine végétale",
+            "Céréales et pommes de terre",
+            "Céréales et dérivés",
+            "Pâtes alimentaires",
+            "Pâtes sèches",
+            "Pâtes de blé",
+            "Pâtes de blé dur"
+        ],
+        "stores": "Intermarché",
+        "site_url": "https://world.openfoodfacts.org/product/3250390000426/spaghetti-pates-de-qualite-superieure-fiorini",
+        "score": 0
+    },
+    {
+        "name": "Pizza Jambon Fromage ",
+        "description": "Pizza ovale (Pizza individuelle pâte fine cuite sur pierre jambon fromage )",
+        "categories": [
+            "Frais",
+            "Plats préparés",
+            "Plats à base de viande",
+            "Plats à base de viande bovine",
+            "Pizzas tartes salées et quiches",
+            "Pizzas",
+            "Plats préparés frais",
+            "Plats à base de viande porcine"
+        ],
+        "stores": "Intermarché",
+        "site_url": "https://world.openfoodfacts.org/product/3250391402892/pizza-jambon-fromage-fiorini",
+        "score": 5
+    },
+    {
+        "name": "Pom  Noisettes dorées & moelleuses",
+        "description": "Pommes noisettes préfrites et surgelées",
+        "categories": [
+            "Surgelés"
+        ],
+        "stores": "Intermarché",
+        "site_url": "https://world.openfoodfacts.org/product/3250391699797/pom-noisettes-dorees-moelleuses-bouton-d-or",
+        "score": 6
+    },
+    {
+        "name": "Just  Mie Nature",
+        "description": "Pain de mie",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Aliments d origine végétale",
+            "Céréales et pommes de terre",
+            "Pains"
+        ],
+        "stores": "Netto",
+        "site_url": "https://world.openfoodfacts.org/product/3250391697854/just-mie-nature-netto",
+        "score": 4
+    },
+    {
+        "name": "Compote poires avec morceaux",
+        "description": "",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Aliments d origine végétale",
+            "Aliments à base de fruits et de légumes",
+            "Desserts",
+            "Fruits et produits dérivés",
+            "Compotes"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/3250391698875/compote-poires-avec-morceaux-elodie",
+        "score": 0
     }
 ]

@@ -14,6 +14,20 @@
         "score": -2
     },
     {
+        "name": "Mousline Saveur à l Ancienne façon presse-purée",
+        "description": "purée de pomme de terre déshydratée en flocons",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Aliments d origine végétale",
+            "Céréales et pommes de terre",
+            "Produits déshydratés",
+            "Produits lyophilisés à reconstituer"
+        ],
+        "stores": "Carrefour",
+        "site_url": "https://world.openfoodfacts.org/product/3033710077762/mousline-saveur-a-l-ancienne-facon-presse-puree-maggi",
+        "score": 1
+    },
+    {
         "name": "Oméga 3&6 Doux",
         "description": "Margarine allégée (60% de M.G.), enrichie en vitamine A et D, aux huiles 100% végétales",
         "categories": [
@@ -5198,7 +5212,7 @@
         "score": 14
     },
     {
-        "name": "8 Brioches Pépites Chocolat",
+        "name": "Pitch, 8 brioches pépites chocolat",
         "description": "8 Brioches Pépites Chocolat",
         "categories": [
             "Snacks sucrés",
@@ -5206,8 +5220,8 @@
             "Brioches"
         ],
         "stores": "Auchan,Super U",
-        "site_url": "https://world.openfoodfacts.org/product/3256540000643/8-brioches-pepites-chocolat-pitch",
-        "score": 14
+        "site_url": "https://world.openfoodfacts.org/product/3256540000643/pitch-8-brioches-pepites-chocolat",
+        "score": 13
     },
     {
         "name": "Croq vert Aux 5 Epices & Aromates",
@@ -5247,19 +5261,6 @@
         "stores": "Magasins U",
         "site_url": "https://world.openfoodfacts.org/product/3256220023924/pur-jus-orange-u-bio",
         "score": 4
-    },
-    {
-        "name": "Yaourt nature",
-        "description": "",
-        "categories": [
-            "Produits laitiers",
-            "Produits fermentés",
-            "Produits laitiers fermentés",
-            "Yaourts"
-        ],
-        "stores": "Super U, Magasins U",
-        "site_url": "https://world.openfoodfacts.org/product/3256224221302/yaourt-nature-u",
-        "score": -2
     },
     {
         "name": "Compote de pommes nature",
@@ -5351,7 +5352,7 @@
         "score": 3
     },
     {
-        "name": "Ferme et Fondant, Chocolat Noir (0,8 % MG) 4 Pots",
+        "name": "Ferme et Fondant, Chocolat Noir",
         "description": "Spécialité laitière au chocolat noir, avec sucres et édulcorants",
         "categories": [
             "Produits laitiers",
@@ -5360,7 +5361,7 @@
             "Desserts au chocolat"
         ],
         "stores": "Cora",
-        "site_url": "https://world.openfoodfacts.org/product/3023290471500/ferme-et-fondant-chocolat-noir-0-8-mg-4-pots-nestle",
+        "site_url": "https://world.openfoodfacts.org/product/3023290471500/ferme-et-fondant-chocolat-noir-nestle",
         "score": -2
     },
     {
@@ -5547,7 +5548,7 @@
             "Céréales en grains",
             "Riz"
         ],
-        "stores": "Casino, Franprix",
+        "stores": "Casino,Franprix",
         "site_url": "https://world.openfoodfacts.org/product/3038354562407/riz-a-poeler-dore-et-moelleux-lustucru",
         "score": -1
     },
@@ -5917,6 +5918,21 @@
         "score": 10
     },
     {
+        "name": "Mousline au lait entier",
+        "description": "",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Aliments d origine végétale",
+            "Céréales et pommes de terre",
+            "Plats préparés",
+            "Produits déshydratés",
+            "Produits lyophilisés à reconstituer"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/7613035147287/mousline-au-lait-entier-maggi",
+        "score": 1
+    },
+    {
         "name": "Praliné Fondant Lait",
         "description": "Chocolat au lait fourré (48%) au praliné noisettes et amandes et noix de cajou",
         "categories": [
@@ -6102,7 +6118,7 @@
         "score": 11
     },
     {
-        "name": "Ferme et Fondant, Chocolat (1,3 % MG) 8 Pots",
+        "name": "Ferme et Fondant, Chocolat",
         "description": "Spécialité laitière au chocolat, avec sucres et édulcorants",
         "categories": [
             "Frais",
@@ -6114,7 +6130,7 @@
             "Desserts au chocolat"
         ],
         "stores": "Banque alimentaire,Carrefour market",
-        "site_url": "https://world.openfoodfacts.org/product/3023290216538/ferme-et-fondant-chocolat-1-3-mg-8-pots-nestle",
+        "site_url": "https://world.openfoodfacts.org/product/3023290216538/ferme-et-fondant-chocolat-nestle",
         "score": 1
     },
     {
@@ -7513,6 +7529,19 @@
         "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3017760751995/cracotte-saveur-briochee-lu",
         "score": 9
+    },
+    {
+        "name": "Mikado Chocolat Noir",
+        "description": "Biscuits nappés de chocolat noir",
+        "categories": [
+            "Snacks sucrés",
+            "Biscuits et gâteaux",
+            "Biscuits",
+            "Biscuits au chocolat"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/3017760686693/mikado-chocolat-noir-lu",
+        "score": 19
     },
     {
         "name": "Petits pois à l étuvée extra fins",
@@ -9890,7 +9919,7 @@
         ],
         "stores": "Picard",
         "site_url": "https://world.openfoodfacts.org/product/3270160863716/poulet-sauce-teriyaki-et-riz-au-sesame-picard",
-        "score": 0
+        "score": 1
     },
     {
         "name": "4 Saucisses de Toulouse - surgelées",
@@ -11307,23 +11336,6 @@
         "score": 16
     },
     {
-        "name": "Frosties",
-        "description": "",
-        "categories": [
-            "Aliments et boissons à base de végétaux",
-            "Aliments d origine végétale",
-            "Petit déjeuners",
-            "Céréales et pommes de terre",
-            "Céréales et dérivés",
-            "Céréales pour petit déjeuner",
-            "Flocons",
-            "Flocons de céréales"
-        ],
-        "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/5053827111027/frosties-kellogg-s",
-        "score": 13
-    },
-    {
         "name": "Nutri-Grain Croustillant de Céréales Biscuité",
         "description": "",
         "categories": [
@@ -11629,5 +11641,19 @@
         "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3564700010716/corn-flakes-brin-de-jour",
         "score": 10
+    },
+    {
+        "name": "Thon Entier Albacore au Naturel",
+        "description": "Thon albacore entier au naturel",
+        "categories": [
+            "Conserves",
+            "Produits de la mer",
+            "Poissons",
+            "Poissons en conserve",
+            "Thons"
+        ],
+        "stores": "Leclerc",
+        "site_url": "https://world.openfoodfacts.org/product/3564700459430/thon-entier-albacore-au-naturel-peche-ocean",
+        "score": 0
     }
 ]

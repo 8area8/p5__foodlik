@@ -1,31 +1,5 @@
 [
     {
-        "name": "Chocolat noir pâtissier 64%",
-        "description": "",
-        "categories": [
-            "Snacks sucrés",
-            "Chocolats",
-            "Chocolats noirs"
-        ],
-        "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/8480017013453/chocolat-noir-patissier-64-dia",
-        "score": 19
-    },
-    {
-        "name": "Bifidus Nature",
-        "description": "Lait fermenté nature au bifidobacterium",
-        "categories": [
-            "Produits laitiers",
-            "Produits fermentés",
-            "Produits laitiers fermentés",
-            "Yaourts",
-            "Yaourts natures"
-        ],
-        "stores": "dia",
-        "site_url": "https://world.openfoodfacts.org/product/8480017352637/bifidus-nature-dia",
-        "score": 0
-    },
-    {
         "name": "Feuilletés aux olives noires",
         "description": "Biscuits feuilletés aux olives noires",
         "categories": [
@@ -1876,7 +1850,7 @@
         "score": 10
     },
     {
-        "name": "Jus de Carotte",
+        "name": "Jus de Carrotte",
         "description": "",
         "categories": [
             "Aliments et boissons à base de végétaux",
@@ -1886,8 +1860,8 @@
             "Boissons non sucrées"
         ],
         "stores": "Fréquence Bio",
-        "site_url": "https://world.openfoodfacts.org/product/3289196400086/jus-de-carotte-vitamont",
-        "score": 0
+        "site_url": "https://world.openfoodfacts.org/product/3289196400086/jus-de-carrotte-vitamont",
+        "score": -2
     },
     {
         "name": "Smoothie Mangue Coco",
@@ -3339,8 +3313,9 @@
         "name": "Kinder Pingui Schoko",
         "description": "Schoko-Schnitte mit Milchcreme",
         "categories": [
-            "Snacks sucrés",
-            "Biscuits et gâteaux"
+            "Desserts",
+            "Surgelés",
+            "Desserts glacés"
         ],
         "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/4008400290423/kinder-pingui-schoko",
@@ -3497,6 +3472,20 @@
         "stores": "Dia",
         "site_url": "https://world.openfoodfacts.org/product/4007993016922/oreo-ice-cream-sticks",
         "score": 21
+    },
+    {
+        "name": "Glace au Toblerone",
+        "description": "Glace au cacao-miel avec morceaux de chocolat au lait avec nougat au miel et aux amandes (2%) et morceaux de nougat blanc (2%), enrobée chocolat au lait (33%) avec morceaux de nougat blanc (3%)",
+        "categories": [
+            "Desserts",
+            "Surgelés",
+            "Desserts glacés",
+            "Glaces et sorbets",
+            "Glaces"
+        ],
+        "stores": "Franprix",
+        "site_url": "https://world.openfoodfacts.org/product/4007993020264/glace-au-toblerone",
+        "score": 20
     },
     {
         "name": "Lieken Urkorn",
@@ -4177,6 +4166,19 @@
         "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3173289205460/le-vrai-petit-ourson-cemoi",
         "score": 19
+    },
+    {
+        "name": "Madeleines pépites chocolat",
+        "description": "Madeleines aux pépites de chocolat (4,9%) et pépites de chocolat au lait (2,7%)",
+        "categories": [
+            "Snacks sucrés",
+            "Desserts",
+            "Biscuits et gâteaux",
+            "Gâteaux"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/3178531009209/madeleines-pepites-chocolat-st-michel",
+        "score": 14
     },
     {
         "name": "Madeleines  St Michel",
@@ -4996,18 +4998,6 @@
         "score": 27
     },
     {
-        "name": "Fruit Shoot Multivitaminé",
-        "description": "Boisson rafraîchissante aux fruits avec vitamines",
-        "categories": [
-            "Boissons",
-            "Boissons non sucrées",
-            "Boissons sucrées"
-        ],
-        "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/3092718607760/fruit-shoot-multivitamine-teisseire",
-        "score": 8
-    },
-    {
         "name": "Teisseire Zero Sucre Agrumes",
         "description": "Boisson concentrée au pamplemousse rose, à l orange et au citron à diluer",
         "categories": [
@@ -5510,6 +5500,20 @@
         "score": 26
     },
     {
+        "name": "Purée Mousline Nature",
+        "description": "",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Aliments d origine végétale",
+            "Céréales et pommes de terre",
+            "Produits déshydratés",
+            "Produits lyophilisés à reconstituer"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/7613034335388/puree-mousline-nature-maggi",
+        "score": -2
+    },
+    {
         "name": "Véritable andouille de Guémené à l ancienne",
         "description": "",
         "categories": [
@@ -5774,14 +5778,14 @@
         "score": 13
     },
     {
-        "name": "Mixers peche limonade",
+        "name": "Fraise smoothie banane",
         "description": "Pastilles aromatisées cerise et cola ou pêche limonade",
         "categories": [
             "Snacks sucrés",
             "Confiseries"
         ],
         "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/80739074/mixers-peche-limonade-ferrero",
+        "site_url": "https://world.openfoodfacts.org/product/80739074/fraise-smoothie-banane-ferrero",
         "score": 14
     },
     {
@@ -5827,19 +5831,6 @@
         "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3021760885529/pomme-pomme-poire-sans-sucre-ajoute-materne",
         "score": -3
-    },
-    {
-        "name": "Jambon superieur",
-        "description": "",
-        "categories": [
-            "Viandes",
-            "Charcuteries",
-            "Jambons",
-            "Jambons blancs"
-        ],
-        "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/3560070786947/jambon-superieur-carrefour",
-        "score": 5
     },
     {
         "name": "Cabillaud fondue de poireaux, riz aux petits légumes",
@@ -6800,6 +6791,44 @@
         ],
         "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/5411188121992/alpro-soya-banana",
+        "score": 0
+    },
+    {
+        "name": "Café Filtre Soluble",
+        "description": "",
+        "categories": [
+            "Boissons"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/3560070361946/cafe-filtre-soluble-carrefour-discount",
+        "score": 1
+    },
+    {
+        "name": "Miette de thon",
+        "description": "",
+        "categories": [
+            "Conserves",
+            "Produits de la mer",
+            "Poissons",
+            "Poissons en conserve",
+            "Thons"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/3596710396191/miette-de-thon-auchan",
+        "score": 4
+    },
+    {
+        "name": "Paella. Filets de Poulet & Chorizo",
+        "description": "",
+        "categories": [
+            "Conserves",
+            "Plats préparés",
+            "Plats à base de viande",
+            "Plats à base de viande bovine",
+            "Plats préparés en conserve"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/3038353400601/paella-filets-de-poulet-chorizo-garbit",
         "score": 0
     }
 ]

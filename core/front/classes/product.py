@@ -20,6 +20,12 @@ class Product(BaseSection):
         self.name = datas.chosen_product.upper()
 
         self.c_return_prd = "[return prod]: return to the products page.\n"
+        self.c_save_substitut1 = ("[save first]: save the first "
+                                  "substitut in the database.\n")
+        self.c_save_substitut2 = ("[save second]: save the second "
+                                  "substitut in the database.\n")
+        self.info_msg = ""
+        self.substituts = None
 
     @property
     def header(self):
@@ -31,7 +37,7 @@ class Product(BaseSection):
     def content(self):
         """Return the content."""
         content = datas.load_product()
-        substituts = datas.load_substituts(content[4], content[0])
+        self.substituts = datas.load_substituts(content[4], content[0])
         text = ""
         titles = ("name: ", "description: ",
                   "stores ", "url: ", "nutri-score: ")
@@ -49,7 +55,7 @@ class Product(BaseSection):
         titles = ("name: ", "description: ", "stores: ",
                   "category: ", "url: ", "nutri-score: ")
 
-        for product in substituts[0]:
+        for product in self.substituts[0]:
             for title, caract in zip(titles, product):
                 caract = textwrap.wrap(str(caract), 45)
                 caract = "\n     ".join(caract)
@@ -58,11 +64,11 @@ class Product(BaseSection):
             subst = "SECOND SUBSTITUT, IN A MORE TARGETED PRODUCT CATEGORY:\n"
             text += colored(subst, "green")
 
-        if isinstance(substituts[1], str):
-            text += "   * " + substituts[1] + "\n"
+        if isinstance(self.substituts[1], str):
+            text += "   * " + self.substituts[1] + "\n"
             return text
 
-        for product in substituts[1]:
+        for product in self.substituts[1]:
             for title, caract in zip(titles, product):
                 caract = textwrap.wrap(str(caract), 45)
                 caract = "\n     ".join(caract)
@@ -75,8 +81,12 @@ class Product(BaseSection):
 
         Call 'super().footer' to get the error messages.
         """
-        return (self.comm + self.c_return_prd + self.c_return_ctgs +
-                self.c_quit + "\n") + super().footer
+        text = (self.comm + self.c_return_prd + self.c_return_ctgs +
+                self.c_quit + self.c_save_substitut1 +
+                self.c_save_substitut2 + "\n" +
+                self.info_msg + "\n") + super().footer
+        self.info_msg = ""
+        return text
 
     @property
     def actions(self):
@@ -84,7 +94,8 @@ class Product(BaseSection):
 
         Call 'super().actions' to get the basic actions.
         """
-        return (self.a_return_ctgs + ["return prod"] + super().actions)
+        return (self.a_return_ctgs +
+                ["return prod", "save first", "save second"] + super().actions)
 
     def apply(self, action):
         """Apply an action."""
@@ -92,3 +103,7 @@ class Product(BaseSection):
             self.change_to = "Categories"
         if action == "return prod":
             self.change_to = "Category"
+        if action == "save first" and isinstance(self.substituts, tuple):
+            self.info_msg = datas.save_substitute(self.substituts[0][0])
+        if action == "save second" and isinstance(self.substituts, tuple):
+            self.info_msg = datas.save_substitute(self.substituts[1][0])

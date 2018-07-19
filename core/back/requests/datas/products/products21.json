@@ -1,93 +1,5 @@
 [
     {
-        "name": "Sauce béchamel ",
-        "description": "Sauce béchamel stérilisée UHT ",
-        "categories": [
-            "Epicerie",
-            "Sauces"
-        ],
-        "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/3263859430115/sauce-bechamel-leader-price",
-        "score": 7
-    },
-    {
-        "name": "Barres cereales - chocolat au lait - noix de coco",
-        "description": "Barre céréalière avec un talon chocolat au lait et à la noix de coco",
-        "categories": [
-            "Snacks sucrés",
-            "Barres"
-        ],
-        "stores": "Leader Price",
-        "site_url": "https://world.openfoodfacts.org/product/3263850763618/barres-cereales-chocolat-au-lait-noix-de-coco-leader-price",
-        "score": 20
-    },
-    {
-        "name": "Tagliatelles sauce pesto et noix de Saint Jacques*, Surgelé",
-        "description": "Plat surgelé préparé à base de tagliatelles, brocolis et noix de Saint Jacques* accompagnés de sauce pesto ",
-        "categories": [
-            "Surgelés",
-            "Plats préparés",
-            "Plats préparés à réchauffer au micro ondes",
-            "Plats préparés surgelés"
-        ],
-        "stores": "Leader Price",
-        "site_url": "https://world.openfoodfacts.org/product/3263859857011/tagliatelles-sauce-pesto-et-noix-de-saint-jacques-surgele-leader-price-fine-ligne",
-        "score": -1
-    },
-    {
-        "name": "Cabillaud risoni et ratatouille",
-        "description": "Cabillaud risoni et ratatouille",
-        "categories": [
-            "Surgelés",
-            "Plats préparés",
-            "Plats à base de poisson",
-            "Plats préparés surgelés"
-        ],
-        "stores": "Franprix",
-        "site_url": "https://world.openfoodfacts.org/product/3263859858612/cabillaud-risoni-et-ratatouille-marche-franprix",
-        "score": -2
-    },
-    {
-        "name": "Sauce Vinaigrette aux Tomates Séchées",
-        "description": "",
-        "categories": [
-            "Epicerie",
-            "Sauces"
-        ],
-        "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/3263850425912/sauce-vinaigrette-aux-tomates-sechees-leader-price",
-        "score": 18
-    },
-    {
-        "name": "crottin de chèvre",
-        "description": "Fromage au lait de chèvre pasteurisé",
-        "categories": [
-            "Produits laitiers",
-            "Produits fermentés",
-            "Produits laitiers fermentés",
-            "Fromages",
-            "Fromages de chèvre"
-        ],
-        "stores": "Leader Price",
-        "site_url": "https://world.openfoodfacts.org/product/3263859370312/crottin-de-chevre-leader-price",
-        "score": 14
-    },
-    {
-        "name": "Pur chèvre doux (12% MG)",
-        "description": "Fromage de chèvre au lait pasteurisé",
-        "categories": [
-            "Produits laitiers",
-            "Produits fermentés",
-            "Produits laitiers fermentés",
-            "Fromages",
-            "Fromages pasteurisés",
-            "Fromages de chèvre"
-        ],
-        "stores": "Leader Price",
-        "site_url": "https://world.openfoodfacts.org/product/3263859370114/pur-chevre-doux-12-mg-leader-price",
-        "score": 8
-    },
-    {
         "name": "Cabecou au lait de chèvre",
         "description": "",
         "categories": [
@@ -1479,7 +1391,7 @@
         "score": 15
     },
     {
-        "name": "Petits Pois et Carottes à l étuvée (Extra Fins)",
+        "name": "Petits pois à l étuvée extra fin",
         "description": "Petits pois et carottes à l étuvée extra fins",
         "categories": [
             "Aliments et boissons à base de végétaux",
@@ -1493,8 +1405,8 @@
             "Légumineuses en conserve"
         ],
         "stores": "Aldi",
-        "site_url": "https://world.openfoodfacts.org/product/26043678/petits-pois-et-carottes-a-l-etuvee-extra-fins-fleurs-des-champs",
-        "score": -4
+        "site_url": "https://world.openfoodfacts.org/product/26043678/petits-pois-a-l-etuvee-extra-fin-fleurs-des-champs",
+        "score": -5
     },
     {
         "name": "Galletas saladas",
@@ -1509,7 +1421,7 @@
         "score": 25
     },
     {
-        "name": "Mini Couques aux Amandes et Beurre ou Mini Couques aux Pommes et Beurre",
+        "name": "Mini couques aux amandes et beurre",
         "description": "12 mini couques aux pommes et beurre ou 12 mini couques aux amandes et beurre",
         "categories": [
             "Snacks sucrés",
@@ -1518,7 +1430,7 @@
             "Gâteaux"
         ],
         "stores": "Aldi",
-        "site_url": "https://world.openfoodfacts.org/product/26035345/mini-couques-aux-amandes-et-beurre-ou-mini-couques-aux-pommes-et-beurre-tante-odile",
+        "site_url": "https://world.openfoodfacts.org/product/26035345/mini-couques-aux-amandes-et-beurre-tante-odile",
         "score": 23
     },
     {
@@ -2443,6 +2355,20 @@
         "stores": "Carrefour",
         "site_url": "https://world.openfoodfacts.org/product/3033710001347/grand-chocolat-noir-intense-70-nestle",
         "score": 17
+    },
+    {
+        "name": "Mousline Tendresse de Lait",
+        "description": "Purée de pomme de terre en flocons au lait",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Aliments d origine végétale",
+            "Céréales et pommes de terre",
+            "Produits déshydratés",
+            "Produits lyophilisés à reconstituer"
+        ],
+        "stores": "Cora",
+        "site_url": "https://world.openfoodfacts.org/product/3033710085675/mousline-tendresse-de-lait-maggi",
+        "score": 1
     },
     {
         "name": "Riz au Lait",
@@ -3843,7 +3769,7 @@
         ],
         "stores": "Super U, Magasins U",
         "site_url": "https://world.openfoodfacts.org/product/3368954301138/rocamadour-aop-au-lait-cru-de-chevre-22-mg-u-saveurs",
-        "score": 13
+        "score": 10
     },
     {
         "name": "Moutarde à l estragon",
@@ -4752,18 +4678,18 @@
         "score": -3
     },
     {
-        "name": "Tuna steack",
+        "name": "Tuna Steak",
         "description": "Thunfischfilets, geschnitten, in eigenem Saft und Aufguss",
         "categories": [
             "Conserves",
-            "Filets de poissons",
+            "Produits de la mer",
             "Poissons",
             "Poissons en conserve",
-            "Produits de la mer",
+            "Filets de poissons",
             "Thons"
         ],
         "stores": "LIDL",
-        "site_url": "https://world.openfoodfacts.org/product/20403027/tuna-steack-nixe",
+        "site_url": "https://world.openfoodfacts.org/product/20403027/tuna-steak-nixe",
         "score": 1
     },
     {
@@ -7641,9 +7567,9 @@
             "Produits à tartiner sucrés",
             "Fruits en conserve"
         ],
-        "stores": "Super U, Magasins U",
+        "stores": "Super U,Magasins U",
         "site_url": "https://world.openfoodfacts.org/product/3256222010083/gelee-de-mures-50-de-fruits-u",
-        "score": 13
+        "score": 12
     },
     {
         "name": "Pain Hot dog",
@@ -8181,5 +8107,18 @@
         "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3021762420360/pom-potes-sans-sucres-ajoutes-format-familial-materne",
         "score": -3
+    },
+    {
+        "name": "Cookies aux Pépites de Chocolat (Mous)",
+        "description": "",
+        "categories": [
+            "Snacks sucrés",
+            "Biscuits et gâteaux",
+            "Biscuits",
+            "Cookies"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/3564700793657/cookies-aux-pepites-de-chocolat-mous-p-tit-deli",
+        "score": 25
     }
 ]

@@ -1,33 +1,5 @@
 [
     {
-        "name": "Chili con Carne (Au Bœuf) 2 Pers.",
-        "description": "Chili con carne",
-        "categories": [
-            "Conserves",
-            "Plats préparés",
-            "Plats à base de viande",
-            "Plats à base de viande bovine",
-            "Plats préparés en conserve"
-        ],
-        "stores": "Carrefour",
-        "site_url": "https://world.openfoodfacts.org/product/3560070748938/chili-con-carne-au-boeuf-2-pers-carrefour",
-        "score": -4
-    },
-    {
-        "name": "Cookies Big Rocks chocolat (x 8)",
-        "description": "Biscuits aux morceaux et pépites de chocolat",
-        "categories": [
-            "Snacks sucrés",
-            "Biscuits et gâteaux",
-            "Biscuits",
-            "Biscuits au chocolat",
-            "Cookies"
-        ],
-        "stores": "Carrefour",
-        "site_url": "https://world.openfoodfacts.org/product/3560070744770/cookies-big-rocks-chocolat-x-8-carrefour",
-        "score": 24
-    },
-    {
         "name": "Cantal Entre-Deux, au lait cru",
         "description": "Cantal au lait cru, affinage entre-deux",
         "categories": [
@@ -1790,7 +1762,8 @@
         "name": "Meringues",
         "description": "Meringues",
         "categories": [
-            "Snacks sucrés"
+            "Snacks sucrés",
+            "Biscuits et gâteaux"
         ],
         "stores": "Coop",
         "site_url": "https://world.openfoodfacts.org/product/7610809115992/meringues-naturaplan",
@@ -2110,7 +2083,7 @@
         ],
         "stores": "Leclerc",
         "site_url": "https://world.openfoodfacts.org/product/7622210263667/milka-recette-onctueuse-au-tendre-gout-chocolat",
-        "score": 13
+        "score": 9
     },
     {
         "name": "Chocolat",
@@ -3270,6 +3243,21 @@
         "score": 11
     },
     {
+        "name": "Boulgour Bio - 500 g - U bio",
+        "description": "Boulgour issu de l agriculture biologique",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Aliments d origine végétale",
+            "Céréales et pommes de terre",
+            "Graines",
+            "Céréales et dérivés",
+            "Céréales en grains"
+        ],
+        "stores": "Hyper U",
+        "site_url": "https://world.openfoodfacts.org/product/3256221408515/boulgour-bio-500-g-u-bio",
+        "score": -6
+    },
+    {
         "name": "Truite fumée au bois de hêtre",
         "description": "Truite fumée",
         "categories": [
@@ -4021,22 +4009,6 @@
         "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3023290169971/semoule-au-lait-saveur-vanille-nestle-la-laitiere-4-x-115-g",
         "score": 5
-    },
-    {
-        "name": "Ferme et  Fondant Saveur Vanille",
-        "description": "Yaourt à 0 % de matière grasse, aromatisée vanille",
-        "categories": [
-            "Frais",
-            "Produits laitiers",
-            "Produits fermentés",
-            "Desserts",
-            "Produits laitiers fermentés",
-            "Yaourts",
-            "Yaourts aromatisés"
-        ],
-        "stores": "Banque alimentaire,Auchan",
-        "site_url": "https://world.openfoodfacts.org/product/3023291169031/ferme-et-fondant-saveur-vanille-nestle",
-        "score": -2
     },
     {
         "name": "Le Fleurier Doux",
@@ -4796,7 +4768,7 @@
         ],
         "stores": "Naturalia,Bio14",
         "site_url": "https://world.openfoodfacts.org/product/3329488732508/graine-de-chia-markal",
-        "score": -3
+        "score": 10
     },
     {
         "name": "Sucralose",
@@ -6907,7 +6879,7 @@
         "score": 8
     },
     {
-        "name": "Yaourt à la Vanille Naturelle",
+        "name": "yaourt vanille",
         "description": "Yaourt à la Vanille Naturelle",
         "categories": [
             "Produits laitiers",
@@ -6917,7 +6889,7 @@
             "Yaourts entiers"
         ],
         "stores": "Leclerc",
-        "site_url": "https://world.openfoodfacts.org/product/3045320517620/yaourt-a-la-vanille-naturelle-bonne-maman",
+        "site_url": "https://world.openfoodfacts.org/product/3045320517620/yaourt-vanille-bonne-maman",
         "score": 5
     },
     {
@@ -7080,7 +7052,7 @@
         "score": 2
     },
     {
-        "name": "Poivre Noir",
+        "name": "Boursin Poivre Noir",
         "description": "Fromage industriel de France, à pâte fraîche, au lait pasteurisé de vache, à tartiner",
         "categories": [
             "Frais",
@@ -7096,7 +7068,7 @@
             "Fromages industriels"
         ],
         "stores": "Super U,GeantCasino,Leclerc",
-        "site_url": "https://world.openfoodfacts.org/product/3175460000062/poivre-noir-boursin",
+        "site_url": "https://world.openfoodfacts.org/product/3175460000062/boursin-poivre-noir",
         "score": 16
     },
     {
@@ -7372,7 +7344,7 @@
         ],
         "stores": "Intermarché",
         "site_url": "https://world.openfoodfacts.org/product/3092710100016/sirop-d-agrumes-teisseire",
-        "score": 2
+        "score": 1
     },
     {
         "name": "Ketchup nature",
@@ -7513,6 +7485,16 @@
         "score": 12
     },
     {
+        "name": "Gratin de Courge Butternut, Céréales, Sauce au Fromage Frais",
+        "description": "",
+        "categories": [
+            "Plats préparés"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/3270160874453/gratin-de-courge-butternut-cereales-sauce-au-fromage-frais-picard",
+        "score": 6
+    },
+    {
         "name": "Sun Pat smooth peanut spread",
         "description": "beurre de cacahuètes",
         "categories": [
@@ -7527,6 +7509,20 @@
         "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/5060391620398/sun-pat-smooth-peanut-spread",
         "score": 15
+    },
+    {
+        "name": "Mousline Saveur à l ancienne Crème et noix de muscade",
+        "description": "",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Aliments d origine végétale",
+            "Céréales et pommes de terre",
+            "Produits déshydratés",
+            "Produits lyophilisés à reconstituer"
+        ],
+        "stores": "Auchan",
+        "site_url": "https://world.openfoodfacts.org/product/7613035128880/mousline-saveur-a-l-ancienne-creme-et-noix-de-muscade",
+        "score": -1
     },
     {
         "name": "Pure premium Clémentine",
@@ -7567,10 +7563,10 @@
         ],
         "stores": "Cora",
         "site_url": "https://world.openfoodfacts.org/product/3092718605216/sirop-de-cerise-teisseire",
-        "score": 20
+        "score": 10
     },
     {
-        "name": "Bio muesli croustillant fruits rouges",
+        "name": "Muesli fruits et noix croustillant Bio",
         "description": "Muesli complet avec 26% de fruits, amandes et noisettes.",
         "categories": [
             "Aliments et boissons à base de végétaux",
@@ -7585,7 +7581,7 @@
             "Mueslis"
         ],
         "stores": "LIDL",
-        "site_url": "https://world.openfoodfacts.org/product/20708429/bio-muesli-croustillant-fruits-rouges-crownfield",
+        "site_url": "https://world.openfoodfacts.org/product/20708429/muesli-fruits-et-noix-croustillant-bio-crownfield",
         "score": -3
     },
     {
@@ -7601,14 +7597,14 @@
         "score": 19
     },
     {
-        "name": "Barres de Céréales au Chocolat au Lait",
+        "name": "BARRES DE CÉRÉALES -CHOCOLAT AU LAIT-",
         "description": "Barres de céréales au chocolat au lait avec édulcorant, sans sucres ajoutés. Barres de Céréales au Chocolat au Lait",
         "categories": [
             "Snacks sucrés",
             "Barres"
         ],
         "stores": "Lidl",
-        "site_url": "https://world.openfoodfacts.org/product/20422684/barres-de-cereales-au-chocolat-au-lait-crownfield",
+        "site_url": "https://world.openfoodfacts.org/product/20422684/barres-de-cereales-chocolat-au-lait-crownfield",
         "score": -2
     },
     {
@@ -8318,23 +8314,6 @@
         "score": 13
     },
     {
-        "name": "Boisson soja Saveur chocolat",
-        "description": "Boisson à base de soja saveur chocolat, issue de l agriculture biologique. Stérilisée UHT.",
-        "categories": [
-            "Aliments et boissons à base de végétaux",
-            "Boissons",
-            "Aliments d origine végétale",
-            "Légumes et dérivés",
-            "Boissons à base de végétaux",
-            "Substitut du lait",
-            "Laits végétaux",
-            "Boissons non sucrées"
-        ],
-        "stores": "Carrefour",
-        "site_url": "https://world.openfoodfacts.org/product/3560070553471/boisson-soja-saveur-chocolat-carrefour",
-        "score": 0
-    },
-    {
         "name": "Barres céréalières au chocolat au lait",
         "description": "",
         "categories": [
@@ -8624,6 +8603,20 @@
         "score": 22
     },
     {
+        "name": "Purée de pommes de terre en flocon nature",
+        "description": "",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Aliments d origine végétale",
+            "Céréales et pommes de terre",
+            "Produits déshydratés",
+            "Produits lyophilisés à reconstituer"
+        ],
+        "stores": "Leclerc",
+        "site_url": "https://world.openfoodfacts.org/product/3564700001110/puree-de-pommes-de-terre-en-flocon-nature-pom-lisse",
+        "score": -2
+    },
+    {
         "name": "Déli Light yaourt aux fruits (cerise, mûre, fraise, ananas, abricot, citron)",
         "description": "Yaourt maigre à 0% de matière grasse avec édulcorants aux fruits, enrichi en vitamine D",
         "categories": [
@@ -8881,6 +8874,19 @@
         "score": 1
     },
     {
+        "name": "Moutarde a l ancienne",
+        "description": "Moutarde à l ancienne au vin blanc AOP Bourgogne aligoté",
+        "categories": [
+            "Epicerie",
+            "Condiments",
+            "Sauces",
+            "Moutardes"
+        ],
+        "stores": "Leclerc",
+        "site_url": "https://world.openfoodfacts.org/product/3564709042640/moutarde-a-l-ancienne-nos-regions-ont-du-talent",
+        "score": 8
+    },
+    {
         "name": "Filets de Maquereaux (Tomate Basilic)",
         "description": "Filets de maquereaux à la sauce tomate et au basilic",
         "categories": [
@@ -9013,7 +9019,7 @@
             "Céréales et dérivés",
             "Farines"
         ],
-        "stores": "",
+        "stores": "Carrefour",
         "site_url": "https://world.openfoodfacts.org/product/3245414662926/farine-de-ble-type-55-carrefour-discount",
         "score": -5
     },

@@ -1,44 +1,5 @@
 [
     {
-        "name": "Medaillon Classic",
-        "description": "Meringue fourrée chocolat-noisette, chocolat au lait et décorée de chocolat blanc",
-        "categories": [
-            "Snacks sucrés",
-            "Chocolats",
-            "Chocolats au lait"
-        ],
-        "stores": "Lidl",
-        "site_url": "https://world.openfoodfacts.org/product/20136321/medaillon-classic-catago",
-        "score": 24
-    },
-    {
-        "name": "Coeur de blé",
-        "description": "Farine de blé",
-        "categories": [
-            "Aliments et boissons à base de végétaux",
-            "Aliments d origine végétale",
-            "Céréales et pommes de terre",
-            "Céréales et dérivés",
-            "Farines"
-        ],
-        "stores": "Leclerc",
-        "site_url": "https://world.openfoodfacts.org/product/3483050001819/coeur-de-ble-ebly",
-        "score": -5
-    },
-    {
-        "name": "Fin carré",
-        "description": "Chocolat au lait avec noisettes entières",
-        "categories": [
-            "Snacks sucrés",
-            "Confiseries",
-            "Chocolats",
-            "Chocolats au lait"
-        ],
-        "stores": "Lidl",
-        "site_url": "https://world.openfoodfacts.org/product/20005771/fin-carre",
-        "score": 22
-    },
-    {
         "name": "Palets Citron",
         "description": "Biscuits au beurre frais et au citron",
         "categories": [
@@ -723,7 +684,7 @@
         "score": 22
     },
     {
-        "name": "Sablés pur beurre",
+        "name": "Pure Butter Shortbread Highlanders",
         "description": "Sablés Pur Beurre",
         "categories": [
             "Snacks sucrés",
@@ -2259,14 +2220,14 @@
         "score": -5
     },
     {
-        "name": "Sel au Célery",
+        "name": "Sel au Céleri",
         "description": "",
         "categories": [
             "Epicerie",
             "Condiments"
         ],
         "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/3166290201088/sel-au-celery-ducros",
+        "site_url": "https://world.openfoodfacts.org/product/3166290201088/sel-au-celeri-ducros",
         "score": 10
     },
     {
@@ -3111,7 +3072,7 @@
     },
     {
         "name": "Yaourt au lait de brebis myrtille Vrai",
-        "description": "Yaourt au lait de brebis ",
+        "description": "Yaourt au lait de brebis",
         "categories": [
             "Produits laitiers",
             "Produits fermentés",
@@ -4283,7 +4244,7 @@
         ],
         "stores": "Carrefour",
         "site_url": "https://world.openfoodfacts.org/product/3263670162110/la-sardine-nature-et-sa-rondelle-de-citron-connetable",
-        "score": 1
+        "score": 2
     },
     {
         "name": "Thon de ligne à l huile d Olive vierge extra Bio",
@@ -5322,7 +5283,7 @@
         "score": 16
     },
     {
-        "name": "Hawaï mélange",
+        "name": "Canneberges séchées",
         "description": "Attention, produit Aldi mélangeant plusieurs produits différents sous un même code-barres.",
         "categories": [
             "Aliments et boissons à base de végétaux",
@@ -5335,8 +5296,8 @@
             "Fruits secs"
         ],
         "stores": "Aldi",
-        "site_url": "https://world.openfoodfacts.org/product/26022765/hawai-melange-trader-joe-s",
-        "score": 17
+        "site_url": "https://world.openfoodfacts.org/product/26022765/canneberges-sechees-trader-joe-s",
+        "score": 13
     },
     {
         "name": "Nutri-Grain Crunchy Biscuits Original",
@@ -6523,18 +6484,6 @@
         "score": 4
     },
     {
-        "name": "Brioche Tranchée au Levain",
-        "description": "",
-        "categories": [
-            "Snacks sucrés",
-            "Viennoiseries",
-            "Brioches"
-        ],
-        "stores": "Auchan",
-        "site_url": "https://world.openfoodfacts.org/product/3256540001756/brioche-tranchee-au-levain-pasquier",
-        "score": 15
-    },
-    {
         "name": "Sans Sucres Ajoutés Pomme Nature",
         "description": "",
         "categories": [
@@ -6637,6 +6586,20 @@
         "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/5410188031225/jus-d-orange-pressees-sans-pulpe-tropicana",
         "score": 2
+    },
+    {
+        "name": "Mousline Saveur à l Ancienne Crème & Pointe de Muscade",
+        "description": "",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Aliments d origine végétale",
+            "Céréales et pommes de terre",
+            "Produits déshydratés",
+            "Produits lyophilisés à reconstituer"
+        ],
+        "stores": "Super U,Leclerc",
+        "site_url": "https://world.openfoodfacts.org/product/7613035597440/mousline-saveur-a-l-ancienne-creme-pointe-de-muscade-maggi",
+        "score": -1
     },
     {
         "name": "Yaourt saveur Framboise",
@@ -7068,13 +7031,13 @@
         "score": 0
     },
     {
-        "name": "Tartelettes Fruits Rouges et Farine d Épeautre",
+        "name": "Tartelette biologique frts rouges+farine épéautre",
         "description": "Tartelettes Fruits Rouges et Farine d Épeautre",
         "categories": [
             "Tartes"
         ],
         "stores": "Magasins U,Super U",
-        "site_url": "https://world.openfoodfacts.org/product/3256224066217/tartelettes-fruits-rouges-et-farine-d-epeautre-u-bio",
+        "site_url": "https://world.openfoodfacts.org/product/3256224066217/tartelette-biologique-frts-rouges-farine-epeautre-u-bio",
         "score": 19
     },
     {
@@ -7155,17 +7118,6 @@
         "stores": "Picard",
         "site_url": "https://world.openfoodfacts.org/product/3270160666560/2-moelleux-chocolat-caramel-au-beurre-sale-picard",
         "score": 18
-    },
-    {
-        "name": "Vinaigrette légère",
-        "description": "",
-        "categories": [
-            "Epicerie",
-            "Sauces"
-        ],
-        "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/8722700136101/vinaigrette-legere-maille",
-        "score": 11
     },
     {
         "name": "Yopa! Fraise",
@@ -7535,8 +7487,18 @@
         "score": 19
     },
     {
-        "name": "Sardines à l ancienne à l huile d olive",
-        "description": "Sardines à l ancienne à l huile d olive vierge extra",
+        "name": "Gratin de Pâte, Épinard, Poireau et Sauce au Comté",
+        "description": "",
+        "categories": [
+            "Plats préparés"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/3270160874538/gratin-de-pate-epinard-poireau-et-sauce-au-comte-picard",
+        "score": 6
+    },
+    {
+        "name": "Sardines à l Ancienne à l Huile d Olive vierge extra",
+        "description": "Sardines à l ancienne à l huile d olive",
         "categories": [
             "Conserves",
             "Produits de la mer",
@@ -9864,5 +9826,35 @@
         "stores": "Leclerc",
         "site_url": "https://world.openfoodfacts.org/product/3564700565384/yaourts-aux-fruits-jaunes-avec-morceaux-delisse",
         "score": 3
+    },
+    {
+        "name": "Cookies Chocolat Blanc Cranberries",
+        "description": "Cookies au chocolat blanc, aux raisins secs, aux cranberries.",
+        "categories": [
+            "Snacks sucrés",
+            "Biscuits et gâteaux",
+            "Biscuits",
+            "Biscuits au chocolat",
+            "Cookies"
+        ],
+        "stores": "Leclerc",
+        "site_url": "https://world.openfoodfacts.org/product/3564700564462/cookies-chocolat-blanc-cranberries-p-tit-deli",
+        "score": 25
+    },
+    {
+        "name": "Betteraves en dés",
+        "description": "",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Aliments d origine végétale",
+            "Aliments à base de fruits et de légumes",
+            "Conserves",
+            "Légumineuses et dérivés",
+            "Aliments à base de plantes en conserve",
+            "Légumes en conserve"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/3564700775943/betteraves-en-des-notre-jardin",
+        "score": -4
     }
 ]

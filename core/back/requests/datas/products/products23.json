@@ -1,65 +1,5 @@
 [
     {
-        "name": "Fricassée de Poulet, Riz et Légumes",
-        "description": "Mélange de riz, de légumes et de morceaux de filet de poulet rôti - surgelé.",
-        "categories": [
-            "Surgelés",
-            "Plats préparés",
-            "Plats à base de viande",
-            "Plats à base de viande bovine",
-            "Plats à base de volaille",
-            "Plats préparés surgelés"
-        ],
-        "stores": "Leclerc",
-        "site_url": "https://world.openfoodfacts.org/product/3564700018491/fricassee-de-poulet-riz-et-legumes-marque-repere",
-        "score": 0
-    },
-    {
-        "name": "Pancetta italienne",
-        "description": "Pancetta italienne",
-        "categories": [
-            "Viandes",
-            "Charcuteries"
-        ],
-        "stores": "Leclerc",
-        "site_url": "https://world.openfoodfacts.org/product/3564700267004/pancetta-italienne-saint-azay",
-        "score": 24
-    },
-    {
-        "name": "Chips Croustillantes",
-        "description": "Chips",
-        "categories": [
-            "Aliments et boissons à base de végétaux",
-            "Aliments d origine végétale",
-            "Céréales et pommes de terre",
-            "Snacks salés",
-            "Apéritif",
-            "Chips et frites",
-            "Chips",
-            "Chips de pommes de terre",
-            "Chips de pommes de terre à l huile de tournesol"
-        ],
-        "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/3564700576083/chips-croustillantes-pom-lisse",
-        "score": 8
-    },
-    {
-        "name": "Riz rond pour dessert",
-        "description": "Riz rond de qualité supérieur",
-        "categories": [
-            "Aliments et boissons à base de végétaux",
-            "Aliments d origine végétale",
-            "Céréales et pommes de terre",
-            "Graines",
-            "Céréales et dérivés",
-            "Céréales en grains",
-            "Riz"
-        ],
-        "stores": "Leclerc",
-        "site_url": "https://world.openfoodfacts.org/product/3564700577103/riz-rond-pour-dessert-comptoir-du-grain",
-        "score": -1
-    },
-    {
         "name": "Crème Dessert Chocolat Noir 125 g x 4 - 500 g",
         "description": "",
         "categories": [
@@ -2363,7 +2303,7 @@
         "score": 21
     },
     {
-        "name": "Tonicité classic",
+        "name": "Tonic classic",
         "description": "Boisson rafraîchissante gazéifiée aromatisée avec sucre et édulcorants, avec quinine. Tonic Classic",
         "categories": [
             "Boissons",
@@ -2373,7 +2313,7 @@
             "Boissons sucrées"
         ],
         "stores": "Carrefour",
-        "site_url": "https://world.openfoodfacts.org/product/3245411901547/tonicite-classic-carrefour",
+        "site_url": "https://world.openfoodfacts.org/product/3245411901547/tonic-classic-carrefour",
         "score": 8
     },
     {
@@ -3982,17 +3922,6 @@
         "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/9556041612548/pate-de-curry-vert-ayam",
         "score": 12
-    },
-    {
-        "name": "Curry rouge thaï",
-        "description": "Pâte de curry rouge",
-        "categories": [
-            "Epicerie",
-            "Sauces"
-        ],
-        "stores": "Monoprix",
-        "site_url": "https://world.openfoodfacts.org/product/9556041612555/curry-rouge-thai-ayam",
-        "score": 14
     },
     {
         "name": "Sauc Nuoc Mam",
@@ -7555,5 +7484,34 @@
         "stores": "Coop",
         "site_url": "https://world.openfoodfacts.org/product/7610807087680/gateau-au-fromage-betty-bossi-coop",
         "score": 17
+    },
+    {
+        "name": "Jus d orange doux",
+        "description": "Jus d orange",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Boissons",
+            "Boissons à base de végétaux",
+            "Boissons aux fruits",
+            "Jus et nectars",
+            "Jus et nectars de fruits",
+            "Jus de fruits"
+        ],
+        "stores": "Coop",
+        "site_url": "https://world.openfoodfacts.org/product/7610807105926/jus-d-orange-doux-naturaplan",
+        "score": 2
+    },
+    {
+        "name": "Caotina Surfin",
+        "description": "Préparation en poudre pour boisson instantanée au cacao",
+        "categories": [
+            "Petit déjeuners",
+            "Snacks sucrés",
+            "Confiseries",
+            "Chocolats"
+        ],
+        "stores": "Leclerc",
+        "site_url": "https://world.openfoodfacts.org/product/7612100061572/caotina-surfin",
+        "score": 11
     }
 ]

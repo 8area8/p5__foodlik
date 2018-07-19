@@ -1,35 +1,5 @@
 [
     {
-        "name": "Cookies Chocolat Blanc Cranberries",
-        "description": "Cookies au chocolat blanc, aux raisins secs, aux cranberries.",
-        "categories": [
-            "Snacks sucrés",
-            "Biscuits et gâteaux",
-            "Biscuits",
-            "Biscuits au chocolat",
-            "Cookies"
-        ],
-        "stores": "Leclerc",
-        "site_url": "https://world.openfoodfacts.org/product/3564700564462/cookies-chocolat-blanc-cranberries-p-tit-deli",
-        "score": 25
-    },
-    {
-        "name": "Betteraves en dés",
-        "description": "",
-        "categories": [
-            "Aliments et boissons à base de végétaux",
-            "Aliments d origine végétale",
-            "Aliments à base de fruits et de légumes",
-            "Conserves",
-            "Légumineuses et dérivés",
-            "Aliments à base de plantes en conserve",
-            "Légumes en conserve"
-        ],
-        "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/3564700775943/betteraves-en-des-notre-jardin",
-        "score": -4
-    },
-    {
         "name": "Extrait de stévia",
         "description": "",
         "categories": [
@@ -5374,6 +5344,20 @@
         "score": -6
     },
     {
+        "name": "La Purée Nature",
+        "description": "",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Aliments d origine végétale",
+            "Céréales et pommes de terre",
+            "Produits déshydratés",
+            "Produits lyophilisés à reconstituer"
+        ],
+        "stores": "Intermarché",
+        "site_url": "https://world.openfoodfacts.org/product/3250390000273/la-puree-nature-bouton-d-or",
+        "score": -1
+    },
+    {
         "name": "Tendres génoises Orange",
         "description": "Biscuits fourrés à la marmelade d orange et nappés de chocolat noir",
         "categories": [
@@ -5626,6 +5610,17 @@
         "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3250391345960/gache-vendeenne-itineraire-des-saveurs",
         "score": 18
+    },
+    {
+        "name": "Carottes Râpéesbnblcb.",
+        "description": "Carottes râpées assaisonnées",
+        "categories": [
+            "Plats préparés",
+            "Plats préparés d origine végétale"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/3250390473275/carottes-rapeesbnblcb-monique-ranou",
+        "score": -6
     },
     {
         "name": "Mélange croquant",
@@ -6134,17 +6129,6 @@
         "score": 3
     },
     {
-        "name": "Carottes râpées Jus de citron",
-        "description": "Carottes rapées assaisonnées",
-        "categories": [
-            "Plats préparés",
-            "Plats préparés d origine végétale"
-        ],
-        "stores": "hyper u,Magasins U",
-        "site_url": "https://world.openfoodfacts.org/product/3256220133951/carottes-rapees-jus-de-citron-u",
-        "score": 0
-    },
-    {
         "name": "Sablés pur beurre pépites choco.et flocons avoine",
         "description": "",
         "categories": [
@@ -6224,7 +6208,7 @@
         ],
         "stores": "Magasins U",
         "site_url": "https://world.openfoodfacts.org/product/3256220063883/boisson-super-chocolatee-granule-7vitamines-calcium-u",
-        "score": 13
+        "score": 11
     },
     {
         "name": "6 Oeufs de plein air calibre mixte",
@@ -8446,7 +8430,7 @@
         "score": 22
     },
     {
-        "name": "Mayonnaise Fine - Recette Fouettée aux Blancs d Œufs",
+        "name": "Mayonnaise fine - recette fouettée aux blancs d oeufs",
         "description": "Mayonnaise Fine - Recette Fouettée aux Blancs d Œufs",
         "categories": [
             "Epicerie",
@@ -9162,7 +9146,7 @@
         "score": 13
     },
     {
-        "name": "Tuiles Salees",
+        "name": "Tuiles oignons",
         "description": "Tuiles",
         "categories": [
             "Snacks salés",
@@ -9171,7 +9155,7 @@
             "Chips"
         ],
         "stores": "Aldi",
-        "site_url": "https://world.openfoodfacts.org/product/26035352/tuiles-salees-pirato",
+        "site_url": "https://world.openfoodfacts.org/product/26035352/tuiles-oignons-pirato",
         "score": 15
     },
     {
@@ -9201,5 +9185,43 @@
         "stores": "Franprix",
         "site_url": "https://world.openfoodfacts.org/product/3487400001603/ebly-5-min",
         "score": -6
+    },
+    {
+        "name": "Jambon cuit découénné dégraissé Bio",
+        "description": "Jambon cuit découénné dégraissé Bio",
+        "categories": [
+            "Viandes",
+            "Charcuteries",
+            "Jambons",
+            "Jambons blancs"
+        ],
+        "stores": "Carrefour,Auchan",
+        "site_url": "https://world.openfoodfacts.org/product/3483190001229/jambon-cuit-decouenne-degraisse-bio-bonjour-campagne",
+        "score": 5
+    },
+    {
+        "name": "Mortadelle bio",
+        "description": "Mortadelle de porc biologique",
+        "categories": [
+            "Viandes",
+            "Charcuteries"
+        ],
+        "stores": "Carrefour",
+        "site_url": "https://world.openfoodfacts.org/product/3483190000987/mortadelle-bio-bonjour-campagne",
+        "score": 14
+    },
+    {
+        "name": "Breizh Cola Stévia",
+        "description": "Boisson gazéifiée à l arôme naturel de cola avec autres arômes naturels avec sucre et édulcorant",
+        "categories": [
+            "Boissons",
+            "Boissons édulcorées",
+            "Boissons gazeuses",
+            "Sodas",
+            "Sodas au cola"
+        ],
+        "stores": "Carrefour",
+        "site_url": "https://world.openfoodfacts.org/product/3484700003610/breizh-cola-stevia",
+        "score": 7
     }
 ]

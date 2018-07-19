@@ -1,90 +1,5 @@
 [
     {
-        "name": "Sirop Citron",
-        "description": "Sirop de citron",
-        "categories": [
-            "Boissons",
-            "Sirops",
-            "Sirops aromatisés",
-            "Boissons sucrées"
-        ],
-        "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/3250390001492/sirop-citron-paquito",
-        "score": 20
-    },
-    {
-        "name": "Spaghetti (Pâtes de qualité supérieure)",
-        "description": "Pâtes alimentaires au blé dur de qualité supérieure",
-        "categories": [
-            "Aliments et boissons à base de végétaux",
-            "Aliments d origine végétale",
-            "Céréales et pommes de terre",
-            "Céréales et dérivés",
-            "Pâtes alimentaires",
-            "Pâtes sèches",
-            "Pâtes de blé",
-            "Pâtes de blé dur"
-        ],
-        "stores": "Intermarché",
-        "site_url": "https://world.openfoodfacts.org/product/3250390000426/spaghetti-pates-de-qualite-superieure-fiorini",
-        "score": 0
-    },
-    {
-        "name": "Pizza Jambon Fromage ",
-        "description": "Pizza ovale (Pizza individuelle pâte fine cuite sur pierre jambon fromage )",
-        "categories": [
-            "Frais",
-            "Plats préparés",
-            "Plats à base de viande",
-            "Plats à base de viande bovine",
-            "Pizzas tartes salées et quiches",
-            "Pizzas",
-            "Plats préparés frais",
-            "Plats à base de viande porcine"
-        ],
-        "stores": "Intermarché",
-        "site_url": "https://world.openfoodfacts.org/product/3250391402892/pizza-jambon-fromage-fiorini",
-        "score": 5
-    },
-    {
-        "name": "Pom  Noisettes dorées & moelleuses",
-        "description": "Pommes noisettes préfrites et surgelées",
-        "categories": [
-            "Surgelés"
-        ],
-        "stores": "Intermarché",
-        "site_url": "https://world.openfoodfacts.org/product/3250391699797/pom-noisettes-dorees-moelleuses-bouton-d-or",
-        "score": 6
-    },
-    {
-        "name": "Just  Mie Nature",
-        "description": "Pain de mie",
-        "categories": [
-            "Aliments et boissons à base de végétaux",
-            "Aliments d origine végétale",
-            "Céréales et pommes de terre",
-            "Pains"
-        ],
-        "stores": "Netto",
-        "site_url": "https://world.openfoodfacts.org/product/3250391697854/just-mie-nature-netto",
-        "score": 4
-    },
-    {
-        "name": "Compote poires avec morceaux",
-        "description": "",
-        "categories": [
-            "Aliments et boissons à base de végétaux",
-            "Aliments d origine végétale",
-            "Aliments à base de fruits et de légumes",
-            "Desserts",
-            "Fruits et produits dérivés",
-            "Compotes"
-        ],
-        "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/3250391698875/compote-poires-avec-morceaux-elodie",
-        "score": 0
-    },
-    {
         "name": "Beurre d Isigny extra-fin aux cristaux de sel marin",
         "description": "Beurre d Isigny extra-fin demi-sel appelation d origine protégée",
         "categories": [
@@ -894,7 +809,7 @@
         ],
         "stores": "Intermarché",
         "site_url": "https://world.openfoodfacts.org/product/3250390190974/4-andouillettes-superieures-monique-ranou",
-        "score": 20
+        "score": 14
     },
     {
         "name": "Jungle Caramel Chocolat",
@@ -3715,20 +3630,6 @@
         "score": -1
     },
     {
-        "name": "Purée nature",
-        "description": "Purée",
-        "categories": [
-            "Aliments et boissons à base de végétaux",
-            "Aliments d origine végétale",
-            "Céréales et pommes de terre",
-            "Produits déshydratés",
-            "Produits lyophilisés à reconstituer"
-        ],
-        "stores": "Magasins U,Hyper U",
-        "site_url": "https://world.openfoodfacts.org/product/3256221462531/puree-nature-u",
-        "score": -2
-    },
-    {
         "name": "Jambon cuit au torchon découenné",
         "description": "Jambon cuit supérieur au torchon",
         "categories": [
@@ -3904,17 +3805,6 @@
         "stores": "U Express, Magasins U",
         "site_url": "https://world.openfoodfacts.org/product/3256224759348/sandwich-maxi-poulet-roti-traite-en-salaison-et-crudites-u",
         "score": -2
-    },
-    {
-        "name": "Céleri rémoulade Moutarde à l ancienne",
-        "description": "",
-        "categories": [
-            "Plats préparés",
-            "Plats préparés d origine végétale"
-        ],
-        "stores": "Magasins U",
-        "site_url": "https://world.openfoodfacts.org/product/3256225718221/celeri-remoulade-moutarde-a-l-ancienne-u",
-        "score": 6
     },
     {
         "name": "Citronnade à la fraise",
@@ -4327,7 +4217,7 @@
         ],
         "stores": "U, Magasins U",
         "site_url": "https://world.openfoodfacts.org/product/3256221115970/pizza-bolognaise-u",
-        "score": 1
+        "score": 2
     },
     {
         "name": "Petits nids IGP d Alsace aux oeufs",
@@ -8482,5 +8372,34 @@
         "stores": "Cora",
         "site_url": "https://world.openfoodfacts.org/product/8712100463303/gateau-aux-amandes-saveur-d-antan-alsa",
         "score": 20
+    },
+    {
+        "name": "Douceur de poireaux pommes de terre pointe de Comté (lot de 2) Knorr",
+        "description": "Soupe de légumes",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Aliments d origine végétale",
+            "Aliments à base de fruits et de légumes",
+            "Plats préparés",
+            "Soupes",
+            "Soupes de légumes"
+        ],
+        "stores": "Carrefour",
+        "site_url": "https://world.openfoodfacts.org/product/8712100575709/douceur-de-poireaux-pommes-de-terre-pointe-de-comte-lot-de-2-knorr",
+        "score": 3
+    },
+    {
+        "name": "Les Authentiques Caramel aux Morceaux de Caramel au Lait",
+        "description": "Crème glacée caramel avec des morceaux de caramel au lait (9%)",
+        "categories": [
+            "Desserts",
+            "Surgelés",
+            "Desserts glacés",
+            "Glaces et sorbets",
+            "Glaces"
+        ],
+        "stores": "Franprix",
+        "site_url": "https://world.openfoodfacts.org/product/8712100880971/les-authentiques-caramel-aux-morceaux-de-caramel-au-lait-carte-d-or",
+        "score": 12
     }
 ]

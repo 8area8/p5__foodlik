@@ -4,6 +4,7 @@
 """Display the datas of 'foodlik'."""
 
 from core.back.database.databases_wrapper import database_wrapper as database
+from core.back.database.create_database import write_error
 
 
 class _DataWrapper():
@@ -16,6 +17,7 @@ class _DataWrapper():
     def __init__(self):
         """Initialization."""
         self.len_categories = None
+        self.len_substitutes = None
 
         self.chosen_category = ""
         self.chosen_product = ""
@@ -27,6 +29,9 @@ class _DataWrapper():
 
         database.execute("SELECT COUNT(title) FROM CATEGORY;")
         self.len_categories = database.get_row()[0]
+
+        database.execute("SELECT COUNT(*) FROM SUBSTITUTE")
+        self.len_substitutes = database.get_row()[0]
 
     def get_len_products(self):
         """Return the products len in the current category.
@@ -112,6 +117,42 @@ class _DataWrapper():
                          f"AND prod.score < {score} "
                          "ORDER BY prod.score ASC LIMIT 1")
         return database.get_row(True)
+
+    def save_substitute(self, substitute):
+        """Save the substitute title in the database."""
+        try:
+            database.execute("INSERT INTO substitute (product_title) "
+                             f"VALUES ('{substitute[0]}')")
+        except Exception as error:
+            write_error(error)
+            pass  # substitute already in the databse.
+
+        try:
+            database.execute("INSERT INTO product_per_substitute "
+                             "(substitute_title, product_title) VALUES "
+                             f"('{substitute[0]}', '{self.chosen_product}')")
+        except Exception as error:
+            write_error(error)
+            return "The substitute is already saved for this product."
+        else:
+            return "Substitute saved."
+
+    def load_substitutes_page(self, page):
+        """Load the substitutes."""
+        database.execute("SELECT * FROM substitute "
+                         f"LIMIT 15 OFFSET {page * 15}")
+        return [wrd[0] for wrd in database.get_row(True)]
+
+    def load_substitute_page(self):
+        """Load the substitute page."""
+        database.execute("SELECT prd.title, prd.description, prd.stores, "
+                         "prd.site_url, prd.score FROM product AS prd "
+                         f"WHERE prd.title = '{self.chosen_product}'")
+        substitut = database.get_row()
+        database.execute("SELECT product_title FROM product_per_substitute "
+                         f"WHERE substitute_title = '{self.chosen_product}'")
+        products = database.get_row(True)
+        return substitut, products
 
     def close(self):
         """Close the connection."""

@@ -76,7 +76,7 @@ def _fill_in_products(datas_path):
                     _insert_categorie_per_product(ctg, name)
 
             except Exception as error:
-                _write_error(error)
+                write_error(error)
 
         print(f"file {index + 1} done.")
 
@@ -120,7 +120,7 @@ def _fill_in_products_number(datas_path):
                      "WHERE product_number = 0")
 
 
-def _write_error(error):
+def write_error(error):
     """Write the errors in a file.
 
     MySQL generates a lot of errors.

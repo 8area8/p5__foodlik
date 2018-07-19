@@ -1,76 +1,5 @@
 [
     {
-        "name": "Sirop Menthe Stevia",
-        "description": "Boisson concentrée aux extraits naturels de menthe à diluer, avec édulcorants",
-        "categories": [
-            "Boissons",
-            "Boissons édulcorées",
-            "Sirops",
-            "Sirops aromatisés"
-        ],
-        "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/3092718605575/sirop-menthe-stevia-teisseire",
-        "score": 2
-    },
-    {
-        "name": "Oreo smile",
-        "description": "",
-        "categories": [
-            "Snacks sucrés",
-            "Biscuits et gâteaux",
-            "Biscuits",
-            "Cookies"
-        ],
-        "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/0044000037420/oreo-smile",
-        "score": 20
-    },
-    {
-        "name": "Maïs sans sucres ajoutés",
-        "description": "Maïs doux en grains sous vide",
-        "categories": [
-            "Aliments et boissons à base de végétaux",
-            "Aliments d origine végétale",
-            "Aliments à base de fruits et de légumes",
-            "Conserves",
-            "Céréales et pommes de terre",
-            "Légumineuses et dérivés",
-            "Aliments à base de plantes en conserve",
-            "Céréales et dérivés",
-            "Légumes en conserve"
-        ],
-        "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/3083681050851/mais-sans-sucres-ajoutes-bonduelle",
-        "score": -8
-    },
-    {
-        "name": "Yaourt & Fruits 0%",
-        "description": "yaourt maigre aux fruits (fraise, cerise, citron, abricot, pruneau, mûre) avec édulcorants",
-        "categories": [
-            "Produits laitiers",
-            "Produits fermentés",
-            "Produits laitiers fermentés",
-            "Yaourts",
-            "Yaourts aux fruits"
-        ],
-        "stores": "Carrefour",
-        "site_url": "https://world.openfoodfacts.org/product/3560070802210/yaourt-fruits-0-carrefour",
-        "score": -2
-    },
-    {
-        "name": "Veau aux Girolles et son Riz",
-        "description": "",
-        "categories": [
-            "Plats préparés",
-            "Plats à base de viande",
-            "Plats à base de viande bovine",
-            "Plats préparés à réchauffer au micro ondes"
-        ],
-        "stores": "Super U, Magasins U",
-        "site_url": "https://world.openfoodfacts.org/product/3256221114553/veau-aux-girolles-et-son-riz-u",
-        "score": -1
-    },
-    {
         "name": "Sirop de framboise",
         "description": "",
         "categories": [
@@ -548,7 +477,7 @@
         "score": 22
     },
     {
-        "name": "Haricots blanc fagioli cannellini",
+        "name": "Alubias extra",
         "description": "Alubias extra",
         "categories": [
             "Aliments et boissons à base de végétaux",
@@ -558,7 +487,7 @@
             "Légumineuses en conserve"
         ],
         "stores": "El Corte Inglés,Hipercor,Condis",
-        "site_url": "https://world.openfoodfacts.org/product/8410313315814/haricots-blanc-fagioli-cannellini-cidacos",
+        "site_url": "https://world.openfoodfacts.org/product/8410313315814/alubias-extra-cidacos",
         "score": 1
     },
     {
@@ -2577,6 +2506,19 @@
         "stores": "Intermarché",
         "site_url": "https://world.openfoodfacts.org/product/3502490002078/noisettes-coques-maitre-prunille",
         "score": 15
+    },
+    {
+        "name": "Galettes de Riz Nappées de Chocolat au Lait",
+        "description": "Galettes de Riz Nappées de Chocolat au Lait",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Aliments d origine végétale",
+            "Céréales et pommes de terre",
+            "Céréales et dérivés"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/3222475982880/galettes-de-riz-nappees-de-chocolat-au-lait-casino",
+        "score": 18
     },
     {
         "name": "OGGI Tutti Frutti",
@@ -8477,5 +8419,80 @@
         "stores": "Intermarché",
         "site_url": "https://world.openfoodfacts.org/product/3248451080562/poelee-asiatique-courgettes-carottes-poivrons-jaunes-pousse-de-haricots-mungo-d-aucy",
         "score": -2
+    },
+    {
+        "name": "Poêlée Provençale",
+        "description": "Poêlée de légumes surgelée",
+        "categories": [
+            "Plats préparés",
+            "Plats préparés d origine végétale"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/3248451089497/poelee-provencale-d-aucy",
+        "score": -2
+    },
+    {
+        "name": "Jacquet Toast Francais",
+        "description": "Wheat Rusks",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Aliments d origine végétale",
+            "Céréales et pommes de terre",
+            "Pains"
+        ],
+        "stores": "Ocado",
+        "site_url": "https://world.openfoodfacts.org/product/3248850009607/jacquet-toast-francais",
+        "score": 12
+    },
+    {
+        "name": "Merlu crème tomate basilic boulgour cuisiné",
+        "description": "",
+        "categories": [
+            "Plats préparés",
+            "Plats à base de poisson",
+            "Plats préparés à réchauffer au micro ondes"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/3248830773368/merlu-creme-tomate-basilic-boulgour-cuisine-marie",
+        "score": 0
+    },
+    {
+        "name": "Tarte au chèvre",
+        "description": "tarte au chèvre",
+        "categories": [
+            "Surgelés",
+            "Pizzas et tartes surgelées"
+        ],
+        "stores": "Carrefour TNL,Irma.dk",
+        "site_url": "https://world.openfoodfacts.org/product/3248830085010/goat-cheese-tart-marie",
+        "score": 11
+    },
+    {
+        "name": "Colin d  Alaska bisque de crevettes",
+        "description": "Colin d Alaska bisque de crevettes crème fraîche et persil",
+        "categories": [
+            "Surgelés",
+            "Plats préparés",
+            "Plats préparés à réchauffer au micro ondes",
+            "Plats préparés surgelés"
+        ],
+        "stores": "Intermarché",
+        "site_url": "https://world.openfoodfacts.org/product/3248839630006/colin-d-alaska-bisque-de-crevettes-marie",
+        "score": -1
+    },
+    {
+        "name": "Crousti moelleuse extrême l américaine sauce burger",
+        "description": "Pizza à la mozzarella, sauce burger, boeuf, cheddar et cornichons",
+        "categories": [
+            "Surgelés",
+            "Plats préparés",
+            "Pizzas tartes salées et quiches",
+            "Pizzas",
+            "Pizzas surgelées",
+            "Pizzas et tartes surgelées"
+        ],
+        "stores": "Carrefour",
+        "site_url": "https://world.openfoodfacts.org/product/3248830724254/crousti-moelleuse-extreme-l-americaine-sauce-burger-marie",
+        "score": 2
     }
 ]

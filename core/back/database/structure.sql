@@ -20,3 +20,21 @@ CREATE TABLE category_per_product (
     FOREIGN KEY (category_title) REFERENCES category(title) ON DELETE CASCADE,
     FOREIGN KEY (product_title) REFERENCES product(title) ON DELETE CASCADE
 );
+
+
+CREATE TABLE substitute
+(
+    product_title VARCHAR (80),
+    PRIMARY KEY (product_title),
+    FOREIGN KEY (product_title) REFERENCES product(title) ON DELETE CASCADE
+);
+
+
+CREATE TABLE product_per_substitute
+(
+    substitute_title VARCHAR(80),
+    product_title VARCHAR (80),
+    PRIMARY KEY (substitute_title, product_title),
+    FOREIGN KEY (substitute_title) REFERENCES substitute(product_title) ON DELETE CASCADE,
+    FOREIGN KEY (product_title) REFERENCES product(title) ON DELETE CASCADE
+);

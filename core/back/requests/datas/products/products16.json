@@ -1,57 +1,5 @@
 [
     {
-        "name": "Pizza Bio Emmental Jambon",
-        "description": "",
-        "categories": [
-            "Plats préparés",
-            "Pizzas tartes salées et quiches"
-        ],
-        "stores": "Auchan",
-        "site_url": "https://world.openfoodfacts.org/product/3760018887624/pizza-bio-emmental-jambon-lea-nature",
-        "score": 11
-    },
-    {
-        "name": "Aligot",
-        "description": "Spécialité à base de pommes de terre",
-        "categories": [
-            "Frais",
-            "Plats préparés",
-            "Plats préparés frais"
-        ],
-        "stores": "Carrefour",
-        "site_url": "https://world.openfoodfacts.org/product/3760070420661/aligot-maison-carrier",
-        "score": 11
-    },
-    {
-        "name": "Yaourt aux Fruits",
-        "description": "",
-        "categories": [
-            "Produits laitiers",
-            "Produits fermentés",
-            "Produits laitiers fermentés",
-            "Yaourts",
-            "Yaourts aux fruits"
-        ],
-        "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/3760074380398/yaourt-aux-fruits-ferme-viltain",
-        "score": 4
-    },
-    {
-        "name": "Tranche de Thon à l Huile d Olive",
-        "description": "",
-        "categories": [
-            "Conserves",
-            "Produits de la mer",
-            "Poissons",
-            "Poissons en conserve",
-            "Filets de poissons",
-            "Thons"
-        ],
-        "stores": "Carrefour",
-        "site_url": "https://world.openfoodfacts.org/product/3760004591139/tranche-de-thon-a-l-huile-d-olive-titus",
-        "score": 2
-    },
-    {
         "name": "Cookies chocolat & noisettes",
         "description": "cookies chocolat et noisettes",
         "categories": [
@@ -77,7 +25,7 @@
         "score": 15
     },
     {
-        "name": "Surimi Crabe",
+        "name": "Surimi crabe",
         "description": "Préparation à tartiner à base de crabe et de préparation à base de chair de poisson",
         "categories": [
             "Produits à tartiner",
@@ -91,7 +39,7 @@
         "score": 13
     },
     {
-        "name": "Sablés noisette sirop d érable",
+        "name": "Sablé gourmand noisette sirop d érable",
         "description": "Biscuits sablés aux éclas de noisettes et au sirop d érable",
         "categories": [
             "Snacks sucrés",
@@ -99,7 +47,7 @@
             "Biscuits"
         ],
         "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/3760020506209/sables-noisette-sirop-d-erable-jardin-bio",
+        "site_url": "https://world.openfoodfacts.org/product/3760020506209/sable-gourmand-noisette-sirop-d-erable-jardin-bio",
         "score": 15
     },
     {
@@ -2285,10 +2233,11 @@
         "categories": [
             "Aliments et boissons à base de végétaux",
             "Aliments d origine végétale",
-            "Légumes et dérivés",
-            "Légumineuses",
-            "Graines",
-            "Graines de légumineuses"
+            "Conserves",
+            "Aliments à base de plantes en conserve",
+            "Pickles",
+            "Pickles d origine végétale",
+            "Légumineuses en conserve"
         ],
         "stores": "Carrefour",
         "site_url": "https://world.openfoodfacts.org/product/8413295800545/saladitos-lupin",
@@ -2892,7 +2841,7 @@
         ],
         "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/5449000016560/coca-cola-light",
-        "score": 1
+        "score": 0
     },
     {
         "name": "Fanta Fraise-Kiwi",
@@ -3717,7 +3666,7 @@
         ],
         "stores": "Picard",
         "site_url": "https://world.openfoodfacts.org/product/3270160591343/8-palets-de-legumes-prefrits-surgeles-chou-romanesco-haricot-vert-carotte-picard",
-        "score": -2
+        "score": -1
     },
     {
         "name": "Julienne de légumes Bio",
@@ -4683,15 +4632,16 @@
         "score": 13
     },
     {
-        "name": "Meringues chololat",
-        "description": "Gateau chocolat",
+        "name": "Biscuits Meringués au Chocolat",
+        "description": "Biscuits Meringués au Chocolat",
         "categories": [
             "Snacks sucrés",
             "Biscuits et gâteaux",
-            "Gâteaux"
+            "Biscuits",
+            "Biscuits au chocolat"
         ],
         "stores": "Franprix",
-        "site_url": "https://world.openfoodfacts.org/product/3263852920910/meringues-chololat-franprix",
+        "site_url": "https://world.openfoodfacts.org/product/3263852920910/biscuits-meringues-au-chocolat-franprix",
         "score": 24
     },
     {
@@ -4952,22 +4902,6 @@
         "score": 17
     },
     {
-        "name": "Coulommiers au Lait Pasteurisé",
-        "description": "Coulommiers au lait pasteurisé ",
-        "categories": [
-            "Produits laitiers",
-            "Produits fermentés",
-            "Produits laitiers fermentés",
-            "Fromages",
-            "Fromages de vache",
-            "Fromages à pâte molle à croûte fleurie",
-            "Fromages de France"
-        ],
-        "stores": "Leader Price",
-        "site_url": "https://world.openfoodfacts.org/product/3263859343910/coulommiers-au-lait-pasteurise-leader-price",
-        "score": 14
-    },
-    {
         "name": "Betteraves rouges à la moutarde à l ancienne",
         "description": "Salade de betteraves rouges assaisonnées à la moutarde à l ancienne",
         "categories": [
@@ -5202,16 +5136,16 @@
         "score": 4
     },
     {
-        "name": "Anchois entiers à l huile d olive vierge extra",
-        "description": "Anchois à l huile",
+        "name": "Anchois entiers à l huile d olive vierge extra (façon sardine)",
+        "description": "Anchois à l huile (façon sardine)",
         "categories": [
             "Conserves",
             "Produits de la mer",
             "Poissons",
             "Poissons en conserve"
         ],
-        "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/3263670019223/anchois-entiers-a-l-huile-d-olive-vierge-extra-connetable",
+        "stores": "Carrefour",
+        "site_url": "https://world.openfoodfacts.org/product/3263670019223/anchois-entiers-a-l-huile-d-olive-vierge-extra-facon-sardine-connetable",
         "score": 13
     },
     {
@@ -5557,17 +5491,6 @@
         ],
         "stores": "Aldi",
         "site_url": "https://world.openfoodfacts.org/product/26015903/filets-de-maquereaux-marines-au-vin-blanc-et-aux-aromates-les-doris",
-        "score": 2
-    },
-    {
-        "name": "Liebig Richesse d Automne Potiron Châtaigne",
-        "description": "",
-        "categories": [
-            "Plats préparés",
-            "Soupes"
-        ],
-        "stores": "Carrefour",
-        "site_url": "https://world.openfoodfacts.org/product/3036810354870/liebig-richesse-d-automne-potiron-chataigne",
         "score": 2
     },
     {
@@ -6987,13 +6910,13 @@
         "score": 1
     },
     {
-        "name": "Plaisir Vrai! Jambon Emmental",
+        "name": "Le Club Classique Jambon Emmental",
         "description": "Sandwich au pain de mie complet garni de jambon cuit choix et d emmental",
         "categories": [
             "Sandwichs"
         ],
         "stores": "Casino",
-        "site_url": "https://world.openfoodfacts.org/product/3367651000061/plaisir-vrai-jambon-emmental-daunat",
+        "site_url": "https://world.openfoodfacts.org/product/3367651000061/le-club-classique-jambon-emmental-daunat",
         "score": 5
     },
     {
@@ -7682,6 +7605,20 @@
         "score": 0
     },
     {
+        "name": "Purée de Pommes de Terre en Flocons",
+        "description": "",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Aliments d origine végétale",
+            "Céréales et pommes de terre",
+            "Produits déshydratés",
+            "Produits lyophilisés à reconstituer"
+        ],
+        "stores": "Aldi",
+        "site_url": "https://world.openfoodfacts.org/product/26019178/puree-de-pommes-de-terre-en-flocons-albona",
+        "score": -1
+    },
+    {
         "name": "Huile de coco désodorisée",
         "description": "Huile de coco désodorisée",
         "categories": [
@@ -7829,7 +7766,7 @@
         ],
         "stores": "E.Leclerc",
         "site_url": "https://world.openfoodfacts.org/product/3045320001716/gelee-mures-bonne-maman",
-        "score": 12
+        "score": 11
     },
     {
         "name": "Oranges pressées, sans pulpe",
@@ -8906,15 +8843,15 @@
         "score": 8
     },
     {
-        "name": "Sirop de Pomme",
+        "name": "Bidon 60CL Sirop Pomme Teisseire",
         "description": "Sirop de Pomme",
         "categories": [
             "Boissons",
             "Boissons sucrées"
         ],
         "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/3092718605063/sirop-de-pomme-teisseire",
-        "score": 20
+        "site_url": "https://world.openfoodfacts.org/product/3092718605063/bidon-60cl-sirop-pomme-teisseire",
+        "score": 10
     },
     {
         "name": "Teisseire 0% Grenadine",
@@ -8937,5 +8874,76 @@
         "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3092718605483/tropical-fruits-exotiques-teisseire",
         "score": 20
+    },
+    {
+        "name": "Sirop Menthe Stevia",
+        "description": "Boisson concentrée aux extraits naturels de menthe à diluer, avec édulcorants",
+        "categories": [
+            "Boissons",
+            "Boissons édulcorées",
+            "Sirops",
+            "Sirops aromatisés"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/3092718605575/sirop-menthe-stevia-teisseire",
+        "score": 2
+    },
+    {
+        "name": "Oreo smile",
+        "description": "",
+        "categories": [
+            "Snacks sucrés",
+            "Biscuits et gâteaux",
+            "Biscuits",
+            "Cookies"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/0044000037420/oreo-smile",
+        "score": 20
+    },
+    {
+        "name": "Maïs sans sucres ajoutés",
+        "description": "Maïs doux en grains sous vide",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Aliments d origine végétale",
+            "Aliments à base de fruits et de légumes",
+            "Conserves",
+            "Céréales et pommes de terre",
+            "Légumineuses et dérivés",
+            "Aliments à base de plantes en conserve",
+            "Céréales et dérivés",
+            "Légumes en conserve"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/3083681050851/mais-sans-sucres-ajoutes-bonduelle",
+        "score": -8
+    },
+    {
+        "name": "Yaourt & Fruits 0%",
+        "description": "yaourt maigre aux fruits (fraise, cerise, citron, abricot, pruneau, mûre) avec édulcorants",
+        "categories": [
+            "Produits laitiers",
+            "Produits fermentés",
+            "Produits laitiers fermentés",
+            "Yaourts",
+            "Yaourts aux fruits"
+        ],
+        "stores": "Carrefour",
+        "site_url": "https://world.openfoodfacts.org/product/3560070802210/yaourt-fruits-0-carrefour",
+        "score": -2
+    },
+    {
+        "name": "Veau aux Girolles et son Riz",
+        "description": "",
+        "categories": [
+            "Plats préparés",
+            "Plats à base de viande",
+            "Plats à base de viande bovine",
+            "Plats préparés à réchauffer au micro ondes"
+        ],
+        "stores": "Super U, Magasins U",
+        "site_url": "https://world.openfoodfacts.org/product/3256221114553/veau-aux-girolles-et-son-riz-u",
+        "score": -1
     }
 ]

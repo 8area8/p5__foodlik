@@ -1,43 +1,5 @@
 [
     {
-        "name": "Jambon cuit découénné dégraissé Bio",
-        "description": "Jambon cuit découénné dégraissé Bio",
-        "categories": [
-            "Viandes",
-            "Charcuteries",
-            "Jambons",
-            "Jambons blancs"
-        ],
-        "stores": "Carrefour,Auchan",
-        "site_url": "https://world.openfoodfacts.org/product/3483190001229/jambon-cuit-decouenne-degraisse-bio-bonjour-campagne",
-        "score": 5
-    },
-    {
-        "name": "Mortadelle bio",
-        "description": "Mortadelle de porc biologique",
-        "categories": [
-            "Viandes",
-            "Charcuteries"
-        ],
-        "stores": "Carrefour",
-        "site_url": "https://world.openfoodfacts.org/product/3483190000987/mortadelle-bio-bonjour-campagne",
-        "score": 14
-    },
-    {
-        "name": "Breizh Cola Stévia",
-        "description": "Boisson gazéifiée à l arôme naturel de cola avec autres arômes naturels avec sucre et édulcorant",
-        "categories": [
-            "Boissons",
-            "Boissons édulcorées",
-            "Boissons gazeuses",
-            "Sodas",
-            "Sodas au cola"
-        ],
-        "stores": "Carrefour",
-        "site_url": "https://world.openfoodfacts.org/product/3484700003610/breizh-cola-stevia",
-        "score": 7
-    },
-    {
         "name": "Steak de Tofu aux Noisettes Bio",
         "description": "Steak de Tofu aux Noisettes Bio",
         "categories": [
@@ -1272,7 +1234,7 @@
         "score": 27
     },
     {
-        "name": "La bûche de chèvre biologique",
+        "name": "La Bûche de Chèvre Biologique",
         "description": "Bûche de chèvre",
         "categories": [
             "Produits laitiers",
@@ -1283,7 +1245,7 @@
             "Fromages de chèvre"
         ],
         "stores": "Biocoop",
-        "site_url": "https://world.openfoodfacts.org/product/3760013200626/la-buche-de-chevre-biologique-lemancet",
+        "site_url": "https://world.openfoodfacts.org/product/3760013200626/la-buche-de-chevre-biologique-la-lemance",
         "score": 13
     },
     {
@@ -1443,6 +1405,20 @@
         "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3760020508067/cereales-et-lentilles-cuisinees-jardin-bio",
         "score": -6
+    },
+    {
+        "name": "Purée gourmande de pomme de terre",
+        "description": "Purée de pomme de terre bio",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Aliments d origine végétale",
+            "Céréales et pommes de terre",
+            "Produits déshydratés",
+            "Produits lyophilisés à reconstituer"
+        ],
+        "stores": "Carrefour",
+        "site_url": "https://world.openfoodfacts.org/product/3760020509064/puree-gourmande-de-pomme-de-terre-jardin-bio",
+        "score": -2
     },
     {
         "name": "Crème de caramel",
@@ -2286,14 +2262,14 @@
         "score": -1
     },
     {
-        "name": "Purée de saison Asperges",
+        "name": "Purée de saison Estivale",
         "description": "Attention, varie en fonction des saisons.",
         "categories": [
             "Plats préparés",
             "Plats préparés d origine végétale"
         ],
         "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/3422440006478/puree-de-saison-asperges-crealine",
+        "site_url": "https://world.openfoodfacts.org/product/3422440006478/puree-de-saison-estivale-crealine",
         "score": 0
     },
     {
@@ -2387,7 +2363,7 @@
         "score": 28
     },
     {
-        "name": "Beurre moulée biologique",
+        "name": "Beurre moulé biologique",
         "description": "Beurre doux biologique 82% Mat. Gr.",
         "categories": [
             "Produits laitiers",
@@ -2399,7 +2375,7 @@
             "Beurres"
         ],
         "stores": "Carrefour,Carrefour Market,Intermarché",
-        "site_url": "https://world.openfoodfacts.org/product/3523230000819/beurre-moulee-biologique-grand-fermage",
+        "site_url": "https://world.openfoodfacts.org/product/3523230000819/beurre-moule-biologique-grand-fermage",
         "score": 19
     },
     {
@@ -3117,6 +3093,20 @@
         "stores": "Leclerc",
         "site_url": "https://world.openfoodfacts.org/product/8410076601155/crunchy-avoine-cranberries-nature-valley",
         "score": 10
+    },
+    {
+        "name": "Pois chiches - 570 g - Cidacos",
+        "description": "Légumes en conserve",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Aliments d origine végétale",
+            "Conserves",
+            "Aliments à base de plantes en conserve",
+            "Légumineuses en conserve"
+        ],
+        "stores": "El Corte Inglés,Hipercor,Condis",
+        "site_url": "https://world.openfoodfacts.org/product/8410313325813/pois-chiches-570-g-cidacos",
+        "score": 1
     },
     {
         "name": "Sucettes Milky",
@@ -6752,7 +6742,7 @@
         "score": 3
     },
     {
-        "name": " XXL poulet rôti et mayonnaise (3 parts)",
+        "name": "XXL poulet rôti et mayonnaise (3 parts)",
         "description": "",
         "categories": [
             "Sandwichs"
@@ -7799,7 +7789,7 @@
         "score": 24
     },
     {
-        "name": "Madeleines pépites chocolat",
+        "name": "Petites madeleines pépites chocolat",
         "description": "Madeleines aux pépites de chocolat (4,9%) et pépites de chocolat au lait (2,7%)",
         "categories": [
             "Snacks sucrés",
@@ -7807,9 +7797,9 @@
             "Biscuits et gâteaux",
             "Gâteaux"
         ],
-        "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/3178530408546/madeleines-pepites-chocolat-st-michel",
-        "score": 14
+        "stores": "Relay",
+        "site_url": "https://world.openfoodfacts.org/product/3178530408546/petites-madeleines-pepites-chocolat-st-michel",
+        "score": 16
     },
     {
         "name": "Petites madeleines",
@@ -8369,7 +8359,7 @@
         "score": 16
     },
     {
-        "name": "Yaourt au lait entier de brebis  nature",
+        "name": "Yaourt au Lait Entier de Brebis Nature",
         "description": "",
         "categories": [
             "Produits laitiers",
@@ -8379,7 +8369,7 @@
             "Yaourts natures",
             "Yaourts entiers"
         ],
-        "stores": "",
+        "stores": "Leclerc",
         "site_url": "https://world.openfoodfacts.org/product/3564707081931/yaourt-au-lait-entier-de-brebis-nature-bio-village",
         "score": 2
     },
@@ -8942,5 +8932,39 @@
         "stores": "Auchan",
         "site_url": "https://world.openfoodfacts.org/product/3596710413218/pur-jus-de-citron-de-sicile-bio-auchan",
         "score": -4
+    },
+    {
+        "name": "Filets de poulet rôtis",
+        "description": "",
+        "categories": [
+            "Viandes",
+            "Volailles",
+            "Poulets"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/2431628039420/filets-de-poulet-rotis-le-gaulois",
+        "score": 2
+    },
+    {
+        "name": "Fiordifrutta - Fraises des Bois",
+        "description": "Préparation biologique aux fraises et fraises des bois",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Aliments d origine végétale",
+            "Aliments à base de fruits et de légumes",
+            "Petit déjeuners",
+            "Produits à tartiner",
+            "Fruits et produits dérivés",
+            "Pâtes à tartiner végétales",
+            "Produits à tartiner sucrés",
+            "Fruits en conserve",
+            "Confitures",
+            "Confitures de fruits",
+            "Confitures de fruits rouges",
+            "Confitures de fraises"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/8001505005608/fiordifrutta-fraises-des-bois-rigoni-di-asiago",
+        "score": 5
     }
 ]

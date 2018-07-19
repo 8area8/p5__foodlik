@@ -1,68 +1,5 @@
 [
     {
-        "name": "Camembert au lait pasteurisé 22 % MG",
-        "description": "Camembert au lait pasteurisé",
-        "categories": [
-            "Produits laitiers",
-            "Produits fermentés",
-            "Produits laitiers fermentés",
-            "Fromages",
-            "Fromages de vache",
-            "Fromages à pâte molle à croûte fleurie",
-            "Fromages pasteurisés"
-        ],
-        "stores": "Auchan",
-        "site_url": "https://world.openfoodfacts.org/product/3596710401390/camembert-au-lait-pasteurise-22-mg-auchan",
-        "score": 14
-    },
-    {
-        "name": "Œufs de poules élevées en plein air",
-        "description": "",
-        "categories": [
-            "Produits d élevages",
-            "Œufs d oiseau",
-            "Œufs"
-        ],
-        "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/3596710407798/oeufs-de-poules-elevees-en-plein-air-auchan-bio",
-        "score": -1
-    },
-    {
-        "name": "Saucisses de Montbéliard",
-        "description": "Saucisses de Montbéliard",
-        "categories": [
-            "Viandes",
-            "Charcuteries",
-            "Saucisses"
-        ],
-        "stores": "Auchan,Simply-Market",
-        "site_url": "https://world.openfoodfacts.org/product/3596710187508/saucisses-de-montbeliard-auchan",
-        "score": 20
-    },
-    {
-        "name": "Mini choux goût fromage de chèvre - poivre",
-        "description": "biscuits apéritifs",
-        "categories": [
-            "Snacks salés",
-            "Apéritif"
-        ],
-        "stores": "Simply market",
-        "site_url": "https://world.openfoodfacts.org/product/3596710288755/mini-choux-gout-fromage-de-chevre-poivre-auchan",
-        "score": 24
-    },
-    {
-        "name": "Dés de jambon nature",
-        "description": "Dés de jambon cuit choix découenné dégraissé",
-        "categories": [
-            "Viandes",
-            "Charcuteries",
-            "Jambons"
-        ],
-        "stores": "Simply Market",
-        "site_url": "https://world.openfoodfacts.org/product/3596710285457/des-de-jambon-nature-auchan",
-        "score": 13
-    },
-    {
         "name": "Les Mixés - 6 Saveurs Sans Morceaux",
         "description": "Yaourt brassé sucré à la pulpe de fruits. Les Mixés - 6 Saveurs Sans Morceaux",
         "categories": [
@@ -574,8 +511,10 @@
         "name": "Câpres surfines",
         "description": "",
         "categories": [
-            "Epicerie",
-            "Condiments"
+            "Aliments et boissons à base de végétaux",
+            "Aliments d origine végétale",
+            "Pickles",
+            "Pickles d origine végétale"
         ],
         "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3104710007018/capres-surfines-kuhne",
@@ -1416,6 +1355,20 @@
         "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3760030726116/amande-cuisine-la-mandorle",
         "score": -1
+    },
+    {
+        "name": "Crème glacée Vanille",
+        "description": "Crème Glacée Vanille Gousses Entières",
+        "categories": [
+            "Desserts",
+            "Surgelés",
+            "Desserts glacés",
+            "Glaces et sorbets",
+            "Glaces"
+        ],
+        "stores": "Franprix,Super U,Leclerc",
+        "site_url": "https://world.openfoodfacts.org/product/3760039982056/creme-glacee-vanille-l-angelys",
+        "score": 9
     },
     {
         "name": "Chocolat Blanc Coco",
@@ -2842,7 +2795,7 @@
         ],
         "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3396411220289/lait-de-coco-cuisine-bonneterre",
-        "score": 12
+        "score": 10
     },
     {
         "name": "Barre Ananas",
@@ -8661,5 +8614,93 @@
         "stores": "Leader Price",
         "site_url": "https://world.openfoodfacts.org/product/3263859435608/saumon-fume-au-bois-de-hetre-eleve-en-ecosse-leader-price",
         "score": 13
+    },
+    {
+        "name": "Sauce béchamel ",
+        "description": "Sauce béchamel stérilisée UHT ",
+        "categories": [
+            "Epicerie",
+            "Sauces"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/3263859430115/sauce-bechamel-leader-price",
+        "score": 7
+    },
+    {
+        "name": "Barres cereales - chocolat au lait - noix de coco",
+        "description": "Barre céréalière avec un talon chocolat au lait et à la noix de coco",
+        "categories": [
+            "Snacks sucrés",
+            "Barres"
+        ],
+        "stores": "Leader Price",
+        "site_url": "https://world.openfoodfacts.org/product/3263850763618/barres-cereales-chocolat-au-lait-noix-de-coco-leader-price",
+        "score": 20
+    },
+    {
+        "name": "Tagliatelles sauce pesto et noix de Saint Jacques*, Surgelé",
+        "description": "Plat surgelé préparé à base de tagliatelles, brocolis et noix de Saint Jacques* accompagnés de sauce pesto ",
+        "categories": [
+            "Surgelés",
+            "Plats préparés",
+            "Plats préparés à réchauffer au micro ondes",
+            "Plats préparés surgelés"
+        ],
+        "stores": "Leader Price",
+        "site_url": "https://world.openfoodfacts.org/product/3263859857011/tagliatelles-sauce-pesto-et-noix-de-saint-jacques-surgele-leader-price-fine-ligne",
+        "score": -1
+    },
+    {
+        "name": "Cabillaud risoni et ratatouille",
+        "description": "Cabillaud risoni et ratatouille",
+        "categories": [
+            "Surgelés",
+            "Plats préparés",
+            "Plats à base de poisson",
+            "Plats préparés surgelés"
+        ],
+        "stores": "Franprix",
+        "site_url": "https://world.openfoodfacts.org/product/3263859858612/cabillaud-risoni-et-ratatouille-marche-franprix",
+        "score": -2
+    },
+    {
+        "name": "Sauce Vinaigrette aux Tomates Séchées",
+        "description": "",
+        "categories": [
+            "Epicerie",
+            "Sauces"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/3263850425912/sauce-vinaigrette-aux-tomates-sechees-leader-price",
+        "score": 18
+    },
+    {
+        "name": "crottin de chèvre",
+        "description": "Fromage au lait de chèvre pasteurisé",
+        "categories": [
+            "Produits laitiers",
+            "Produits fermentés",
+            "Produits laitiers fermentés",
+            "Fromages",
+            "Fromages de chèvre"
+        ],
+        "stores": "Leader Price",
+        "site_url": "https://world.openfoodfacts.org/product/3263859370312/crottin-de-chevre-leader-price",
+        "score": 14
+    },
+    {
+        "name": "Pur chèvre doux (12% MG)",
+        "description": "Fromage de chèvre au lait pasteurisé",
+        "categories": [
+            "Produits laitiers",
+            "Produits fermentés",
+            "Produits laitiers fermentés",
+            "Fromages",
+            "Fromages pasteurisés",
+            "Fromages de chèvre"
+        ],
+        "stores": "Leader Price",
+        "site_url": "https://world.openfoodfacts.org/product/3263859370114/pur-chevre-doux-12-mg-leader-price",
+        "score": 8
     }
 ]

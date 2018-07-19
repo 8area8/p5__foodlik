@@ -1,37 +1,5 @@
 [
     {
-        "name": "Jambon Supérieur - 25% de sel",
-        "description": "Jambon cuit supérieur",
-        "categories": [
-            "Frais",
-            "Viandes",
-            "Charcuteries",
-            "Jambons",
-            "Porc",
-            "Jambons blancs"
-        ],
-        "stores": "Spar",
-        "site_url": "https://world.openfoodfacts.org/product/3222475324673/jambon-superieur-25-de-sel-casino",
-        "score": 3
-    },
-    {
-        "name": "Flocons d avoine complets",
-        "description": "Flocons d avoine complets",
-        "categories": [
-            "Aliments et boissons à base de végétaux",
-            "Aliments d origine végétale",
-            "Petit déjeuners",
-            "Céréales et pommes de terre",
-            "Céréales et dérivés",
-            "Céréales pour petit déjeuner",
-            "Flocons",
-            "Flocons de céréales"
-        ],
-        "stores": "Casino",
-        "site_url": "https://world.openfoodfacts.org/product/3222475651298/flocons-d-avoine-complets-casino-bio",
-        "score": -5
-    },
-    {
         "name": "Brownie chocolat pépites de chocolat",
         "description": "Gâteau au chocolat et aux pépites de chocolat",
         "categories": [
@@ -912,7 +880,7 @@
         ],
         "stores": "Monoprix",
         "site_url": "https://world.openfoodfacts.org/product/3350031757327/biscuits-petit-dejeuner-5-cereales-abricots-amandes-pepites-de-chocolat-monoprix",
-        "score": 17
+        "score": 12
     },
     {
         "name": "Filets de sardines (citron et basilic, sans huile)",
@@ -2253,6 +2221,20 @@
         "score": 6
     },
     {
+        "name": "Purée gourmande",
+        "description": "",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Aliments d origine végétale",
+            "Céréales et pommes de terre",
+            "Produits déshydratés",
+            "Produits lyophilisés à reconstituer"
+        ],
+        "stores": "Intermarché",
+        "site_url": "https://world.openfoodfacts.org/product/3250390445166/puree-gourmande-bouton-d-or",
+        "score": 0
+    },
+    {
         "name": "Thé & Citron",
         "description": "",
         "categories": [
@@ -2737,7 +2719,7 @@
         "score": 13
     },
     {
-        "name": "10 œufs de poules élevées en plein air Bio",
+        "name": "10 Œufs de Poules Élevées en Plein Ar Bio",
         "description": "Œuf frais de poule élevée en plein air issu de l agriculture biologique (Calibres différents supérieurs à 53 g)",
         "categories": [
             "Produits d élevages",
@@ -2746,7 +2728,7 @@
             "Œufs"
         ],
         "stores": "Cora,Match",
-        "site_url": "https://world.openfoodfacts.org/product/3257981665248/10-oeufs-de-poules-elevees-en-plein-air-bio-nature-bio",
+        "site_url": "https://world.openfoodfacts.org/product/3257981665248/10-oeufs-de-poules-elevees-en-plein-ar-bio-nature-bio",
         "score": -1
     },
     {
@@ -3124,7 +3106,7 @@
         ],
         "stores": "U, Magasins U",
         "site_url": "https://world.openfoodfacts.org/product/3256220063876/boisson-chocolatee-7-vitamines-et-calcium-granulee-u",
-        "score": 19
+        "score": 17
     },
     {
         "name": "Rochers praliné lait",
@@ -3546,7 +3528,7 @@
         "score": 4
     },
     {
-        "name": "Yaourt Nature Maigre 0 % M.G.",
+        "name": "Yaourt nature maigre 0%mg",
         "description": "Yaourt Nature Maigre 0 % M.G.",
         "categories": [
             "Produits laitiers",
@@ -3556,7 +3538,7 @@
             "Yaourts natures"
         ],
         "stores": "Magasins U,Super U",
-        "site_url": "https://world.openfoodfacts.org/product/3256221664003/yaourt-nature-maigre-0-m-g-u-bio",
+        "site_url": "https://world.openfoodfacts.org/product/3256221664003/yaourt-nature-maigre-0-mg-u-bio",
         "score": -1
     },
     {
@@ -5588,7 +5570,7 @@
         ],
         "stores": "Aldi",
         "site_url": "https://world.openfoodfacts.org/product/26001258/cocktail-4-agrumes-pur-fruit",
-        "score": 3
+        "score": 4
     },
     {
         "name": "Parmentier aux carottes et Boeuf aux échalotes",
@@ -9175,5 +9157,57 @@
         "stores": "Auchan,Carrefour Market",
         "site_url": "https://world.openfoodfacts.org/product/3760130560047/preparation-pour-brioche-mon-fournil",
         "score": 0
+    },
+    {
+        "name": "Pizza Bio Emmental Jambon",
+        "description": "",
+        "categories": [
+            "Plats préparés",
+            "Pizzas tartes salées et quiches"
+        ],
+        "stores": "Auchan",
+        "site_url": "https://world.openfoodfacts.org/product/3760018887624/pizza-bio-emmental-jambon-lea-nature",
+        "score": 11
+    },
+    {
+        "name": "Aligot",
+        "description": "Spécialité à base de pommes de terre",
+        "categories": [
+            "Frais",
+            "Plats préparés",
+            "Plats préparés frais"
+        ],
+        "stores": "Carrefour",
+        "site_url": "https://world.openfoodfacts.org/product/3760070420661/aligot-maison-carrier",
+        "score": 11
+    },
+    {
+        "name": "Yaourt aux Fruits",
+        "description": "",
+        "categories": [
+            "Produits laitiers",
+            "Produits fermentés",
+            "Produits laitiers fermentés",
+            "Yaourts",
+            "Yaourts aux fruits"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/3760074380398/yaourt-aux-fruits-ferme-viltain",
+        "score": 4
+    },
+    {
+        "name": "Tranche de Thon à l Huile d Olive",
+        "description": "",
+        "categories": [
+            "Conserves",
+            "Produits de la mer",
+            "Poissons",
+            "Poissons en conserve",
+            "Filets de poissons",
+            "Thons"
+        ],
+        "stores": "Carrefour",
+        "site_url": "https://world.openfoodfacts.org/product/3760004591139/tranche-de-thon-a-l-huile-d-olive-titus",
+        "score": 2
     }
 ]

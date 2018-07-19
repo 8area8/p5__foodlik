@@ -1,63 +1,5 @@
 [
     {
-        "name": "Purée de pomme, pêche, mangue Bio",
-        "description": "Purée de pomme, pêche, mangue Bio",
-        "categories": [
-            "Aliments et boissons à base de végétaux",
-            "Aliments d origine végétale",
-            "Aliments à base de fruits et de légumes",
-            "Desserts",
-            "Fruits et produits dérivés",
-            "Compotes",
-            "Compotes de pomme"
-        ],
-        "stores": "Intermarché",
-        "site_url": "https://world.openfoodfacts.org/product/3250391776047/puree-de-pomme-peche-mangue-bio-paquito",
-        "score": -5
-    },
-    {
-        "name": "Mon Gourmand Supérieur avec couenne",
-        "description": "Jambon cuit de qualité supérieure avec couenne",
-        "categories": [
-            "Viandes",
-            "Charcuteries",
-            "Jambons",
-            "Jambons blancs"
-        ],
-        "stores": "Intermarché",
-        "site_url": "https://world.openfoodfacts.org/product/3250391343041/mon-gourmand-superieur-avec-couenne-monique-ranou",
-        "score": 11
-    },
-    {
-        "name": "Reblochon de Savoie au lait cru",
-        "description": "Reblochon de Savoie",
-        "categories": [
-            "Produits laitiers",
-            "Produits fermentés",
-            "Produits laitiers fermentés",
-            "Fromages",
-            "Fromages de vache",
-            "Produits labellisés",
-            "Fromages de France"
-        ],
-        "stores": "Intermarché",
-        "site_url": "https://world.openfoodfacts.org/product/3250390188193/reblochon-de-savoie-au-lait-cru-itineraire-des-saveurs",
-        "score": 16
-    },
-    {
-        "name": "Cervelas en sauce Cornichons & oignons",
-        "description": "Salade de cervelas assaisonnée",
-        "categories": [
-            "Frais",
-            "Plats préparés",
-            "Salades composées",
-            "Plats préparés frais"
-        ],
-        "stores": "Intermarché",
-        "site_url": "https://world.openfoodfacts.org/product/3250390473572/cervelas-en-sauce-cornichons-oignons-monique-ranou",
-        "score": 18
-    },
-    {
         "name": "Crokawak saveur Vanille Chocolaté",
         "description": "",
         "categories": [
@@ -565,7 +507,7 @@
         "score": -4
     },
     {
-        "name": "Boules Coco",
+        "name": "Tartelettes aux pommes",
         "description": "Meringue fantaisie",
         "categories": [
             "Snacks sucrés",
@@ -573,8 +515,8 @@
             "Biscuits et gâteaux"
         ],
         "stores": "Leclerc",
-        "site_url": "https://world.openfoodfacts.org/product/3254950008587/boules-coco-serebis",
-        "score": 21
+        "site_url": "https://world.openfoodfacts.org/product/3254950008587/tartelettes-aux-pommes-serebis",
+        "score": 17
     },
     {
         "name": "Tielles Apéro",
@@ -1329,8 +1271,8 @@
         "score": 9
     },
     {
-        "name": "12 Oeufs de plein air",
-        "description": "12 oeufs de poules élevées en plein air de catégorie A",
+        "name": "12 Œufs de plein air",
+        "description": "12 Œufs de poules élevées en plein air de catégorie A",
         "categories": [
             "Produits d élevages",
             "Œufs d oiseau",
@@ -2305,7 +2247,7 @@
         ],
         "stores": "Magasins U",
         "site_url": "https://world.openfoodfacts.org/product/3256220610667/chocolat-au-lait-et-aux-noisettes-entieres-u",
-        "score": 21
+        "score": 24
     },
     {
         "name": "Sauce vinaigrette au vinaigre de vin rouge et à l échalote",
@@ -7162,7 +7104,7 @@
         "score": 17
     },
     {
-        "name": "L  Emmental français râpé (30 % MG)",
+        "name": "L  Emmental français râpé",
         "description": "Fromage industriel de France, à pâte pressée cuite, au lait pasteurisé de vache, râpé",
         "categories": [
             "Frais",
@@ -7177,7 +7119,7 @@
             "Fromages industriels"
         ],
         "stores": "Leclerc",
-        "site_url": "https://world.openfoodfacts.org/product/3184030003617/l-emmental-francais-rape-30-mg-paysan-breton",
+        "site_url": "https://world.openfoodfacts.org/product/3184030003617/l-emmental-francais-rape-paysan-breton",
         "score": 12
     },
     {
@@ -9309,5 +9251,68 @@
         "stores": "Auchan",
         "site_url": "https://world.openfoodfacts.org/product/3596710402922/yaourt-brasse-a-la-vanille-8-pots-auchan",
         "score": 3
+    },
+    {
+        "name": "Camembert au lait pasteurisé 22 % MG",
+        "description": "Camembert au lait pasteurisé",
+        "categories": [
+            "Produits laitiers",
+            "Produits fermentés",
+            "Produits laitiers fermentés",
+            "Fromages",
+            "Fromages de vache",
+            "Fromages à pâte molle à croûte fleurie",
+            "Fromages pasteurisés"
+        ],
+        "stores": "Auchan",
+        "site_url": "https://world.openfoodfacts.org/product/3596710401390/camembert-au-lait-pasteurise-22-mg-auchan",
+        "score": 14
+    },
+    {
+        "name": "Œufs de poules élevées en plein air",
+        "description": "",
+        "categories": [
+            "Produits d élevages",
+            "Œufs d oiseau",
+            "Œufs"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/3596710407798/oeufs-de-poules-elevees-en-plein-air-auchan-bio",
+        "score": -1
+    },
+    {
+        "name": "Saucisses de Montbéliard",
+        "description": "Saucisses de Montbéliard",
+        "categories": [
+            "Viandes",
+            "Charcuteries",
+            "Saucisses"
+        ],
+        "stores": "Auchan,Simply-Market",
+        "site_url": "https://world.openfoodfacts.org/product/3596710187508/saucisses-de-montbeliard-auchan",
+        "score": 20
+    },
+    {
+        "name": "Mini choux goût fromage de chèvre - poivre",
+        "description": "biscuits apéritifs",
+        "categories": [
+            "Snacks salés",
+            "Apéritif"
+        ],
+        "stores": "Simply market",
+        "site_url": "https://world.openfoodfacts.org/product/3596710288755/mini-choux-gout-fromage-de-chevre-poivre-auchan",
+        "score": 24
+    },
+    {
+        "name": "Dés de jambon nature",
+        "description": "Dés de jambon cuit choix découenné dégraissé",
+        "categories": [
+            "Viandes",
+            "Charcuteries",
+            "Jambons"
+        ],
+        "stores": "Simply Market",
+        "site_url": "https://world.openfoodfacts.org/product/3596710285457/des-de-jambon-nature-auchan",
+        "score": 13
     }
 ]

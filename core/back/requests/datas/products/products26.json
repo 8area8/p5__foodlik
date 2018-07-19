@@ -1,34 +1,5 @@
 [
     {
-        "name": "Douceur de poireaux pommes de terre pointe de Comté (lot de 2) Knorr",
-        "description": "Soupe de légumes",
-        "categories": [
-            "Aliments et boissons à base de végétaux",
-            "Aliments d origine végétale",
-            "Aliments à base de fruits et de légumes",
-            "Plats préparés",
-            "Soupes",
-            "Soupes de légumes"
-        ],
-        "stores": "Carrefour",
-        "site_url": "https://world.openfoodfacts.org/product/8712100575709/douceur-de-poireaux-pommes-de-terre-pointe-de-comte-lot-de-2-knorr",
-        "score": 3
-    },
-    {
-        "name": "Les Authentiques Caramel aux Morceaux de Caramel au Lait",
-        "description": "Crème glacée caramel avec des morceaux de caramel au lait (9%)",
-        "categories": [
-            "Desserts",
-            "Surgelés",
-            "Desserts glacés",
-            "Glaces et sorbets",
-            "Glaces"
-        ],
-        "stores": "Franprix",
-        "site_url": "https://world.openfoodfacts.org/product/8712100880971/les-authentiques-caramel-aux-morceaux-de-caramel-au-lait-carte-d-or",
-        "score": 12
-    },
-    {
         "name": "Tea-Day Caramel",
         "description": "Boisson instantanée au thé aromatisée caramel",
         "categories": [
@@ -4994,24 +4965,6 @@
         "score": 1
     },
     {
-        "name": "100 % Pur Jus Ananas ",
-        "description": "Jus d ananas pur jus",
-        "categories": [
-            "Aliments et boissons à base de végétaux",
-            "Boissons",
-            "Frais",
-            "Boissons à base de végétaux",
-            "Boissons aux fruits",
-            "Jus et nectars",
-            "Jus et nectars de fruits",
-            "Jus de fruits",
-            "Jus de fruits 100% pur jus"
-        ],
-        "stores": "Auchan",
-        "site_url": "https://world.openfoodfacts.org/product/3596710281978/100-pur-jus-ananas-auchan",
-        "score": 8
-    },
-    {
         "name": "Allumettes Bacon Fumées",
         "description": "Allumettes de bacon fumé",
         "categories": [
@@ -5879,7 +5832,7 @@
         "score": -1
     },
     {
-        "name": "Superlevure",
+        "name": "chapelure",
         "description": "Chapelure",
         "categories": [
             "Aliments et boissons à base de végétaux",
@@ -5888,7 +5841,7 @@
             "Pains"
         ],
         "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/23019140/superlevure-narvik",
+        "site_url": "https://world.openfoodfacts.org/product/23019140/chapelure-narvik",
         "score": -1
     },
     {
@@ -7225,7 +7178,9 @@
             "Aliments à base de fruits et de légumes",
             "Plats préparés",
             "Soupes",
-            "Soupes de légumes"
+            "Réfrigérés",
+            "Soupes de légumes",
+            "Plats préparés réfrigérés"
         ],
         "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3760132081366/salmorejo-a-l-huile-d-olive-vierge-extra-green-shoot",
@@ -7971,5 +7926,110 @@
         "stores": "Carrefour",
         "site_url": "https://world.openfoodfacts.org/product/3760091723574/chocolat-noir-caramel-pointe-de-sel-cacao-origine-perou-haiti-ethiquable",
         "score": 21
+    },
+    {
+        "name": "Chips salées banane plantain",
+        "description": "",
+        "categories": [
+            "Snacks salés",
+            "Apéritif",
+            "Chips et frites",
+            "Chips"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/3760091721037/chips-salees-banane-plantain-ethiquable",
+        "score": 18
+    },
+    {
+        "name": "Ananas de Madagascar",
+        "description": "Ananas de Madagascar",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Aliments d origine végétale",
+            "Aliments à base de fruits et de légumes",
+            "Conserves",
+            "Aliments à base de plantes en conserve",
+            "Fruits et produits dérivés"
+        ],
+        "stores": "Auchan",
+        "site_url": "https://world.openfoodfacts.org/product/3760091725189/ananas-de-madagascar-ethiquable",
+        "score": -4
+    },
+    {
+        "name": "Chips pomme de terre bleue",
+        "description": "",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Aliments d origine végétale",
+            "Céréales et pommes de terre",
+            "Snacks salés",
+            "Apéritif",
+            "Chips et frites",
+            "Chips",
+            "Chips de pommes de terre"
+        ],
+        "stores": "simply market",
+        "site_url": "https://world.openfoodfacts.org/product/3760091726025/chips-pomme-de-terre-bleue-ethiquable",
+        "score": 19
+    },
+    {
+        "name": "Pur Jus de Pomme du Lot et Garonne",
+        "description": "Pur Jus Bio de Pomme",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Boissons",
+            "Boissons à base de végétaux",
+            "Boissons aux fruits",
+            "Jus et nectars",
+            "Jus et nectars de fruits",
+            "Jus de fruits",
+            "Jus de pomme",
+            "Jus de fruits 100% pur jus"
+        ],
+        "stores": "Auchan",
+        "site_url": "https://world.openfoodfacts.org/product/3760091729835/pur-jus-de-pomme-du-lot-et-garonne-ethiquable",
+        "score": 5
+    },
+    {
+        "name": "Chips épicées de Banane Plantain",
+        "description": "",
+        "categories": [
+            "Snacks salés",
+            "Apéritif",
+            "Chips et frites",
+            "Chips"
+        ],
+        "stores": "Super U",
+        "site_url": "https://world.openfoodfacts.org/product/3760091721051/chips-epicees-de-banane-plantain-ethiquable",
+        "score": 19
+    },
+    {
+        "name": "Grand Cru Sambirano Lait",
+        "description": "Chocolat au lait issu de l agriculture biologique",
+        "categories": [
+            "Snacks sucrés",
+            "Chocolats",
+            "Chocolats au lait"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/3760091726407/grand-cru-sambirano-lait-ethiquable",
+        "score": 20
+    },
+    {
+        "name": "Bûche de chèvre affinée (19,5 % MG)",
+        "description": "Fromage de France, au lait pasteurisé de chèvre, issu de l agriculture biologique",
+        "categories": [
+            "Frais",
+            "Produits laitiers",
+            "Produits fermentés",
+            "Produits laitiers fermentés",
+            "Fromages",
+            "Fromages de France",
+            "Fromages pasteurisés",
+            "Fromages de chèvre"
+        ],
+        "stores": "La Superette bio",
+        "site_url": "https://world.openfoodfacts.org/product/3760099532116/buche-de-chevre-affinee-19-5-mg-lait-plaisirs",
+        "score": 18
     }
 ]

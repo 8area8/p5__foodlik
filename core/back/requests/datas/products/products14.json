@@ -1,39 +1,5 @@
 [
     {
-        "name": "Filets de poulet rôtis",
-        "description": "",
-        "categories": [
-            "Viandes",
-            "Volailles",
-            "Poulets"
-        ],
-        "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/2431628039420/filets-de-poulet-rotis-le-gaulois",
-        "score": 2
-    },
-    {
-        "name": "Fiordifrutta - Fraises des Bois",
-        "description": "Préparation biologique aux fraises et fraises des bois",
-        "categories": [
-            "Aliments et boissons à base de végétaux",
-            "Aliments d origine végétale",
-            "Aliments à base de fruits et de légumes",
-            "Petit déjeuners",
-            "Produits à tartiner",
-            "Fruits et produits dérivés",
-            "Pâtes à tartiner végétales",
-            "Produits à tartiner sucrés",
-            "Fruits en conserve",
-            "Confitures",
-            "Confitures de fruits",
-            "Confitures de fruits rouges",
-            "Confitures de fraises"
-        ],
-        "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/8001505005608/fiordifrutta-fraises-des-bois-rigoni-di-asiago",
-        "score": 5
-    },
-    {
         "name": "Gésiers de volaille confits cuit dans graisse de canard",
         "description": "",
         "categories": [
@@ -850,7 +816,7 @@
         "score": 13
     },
     {
-        "name": "camembert le rustique",
+        "name": "Camembert le rustique",
         "description": "",
         "categories": [
             "Produits laitiers",
@@ -1994,6 +1960,24 @@
         "stores": "Carrefour",
         "site_url": "https://world.openfoodfacts.org/product/3560070770489/chocolat-noir-a-la-menthe-carrefour-64-cacao-carrefour-selection",
         "score": 20
+    },
+    {
+        "name": "Boisson soja Saveur chocolat",
+        "description": "Boisson à base de soja saveur chocolat, issue de l agriculture biologique. Stérilisée UHT.",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Boissons",
+            "Aliments d origine végétale",
+            "Légumes et dérivés",
+            "Boissons à base de végétaux",
+            "Substitut du lait",
+            "Laits végétaux",
+            "Boissons non sucrées",
+            "Boissons sucrées"
+        ],
+        "stores": "Carrefour",
+        "site_url": "https://world.openfoodfacts.org/product/3560070582112/boisson-soja-saveur-chocolat-carrefour",
+        "score": 0
     },
     {
         "name": "Carotte, 100 % Pur Jus Pressé",
@@ -4191,6 +4175,20 @@
         "score": 6
     },
     {
+        "name": "Purée de Pommes de terre",
+        "description": "",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Aliments d origine végétale",
+            "Céréales et pommes de terre",
+            "Produits déshydratés",
+            "Produits lyophilisés à reconstituer"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/3564707113168/puree-de-pommes-de-terre-bio-village",
+        "score": -3
+    },
+    {
         "name": "Fromage pour Tartiflette (27 % MG) 4 à 6 personnes",
         "description": "Fromage industriel de France, au lait pasteurisé de vache",
         "categories": [
@@ -5822,7 +5820,7 @@
         "score": -2
     },
     {
-        "name": "Ice tea belge",
+        "name": "Ice Tea Sparkling",
         "description": "",
         "categories": [
             "Boissons",
@@ -8001,8 +7999,8 @@
         "categories": [
             "Aliments et boissons à base de végétaux",
             "Aliments d origine végétale",
-            "Epicerie",
-            "Condiments"
+            "Pickles",
+            "Pickles d origine végétale"
         ],
         "stores": "sainsbury s",
         "site_url": "https://world.openfoodfacts.org/product/3076820010373/capres-crespo",
@@ -8733,14 +8731,14 @@
         "score": 1
     },
     {
-        "name": "Saint Louis - Vergeoise Brune",
+        "name": "Vergeoise Brune",
         "description": "",
         "categories": [
             "Édulcorants",
             "Sucres"
         ],
         "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/3220033090008/saint-louis-vergeoise-brune",
+        "site_url": "https://world.openfoodfacts.org/product/3220033090008/vergeoise-brune-saint-louis",
         "score": 14
     },
     {
@@ -8863,25 +8861,6 @@
         "stores": "Géant Casino",
         "site_url": "https://world.openfoodfacts.org/product/3222471135570/haricots-verts-extra-fins-400-g-casino",
         "score": -3
-    },
-    {
-        "name": "Emmantal français",
-        "description": "Fromage industriel de France, à pâte pressée cuite, au lait pasteurisé de vache, râpé",
-        "categories": [
-            "Frais",
-            "Produits laitiers",
-            "Produits fermentés",
-            "Produits laitiers fermentés",
-            "Fromages",
-            "Fromages à pâte pressée cuite",
-            "Fromages de vache",
-            "Fromages de France",
-            "Fromages pasteurisés",
-            "Fromages industriels"
-        ],
-        "stores": "Géant Casino",
-        "site_url": "https://world.openfoodfacts.org/product/3222471139028/emmantal-francais-casino",
-        "score": 12
     },
     {
         "name": "100 % Pur Jus, Raisin blanc & Muscat",
@@ -9064,5 +9043,37 @@
         "stores": "Casino",
         "site_url": "https://world.openfoodfacts.org/product/3222472861775/compote-allegee-pomme-poire-casino",
         "score": -4
+    },
+    {
+        "name": "Jambon Supérieur - 25% de sel",
+        "description": "Jambon cuit supérieur",
+        "categories": [
+            "Frais",
+            "Viandes",
+            "Charcuteries",
+            "Jambons",
+            "Porc",
+            "Jambons blancs"
+        ],
+        "stores": "Spar",
+        "site_url": "https://world.openfoodfacts.org/product/3222475324673/jambon-superieur-25-de-sel-casino",
+        "score": 3
+    },
+    {
+        "name": "Flocons d avoine complets",
+        "description": "Flocons d avoine complets",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Aliments d origine végétale",
+            "Petit déjeuners",
+            "Céréales et pommes de terre",
+            "Céréales et dérivés",
+            "Céréales pour petit déjeuner",
+            "Flocons",
+            "Flocons de céréales"
+        ],
+        "stores": "Casino",
+        "site_url": "https://world.openfoodfacts.org/product/3222475651298/flocons-d-avoine-complets-casino-bio",
+        "score": -5
     }
 ]

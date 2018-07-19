@@ -1,55 +1,5 @@
 [
     {
-        "name": "Palets de Céréales à l Avoine Amande & Abricot",
-        "description": "",
-        "categories": [
-            "Snacks sucrés",
-            "Biscuits et gâteaux",
-            "Biscuits"
-        ],
-        "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/3175681140776/palets-de-cereales-a-l-avoine-amande-abricot-cereal-bio",
-        "score": 7
-    },
-    {
-        "name": "Galettes de polenta ail et fines herbes",
-        "description": "",
-        "categories": [
-            "Plats préparés"
-        ],
-        "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/3175681183827/galettes-de-polenta-ail-et-fines-herbes-cereal-bio",
-        "score": 2
-    },
-    {
-        "name": "Galette de Riz Complet Chocolat Lait",
-        "description": "Galette de riz complet au chocolat au lait",
-        "categories": [
-            "Aliments et boissons à base de végétaux",
-            "Aliments d origine végétale",
-            "Céréales et pommes de terre",
-            "Céréales et dérivés"
-        ],
-        "stores": "Auchan",
-        "site_url": "https://world.openfoodfacts.org/product/3175681179349/galette-de-riz-complet-chocolat-lait-gerble",
-        "score": 19
-    },
-    {
-        "name": "Haché végétal (Soja oignons et persil)",
-        "description": "Soja, oignons et persil",
-        "categories": [
-            "Aliments et boissons à base de végétaux",
-            "Aliments d origine végétale",
-            "Céréales et pommes de terre",
-            "Céréales et dérivés",
-            "Plats préparés",
-            "Plats préparés à réchauffer au micro ondes"
-        ],
-        "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/3175681190108/hache-vegetal-soja-oignons-et-persil-cereal-bio",
-        "score": -3
-    },
-    {
         "name": "Petit cake fourré saveur chocolat sans gluten",
         "description": "",
         "categories": [
@@ -162,19 +112,13 @@
         "score": 3
     },
     {
-        "name": "Quinoa Bio - 250 g - Céréal Bio",
+        "name": "Quinoa Bio",
         "description": "Plat préparé issu de l agriculture biologique",
         "categories": [
-            "Aliments et boissons à base de végétaux",
-            "Aliments d origine végétale",
-            "Céréales et pommes de terre",
-            "Graines",
-            "Céréales et dérivés",
-            "Plats préparés",
-            "Céréales en grains"
+            "Plats préparés"
         ],
         "stores": "Monoprix",
-        "site_url": "https://world.openfoodfacts.org/product/3175681028197/quinoa-bio-250-g-cereal-bio",
+        "site_url": "https://world.openfoodfacts.org/product/3175681028197/quinoa-bio-cereal-bio",
         "score": -4
     },
     {
@@ -1938,7 +1882,7 @@
         ],
         "stores": "Carrefour",
         "site_url": "https://world.openfoodfacts.org/product/3560070322817/petits-pois-et-carottes-a-l-etuvee-extra-fins-carrefour",
-        "score": -4
+        "score": -5
     },
     {
         "name": "Cuillers aux œufs frais",
@@ -2268,7 +2212,7 @@
         "score": -5
     },
     {
-        "name": "Chips Goût Moutarde",
+        "name": "Chips À l Ancienne Saveur Moitarde",
         "description": "Chips",
         "categories": [
             "Aliments et boissons à base de végétaux",
@@ -2283,7 +2227,7 @@
             "Chips de pommes de terre à l huile de tournesol"
         ],
         "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/3560070430994/chips-gout-moutarde-carrefour",
+        "site_url": "https://world.openfoodfacts.org/product/3560070430994/chips-a-l-ancienne-saveur-moitarde-carrefour",
         "score": 10
     },
     {
@@ -5260,6 +5204,20 @@
         "score": 13
     },
     {
+        "name": "Mousline Saveur à l Ancienne Écrasée de Pomme de Terre",
+        "description": "Purée en flocons",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Aliments d origine végétale",
+            "Céréales et pommes de terre",
+            "Produits déshydratés",
+            "Produits lyophilisés à reconstituer"
+        ],
+        "stores": "Cora,Franprix",
+        "site_url": "https://world.openfoodfacts.org/product/7613034884237/mousline-saveur-a-l-ancienne-ecrasee-de-pomme-de-terre-maggi",
+        "score": -1
+    },
+    {
         "name": "Lion Extra Crispy",
         "description": "Gaufrette fourrée nappage caramel et céréales croustillantes, enrobage chocolat au lait",
         "categories": [
@@ -5615,17 +5573,6 @@
         "stores": "Noz",
         "site_url": "https://world.openfoodfacts.org/product/7622210396334/choc-choc-milka",
         "score": 22
-    },
-    {
-        "name": "Monaco à l emmentale",
-        "description": "Biscuits crackers",
-        "categories": [
-            "Snacks salés",
-            "Apéritif"
-        ],
-        "stores": "Cora,Carrefour",
-        "site_url": "https://world.openfoodfacts.org/product/7622210997852/monaco-a-l-emmentale-belin",
-        "score": 23
     },
     {
         "name": "Milka",
@@ -7838,7 +7785,7 @@
         ],
         "stores": "Super U, Magasins U",
         "site_url": "https://world.openfoodfacts.org/product/3256220361118/pains-pita-u",
-        "score": 1
+        "score": 2
     },
     {
         "name": "Tomates Entières pelées au Jus",
@@ -8569,19 +8516,6 @@
         "score": -6
     },
     {
-        "name": "Concentré cola",
-        "description": "Préparation aromatisée pour boissons rafraîchissantes gazéifiées, avec sucres et édulcorants. Contient de la caféine.",
-        "categories": [
-            "Boissons",
-            "Boissons édulcorées",
-            "Sirops",
-            "Sirops aromatisés"
-        ],
-        "stores": "Carrefour",
-        "site_url": "https://world.openfoodfacts.org/product/7290002793212/concentre-cola-sodastream",
-        "score": 6
-    },
-    {
         "name": "Cannelloni Pur Bœuf",
         "description": "Cannelloni Pur Bœuf ",
         "categories": [
@@ -8927,7 +8861,7 @@
         "score": 2
     },
     {
-        "name": "BOX MAXI CHEESY (beef & cheese)",
+        "name": "Box Maxi Cheesy (beef & cheese)",
         "description": "Pâtes coquillettes, fromage et bœuf",
         "categories": [
             "Frais",
@@ -9629,6 +9563,19 @@
         "score": 13
     },
     {
+        "name": "Jambon cuit supérieur Bio avec couenne",
+        "description": "",
+        "categories": [
+            "Viandes",
+            "Charcuteries",
+            "Jambons",
+            "Jambons blancs"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/3180940079643/jambon-cuit-superieur-bio-avec-couenne-madrange",
+        "score": 5
+    },
+    {
         "name": "Le Torchon 4tr",
         "description": "Jambon cuit au torchon sans couenne de qualité supérieure",
         "categories": [
@@ -9765,5 +9712,44 @@
         "stores": "Lidl",
         "site_url": "https://world.openfoodfacts.org/product/20094638/creme-dessert-saveur-vanille-kingfrais",
         "score": 4
+    },
+    {
+        "name": "Medaillon Classic",
+        "description": "Meringue fourrée chocolat-noisette, chocolat au lait et décorée de chocolat blanc",
+        "categories": [
+            "Snacks sucrés",
+            "Chocolats",
+            "Chocolats au lait"
+        ],
+        "stores": "Lidl",
+        "site_url": "https://world.openfoodfacts.org/product/20136321/medaillon-classic-catago",
+        "score": 24
+    },
+    {
+        "name": "Coeur de blé",
+        "description": "Farine de blé",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Aliments d origine végétale",
+            "Céréales et pommes de terre",
+            "Céréales et dérivés",
+            "Farines"
+        ],
+        "stores": "Leclerc",
+        "site_url": "https://world.openfoodfacts.org/product/3483050001819/coeur-de-ble-ebly",
+        "score": -5
+    },
+    {
+        "name": "Fin carré",
+        "description": "Chocolat au lait avec noisettes entières",
+        "categories": [
+            "Snacks sucrés",
+            "Confiseries",
+            "Chocolats",
+            "Chocolats au lait"
+        ],
+        "stores": "Lidl",
+        "site_url": "https://world.openfoodfacts.org/product/20005771/fin-carre",
+        "score": 22
     }
 ]

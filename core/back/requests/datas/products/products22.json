@@ -1,18 +1,5 @@
 [
     {
-        "name": "Cookies aux Pépites de Chocolat (Mous)",
-        "description": "",
-        "categories": [
-            "Snacks sucrés",
-            "Biscuits et gâteaux",
-            "Biscuits",
-            "Cookies"
-        ],
-        "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/3564700793657/cookies-aux-pepites-de-chocolat-mous-p-tit-deli",
-        "score": 25
-    },
-    {
         "name": "Pouce lait demi ecreme brique",
         "description": "",
         "categories": [
@@ -2022,7 +2009,7 @@
         "score": 1
     },
     {
-        "name": "Mélange 4 Huiles + Vitamine D",
+        "name": "Melange 4 Huiles + vitamine D",
         "description": "Mélange 4 Huiles + Vitamine D",
         "categories": [
             "Aliments et boissons à base de végétaux",
@@ -6803,8 +6790,10 @@
         "name": "Câpres au Vinaigre",
         "description": "Câpres capucines au vinaigre",
         "categories": [
-            "Epicerie",
-            "Condiments"
+            "Aliments et boissons à base de végétaux",
+            "Aliments d origine végétale",
+            "Pickles",
+            "Pickles d origine végétale"
         ],
         "stores": "Carrefour",
         "site_url": "https://world.openfoodfacts.org/product/3560070107070/capres-au-vinaigre-carrefour",
@@ -8326,6 +8315,66 @@
         ],
         "stores": "leclerc",
         "site_url": "https://world.openfoodfacts.org/product/3564700010143/riz-long-mediterraneen-comptoir-du-grain",
+        "score": -1
+    },
+    {
+        "name": "Fricassée de Poulet, Riz et Légumes",
+        "description": "Mélange de riz, de légumes et de morceaux de filet de poulet rôti - surgelé.",
+        "categories": [
+            "Surgelés",
+            "Plats préparés",
+            "Plats à base de viande",
+            "Plats à base de viande bovine",
+            "Plats à base de volaille",
+            "Plats préparés surgelés"
+        ],
+        "stores": "Leclerc",
+        "site_url": "https://world.openfoodfacts.org/product/3564700018491/fricassee-de-poulet-riz-et-legumes-marque-repere",
+        "score": 0
+    },
+    {
+        "name": "Pancetta italienne",
+        "description": "Pancetta italienne",
+        "categories": [
+            "Viandes",
+            "Charcuteries"
+        ],
+        "stores": "Leclerc",
+        "site_url": "https://world.openfoodfacts.org/product/3564700267004/pancetta-italienne-saint-azay",
+        "score": 24
+    },
+    {
+        "name": "Pom lisse",
+        "description": "Chips",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Aliments d origine végétale",
+            "Céréales et pommes de terre",
+            "Snacks salés",
+            "Apéritif",
+            "Chips et frites",
+            "Chips",
+            "Chips de pommes de terre",
+            "Chips de pommes de terre à l huile de tournesol"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/3564700576083/pom-lisse",
+        "score": 8
+    },
+    {
+        "name": "Riz rond pour dessert",
+        "description": "Riz rond de qualité supérieur",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Aliments d origine végétale",
+            "Céréales et pommes de terre",
+            "Graines",
+            "Céréales et dérivés",
+            "Céréales en grains",
+            "Riz"
+        ],
+        "stores": "Leclerc",
+        "site_url": "https://world.openfoodfacts.org/product/3564700577103/riz-rond-pour-dessert-comptoir-du-grain",
         "score": -1
     }
 ]

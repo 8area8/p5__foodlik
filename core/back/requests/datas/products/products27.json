@@ -1,110 +1,5 @@
 [
     {
-        "name": "Chips salées banane plantain",
-        "description": "",
-        "categories": [
-            "Snacks salés",
-            "Apéritif",
-            "Chips et frites",
-            "Chips"
-        ],
-        "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/3760091721037/chips-salees-banane-plantain-ethiquable",
-        "score": 18
-    },
-    {
-        "name": "Ananas de Madagascar",
-        "description": "Ananas de Madagascar",
-        "categories": [
-            "Aliments et boissons à base de végétaux",
-            "Aliments d origine végétale",
-            "Aliments à base de fruits et de légumes",
-            "Conserves",
-            "Aliments à base de plantes en conserve",
-            "Fruits et produits dérivés"
-        ],
-        "stores": "Auchan",
-        "site_url": "https://world.openfoodfacts.org/product/3760091725189/ananas-de-madagascar-ethiquable",
-        "score": -4
-    },
-    {
-        "name": "Chips pomme de terre bleue",
-        "description": "",
-        "categories": [
-            "Aliments et boissons à base de végétaux",
-            "Aliments d origine végétale",
-            "Céréales et pommes de terre",
-            "Snacks salés",
-            "Apéritif",
-            "Chips et frites",
-            "Chips",
-            "Chips de pommes de terre"
-        ],
-        "stores": "simply market",
-        "site_url": "https://world.openfoodfacts.org/product/3760091726025/chips-pomme-de-terre-bleue-ethiquable",
-        "score": 19
-    },
-    {
-        "name": "Pur Jus de Pomme du Lot et Garonne",
-        "description": "Pur Jus Bio de Pomme",
-        "categories": [
-            "Aliments et boissons à base de végétaux",
-            "Boissons",
-            "Boissons à base de végétaux",
-            "Boissons aux fruits",
-            "Jus et nectars",
-            "Jus et nectars de fruits",
-            "Jus de fruits",
-            "Jus de pomme",
-            "Jus de fruits 100% pur jus"
-        ],
-        "stores": "Auchan",
-        "site_url": "https://world.openfoodfacts.org/product/3760091729835/pur-jus-de-pomme-du-lot-et-garonne-ethiquable",
-        "score": 5
-    },
-    {
-        "name": "Chips épicées de Banane Plantain",
-        "description": "",
-        "categories": [
-            "Snacks salés",
-            "Apéritif",
-            "Chips et frites",
-            "Chips"
-        ],
-        "stores": "Super U",
-        "site_url": "https://world.openfoodfacts.org/product/3760091721051/chips-epicees-de-banane-plantain-ethiquable",
-        "score": 19
-    },
-    {
-        "name": "Grand Cru Sambirano Lait",
-        "description": "Chocolat au lait issu de l agriculture biologique",
-        "categories": [
-            "Snacks sucrés",
-            "Chocolats",
-            "Chocolats au lait"
-        ],
-        "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/3760091726407/grand-cru-sambirano-lait-ethiquable",
-        "score": 20
-    },
-    {
-        "name": "Bûche de chèvre affinée (19,5 % MG)",
-        "description": "Fromage de France, au lait pasteurisé de chèvre, issu de l agriculture biologique",
-        "categories": [
-            "Frais",
-            "Produits laitiers",
-            "Produits fermentés",
-            "Produits laitiers fermentés",
-            "Fromages",
-            "Fromages de France",
-            "Fromages pasteurisés",
-            "Fromages de chèvre"
-        ],
-        "stores": "La Superette bio",
-        "site_url": "https://world.openfoodfacts.org/product/3760099532116/buche-de-chevre-affinee-19-5-mg-lait-plaisirs",
-        "score": 18
-    },
-    {
         "name": "Mimolette Bio (27 % MG) Demi-vieille",
         "description": "Fromage de France, à pâte pressée non cuite, au lait pasteurisé de vache, issu de l agriculture biologique",
         "categories": [
@@ -561,7 +456,7 @@
         ],
         "stores": "Carrefour",
         "site_url": "https://world.openfoodfacts.org/product/3760176400161/yaourts-framboise-ker-ronan",
-        "score": 3
+        "score": 2
     },
     {
         "name": "Pain de mie Weight watcherPain de mie Céréales et Graines sans croute",
@@ -3548,7 +3443,7 @@
             "Sauces"
         ],
         "stores": "Auchan",
-        "site_url": "https://world.openfoodfacts.org/product/5011308700917/tikka-masala-curry-paste-patak-s",
+        "site_url": "https://world.openfoodfacts.org/product/5011308700917/pate-de-curry-tikka-masala-patak-s",
         "score": 14
     },
     {
@@ -5103,8 +4998,8 @@
         "score": -2
     },
     {
-        "name": "Pois chiches  en conserva",
-        "description": "Garbanzos cocidos en conserva",
+        "name": "Garbanzos",
+        "description": "Garbanzos cocidos",
         "categories": [
             "Aliments et boissons à base de végétaux",
             "Aliments d origine végétale",
@@ -5112,8 +5007,8 @@
             "Aliments à base de plantes en conserve",
             "Légumineuses en conserve"
         ],
-        "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/8410505272017/pois-chiches-en-conserva-luengo",
+        "stores": "Dia,Carrefour,Alcampo,Eroski,Condis,Caprabo,El Corte Inglés,Hipercor",
+        "site_url": "https://world.openfoodfacts.org/product/8410505272017/garbanzos-luengo",
         "score": -5
     },
     {
@@ -5822,7 +5717,7 @@
         "score": -5
     },
     {
-        "name": "Fiordifrutta Abricots",
+        "name": "Fior di frutta - abricots",
         "description": "",
         "categories": [
             "Aliments et boissons à base de végétaux",
@@ -5839,7 +5734,7 @@
             "Confitures d abricot"
         ],
         "stores": "Auchan",
-        "site_url": "https://world.openfoodfacts.org/product/8001505005615/fiordifrutta-abricots-rigoni-di-asiago",
+        "site_url": "https://world.openfoodfacts.org/product/8001505005615/fior-di-frutta-abricots-rigoni-di-asiago",
         "score": 1
     },
     {
@@ -7315,5 +7210,57 @@
         "stores": "Bio C bon",
         "site_url": "https://world.openfoodfacts.org/product/3273220154052/fromage-blanc-tante-helene",
         "score": -2
+    },
+    {
+        "name": "Fromage Blanc au Lait de Brebis",
+        "description": "Fromage blanc au lait de brebis issu de l agriculture biologique",
+        "categories": [
+            "Produits laitiers",
+            "Produits fermentés",
+            "Produits laitiers fermentés",
+            "Fromages"
+        ],
+        "stores": "Bio14",
+        "site_url": "https://world.openfoodfacts.org/product/3273220141014/fromage-blanc-au-lait-de-brebis-la-bergerie",
+        "score": 3
+    },
+    {
+        "name": "Dessert Bio au lait de Brebis au chocolat",
+        "description": "Dessert au lait de brebis au chocolat biologique",
+        "categories": [
+            "Desserts"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/3273220540725/dessert-bio-au-lait-de-brebis-au-chocolat-vrai-d-agriculture-biologique",
+        "score": 5
+    },
+    {
+        "name": "Beurre de baratte doux Bio Vrai",
+        "description": "Beurre de baratte doux Bio",
+        "categories": [
+            "Produits laitiers",
+            "Produits à tartiner",
+            "Matières grasses",
+            "Matières grasses à tartiner",
+            "Matières grasses animales",
+            "Milkfat",
+            "Beurres"
+        ],
+        "stores": "Carrefour",
+        "site_url": "https://world.openfoodfacts.org/product/3273220542200/beurre-de-baratte-doux-bio-vrai",
+        "score": 19
+    },
+    {
+        "name": "L Ordinaire",
+        "description": "Soda aux arômes naturels d anis",
+        "categories": [
+            "Boissons",
+            "Boissons gazeuses",
+            "Sodas",
+            "Boissons sucrées"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/3271791000396/l-ordinaire",
+        "score": 17
     }
 ]

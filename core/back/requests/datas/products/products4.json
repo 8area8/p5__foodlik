@@ -1,30 +1,5 @@
 [
     {
-        "name": "Mayonnaise fine qualité traiteur 100g",
-        "description": "Mayonnaise rayon frais",
-        "categories": [
-            "Epicerie",
-            "Sauces",
-            "Mayonnaises"
-        ],
-        "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/3250541918013/mayonnaise-fine-qualite-traiteur-100g-maille",
-        "score": 23
-    },
-    {
-        "name": "Madelaines longues",
-        "description": "",
-        "categories": [
-            "Snacks sucrés",
-            "Desserts",
-            "Biscuits et gâteaux",
-            "Gâteaux"
-        ],
-        "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/3255290250285/madelaines-longues-le-ster",
-        "score": 18
-    },
-    {
         "name": "Betteraves rouges entières (Cuites à la vapeur) Bio",
         "description": "Betteraves rouges entières issues de l agriculture biologique",
         "categories": [
@@ -839,14 +814,14 @@
         "score": -1
     },
     {
-        "name": "Vinaigrette légère Vinaigre Balsamique Ciboulette - Echalotes",
+        "name": "Vinaigrette légère",
         "description": "Vinaigrette",
         "categories": [
             "Epicerie",
             "Sauces"
         ],
         "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/3265479724001/vinaigrette-legere-vinaigre-balsamique-ciboulette-echalotes-puget",
+        "site_url": "https://world.openfoodfacts.org/product/3265479724001/vinaigrette-legere-puget",
         "score": 15
     },
     {
@@ -999,14 +974,14 @@
         "score": 14
     },
     {
-        "name": "Crème chantilly ferme et onctueuse",
+        "name": "Crème fouettée ferme et onctueuse",
         "description": "Crème stérilisée UHT sucrée aromatisée sous pression",
         "categories": [
             "Produits laitiers",
             "Crèmes"
         ],
         "stores": "Dia",
-        "site_url": "https://world.openfoodfacts.org/product/3155250349793/creme-chantilly-ferme-et-onctueuse-president",
+        "site_url": "https://world.openfoodfacts.org/product/3155250349793/creme-fouettee-ferme-et-onctueuse-president",
         "score": 15
     },
     {
@@ -5390,7 +5365,7 @@
         "score": 3
     },
     {
-        "name": "Ferme et Fondant saveur citron",
+        "name": "Ferme & Fondant saveur citron",
         "description": "Spécialité laitière à 0 % de matière grasse, aromatisée, avec édulcorants",
         "categories": [
             "Frais",
@@ -5402,7 +5377,7 @@
             "Yaourts aromatisés"
         ],
         "stores": "U",
-        "site_url": "https://world.openfoodfacts.org/product/3023291172123/ferme-et-fondant-saveur-citron-sveltesse",
+        "site_url": "https://world.openfoodfacts.org/product/3023291172123/ferme-fondant-saveur-citron-sveltesse",
         "score": -2
     },
     {
@@ -5490,18 +5465,6 @@
         "stores": "Auchan",
         "site_url": "https://world.openfoodfacts.org/product/7300400481564/rustik-wasa",
         "score": -1
-    },
-    {
-        "name": "La mayonnaise comme à la maison",
-        "description": "mayonnaise",
-        "categories": [
-            "Epicerie",
-            "Sauces",
-            "Mayonnaises"
-        ],
-        "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/3660603003111/la-mayonnaise-comme-a-la-maison-benedicta",
-        "score": 12
     },
     {
         "name": "Sauce crudités nature",
@@ -7943,7 +7906,7 @@
     },
     {
         "name": "Coulommiers de caractère",
-        "description": "",
+        "description": "Fromage au lait de vache pasteurisé à pâte molle et à croûte fleurie",
         "categories": [
             "Produits laitiers",
             "Produits fermentés",
@@ -7954,7 +7917,7 @@
             "Fromages de France",
             "Fromages pasteurisés"
         ],
-        "stores": "",
+        "stores": "Lidl",
         "site_url": "https://world.openfoodfacts.org/product/20131623/coulommiers-de-caractere-chene-d-argent",
         "score": 14
     },
@@ -8678,7 +8641,7 @@
         "score": 3
     },
     {
-        "name": "Quatre-Quarts Pur Beurre",
+        "name": "Café",
         "description": "Quatre Quarts",
         "categories": [
             "Snacks sucrés",
@@ -8687,8 +8650,8 @@
             "Gâteaux"
         ],
         "stores": "Lidl",
-        "site_url": "https://world.openfoodfacts.org/product/20208059/quatre-quarts-pur-beurre-delices-de-kerloch",
-        "score": 24
+        "site_url": "https://world.openfoodfacts.org/product/20208059/cafe-delices-de-kerloch",
+        "score": 0
     },
     {
         "name": "Ketchup à la tomate",
@@ -8945,7 +8908,7 @@
         "score": 10
     },
     {
-        "name": "Moutarde a l ancienne",
+        "name": "Moutarde à l ancienne",
         "description": "Moutarde à l ancienne",
         "categories": [
             "Epicerie",
@@ -10551,19 +10514,6 @@
         "score": 2
     },
     {
-        "name": "Sirop virgin mojito avec eau",
-        "description": "",
-        "categories": [
-            "Boissons",
-            "Sirops",
-            "Sirops aromatisés",
-            "Boissons sucrées"
-        ],
-        "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/3092718607371/sirop-virgin-mojito-avec-eau-teisseire",
-        "score": 11
-    },
-    {
         "name": "Sirop de citron vert",
         "description": "",
         "categories": [
@@ -10952,5 +10902,20 @@
         "stores": "Carrefour,Carrefour Market",
         "site_url": "https://world.openfoodfacts.org/product/3560070669875/provencale-carrefour",
         "score": 4
+    },
+    {
+        "name": "Chocolat noir corsé pâtissier",
+        "description": "Chocolat noir",
+        "categories": [
+            "Snacks sucrés",
+            "Confiseries",
+            "Desserts",
+            "Chocolats",
+            "Desserts au chocolat",
+            "Chocolats noirs"
+        ],
+        "stores": "Leclerc",
+        "site_url": "https://world.openfoodfacts.org/product/3564700463772/chocolat-noir-corse-patissier-tablette-d-or",
+        "score": 20
     }
 ]

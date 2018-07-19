@@ -1,19 +1,5 @@
 [
     {
-        "name": "Thon Entier Albacore au Naturel",
-        "description": "Thon albacore entier au naturel",
-        "categories": [
-            "Conserves",
-            "Produits de la mer",
-            "Poissons",
-            "Poissons en conserve",
-            "Thons"
-        ],
-        "stores": "Leclerc",
-        "site_url": "https://world.openfoodfacts.org/product/3564700459430/thon-entier-albacore-au-naturel-peche-ocean",
-        "score": 0
-    },
-    {
         "name": "Lentilles vertes",
         "description": "Lentilles vertes",
         "categories": [
@@ -891,18 +877,17 @@
         "score": 10
     },
     {
-        "name": "Purée Mousline Saveur à l ancienne (creme et noix de muscade)",
+        "name": "Mousline Saveur à l ancienne Crème & Noix de Muscade",
         "description": "",
         "categories": [
             "Aliments et boissons à base de végétaux",
             "Aliments d origine végétale",
             "Céréales et pommes de terre",
-            "Plats préparés",
             "Produits déshydratés",
             "Produits lyophilisés à reconstituer"
         ],
         "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/3033710077779/puree-mousline-saveur-a-l-ancienne-creme-et-noix-de-muscade",
+        "site_url": "https://world.openfoodfacts.org/product/3033710077779/mousline-saveur-a-l-ancienne-creme-noix-de-muscade",
         "score": -1
     },
     {
@@ -1283,18 +1268,17 @@
         "score": 2
     },
     {
-        "name": "Fruit shoot",
+        "name": "Fruit Shoot Multivitaminé",
         "description": "Boisson rafraichissante aux fruits avec vitamines",
         "categories": [
             "Aliments et boissons à base de végétaux",
             "Boissons",
             "Boissons à base de végétaux",
             "Boissons aux fruits",
-            "Boissons non sucrées",
             "Boissons sucrées"
         ],
         "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/3092718605971/fruit-shoot-teisseire",
+        "site_url": "https://world.openfoodfacts.org/product/3092718605971/fruit-shoot-multivitamine-teisseire",
         "score": 8
     },
     {
@@ -1537,7 +1521,7 @@
         ],
         "stores": "Auchan",
         "site_url": "https://world.openfoodfacts.org/product/3111902100037/muesli-bio-croustillant-amande-vanille-charles-vignon",
-        "score": -1
+        "score": 0
     },
     {
         "name": "Muesli Bio Croustillant Superfruits : Cassis Myrtille Cranberry",
@@ -2897,14 +2881,14 @@
         "score": 12
     },
     {
-        "name": "Snack poppé",
+        "name": "Snack poppé Tomate & Herbes",
         "description": "Snack végétarien poppe à base de soja et pomme de terre saveur tomates et herbes",
         "categories": [
             "Snacks salés",
             "Apéritif"
         ],
         "stores": "Leclerc",
-        "site_url": "https://world.openfoodfacts.org/product/3245550078681/snack-poppe-too-good",
+        "site_url": "https://world.openfoodfacts.org/product/3245550078681/snack-poppe-tomate-herbes-too-good",
         "score": 10
     },
     {
@@ -3556,19 +3540,6 @@
         "score": 24
     },
     {
-        "name": "Riz à la Méditerranéenne",
-        "description": "Riz précuit à la vapeur et cuisiné avec de la tomate et des herbes provençales - Riz à la Méditerranéenne",
-        "categories": [
-            "Aliments et boissons à base de végétaux",
-            "Aliments d origine végétale",
-            "Plats préparés",
-            "Plats préparés à réchauffer au micro ondes"
-        ],
-        "stores": "Franprix",
-        "site_url": "https://world.openfoodfacts.org/product/3487400002099/riz-a-la-mediterraneenne-uncle-ben-s",
-        "score": 2
-    },
-    {
         "name": "Carré Frais 0% Ail & Fines Herbes",
         "description": "Fromage frais au lait pasteurisé écrémé",
         "categories": [
@@ -3798,7 +3769,7 @@
         "score": 14
     },
     {
-        "name": "Nestle Sveltesse chocolat",
+        "name": "Ferme & Fondant Chocolat",
         "description": "Spécialité laitière au chocolat, avec sucres et édulcorants",
         "categories": [
             "Frais",
@@ -3809,8 +3780,8 @@
             "Desserts au chocolat"
         ],
         "stores": "Simply market",
-        "site_url": "https://world.openfoodfacts.org/product/8410100068176/nestle-sveltesse-chocolat",
-        "score": 1
+        "site_url": "https://world.openfoodfacts.org/product/8410100068176/ferme-fondant-chocolat-nestle",
+        "score": 12
     },
     {
         "name": "Kinder délice cacao - 42g",
@@ -4367,6 +4338,25 @@
         "score": 5
     },
     {
+        "name": "Crunchy muesli chocolate",
+        "description": "Muesli complet avec morceaux de chocolat noir et de chocolat au lait",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Aliments d origine végétale",
+            "Petit déjeuners",
+            "Céréales et pommes de terre",
+            "Céréales et dérivés",
+            "Céréales pour petit déjeuner",
+            "Flocons",
+            "Flocons de céréales",
+            "Mélanges de flocons de céréales",
+            "Mueslis"
+        ],
+        "stores": "LIDL",
+        "site_url": "https://world.openfoodfacts.org/product/20708405/crunchy-muesli-chocolate-crownfield",
+        "score": 12
+    },
+    {
         "name": "M&M s Peanut",
         "description": "",
         "categories": [
@@ -4795,6 +4785,20 @@
         "score": 4
     },
     {
+        "name": "Mousline",
+        "description": "",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Aliments d origine végétale",
+            "Céréales et pommes de terre",
+            "Produits déshydratés",
+            "Produits lyophilisés à reconstituer"
+        ],
+        "stores": "Franprix",
+        "site_url": "https://world.openfoodfacts.org/product/7613035147232/mousline-maggi",
+        "score": -2
+    },
+    {
         "name": "Nesquik dolce gusto",
         "description": "Préparation en poudre pour boisson au lait cacaotée enrichie en vitamines et minéraux",
         "categories": [
@@ -4962,7 +4966,7 @@
         ],
         "stores": "Cora",
         "site_url": "https://world.openfoodfacts.org/product/3228851000605/doowap-harrys",
-        "score": 11
+        "score": 1
     },
     {
         "name": "Brioche tranchée à la farine complète",
@@ -5182,7 +5186,7 @@
         "score": 27
     },
     {
-        "name": "Mentos Chewing Gum Pure fresh au Thé Vert",
+        "name": "Mentos Chewing gum Pure fresh au thé vert",
         "description": "Chewing-gum avec édulcorants parfum chlorophylle",
         "categories": [
             "Snacks sucrés",
@@ -5271,7 +5275,7 @@
         "score": 1
     },
     {
-        "name": "Ferme et Fondant (0 % MG, 0 % de Sucres ajoutés) 12 Pots",
+        "name": "Ferme et Fondant (saveurs Citron, Fraise des bois, Vanille et Coco)",
         "description": "Spécialité laitière à 0 % de matière grasse, aromatisée, avec édulcorants",
         "categories": [
             "Produits laitiers",
@@ -5282,7 +5286,7 @@
             "Yaourts aromatisés"
         ],
         "stores": "Carrefour",
-        "site_url": "https://world.openfoodfacts.org/product/3023291415909/ferme-et-fondant-0-mg-0-de-sucres-ajoutes-12-pots-sveltesse",
+        "site_url": "https://world.openfoodfacts.org/product/3023291415909/ferme-et-fondant-saveurs-citron-fraise-des-bois-vanille-et-coco-sveltesse",
         "score": -2
     },
     {
@@ -5378,7 +5382,7 @@
         ],
         "stores": "Franprix,Leclerc",
         "site_url": "https://world.openfoodfacts.org/product/3502110005922/ice-tea-peche-lipton",
-        "score": 10
+        "score": 6
     },
     {
         "name": "Lipton Duo saveur Pêche-Abricot",
@@ -8392,15 +8396,15 @@
         "score": 6
     },
     {
-        "name": "8 Pains au Chocolat aux Œufs Frais",
+        "name": "1 Pains au chocolat aux oeufs frais",
         "description": "8 Pains au Chocolat aux Œufs Frais",
         "categories": [
             "Snacks sucrés",
             "Viennoiseries"
         ],
         "stores": "Leclerc",
-        "site_url": "https://world.openfoodfacts.org/product/3564700019276/8-pains-au-chocolat-aux-oeufs-frais-epi-d-or",
-        "score": 18
+        "site_url": "https://world.openfoodfacts.org/product/3564700019276/1-pains-au-chocolat-aux-oeufs-frais-epi-d-or",
+        "score": 19
     },
     {
         "name": "Tortillas chips goût chili",
@@ -8528,7 +8532,7 @@
         ],
         "stores": "Carrefour Market",
         "site_url": "https://world.openfoodfacts.org/product/3245270001044/organic-virgin-coconut-oil-la-tourangelle",
-        "score": 10
+        "score": 20
     },
     {
         "name": "Rillettes de sardine de Bretagne",
@@ -9153,7 +9157,7 @@
         "score": 18
     },
     {
-        "name": "Ferme et Fondant, Vanille Bourbon (0,9 % MG)",
+        "name": "Ferme et Fondant, Vanille Bourbon",
         "description": "Spécialité laitière à l arôme naturel de vanille bourbon, avec sucres et édulcorants",
         "categories": [
             "Frais",
@@ -9164,11 +9168,11 @@
             "Yaourts"
         ],
         "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/3023290719848/ferme-et-fondant-vanille-bourbon-0-9-mg-nestle",
+        "site_url": "https://world.openfoodfacts.org/product/3023290719848/ferme-et-fondant-vanille-bourbon-nestle",
         "score": 0
     },
     {
-        "name": "Ferme et Fondant Saveur Fraise des Bois (0 % MG, 0 % de Sucres ajoutés) 4 Pots",
+        "name": "Ferme et Fondant Saveur Fraise des Bois",
         "description": "Spécialité laitière à 0 % de matière grasse, aromatisée, avec édulcorants",
         "categories": [
             "Frais",
@@ -9180,7 +9184,7 @@
             "Yaourts aromatisés"
         ],
         "stores": "Cora",
-        "site_url": "https://world.openfoodfacts.org/product/3023290798386/ferme-et-fondant-saveur-fraise-des-bois-0-mg-0-de-sucres-ajoutes-4-pots-sveltesse",
+        "site_url": "https://world.openfoodfacts.org/product/3023290798386/ferme-et-fondant-saveur-fraise-des-bois-sveltesse",
         "score": -2
     },
     {
@@ -9705,7 +9709,7 @@
         "score": 18
     },
     {
-        "name": "Sucettes mini best of",
+        "name": "Mini chupa chups",
         "description": "Sucettes aux goûts assortis: goûts fraise, pomme, orange et cola",
         "categories": [
             "Snacks sucrés",
@@ -9713,7 +9717,7 @@
             "Bonbons"
         ],
         "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/4601798030055/sucettes-mini-best-of-chupa-chups",
+        "site_url": "https://world.openfoodfacts.org/product/4601798030055/mini-chupa-chups",
         "score": 14
     },
     {
@@ -10951,6 +10955,21 @@
         "score": -2
     },
     {
+        "name": "Mousline Saveur à l Ancienne Crème & Noix de Muscade",
+        "description": "Purée de pomme de terre en flocons, crème et noix de muscade.",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Aliments d origine végétale",
+            "Céréales et pommes de terre",
+            "Plats préparés",
+            "Produits déshydratés",
+            "Produits lyophilisés à reconstituer"
+        ],
+        "stores": "Franprix",
+        "site_url": "https://world.openfoodfacts.org/product/7613035147492/mousline-saveur-a-l-ancienne-creme-noix-de-muscade-maggi",
+        "score": -1
+    },
+    {
         "name": "Fitness Delice Céréales croustillantes avec un coeur aux fruits rouges",
         "description": "céréales prêtes à consommer",
         "categories": [
@@ -11215,5 +11234,30 @@
         "stores": "Casino,Auchan,Intermarché",
         "site_url": "https://world.openfoodfacts.org/product/3254690086005/le-bio-pour-toute-la-famille-orange-pressade",
         "score": 15
+    },
+    {
+        "name": "Mayonnaise fine qualité traiteur 100g",
+        "description": "Mayonnaise rayon frais",
+        "categories": [
+            "Epicerie",
+            "Sauces",
+            "Mayonnaises"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/3250541918013/mayonnaise-fine-qualite-traiteur-100g-maille",
+        "score": 23
+    },
+    {
+        "name": "Madelaines longues",
+        "description": "",
+        "categories": [
+            "Snacks sucrés",
+            "Desserts",
+            "Biscuits et gâteaux",
+            "Gâteaux"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/3255290250285/madelaines-longues-le-ster",
+        "score": 18
     }
 ]

@@ -240,6 +240,18 @@
         "score": 27
     },
     {
+        "name": "Oreo original",
+        "description": "Biscuits cacaotés fourrés goût vanille",
+        "categories": [
+            "Snacks sucrés",
+            "Biscuits et gâteaux",
+            "Biscuits"
+        ],
+        "stores": "SuperU",
+        "site_url": "https://world.openfoodfacts.org/product/7622300315269/oreo-original",
+        "score": 21
+    },
+    {
         "name": "Palet intense Noir aux éclats de fèves de cacao",
         "description": "Biscuits aux éclats de fèves de cacao, enrobés de chocolat noir",
         "categories": [
@@ -687,25 +699,6 @@
         "score": 2
     },
     {
-        "name": "Muesli croustillant Amandes, Noisettes, Noix de Pécan & Noix du Brésil",
-        "description": "",
-        "categories": [
-            "Aliments et boissons à base de végétaux",
-            "Aliments d origine végétale",
-            "Petit déjeuners",
-            "Céréales et pommes de terre",
-            "Céréales et dérivés",
-            "Céréales pour petit déjeuner",
-            "Flocons",
-            "Flocons de céréales",
-            "Mélanges de flocons de céréales",
-            "Mueslis"
-        ],
-        "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/3222475438967/muesli-croustillant-amandes-noisettes-noix-de-pecan-noix-du-bresil-casino",
-        "score": 7
-    },
-    {
         "name": "Kroast blé complet",
         "description": "Petits pains grillés au blé complet sans sucres ajoutés",
         "categories": [
@@ -1057,6 +1050,18 @@
         "stores": "Intermarché",
         "site_url": "https://world.openfoodfacts.org/product/3250390277460/chabrior-forme-nature",
         "score": 3
+    },
+    {
+        "name": "Sensations pures",
+        "description": "Cacao en poudre",
+        "categories": [
+            "Petit déjeuners",
+            "Snacks sucrés",
+            "Chocolats"
+        ],
+        "stores": "Intermarché",
+        "site_url": "https://world.openfoodfacts.org/product/3250390271604/sensations-pures-ivoria",
+        "score": 15
     },
     {
         "name": "Beurre Gastronomique Doux (82% MG)",
@@ -1561,7 +1566,7 @@
         "score": 4
     },
     {
-        "name": "Galettes de Riz Nappées de Chocolat au Lait",
+        "name": "Galette de riz nappée de chocolat au lait",
         "description": "Galettes de Riz Nappées de Chocolat au Lait",
         "categories": [
             "Aliments et boissons à base de végétaux",
@@ -1570,7 +1575,7 @@
             "Céréales et dérivés"
         ],
         "stores": "Magasins U",
-        "site_url": "https://world.openfoodfacts.org/product/3256222988245/galettes-de-riz-nappees-de-chocolat-au-lait-u-bio",
+        "site_url": "https://world.openfoodfacts.org/product/3256222988245/galette-de-riz-nappee-de-chocolat-au-lait-u-bio",
         "score": 20
     },
     {
@@ -4132,7 +4137,7 @@
         "score": -1
     },
     {
-        "name": "Sea Salt & Crushed Black Pepper",
+        "name": "Sea salt with crushed black pepper",
         "description": "Potatoe Chips with Sea Salt and Crushed Black Pepper Seasoning",
         "categories": [
             "Aliments et boissons à base de végétaux",
@@ -4146,7 +4151,7 @@
             "Chips de pommes de terre à l huile de tournesol"
         ],
         "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/5017764112332/sea-salt-crushed-black-pepper-kettle-chips",
+        "site_url": "https://world.openfoodfacts.org/product/5017764112332/sea-salt-with-crushed-black-pepper-kettle-chips",
         "score": 9
     },
     {
@@ -6221,7 +6226,7 @@
         ],
         "stores": "Cora",
         "site_url": "https://world.openfoodfacts.org/product/0613008734527/lite-half-ice-tea-half-lemonade-arizona",
-        "score": 4
+        "score": 2
     },
     {
         "name": "Le Quart Tranché",
@@ -6307,14 +6312,14 @@
         "score": 10
     },
     {
-        "name": "Coco pops barre céréales",
+        "name": "Coco Pops Barre de Céréales",
         "description": "Riz soufflé au chocolat et lait",
         "categories": [
             "Snacks sucrés",
             "Barres"
         ],
         "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/3159470200049/coco-pops-barre-cereales-kellogs-nar",
+        "site_url": "https://world.openfoodfacts.org/product/3159470200049/coco-pops-barre-de-cereales-kellogg-s",
         "score": 21
     },
     {
@@ -10226,5 +10231,33 @@
         "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3233783625000/puree-de-piments-suzi-wan",
         "score": 5
+    },
+    {
+        "name": "Les Galettes Bretonnes Pur Beurre",
+        "description": "galettes bretonnes",
+        "categories": [
+            "Snacks sucrés",
+            "Biscuits et gâteaux",
+            "Biscuits"
+        ],
+        "stores": "Aldi",
+        "site_url": "https://world.openfoodfacts.org/product/26035468/les-galettes-bretonnes-pur-beurre-kergrist",
+        "score": 25
+    },
+    {
+        "name": "Le bio pour toute la famille Orange",
+        "description": "Nectar orange à base de jus concentré",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Boissons",
+            "Boissons à base de végétaux",
+            "Boissons aux fruits",
+            "Jus et nectars",
+            "Jus et nectars de fruits",
+            "Nectars de fruits"
+        ],
+        "stores": "Carrefour",
+        "site_url": "https://world.openfoodfacts.org/product/7171628586085/le-bio-pour-toute-la-famille-orange-pressade",
+        "score": 11
     }
 ]

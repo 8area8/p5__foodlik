@@ -1,57 +1,5 @@
 [
     {
-        "name": "Fromage Blanc au Lait de Brebis",
-        "description": "Fromage blanc au lait de brebis issu de l agriculture biologique",
-        "categories": [
-            "Produits laitiers",
-            "Produits fermentés",
-            "Produits laitiers fermentés",
-            "Fromages"
-        ],
-        "stores": "Bio14",
-        "site_url": "https://world.openfoodfacts.org/product/3273220141014/fromage-blanc-au-lait-de-brebis-la-bergerie",
-        "score": 3
-    },
-    {
-        "name": "Dessert Bio au lait de Brebis au chocolat",
-        "description": "",
-        "categories": [
-            "Desserts"
-        ],
-        "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/3273220540725/dessert-bio-au-lait-de-brebis-au-chocolat-vrai-d-agriculture-biologique",
-        "score": 5
-    },
-    {
-        "name": "Beurre de baratte doux Bio Vrai",
-        "description": "Beurre de baratte doux Bio",
-        "categories": [
-            "Produits laitiers",
-            "Produits à tartiner",
-            "Matières grasses",
-            "Matières grasses à tartiner",
-            "Matières grasses animales",
-            "Milkfat",
-            "Beurres"
-        ],
-        "stores": "Carrefour",
-        "site_url": "https://world.openfoodfacts.org/product/3273220542200/beurre-de-baratte-doux-bio-vrai",
-        "score": 19
-    },
-    {
-        "name": "L Ordinaire",
-        "description": "Soda aux arômes naturels d anis",
-        "categories": [
-            "Boissons",
-            "Boissons gazeuses",
-            "Sodas",
-            "Boissons sucrées"
-        ],
-        "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/3271791000396/l-ordinaire",
-        "score": 17
-    },
-    {
         "name": "Flocons de grand épeautre",
         "description": "Copos de trigo de la variedad espelta ecológicos ",
         "categories": [
@@ -2353,7 +2301,7 @@
         ],
         "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3580281790403/moutarde-de-dijon-fine-forte-sans-marque",
-        "score": 11
+        "score": 12
     },
     {
         "name": "Pâte d amande tricolore",
@@ -2446,7 +2394,7 @@
         "score": 9
     },
     {
-        "name": "Fromage gratin mix",
+        "name": "Rapé aux 3 fromages",
         "description": "Mélange de fromages râpés",
         "categories": [
             "Produits laitiers",
@@ -2455,7 +2403,7 @@
             "Fromages"
         ],
         "stores": "LIDL,Lidl",
-        "site_url": "https://world.openfoodfacts.org/product/20098025/fromage-gratin-mix-etoile-d-or",
+        "site_url": "https://world.openfoodfacts.org/product/20098025/rape-aux-3-fromages-etoile-d-or",
         "score": 15
     },
     {
@@ -7557,7 +7505,8 @@
         "categories": [
             "Petit déjeuners",
             "Produits à tartiner",
-            "Produits à tartiner sucrés"
+            "Produits à tartiner sucrés",
+            "Pâtes à tartiner au chocolat"
         ],
         "stores": "Oxfam Magasins du monde,Delhaize",
         "site_url": "https://world.openfoodfacts.org/product/5400164164009/oxfam-choco-nut",
@@ -7776,7 +7725,7 @@
         "score": 22
     },
     {
-        "name": "Tofu fumé amandes - sésame",
+        "name": "Tofu Almendra-Sésamo",
         "description": "Tofu ahumado. Producto vegetal a base de soja",
         "categories": [
             "Aliments et boissons à base de végétaux",
@@ -7784,8 +7733,8 @@
             "Légumes et dérivés",
             "Substituts de viande"
         ],
-        "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/4012359113108/tofu-fume-amandes-sesame-taifun",
+        "stores": "El Corte Inglés, Hipercor",
+        "site_url": "https://world.openfoodfacts.org/product/4012359113108/tofu-almendra-sesamo-taifun",
         "score": 3
     },
     {
@@ -8299,5 +8248,31 @@
         "stores": "Lidl",
         "site_url": "https://world.openfoodfacts.org/product/20005795/lait-amandes-entieres-bellarom",
         "score": 20
+    },
+    {
+        "name": "Chocolat noir pâtissier 64%",
+        "description": "",
+        "categories": [
+            "Snacks sucrés",
+            "Chocolats",
+            "Chocolats noirs"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/8480017013453/chocolat-noir-patissier-64-dia",
+        "score": 19
+    },
+    {
+        "name": "Bifidus Nature",
+        "description": "Lait fermenté nature au bifidobacterium",
+        "categories": [
+            "Produits laitiers",
+            "Produits fermentés",
+            "Produits laitiers fermentés",
+            "Yaourts",
+            "Yaourts natures"
+        ],
+        "stores": "dia",
+        "site_url": "https://world.openfoodfacts.org/product/8480017352637/bifidus-nature-dia",
+        "score": 0
     }
 ]

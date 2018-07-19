@@ -1,43 +1,5 @@
 [
     {
-        "name": "Café Filtre Soluble",
-        "description": "",
-        "categories": [
-            "Boissons"
-        ],
-        "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/3560070361946/cafe-filtre-soluble-carrefour-discount",
-        "score": 1
-    },
-    {
-        "name": "Miette de thon",
-        "description": "",
-        "categories": [
-            "Conserves",
-            "Produits de la mer",
-            "Poissons",
-            "Poissons en conserve",
-            "Thons"
-        ],
-        "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/3596710396191/miette-de-thon-auchan",
-        "score": 4
-    },
-    {
-        "name": "Paella. Filets de Poulet & Chorizo",
-        "description": "",
-        "categories": [
-            "Conserves",
-            "Plats préparés",
-            "Plats à base de viande",
-            "Plats à base de viande bovine",
-            "Plats préparés en conserve"
-        ],
-        "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/3038353400601/paella-filets-de-poulet-chorizo-garbit",
-        "score": 0
-    },
-    {
         "name": "Préparation Pain d épices",
         "description": "Préparation Pain d épices",
         "categories": [
@@ -500,6 +462,19 @@
         "stores": "Auchan",
         "site_url": "https://world.openfoodfacts.org/product/3596710405695/12-oeufs-moyens-de-poules-elevees-en-plein-air-label-rouge-auchan",
         "score": -1
+    },
+    {
+        "name": "Fleurs de capres",
+        "description": "",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Aliments d origine végétale",
+            "Pickles",
+            "Pickles d origine végétale"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/3760077535764/fleurs-de-capres",
+        "score": 9
     },
     {
         "name": "Fromage frais au lait pasteurisé sucré aux fruits  2% deMG",
@@ -1468,7 +1443,7 @@
             "Biscuits et gâteaux",
             "Biscuits"
         ],
-        "stores": "",
+        "stores": "Manor",
         "site_url": "https://world.openfoodfacts.org/product/5425032930678/sylvain-speculoos-generous",
         "score": 16
     },
@@ -1666,6 +1641,20 @@
         "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3608580787242/dessert-fruitier-pomme-mangue-sans-sucres-ajoutes-andros",
         "score": -5
+    },
+    {
+        "name": "Yaourt au lait de brebis bio nature",
+        "description": "",
+        "categories": [
+            "Produits laitiers",
+            "Produits fermentés",
+            "Produits laitiers fermentés",
+            "Yaourts",
+            "Yaourts natures"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/3770003351153/yaourt-au-lait-de-brebis-bio-nature-tradilege",
+        "score": 2
     },
     {
         "name": "Baies De Goji Bio - 125G - Comptoirs & Compagnies",
@@ -3123,19 +3112,6 @@
         "score": 10
     },
     {
-        "name": "Mikado Chocolat Noir",
-        "description": "",
-        "categories": [
-            "Snacks sucrés",
-            "Biscuits et gâteaux",
-            "Biscuits",
-            "Biscuits au chocolat"
-        ],
-        "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/7622210353016/mikado-chocolat-noir-lu",
-        "score": 19
-    },
-    {
         "name": "Ail & Fines Herbes (40 % MG) Format Gourmand",
         "description": "Fromage à l ail et aux fines herbes",
         "categories": [
@@ -3294,7 +3270,7 @@
         ],
         "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3330720237255/pate-a-tartiner-bio-lucien-georgelin",
-        "score": 27
+        "score": 22
     },
     {
         "name": "Choc o  Tiz",
@@ -3330,6 +3306,23 @@
         "stores": "Netto",
         "site_url": "https://world.openfoodfacts.org/product/3302762103188/3-doses-nantua-christian-potier",
         "score": 9
+    },
+    {
+        "name": "Instant Noodles Chicken Flavour",
+        "description": "Fideos instantáneos sabor pollo",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Aliments d origine végétale",
+            "Céréales et pommes de terre",
+            "Céréales et dérivés",
+            "Plats préparés",
+            "Produits déshydratés",
+            "Produits lyophilisés à reconstituer",
+            "Nouilles"
+        ],
+        "stores": "Lidl",
+        "site_url": "https://world.openfoodfacts.org/product/20045388/instant-noodles-chicken-flavour-newgate-instant",
+        "score": 4
     },
     {
         "name": "Knacks de poulet fumés au bois de hêtre",
@@ -3743,7 +3736,7 @@
         ],
         "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3111900330023/crosti-riz-souffle-choco-favrichon",
-        "score": 3
+        "score": 1
     },
     {
         "name": "Purée de Fruits Pomme-Abricot",
@@ -4303,7 +4296,7 @@
         ],
         "stores": "Magasins U",
         "site_url": "https://world.openfoodfacts.org/product/3256224801559/toasts-ronds-au-froment-u",
-        "score": 3
+        "score": 2
     },
     {
         "name": "Schoko Butterkeks Vollmilch",
@@ -5532,7 +5525,7 @@
         "score": 13
     },
     {
-        "name": "La Brioche Tressée au Beurre Frais",
+        "name": "la brioche tressée",
         "description": "Brioche tressée",
         "categories": [
             "Snacks sucrés",
@@ -5540,7 +5533,7 @@
             "Brioches"
         ],
         "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/3587220002054/la-brioche-tressee-au-beurre-frais-la-fournee-doree",
+        "site_url": "https://world.openfoodfacts.org/product/3587220002054/la-brioche-tressee-la-fournee-doree",
         "score": 16
     },
     {
@@ -6009,5 +6002,67 @@
         "stores": "Aire d autoroute",
         "site_url": "https://world.openfoodfacts.org/product/3162210102664/pastilles-du-bassin-de-vichy-arome-citron-moinet",
         "score": 15
+    },
+    {
+        "name": "Frische Bio-Schlagsahne",
+        "description": "Bio-Schlagsahne wärmebehandelt, mindestens 30% Fett",
+        "categories": [
+            "Produits laitiers",
+            "Crèmes"
+        ],
+        "stores": "famila",
+        "site_url": "https://world.openfoodfacts.org/product/9309201871626/frische-bio-schlagsahne-bio-greno",
+        "score": 13
+    },
+    {
+        "name": "Croustibat Cabillaud",
+        "description": "",
+        "categories": [
+            "Surgelés",
+            "Plats préparés"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/3599740008140/croustibat-cabillaud-findus",
+        "score": -1
+    },
+    {
+        "name": "Assortiment Cocktail",
+        "description": "",
+        "categories": [
+            "Snacks salés",
+            "Apéritif"
+        ],
+        "stores": "Auchan",
+        "site_url": "https://world.openfoodfacts.org/product/3185610035400/assortiment-cocktail-boehli",
+        "score": 13
+    },
+    {
+        "name": "Le carré crémeux",
+        "description": "",
+        "categories": [
+            "Produits laitiers",
+            "Produits fermentés",
+            "Produits laitiers fermentés",
+            "Fromages"
+        ],
+        "stores": "Carrefour",
+        "site_url": "https://world.openfoodfacts.org/product/3560070789078/le-carre-cremeux-carrefour",
+        "score": 13
+    },
+    {
+        "name": "Beurre extra fin",
+        "description": "",
+        "categories": [
+            "Produits laitiers",
+            "Produits à tartiner",
+            "Matières grasses",
+            "Matières grasses à tartiner",
+            "Matières grasses animales",
+            "Milkfat",
+            "Beurres"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/20252212/beurre-extra-fin-milbona",
+        "score": 27
     }
 ]

@@ -9,9 +9,18 @@ from termcolor import colored
 from core.back.database.data_wrapper import datas_wrapper as datas
 
 
-def section_repr(self):
+def shell_repr(self):
     """Return a Command Line Interface representation."""
     return self.header + ("\n" * 2) + self.content + "\n" + self.footer
+
+
+def shell_display(self, part, colored=False, *args):
+    """Decorator, display the datas for a CLI interface."""
+    space = "    "
+    star = "   * "
+    if part == "header":
+        pass
+    return space, star
 
 
 class BaseSection():
@@ -79,12 +88,16 @@ class BaseSection():
         self.action_error["text"] = error
         self.action_error["active"] = True
 
+    def diplay_datas(self, *args, **kwargs):
+        """Use a decorator to display the datas."""
+        raise NotImplementedError
+
     def close_connection(self):
         """Close the database connection."""
         return datas.close()
 
 
-BaseSection.__str__ = section_repr  # monkey patching.
+BaseSection.__str__ = shell_repr  # monkey patching.
 #                   __
 #                  / _,\
 #                  \_\

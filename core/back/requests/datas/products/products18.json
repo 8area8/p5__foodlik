@@ -1,80 +1,5 @@
 [
     {
-        "name": "Poêlée Provençale",
-        "description": "Poêlée de légumes surgelée",
-        "categories": [
-            "Plats préparés",
-            "Plats préparés d origine végétale"
-        ],
-        "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/3248451089497/poelee-provencale-d-aucy",
-        "score": -2
-    },
-    {
-        "name": "Jacquet Toast Francais",
-        "description": "Wheat Rusks",
-        "categories": [
-            "Aliments et boissons à base de végétaux",
-            "Aliments d origine végétale",
-            "Céréales et pommes de terre",
-            "Pains"
-        ],
-        "stores": "Ocado",
-        "site_url": "https://world.openfoodfacts.org/product/3248850009607/jacquet-toast-francais",
-        "score": 12
-    },
-    {
-        "name": "Merlu crème tomate basilic boulgour cuisiné",
-        "description": "",
-        "categories": [
-            "Plats préparés",
-            "Plats à base de poisson",
-            "Plats préparés à réchauffer au micro ondes"
-        ],
-        "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/3248830773368/merlu-creme-tomate-basilic-boulgour-cuisine-marie",
-        "score": 0
-    },
-    {
-        "name": "Tarte au chèvre",
-        "description": "tarte au chèvre",
-        "categories": [
-            "Surgelés",
-            "Pizzas et tartes surgelées"
-        ],
-        "stores": "Carrefour TNL,Irma.dk",
-        "site_url": "https://world.openfoodfacts.org/product/3248830085010/goat-cheese-tart-marie",
-        "score": 11
-    },
-    {
-        "name": "Colin d  Alaska bisque de crevettes",
-        "description": "Colin d Alaska bisque de crevettes crème fraîche et persil",
-        "categories": [
-            "Surgelés",
-            "Plats préparés",
-            "Plats préparés à réchauffer au micro ondes",
-            "Plats préparés surgelés"
-        ],
-        "stores": "Intermarché",
-        "site_url": "https://world.openfoodfacts.org/product/3248839630006/colin-d-alaska-bisque-de-crevettes-marie",
-        "score": -1
-    },
-    {
-        "name": "Crousti moelleuse extrême l américaine sauce burger",
-        "description": "Pizza à la mozzarella, sauce burger, boeuf, cheddar et cornichons",
-        "categories": [
-            "Surgelés",
-            "Plats préparés",
-            "Pizzas tartes salées et quiches",
-            "Pizzas",
-            "Pizzas surgelées",
-            "Pizzas et tartes surgelées"
-        ],
-        "stores": "Carrefour",
-        "site_url": "https://world.openfoodfacts.org/product/3248830724254/crousti-moelleuse-extreme-l-americaine-sauce-burger-marie",
-        "score": 2
-    },
-    {
         "name": "Risotto de Poulet",
         "description": "",
         "categories": [
@@ -776,7 +701,7 @@
         "score": 22
     },
     {
-        "name": "Coco sauveur chocolat",
+        "name": "Coco Saveur Chocolat",
         "description": "Boisson à base de noix de coco, saveur chocolat, avec calcium et vitamines ajoutés",
         "categories": [
             "Aliments et boissons à base de végétaux",
@@ -784,11 +709,10 @@
             "Boissons à base de végétaux",
             "Substitut du lait",
             "Laits végétaux",
-            "Boissons non sucrées",
             "Boissons sucrées"
         ],
         "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/5411188119074/coco-sauveur-chocolat-alpro",
+        "site_url": "https://world.openfoodfacts.org/product/5411188119074/coco-saveur-chocolat-alpro",
         "score": 1
     },
     {
@@ -3225,18 +3149,6 @@
         "score": 4
     },
     {
-        "name": "Ricola Eucalyptus",
-        "description": "bonbons Suisses aux plantes sans sucres, avec édulcorants",
-        "categories": [
-            "Snacks sucrés",
-            "Confiseries",
-            "Bonbons"
-        ],
-        "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/7610700607022/ricola-eucalyptus",
-        "score": 2
-    },
-    {
         "name": "Yogourt Hirtz éclats mocca",
         "description": "Yogourt doux avec une préparation d éclats d extrait de café décaféiné",
         "categories": [
@@ -3982,7 +3894,7 @@
         "score": 10
     },
     {
-        "name": "La Laitière Vanille,  Points de gousse",
+        "name": "Crème Glacée Vanille, Points de gousse",
         "description": "Crème Glacée à la vanille",
         "categories": [
             "Desserts",
@@ -3992,8 +3904,22 @@
             "Glaces"
         ],
         "stores": "Super U",
-        "site_url": "https://world.openfoodfacts.org/product/7613034519887/la-laitiere-vanille-points-de-gousse-nestle",
+        "site_url": "https://world.openfoodfacts.org/product/7613034519887/creme-glacee-vanille-points-de-gousse-la-laitiere",
         "score": 5
+    },
+    {
+        "name": "Tendresse de Lait (3 sachets de 4 assiettes)",
+        "description": "Purée de pomme de terre en flocons au lait",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Aliments d origine végétale",
+            "Céréales et pommes de terre",
+            "Produits déshydratés",
+            "Produits lyophilisés à reconstituer"
+        ],
+        "stores": "Banque alimentaire",
+        "site_url": "https://world.openfoodfacts.org/product/7613034348012/tendresse-de-lait-3-sachets-de-4-assiettes-maggi",
+        "score": 1
     },
     {
         "name": "Pizza Sensazione Thon",
@@ -8572,5 +8498,63 @@
         "stores": "Netto",
         "site_url": "https://world.openfoodfacts.org/product/3250390736356/biscuits-pour-le-petit-dejeuner-pepites-de-chocolat-cacao-netto",
         "score": 9
+    },
+    {
+        "name": "Purée de pomme, pêche, mangue Bio",
+        "description": "Purée de pomme, pêche, mangue Bio",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Aliments d origine végétale",
+            "Aliments à base de fruits et de légumes",
+            "Desserts",
+            "Fruits et produits dérivés",
+            "Compotes",
+            "Compotes de pomme"
+        ],
+        "stores": "Intermarché",
+        "site_url": "https://world.openfoodfacts.org/product/3250391776047/puree-de-pomme-peche-mangue-bio-paquito",
+        "score": -5
+    },
+    {
+        "name": "Mon Gourmand Supérieur avec couenne",
+        "description": "Jambon cuit de qualité supérieure avec couenne",
+        "categories": [
+            "Viandes",
+            "Charcuteries",
+            "Jambons",
+            "Jambons blancs"
+        ],
+        "stores": "Intermarché",
+        "site_url": "https://world.openfoodfacts.org/product/3250391343041/mon-gourmand-superieur-avec-couenne-monique-ranou",
+        "score": 11
+    },
+    {
+        "name": "Reblochon de Savoie au lait cru",
+        "description": "Reblochon de Savoie",
+        "categories": [
+            "Produits laitiers",
+            "Produits fermentés",
+            "Produits laitiers fermentés",
+            "Fromages",
+            "Fromages de vache",
+            "Produits labellisés",
+            "Fromages de France"
+        ],
+        "stores": "Intermarché",
+        "site_url": "https://world.openfoodfacts.org/product/3250390188193/reblochon-de-savoie-au-lait-cru-itineraire-des-saveurs",
+        "score": 16
+    },
+    {
+        "name": "Cervelas en sauce Cornichons & oignons",
+        "description": "Salade de cervelas assaisonnée",
+        "categories": [
+            "Frais",
+            "Plats préparés",
+            "Salades composées",
+            "Plats préparés frais"
+        ],
+        "stores": "Intermarché",
+        "site_url": "https://world.openfoodfacts.org/product/3250390473572/cervelas-en-sauce-cornichons-oignons-monique-ranou",
+        "score": 18
     }
 ]

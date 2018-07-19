@@ -1,7 +1,7 @@
 [
     {
         "name": "Nutella",
-        "description": "Pâtes à tartiner aux noisettes et au cacao",
+        "description": "Pâtes à tartiner aux noisettes et au cacao - Crema de avellanas",
         "categories": [
             "Petit déjeuners",
             "Produits à tartiner",
@@ -25,20 +25,6 @@
         "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/5449000000996/coca-cola",
         "score": 14
-    },
-    {
-        "name": "Coca Cola Zero",
-        "description": "Boisson rafraîchissante aux extraits végétaux, avec édulcorants",
-        "categories": [
-            "Boissons",
-            "Boissons édulcorées",
-            "Boissons gazeuses",
-            "Sodas",
-            "Sodas au cola"
-        ],
-        "stores": "OKCon 2013,M!P restaurants at CICG",
-        "site_url": "https://world.openfoodfacts.org/product/5449000131805/coca-cola-zero",
-        "score": 0
     },
     {
         "name": "Granola Chocolat au Lait",
@@ -1219,7 +1205,7 @@
         "score": 2
     },
     {
-        "name": "Pompote",
+        "name": "Pom Potes Pomme",
         "description": "Compote pomme nature allégée en sucres (30 % de sucres en moins)",
         "categories": [
             "Aliments et boissons à base de végétaux",
@@ -1231,7 +1217,7 @@
             "Compotes de pomme"
         ],
         "stores": "Banque alimentaire",
-        "site_url": "https://world.openfoodfacts.org/product/3021760400012/pompote-materne",
+        "site_url": "https://world.openfoodfacts.org/product/3021760400012/pom-potes-pomme-materne",
         "score": -3
     },
     {
@@ -1852,7 +1838,7 @@
         ],
         "stores": "Cora,Carrefour Market,Dia",
         "site_url": "https://world.openfoodfacts.org/product/3387390321357/fitness-nature-nestle",
-        "score": -4
+        "score": 0
     },
     {
         "name": "Country Crisp 4 Noix",
@@ -2458,7 +2444,7 @@
         "score": 1
     },
     {
-        "name": "FROSTIES",
+        "name": "Frosties",
         "description": "Pétales de maïs glacés au sucre",
         "categories": [
             "Aliments et boissons à base de végétaux",
@@ -2848,7 +2834,7 @@
         "score": 27
     },
     {
-        "name": "Yaourt Nature",
+        "name": "Yaourt nature",
         "description": "Yaourt nature",
         "categories": [
             "Frais",
@@ -2860,7 +2846,7 @@
         ],
         "stores": "Auchan",
         "site_url": "https://world.openfoodfacts.org/product/3596710047826/yaourt-nature-auchan",
-        "score": -1
+        "score": -2
     },
     {
         "name": "Comté AOP au lait cru 34%MG",
@@ -4879,7 +4865,7 @@
         "score": 6
     },
     {
-        "name": "Maille Moutarde Fin Gourmets",
+        "name": "Moutarde Fin Gourmets",
         "description": "Spécialité aux deux moutardes et au vin blanc",
         "categories": [
             "Epicerie",
@@ -4888,7 +4874,7 @@
             "Moutardes"
         ],
         "stores": "Super U",
-        "site_url": "https://world.openfoodfacts.org/product/3036810207923/maille-moutarde-fin-gourmets",
+        "site_url": "https://world.openfoodfacts.org/product/3036810207923/moutarde-fin-gourmets-maille",
         "score": 16
     },
     {
@@ -6439,7 +6425,7 @@
         ],
         "stores": "Lidl",
         "site_url": "https://world.openfoodfacts.org/product/20201456/solevita-100-pur-jus",
-        "score": 4
+        "score": 2
     },
     {
         "name": "Flocons d avoine Complets",
@@ -7233,6 +7219,20 @@
         "stores": "Carrefour,Franprix",
         "site_url": "https://world.openfoodfacts.org/product/3165440008461/graine-de-couscous-parfume-aux-epices-du-monde-tipiak",
         "score": 11
+    },
+    {
+        "name": "Coca Cola Zero",
+        "description": "",
+        "categories": [
+            "Boissons",
+            "Boissons édulcorées",
+            "Boissons gazeuses",
+            "Sodas",
+            "Sodas au cola"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/5449000214799/coca-cola-zero",
+        "score": 0
     },
     {
         "name": "Spécial K Nourish Chocolat et Noix de Coco",
@@ -8248,7 +8248,7 @@
         ],
         "stores": "Cora",
         "site_url": "https://world.openfoodfacts.org/product/5053827132749/special-k-nourish-noisettes-amandes-graines-de-courge-auchan",
-        "score": -1
+        "score": 0
     },
     {
         "name": "Thon entier Albacore, au naturel",
@@ -8687,7 +8687,7 @@
         "score": 0
     },
     {
-        "name": "Le Cookie chocolat noisettes",
+        "name": "Le cookie chocolat noisettes",
         "description": "Cookies au chocolat et à la noisette - Le Cookie Chocolat Noisette Bio",
         "categories": [
             "Snacks sucrés",
@@ -9152,7 +9152,7 @@
         "score": 5
     },
     {
-        "name": "Biscuits barres chocolat orange",
+        "name": "Barres chocolat orange",
         "description": "Barres chocolatées à l orange riches en protéines",
         "categories": [
             "Snacks sucrés",
@@ -9161,7 +9161,7 @@
             "Barres"
         ],
         "stores": "Carrefour",
-        "site_url": "https://world.openfoodfacts.org/product/3175681807136/biscuits-barres-chocolat-orange-gerlinea",
+        "site_url": "https://world.openfoodfacts.org/product/3175681807136/barres-chocolat-orange-gerlinea",
         "score": 18
     },
     {
@@ -9365,7 +9365,7 @@
         ],
         "stores": "Cora",
         "site_url": "https://world.openfoodfacts.org/product/3168930000877/chips-nature-lay-s",
-        "score": 9
+        "score": 12
     },
     {
         "name": "Huile d olive vierge extra",
@@ -10063,6 +10063,25 @@
         "score": 0
     },
     {
+        "name": "Muesli Croustillant 4 Céréales et Fruits Secs",
+        "description": "Muesli Croustillant 4 Céréales et Fruits Secs",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Aliments d origine végétale",
+            "Petit déjeuners",
+            "Céréales et pommes de terre",
+            "Céréales et dérivés",
+            "Céréales pour petit déjeuner",
+            "Flocons",
+            "Flocons de céréales",
+            "Mélanges de flocons de céréales",
+            "Mueslis"
+        ],
+        "stores": "Leclerc",
+        "site_url": "https://world.openfoodfacts.org/product/3564707082907/muesli-croustillant-4-cereales-et-fruits-secs-bio-village",
+        "score": 13
+    },
+    {
         "name": "Belvita petit déjeuner crookie",
         "description": "Biscuits aux céréales et aux pépites de chocolat enrichis en vitamines.",
         "categories": [
@@ -10114,13 +10133,14 @@
         "score": 11
     },
     {
-        "name": "Savaroises au chocolat",
-        "description": "Gâteau au chocolat",
+        "name": "Savaroises au Chocolat",
+        "description": "Gâteau au chocolat 51,1%.",
         "categories": [
             "Snacks sucrés",
             "Desserts",
             "Biscuits et gâteaux",
-            "Gâteaux"
+            "Gâteaux",
+            "Gâteaux au chocolat"
         ],
         "stores": "Casino",
         "site_url": "https://world.openfoodfacts.org/product/3023470200050/savaroises-au-chocolat-st-michel",
@@ -11269,7 +11289,7 @@
         "score": 0
     },
     {
-        "name": "L original - Lait",
+        "name": "L original - Laitylmtyhtyjtkntlnykhnhjnhbhtbgrbbcnnttughttt",
         "description": "Chocolat au lait extra-fin",
         "categories": [
             "Snacks sucrés",
@@ -11277,7 +11297,7 @@
             "Chocolats au lait"
         ],
         "stores": "Leclerc,Super U",
-        "site_url": "https://world.openfoodfacts.org/product/5410081200551/l-original-lait-cote-d-or",
+        "site_url": "https://world.openfoodfacts.org/product/5410081200551/l-original-laitylmtyhtyjtkntlnykhnhjnhbhtbgrbbcnnttughttt-cote-d-or",
         "score": 24
     },
     {
@@ -11334,7 +11354,7 @@
         "score": 11
     },
     {
-        "name": "Petits Suisses (10,4 % MG) - (12 pots de 60 g)",
+        "name": "Petits Suisses (9.2 % MG) - (12 pots de 60 g)",
         "description": "Petits suisses nature",
         "categories": [
             "Frais",
@@ -11346,8 +11366,8 @@
             "Desserts lactés"
         ],
         "stores": "Auchan",
-        "site_url": "https://world.openfoodfacts.org/product/3254560269446/petits-suisses-10-4-mg-12-pots-de-60-g-auchan",
-        "score": 2
+        "site_url": "https://world.openfoodfacts.org/product/3254560269446/petits-suisses-9-2-mg-12-pots-de-60-g-auchan",
+        "score": 1
     },
     {
         "name": "Moutarde de Dijon",
@@ -11413,6 +11433,20 @@
         "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/8000500142127/kinder-delice-cacao",
         "score": 22
+    },
+    {
+        "name": "Yaourt Nature",
+        "description": "Yaourt Nature",
+        "categories": [
+            "Produits laitiers",
+            "Produits fermentés",
+            "Produits laitiers fermentés",
+            "Yaourts",
+            "Yaourts natures"
+        ],
+        "stores": "Carrefour,Carrefour City",
+        "site_url": "https://world.openfoodfacts.org/product/3278692111145/yaourt-nature-malo",
+        "score": -1
     },
     {
         "name": "Poulet façon fajitas et riz aux épices",

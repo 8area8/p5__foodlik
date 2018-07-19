@@ -1,33 +1,5 @@
 [
     {
-        "name": "Les Galettes Bretonnes Pur Beurre",
-        "description": "galettes bretonnes",
-        "categories": [
-            "Snacks sucrés",
-            "Biscuits et gâteaux",
-            "Biscuits"
-        ],
-        "stores": "Aldi",
-        "site_url": "https://world.openfoodfacts.org/product/26035468/les-galettes-bretonnes-pur-beurre-kergrist",
-        "score": 25
-    },
-    {
-        "name": "Le bio pour toute la famille Orange",
-        "description": "Nectar orange à base de jus concentré",
-        "categories": [
-            "Aliments et boissons à base de végétaux",
-            "Boissons",
-            "Boissons à base de végétaux",
-            "Boissons aux fruits",
-            "Jus et nectars",
-            "Jus et nectars de fruits",
-            "Nectars de fruits"
-        ],
-        "stores": "Carrefour",
-        "site_url": "https://world.openfoodfacts.org/product/7171628586085/le-bio-pour-toute-la-famille-orange-pressade",
-        "score": 11
-    },
-    {
         "name": "Omega 3 Beurre",
         "description": "Matière grasse allégée à tartiner, 54% de matières grasses.",
         "categories": [
@@ -1644,19 +1616,6 @@
         "score": 14
     },
     {
-        "name": "Graine de couscous fin",
-        "description": "",
-        "categories": [
-            "Aliments et boissons à base de végétaux",
-            "Aliments d origine végétale",
-            "Céréales et pommes de terre",
-            "Céréales et dérivés"
-        ],
-        "stores": "Franprix",
-        "site_url": "https://world.openfoodfacts.org/product/3223920710133/graine-de-couscous-fin-ferrero",
-        "score": -4
-    },
-    {
         "name": "Lardons de Dinde Fumés Halal",
         "description": "Lardons de dinde fumés",
         "categories": [
@@ -1713,7 +1672,7 @@
         "score": 3
     },
     {
-        "name": "Yaourt de brebis à la grecque Bio (2 pots) 300 g",
+        "name": "Yaourt de brebis à la grecque Bio",
         "description": "Yaourt de brebis à la grecque issu de l agriculture biologique",
         "categories": [
             "Frais",
@@ -1724,7 +1683,7 @@
             "Yaourts"
         ],
         "stores": "Casino",
-        "site_url": "https://world.openfoodfacts.org/product/3222475309830/yaourt-de-brebis-a-la-grecque-bio-2-pots-300-g-casino-bio",
+        "site_url": "https://world.openfoodfacts.org/product/3222475309830/yaourt-de-brebis-a-la-grecque-bio-casino-bio",
         "score": 5
     },
     {
@@ -3029,17 +2988,6 @@
         "score": 11
     },
     {
-        "name": "Carottes Râpées Jus de citron",
-        "description": "Carottes râpées assaisonnées",
-        "categories": [
-            "Plats préparés",
-            "Plats préparés d origine végétale"
-        ],
-        "stores": "Super U,Magasins U",
-        "site_url": "https://world.openfoodfacts.org/product/3256224660064/carottes-rapees-jus-de-citron-u",
-        "score": 0
-    },
-    {
         "name": "Taboulé à l orientale menthe",
         "description": "",
         "categories": [
@@ -3411,22 +3359,6 @@
         "stores": "Carrefour",
         "site_url": "https://world.openfoodfacts.org/product/3608580736196/4-fruits-rouges-andros",
         "score": 7
-    },
-    {
-        "name": "Sans sucres ajoutés pomme fraise",
-        "description": "Spécialité de pommes et de fraises sans sucres ajoutés",
-        "categories": [
-            "Aliments et boissons à base de végétaux",
-            "Aliments d origine végétale",
-            "Aliments à base de fruits et de légumes",
-            "Desserts",
-            "Fruits et produits dérivés",
-            "Compotes",
-            "Compotes de pomme"
-        ],
-        "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/3608580787228/sans-sucres-ajoutes-pomme-fraise-andros",
-        "score": -5
     },
     {
         "name": "Perles Japon pour potages et desserts",
@@ -4093,22 +4025,6 @@
         "stores": "",
         "site_url": "https://world.openfoodfacts.org/product/3023290205082/feuillete-de-mousse-chocolat-4-pots-la-laitiere",
         "score": 13
-    },
-    {
-        "name": "Ferme & Fondant Nature (0 % MG) 8 Pots",
-        "description": "Spécialité laitière à 0 % de matière grasse nature",
-        "categories": [
-            "Frais",
-            "Produits laitiers",
-            "Produits fermentés",
-            "Desserts",
-            "Produits laitiers fermentés",
-            "Yaourts",
-            "Yaourts natures"
-        ],
-        "stores": "Super U",
-        "site_url": "https://world.openfoodfacts.org/product/3023291127000/ferme-fondant-nature-0-mg-8-pots-nestle",
-        "score": -2
     },
     {
         "name": "le viennois mousse",
@@ -5997,9 +5913,7 @@
             "Produits laitiers",
             "Produits fermentés",
             "Produits laitiers fermentés",
-            "Fromages",
-            "Yaourts",
-            "Yaourts aux fruits"
+            "Fromages"
         ],
         "stores": "Auchan",
         "site_url": "https://world.openfoodfacts.org/product/3329770051249/finesse-au-fromage-blanc-sur-lit-de-fruits-framboise-mure-weight-watchers",
@@ -6764,13 +6678,18 @@
         "score": 5
     },
     {
-        "name": "Choco Flakes de Cuétara",
+        "name": "Choco Flakes",
         "description": "Arroz inflado chocolateado  y chips de chocolate recubiertos de galleta",
         "categories": [
-            "Flocons"
+            "Aliments et boissons à base de végétaux",
+            "Aliments d origine végétale",
+            "Petit déjeuners",
+            "Céréales et pommes de terre",
+            "Céréales et dérivés",
+            "Céréales pour petit déjeuner"
         ],
         "stores": "Mercadona,Hipercor,El Corte Inglés",
-        "site_url": "https://world.openfoodfacts.org/product/8410014396556/choco-flakes-de-cuetara",
+        "site_url": "https://world.openfoodfacts.org/product/8410014396556/choco-flakes-cuetara",
         "score": 15
     },
     {
@@ -6835,14 +6754,14 @@
         "score": 0
     },
     {
-        "name": "Tictac",
+        "name": "Tic Tac",
         "description": "",
         "categories": [
             "Snacks sucrés",
             "Confiseries"
         ],
         "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/8000500166697/tictac-tic-tac",
+        "site_url": "https://world.openfoodfacts.org/product/8000500166697/tic-tac",
         "score": 14
     },
     {
@@ -7137,7 +7056,7 @@
             "Beurres"
         ],
         "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/3273220142219/beurre-de-baratte-demi-sel-echire",
+        "site_url": "https://world.openfoodfacts.org/product/3273220142219/beurre-de-baratte-demi-sel-tante-helene",
         "score": 27
     },
     {
@@ -9540,5 +9459,55 @@
         "stores": "Banque alimentaire",
         "site_url": "https://world.openfoodfacts.org/product/3175681140806/palets-de-cereales-au-riz-coco-saveur-citron-bio-cereal-bio",
         "score": 13
+    },
+    {
+        "name": "Palets de Céréales à l Avoine Amande & Abricot",
+        "description": "",
+        "categories": [
+            "Snacks sucrés",
+            "Biscuits et gâteaux",
+            "Biscuits"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/3175681140776/palets-de-cereales-a-l-avoine-amande-abricot-cereal-bio",
+        "score": 7
+    },
+    {
+        "name": "Galettes de polenta ail et fines herbes",
+        "description": "",
+        "categories": [
+            "Plats préparés"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/3175681183827/galettes-de-polenta-ail-et-fines-herbes-cereal-bio",
+        "score": 2
+    },
+    {
+        "name": "Galette de Riz Complet Chocolat Lait",
+        "description": "Galette de riz complet au chocolat au lait",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Aliments d origine végétale",
+            "Céréales et pommes de terre",
+            "Céréales et dérivés"
+        ],
+        "stores": "Auchan",
+        "site_url": "https://world.openfoodfacts.org/product/3175681179349/galette-de-riz-complet-chocolat-lait-gerble",
+        "score": 19
+    },
+    {
+        "name": "Haché végétal (Soja oignons et persil)",
+        "description": "Soja, oignons et persil",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Aliments d origine végétale",
+            "Céréales et pommes de terre",
+            "Céréales et dérivés",
+            "Plats préparés",
+            "Plats préparés à réchauffer au micro ondes"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/3175681190108/hache-vegetal-soja-oignons-et-persil-cereal-bio",
+        "score": -3
     }
 ]

@@ -1,36 +1,5 @@
 [
     {
-        "name": "Pain aux céréales Bio",
-        "description": "Pain aux céréales tranché issu de l agriculture biologique",
-        "categories": [
-            "Aliments et boissons à base de végétaux",
-            "Aliments d origine végétale",
-            "Céréales et pommes de terre",
-            "Pains"
-        ],
-        "stores": "Monoprix",
-        "site_url": "https://world.openfoodfacts.org/product/3350030205911/pain-aux-cereales-bio-monoprix-bio",
-        "score": 0
-    },
-    {
-        "name": "Comté AOP au lait cru (34 % MG)",
-        "description": "Fromage de France AOP, à pâte pressée cuite, au lait cru de vache",
-        "categories": [
-            "Frais",
-            "Produits laitiers",
-            "Produits fermentés",
-            "Produits laitiers fermentés",
-            "Fromages",
-            "Fromages à pâte pressée cuite",
-            "Fromages de vache",
-            "Produits labellisés",
-            "Fromages de France"
-        ],
-        "stores": "Monoprix",
-        "site_url": "https://world.openfoodfacts.org/product/3350030187002/comte-aop-au-lait-cru-34-mg-monoprix-gourmet",
-        "score": 13
-    },
-    {
         "name": "6 Barres céréales Pomme Verte Monoprix",
         "description": "Barres céréales Pomme Verte",
         "categories": [
@@ -221,6 +190,19 @@
         "stores": "Intermarché",
         "site_url": "https://world.openfoodfacts.org/product/3250391435487/arachide-coque-paquito",
         "score": 10
+    },
+    {
+        "name": "Quatre-Quarts Pur Beurre",
+        "description": "Quatre-quarts pur beurre",
+        "categories": [
+            "Snacks sucrés",
+            "Desserts",
+            "Biscuits et gâteaux",
+            "Gâteaux"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/3259425555085/quatre-quarts-pur-beurre-ker-cadelac",
+        "score": 17
     },
     {
         "name": "Chocolat noir 95 %",
@@ -951,6 +933,18 @@
         "score": 1
     },
     {
+        "name": "La mayonnaise comme à la maison",
+        "description": "",
+        "categories": [
+            "Epicerie",
+            "Sauces",
+            "Mayonnaises"
+        ],
+        "stores": "",
+        "site_url": "https://world.openfoodfacts.org/product/3660603003654/la-mayonnaise-comme-a-la-maison-benedicta",
+        "score": 19
+    },
+    {
         "name": "Bénédicta - Poivre - Sauce au Poivre de Madagascar",
         "description": "",
         "categories": [
@@ -1574,6 +1568,19 @@
         "score": -1
     },
     {
+        "name": "Jambon superieur",
+        "description": "Jambon supérieur cuit à l étouffé découenné et dégraissé",
+        "categories": [
+            "Viandes",
+            "Charcuteries",
+            "Jambons",
+            "Jambons blancs"
+        ],
+        "stores": "Lidl",
+        "site_url": "https://world.openfoodfacts.org/product/20679873/jambon-superieur-saint-alby",
+        "score": 14
+    },
+    {
         "name": "Foie de morue fumé",
         "description": "",
         "categories": [
@@ -1816,7 +1823,7 @@
         "score": 19
     },
     {
-        "name": "Ferme et fondant caramel",
+        "name": "Ferme & Fondant Caramel",
         "description": "",
         "categories": [
             "Produits laitiers",
@@ -1824,7 +1831,7 @@
             "Desserts lactés"
         ],
         "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/8410100186627/ferme-et-fondant-caramel-nestle",
+        "site_url": "https://world.openfoodfacts.org/product/8410100186627/ferme-fondant-caramel-nestle",
         "score": -1
     },
     {
@@ -1968,16 +1975,6 @@
         "stores": "Supermercados Gigante",
         "site_url": "https://world.openfoodfacts.org/product/3273227582995/postre-de-soja-limon-sojasun",
         "score": 0
-    },
-    {
-        "name": "Café",
-        "description": "Dessert au soja au café, enrichi en calcium",
-        "categories": [
-            "Desserts"
-        ],
-        "stores": "Super U",
-        "site_url": "https://world.openfoodfacts.org/product/3273220085196/cafe-sojasun",
-        "score": 1
     },
     {
         "name": "Dessert végétal, Pruneaux (4 Pots) ",
@@ -2389,7 +2386,7 @@
         "score": 2
     },
     {
-        "name": "Beignets de Poulet (10)",
+        "name": "Beignets Poulet",
         "description": "Viande de volaille traitée en salaison, panée et cuite",
         "categories": [
             "Viandes",
@@ -2401,7 +2398,7 @@
             "Plats à base de volaille"
         ],
         "stores": "Carrefour",
-        "site_url": "https://world.openfoodfacts.org/product/3266980034641/beignets-de-poulet-10-le-gaulois",
+        "site_url": "https://world.openfoodfacts.org/product/3266980034641/beignets-poulet-le-gaulois",
         "score": 4
     },
     {
@@ -2612,16 +2609,6 @@
         "stores": "Carrefour, Franprix",
         "site_url": "https://world.openfoodfacts.org/product/3038350333605/les-3-minutes-torti-panzani",
         "score": -4
-    },
-    {
-        "name": "Mousline",
-        "description": "",
-        "categories": [
-            "Plats préparés"
-        ],
-        "stores": "",
-        "site_url": "https://world.openfoodfacts.org/product/3033710085446/mousline-maggi",
-        "score": -2
     },
     {
         "name": "Edel Bitter 85% Kakao",
@@ -3395,7 +3382,7 @@
         ],
         "stores": "LIDL",
         "site_url": "https://world.openfoodfacts.org/product/20846909/bio-tomato-ketchup-kania",
-        "score": 16
+        "score": 15
     },
     {
         "name": "Chocapic Crunchy Muesli",
@@ -3994,6 +3981,20 @@
         "score": 22
     },
     {
+        "name": "Purée de Pommes de Terre",
+        "description": "Purée de pommes de terre en flocons",
+        "categories": [
+            "Aliments et boissons à base de végétaux",
+            "Aliments d origine végétale",
+            "Céréales et pommes de terre",
+            "Produits déshydratés",
+            "Produits lyophilisés à reconstituer"
+        ],
+        "stores": "Carrefour",
+        "site_url": "https://world.openfoodfacts.org/product/3560070340163/puree-de-pommes-de-terre-carrefour-discount",
+        "score": -1
+    },
+    {
         "name": "Pain de mie spécial sandwich complet",
         "description": "Pain de mie complet (format familial)",
         "categories": [
@@ -4179,19 +4180,6 @@
         "stores": "Leclerc",
         "site_url": "https://world.openfoodfacts.org/product/3564700038055/jambon-serrano-saint-azay",
         "score": 15
-    },
-    {
-        "name": "Moutarde à l ancienne",
-        "description": "Moutarde à l ancienne",
-        "categories": [
-            "Epicerie",
-            "Condiments",
-            "Sauces",
-            "Moutardes"
-        ],
-        "stores": "Leclerc",
-        "site_url": "https://world.openfoodfacts.org/product/3564700022580/moutarde-a-l-ancienne-rustica",
-        "score": 6
     },
     {
         "name": "6 barres fraise aux 5 céréales",
@@ -5960,15 +5948,16 @@
         "score": 16
     },
     {
-        "name": "Dardenne - Pate à tartiner - NOISETTE CHOCOLAT 100% vegetal",
+        "name": "Pâte à tartiner - NOISETTE CHOCOLAT 100% vegetal",
         "description": "Pate à tartiner",
         "categories": [
             "Petit déjeuners",
             "Produits à tartiner",
-            "Produits à tartiner sucrés"
+            "Produits à tartiner sucrés",
+            "Pâtes à tartiner au chocolat"
         ],
         "stores": "La vie claire",
-        "site_url": "https://world.openfoodfacts.org/product/3258590000871/dardenne-pate-a-tartiner-noisette-chocolat-100-vegetal",
+        "site_url": "https://world.openfoodfacts.org/product/3258590000871/pate-a-tartiner-noisette-chocolat-100-vegetal-dardenne",
         "score": 13
     },
     {
@@ -6696,23 +6685,6 @@
         "stores": "Cora",
         "site_url": "https://world.openfoodfacts.org/product/3023290639221/le-viennois-mousse-nestle",
         "score": 12
-    },
-    {
-        "name": "Ferme et Fondant, saveur Crème Brûlée (1,2 % MG) 4 Pots",
-        "description": "Yaourt saveur crème brûlée",
-        "categories": [
-            "Frais",
-            "Produits laitiers",
-            "Produits fermentés",
-            "Desserts",
-            "Produits laitiers fermentés",
-            "Yaourts",
-            "Yaourts aromatisés",
-            "Yaourts sucrés"
-        ],
-        "stores": "Hyper U",
-        "site_url": "https://world.openfoodfacts.org/product/3023290214701/ferme-et-fondant-saveur-creme-brulee-1-2-mg-4-pots-nestle",
-        "score": -2
     },
     {
         "name": "Clafoutis aux Cerises",
@@ -8298,7 +8270,7 @@
         ],
         "stores": "picard",
         "site_url": "https://world.openfoodfacts.org/product/3270160484348/crevettes-a-l-huile-d-olive-au-persil-et-a-l-ail-picard",
-        "score": -3
+        "score": -2
     },
     {
         "name": "6 smoothies mûre cassis myrtille",
@@ -10263,5 +10235,33 @@
         "stores": "Carrefour Market",
         "site_url": "https://world.openfoodfacts.org/product/3560070108589/boudoirs-aux-oeufs-frais-carrefour",
         "score": 13
+    },
+    {
+        "name": "Chili con Carne (Au Bœuf) 2 Pers.",
+        "description": "Chili con carne",
+        "categories": [
+            "Conserves",
+            "Plats préparés",
+            "Plats à base de viande",
+            "Plats à base de viande bovine",
+            "Plats préparés en conserve"
+        ],
+        "stores": "Carrefour",
+        "site_url": "https://world.openfoodfacts.org/product/3560070748938/chili-con-carne-au-boeuf-2-pers-carrefour",
+        "score": -4
+    },
+    {
+        "name": "Cookies Big Rocks chocolat (x 8)",
+        "description": "Biscuits aux morceaux et pépites de chocolat",
+        "categories": [
+            "Snacks sucrés",
+            "Biscuits et gâteaux",
+            "Biscuits",
+            "Biscuits au chocolat",
+            "Cookies"
+        ],
+        "stores": "Carrefour",
+        "site_url": "https://world.openfoodfacts.org/product/3560070744770/cookies-big-rocks-chocolat-x-8-carrefour",
+        "score": 24
     }
 ]
