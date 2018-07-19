@@ -4132,12 +4132,7 @@
         "name": "Quinoa nature",
         "description": "",
         "categories": [
-            "Aliments et boissons à base de végétaux",
-            "Aliments d origine végétale",
-            "Céréales et pommes de terre",
-            "Graines",
-            "Céréales et dérivés",
-            "Céréales en grains"
+            "Plats préparés"
         ],
         "stores": "Magasins U",
         "site_url": "https://world.openfoodfacts.org/product/3256221675528/quinoa-nature-u-bio",

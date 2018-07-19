@@ -1,7 +1,5 @@
 # Foodlik, an API for good people
 
-[TRELLO's link](https://trello.com/b/6xV0TMFR/p5-foodlik)
-
 ```ascii
 oooooooooooo                           .o8  oooo   o8o  oooo
 '888'     '8                          "888  '888   '"'  `888
@@ -13,11 +11,13 @@ o888o        'Y8bod8P' 'Y8bod8P' `Y8bod88P" o888o o888o o888o o888o
 ```
 
 *An elegant UI based on OpenFoodFact.*
-[![trello image](https://imgur.com/a/mHf2JG0 "TRELLO's link")](https://trello.com/b/6xV0TMFR/p5-foodlik)
 
 >**NOTE :** enlarge the window of your SHELL for an optimal result
 
 The application has a large portion of French food listed on OpenFoodFact. It repeats these foods, displays their information and generates substitute foods with a higher nutri-score.
+
+Scrum project made with [Trello](https://trello.com):
+[![trello image](https://i.imgur.com/J1aDoxD.jpg "TRELLO's link")](https://trello.com/b/6xV0TMFR/p5-foodlik)
 
 ## I - Installation
 
@@ -28,7 +28,7 @@ This UI need some other programs to work well.
 Foodlik is based on python, an elegant coding langage.
 Get the last Python's version at the [following link](https://www.python.org/).
 Be sure you got the 3.6 version (or newer).
-Check for "pip" and for the root integration in the installation.
+Check for "pip" and for the root integration during the installation.
 
 ### 1.2 - Install the database
 
@@ -40,17 +40,37 @@ MySQL installation : [follow the link](https://www.mysql.com/). Install the MySQ
 #### 1.2.1 - ID, password and environnment variables
 
 You can create a new file and write your ID and password database.
-Je conseil d'entrer des utilisateurs qui possèdent tout les accès pour éviter les mauvaises surprises ("postgres" pour PostgreSQL et "root" pour MySQL).
+Create an ```app_env``` file at the root of the project.
+insert in:
+
+```bash
+export POSTGRES_USER="your_id"
+export POSTGRES_PASSWORD="your_password"
+
+export MYSQL_USER="your_id"
+export MYSQL_PASSWORD="your_password"
+```
+
+Replacing the identifiers and passwords with yours.
+Then start the file in your console (```source app_env``` or ```. app_env```).
+Environment variables will be loaded at each application launch,
+which will save you from having to retype your username and password.
+
+The name "app_env" is automatically ignored by Git.
+I advise to enter users who have all access to avoid unpleasant surprises ("postgres" for PostgreSQL and "root" for MySQL).
 
 ### 1.3 - Install some Python's librairies
 
 Foodlik uses some third-party Python's librairie.
 
-**Note:** You should set a new virtual environment before installing.
+**Note:** You should set a [new virtual environment](http://python-guide-pt-br.readthedocs.io/fr/latest/dev/virtualenvs.html) before installing.
 
-* ```pip install terminaltables```. Allow you to display console tables.
-
-**Optionnal:** ```pip install pytest```. For those who want to run the tests.
+* ```pip install psycopg2```. Only if you want to use PostgreSQL.
+* ```pip install mysql-connector```. Only if you want to use MySQL.
+* ```pip install docopt```. Allow you to write a good Shell parser.
+* ```pip install prompt-toolkit```. Allow you to use auto-completion.
+* ```pip install requests```. Allow you to use the requests easily.
+* ```pip install termcolor```. Allow you to display colored texts.
 
 ## II - Quickstart
 
@@ -58,45 +78,48 @@ Foodlik uses some third-party Python's librairie.
 1. Create a new virtual environment and install the required modules (```pip install -r requirements.txt``` will install all required packages).
 1. Launch the chosen server. You can save you ID and password using environnment variables.
 1. Open your favorite SHELL at the root of the folder.
-1. Type ```python main.py --mysql create_database``` and wait few minutes.
-1. Type ```python main.py --mysql```.
+1. Type ```python main.py --psql create_database``` and wait few minutes.
+1. Type ```python main.py --psql```.
 1. Enjoy.
+
+>**Note :** you can type ```--msql```in place of ```--psql``` if you want to use the MySQL database.
 
 ## III - Structure
 
 ### 3.1 - User Interface
 
-L'interface utilisateur possède 4 sections :
+The user interface has Home and two ways with 3 and 2 sections.
 
-* l'acceuil
-* les catégories
-* les produits d'une catégorie
-* le produit séléctionné
+The first way is the product selection and contains:
 
-chaque section suit le schéma suivant :
+* the categories
+* products of a category
+* the selected product
 
-* Un header : affiche le titre de la section.
-* un corps : affiche le contenu de la section.
-* un footer : affiche les commandes possibles dans la section.
+The second way is the substitute view and contains:
+
+* the substitutes list
+* the substitute page
+
+each section follows the following pattern:
+
+* A header: displays the title of the section.
+* a body: displays the contents of the section.
+* a footer: displays the possible commands in the section.
 
 **Exemples :**
 
-exemple 1
-exemple 2
-exemple 3
-exemple 4
+![home](https://i.imgur.com/SkVUOlE.png)
+![categories](https://i.imgur.com/HrqMEJw.png)
+![product](https://i.imgur.com/Bi8lDsj.png)
 
 ### 3.2 - DATAS
 
-Les données de ce programme viennent toutes de l'API OpenFoodFact.
-Les premières données sont les catégories, au nombre de 234 :
+The data in this program is all from the OpenFoodFact API.
+The first data are the categories, numbering 234.
 
-* liste
-* des
-* catégories
-
-vient ensuite les produits, au nombre de **nombre**.
-Chaque produit possède :
+next comes the products (about 18,000 products).
+Each product has:
 
 * a name (title)
 * a description
@@ -104,35 +127,48 @@ Chaque produit possède :
 * some categories
 * an url to the OpenFoodFact page
 
+then substitutes. They simply link the products (they are products).
+
  >**NOTE** : the substituts are dynamically generated.
 
 #### 3.2.1 - Filters
 
-Les produits ont été filtrés. Ont été mis de côté :
+The products have been filtered. Have been set aside:
 
-* ceux qui n'appartenaient pas aux catégories retenues
-* ceux qui ne possédaient pas de nutri-score
-* les produits doublons (un produit au nom similaire a déjà été ajouté)
+* those who did not belong to the categories selected
+* those who did not have a nutri-score
+* duplicate products (a product with a similar name has already been added)
 
 #### 3.2.2 - Substituts
 
-Les substituts suivent deux algorithmes, qui retournent chacun un produit de substitution.
-Le premier va chercher un produit avec un meilleur score dans la catégorie la moins fournie du produit ciblé.
-Le deuxième va chercher un produit avec un bien meilleur score dans la 2eme ou 3eme catégorie la moins fournie du produit ciblé.
+Substitutes follow two algorithms, each of which returns a substitution product.
+
+* The first will look for a product with a better score in the current category.
+* The second will look for a product with a higher score in the lowest category of the targeted product (the result is generally more accurate).
 
 ## IV - Options
 
 The UI has several options that have passed since the SHELL.
 
-### 4.1 - Update the database
+### 4.1 - Load the datas
 
-**Note:** The update is done slowly. Do not be presced.
+**Note :** The update is done slowly. Do not be presced.
 
 * Type ```python main.py --load_pages```. This option retrieve data from the OpenFoodFact site.
 
->**Note:** You can also specify the desired page number by typing ```python main.py --load_pages 1-5```. The pattern is as follows: ```main.py (--load_pages | -l) [<first_page>[-<last_page>]]```
+>**Note :** You can also specify the desired page number by typing ```python main.py --load_pages 1-5```. The pattern is as follows: ```main.py (--load_pages | -l) [<first_page>[-<last_page>]]```
 
-* The data was stored in a json file. Let's go to the Data-base : ```python main.py --create_database```. This will delete and recreate the database foodlik, and add all json datas inside.
+### 4.2 - (Re)create the database
+
+* The data are stored in a json file. Let's go to the Data-base : ```python main.py --create_database```. This will delete and recreate the database foodlik, and add all json datas inside.
+
+>**Note :** Recreate the MySQL database is fifteen times longer than the PosteSQL database. It's due to their respective python module
+
+### 4.3 - the mix of both
+
+* Type ```python main.py --psql --full_install``` to use the mix of the two previous methods.
+
+>**Note :** don't forget you can replace ```--msql``` by ```--psql```.
 
 ## V - FAQ
 
@@ -142,4 +178,4 @@ The UI has several options that have passed since the SHELL.
 
 >```ERROR:  database "database_name" is being accessed by other users``` When i launch the application.
 
-* Disconnect your pgAdmin connection. An way to solve it is to restarts the server.
+* Disconnect your pgAdmin connection. A way to solve it is to restarts the server.

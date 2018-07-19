@@ -48,7 +48,7 @@ class Product(BaseSection):
             infos = "\n     ".join(infos)
             text += ("   * " + colored(title, "yellow") + infos + " \n")
 
-        text += colored("\n\n   SUBSTITUTED FOODS FOUND\n", "green")
+        text += colored("\n\n   SUBSTITUTS TROUVES\n", "green")
         text += "   " + "-" * 23 + "\n\n"
         subst = "   PREMIER SUBSTITUT, DANS LA CATEGORIE COURANTE:\n"
         text += colored(subst, "green")

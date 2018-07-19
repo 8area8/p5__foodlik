@@ -974,14 +974,14 @@
         "score": 14
     },
     {
-        "name": "Crème fouettée ferme et onctueuse",
+        "name": "Crème chantilly ferme et onctueuse",
         "description": "Crème stérilisée UHT sucrée aromatisée sous pression",
         "categories": [
             "Produits laitiers",
             "Crèmes"
         ],
         "stores": "Dia",
-        "site_url": "https://world.openfoodfacts.org/product/3155250349793/creme-fouettee-ferme-et-onctueuse-president",
+        "site_url": "https://world.openfoodfacts.org/product/3155250349793/creme-chantilly-ferme-et-onctueuse-president",
         "score": 15
     },
     {
@@ -5064,7 +5064,7 @@
         "score": 13
     },
     {
-        "name": "Mayonnaise Fins Gourmets Qualité Traiteur",
+        "name": "Mayonnaise fin gourmets qualité traiteur",
         "description": "Mayonnaise Fins Gourmets Qualité Traiteur",
         "categories": [
             "Epicerie",
@@ -5072,7 +5072,7 @@
             "Mayonnaises"
         ],
         "stores": "Carrefour,Franprix",
-        "site_url": "https://world.openfoodfacts.org/product/3250541920139/mayonnaise-fins-gourmets-qualite-traiteur-maille",
+        "site_url": "https://world.openfoodfacts.org/product/3250541920139/mayonnaise-fin-gourmets-qualite-traiteur-maille",
         "score": 22
     },
     {

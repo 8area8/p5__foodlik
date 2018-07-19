@@ -41,7 +41,8 @@ def main():
     """Core function."""
     arguments = docopt(__doc__, version='1.0')
 
-    passwords.init(arguments)
+    if not arguments["--load_pages"]:
+        passwords.init(arguments)
 
     if arguments["--load_pages"]:
         first_p = max(arguments["FIRST-PAGE"], 1, key=bool)

@@ -1544,24 +1544,6 @@
         "score": 12
     },
     {
-        "name": "Pur jus de pomme de Bretagne",
-        "description": "100% pur fruits pressé de pomme",
-        "categories": [
-            "Aliments et boissons à base de végétaux",
-            "Boissons",
-            "Boissons à base de végétaux",
-            "Boissons aux fruits",
-            "Jus et nectars",
-            "Jus et nectars de fruits",
-            "Jus de fruits",
-            "Jus de pomme",
-            "Jus de fruits 100% pur jus"
-        ],
-        "stores": "Super U, Magasins U",
-        "site_url": "https://world.openfoodfacts.org/product/3256223027837/pur-jus-de-pomme-de-bretagne-u",
-        "score": 4
-    },
-    {
         "name": "Pur Jus de Raisin",
         "description": "Jus de Raisin",
         "categories": [

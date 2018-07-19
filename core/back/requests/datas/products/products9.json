@@ -4027,6 +4027,22 @@
         "score": 13
     },
     {
+        "name": "Ferme & Fondant Nature (0 % MG) 8 Pots",
+        "description": "Spécialité laitière à 0 % de matière grasse nature",
+        "categories": [
+            "Frais",
+            "Produits laitiers",
+            "Produits fermentés",
+            "Desserts",
+            "Produits laitiers fermentés",
+            "Yaourts",
+            "Yaourts natures"
+        ],
+        "stores": "Super U",
+        "site_url": "https://world.openfoodfacts.org/product/3023291127000/ferme-fondant-nature-0-mg-8-pots-nestle",
+        "score": -2
+    },
+    {
         "name": "le viennois mousse",
         "description": "Dessert lacté au chocolat",
         "categories": [

@@ -2723,7 +2723,7 @@
         "score": 24
     },
     {
-        "name": "Saint-Marcellin (23% MG)",
+        "name": "Saint-Marcellin",
         "description": "Fromage de France, à pâte molle à croûte fleurie, au lait thermisé de vache",
         "categories": [
             "Frais",
@@ -2736,7 +2736,7 @@
             "Fromages de France"
         ],
         "stores": "Lidl",
-        "site_url": "https://world.openfoodfacts.org/product/20024758/saint-marcellin-23-mg-duc-de-coeur",
+        "site_url": "https://world.openfoodfacts.org/product/20024758/saint-marcellin-saveurs-de-nos-regions",
         "score": 12
     },
     {

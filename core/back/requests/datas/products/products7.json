@@ -4011,6 +4011,22 @@
         "score": 5
     },
     {
+        "name": "Ferme & Fondant Saveur Vanille",
+        "description": "Yaourt à 0 % de matière grasse, aromatisée vanille",
+        "categories": [
+            "Frais",
+            "Produits laitiers",
+            "Produits fermentés",
+            "Desserts",
+            "Produits laitiers fermentés",
+            "Yaourts",
+            "Yaourts aromatisés"
+        ],
+        "stores": "Banque alimentaire,Auchan",
+        "site_url": "https://world.openfoodfacts.org/product/3023291169031/ferme-fondant-saveur-vanille-nestle",
+        "score": -2
+    },
+    {
         "name": "Le Fleurier Doux",
         "description": "Mélange de matières grasses à tartiner et à cuire, allégé à 53% M.G",
         "categories": [
