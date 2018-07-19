@@ -37,7 +37,8 @@ class Product(BaseSection):
     def content(self):
         """Return the content."""
         content = datas.load_product()
-        self.substituts = datas.load_substituts(content[4], content[0])
+        self.substituts = datas.load_product_substitutes(content[4],
+                                                         content[0])
         text = ""
         titles = ("nom: ", "description: ",
                   "magasins ", "url: ", "nutri-score: ")
@@ -83,6 +84,7 @@ class Product(BaseSection):
         """
         text = (self.comm + self.c_return_prd + self.c_return_ctgs +
                 self.c_quit + self.c_save_substitut1 +
+                self.c_return_title +
                 self.c_save_substitut2 + "\n" +
                 self.info_msg + "\n") + super().footer
         self.info_msg = ""
@@ -96,6 +98,7 @@ class Product(BaseSection):
         """
         return (self.a_return_ctgs +
                 ["retour prod", "sauve premier", "sauve second"] +
+                self.a_return_title +
                 super().actions)
 
     def apply(self, action):
@@ -108,3 +111,5 @@ class Product(BaseSection):
             self.info_msg = datas.save_substitute(self.substituts[0][0])
         if action == "sauve second" and isinstance(self.substituts, tuple):
             self.info_msg = datas.save_substitute(self.substituts[1][0])
+        if action == "retour titre":
+            self.change_to = "TitleScreen"

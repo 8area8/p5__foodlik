@@ -49,7 +49,8 @@ class Categories(BaseSection):
         Call 'super().footer' to get the error messages.
         """
         return (self.comm + self.c_next + self.c_bef + self.c_page +
-                self.c_ctg + self.c_quit + "\n") + super().footer
+                self.c_ctg + self.c_return_title +
+                self.c_quit + "\n") + super().footer
 
     @property
     def actions(self):
@@ -60,7 +61,7 @@ class Categories(BaseSection):
         categories = [cat[0] for cat in self.current_categories]
         return (self.a_nextbef +
                 [str(num) for num in range(1, self.max_pages + 2)] +
-                categories +
+                categories + self.a_return_title +
                 [cat.lower() for cat in categories] +
                 super().actions)
 
@@ -77,3 +78,5 @@ class Categories(BaseSection):
         if action.capitalize() in [cat[0] for cat in self.current_categories]:
             datas.chosen_category = action.capitalize()
             self.change_to = "Category"
+        if action == "retour titre":
+            self.change_to = "TitleScreen"

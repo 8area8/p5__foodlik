@@ -32,9 +32,12 @@ class Substitute(BaseSection):
         """Return the content."""
         content = datas.load_substitute_page()
         text = colored("    SUBSTITUT:\n", "green")
-        for caract in content[0]:
+        titles = ("nom: ", "description: ",
+                  "magasins: ", "url: ", "nutri-score: ")
+
+        for title, caract in zip(titles, content[0]):
             caract = "\n      ".join(wrap(str(caract), 45))
-            text += "    * " + caract + "\n"
+            text += "    * " + colored(title, "green") + caract + "\n"
         text += colored("\n    PRODUITS SUBSTITUES:\n", "green")
         for product in content[1]:
             product = "\n     ".join(wrap(str(product[0]), 45))
@@ -48,6 +51,7 @@ class Substitute(BaseSection):
         Call 'super().footer' to get the error messages.
         """
         return (self.comm + self.c_return_sub +
+                self.c_return_title +
                 self.c_quit + "\n") + super().footer
 
     @property
@@ -56,9 +60,11 @@ class Substitute(BaseSection):
 
         Call 'super().actions' to get the basic actions.
         """
-        return (["retour sub"] + super().actions)
+        return (["retour sub"] + self.a_return_title + super().actions)
 
     def apply(self, action):
         """Apply an action."""
         if action == "retour sub":
             self.change_to = "Substitutes"
+        if action == "retour titre":
+            self.change_to = "TitleScreen"

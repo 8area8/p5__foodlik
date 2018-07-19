@@ -48,6 +48,7 @@ class Substitutes(BaseSection):
         Call 'super().footer' to get the error messages.
         """
         return (self.comm + self.c_next + self.c_bef + self.c_page +
+                self.c_return_title +
                 self.c_sbt + self.c_quit + "\n") + super().footer
 
     @property
@@ -58,7 +59,7 @@ class Substitutes(BaseSection):
         """
         return (self.a_nextbef +
                 [str(num) for num in range(1, self.max_pages + 2)] +
-                self.current_substitutes +
+                self.current_substitutes + self.a_return_title +
                 [sbt.lower() for sbt in self.current_substitutes] +
                 super().actions)
 
@@ -76,3 +77,5 @@ class Substitutes(BaseSection):
             datas.chosen_product = ([prod for prod in self.current_substitutes
                                      if prod.lower() == action.lower()][0])
             self.change_to = "Substitute"
+        if action == "retour titre":
+            self.change_to = "TitleScreen"

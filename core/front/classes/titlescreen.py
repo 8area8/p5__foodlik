@@ -32,7 +32,7 @@ class TitleScreen(BaseSection):
                                 "les substituts sauvegardés.\n")
 
         url = 'https://github.com/8area8/P4_OpenFoodFact_interface'
-        version = "version 0.2"
+        version = "version 1.0"
 
         self.header = (f"Foodlik {version} | "
                        f"{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}."

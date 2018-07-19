@@ -54,6 +54,7 @@ class Category(BaseSection):
         Call 'super().footer' to get the error messages.
         """
         return (self.comm + self.c_return_ctgs + self.c_next + self.c_bef +
+                self.c_return_title +
                 self.c_page + self.c_ctg + self.c_quit + "\n") + super().footer
 
     @property
@@ -64,7 +65,7 @@ class Category(BaseSection):
         """
         return (self.a_nextbef + self.a_return_ctgs +
                 [str(num) for num in range(1, self.max_pages + 2)] +
-                self.current_products +
+                self.current_products + self.a_return_title +
                 [prod.lower() for prod in self.current_products] +
                 super().actions)
 
@@ -84,3 +85,5 @@ class Category(BaseSection):
             datas.chosen_product = ([prod for prod in self.current_products
                                     if prod.lower() == action.lower()][0])
             self.change_to = "Product"
+        if action == "retour titre":
+            self.change_to = "TitleScreen"

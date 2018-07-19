@@ -5,7 +5,7 @@
 
 Usage:
     main.py (--msql | --psql)
-    main.py (--msql | --psql) (-l | --load_pages) [FIRST-PAGE [to LAST-PAGE]]
+    main.py (-l | --load_pages) [FIRST-PAGE [to LAST-PAGE]]
     main.py (--msql | --psql) (-c | --create_database)
     main.py (--msql | --psql) (-f | --full_install) [FIRST-PAGE [to LAST-PAGE]]
     main.py (-h | --help)
@@ -39,7 +39,7 @@ from core.back.database.data_wrapper import datas_wrapper
 
 def main():
     """Core function."""
-    arguments = docopt(__doc__, version='0.1')
+    arguments = docopt(__doc__, version='1.0')
 
     passwords.init(arguments)
 
@@ -49,6 +49,12 @@ def main():
         load_pages.init(first_p, last_p)
 
     elif arguments["--create_database"]:
+        create_database.init()
+
+    elif arguments["--full_install"]:
+        first_p = max(arguments["FIRST-PAGE"], 1, key=bool)
+        last_p = max(arguments["LAST-PAGE"], 30, key=bool)
+        load_pages.init(first_p, last_p)
         create_database.init()
 
     elif arguments["--msql"] or arguments["--psql"]:
