@@ -126,6 +126,7 @@ Each product has:
 * some stores
 * some categories
 * an url to the OpenFoodFact page
+* a nutri-score
 
 then substitutes. They simply link the products (they are products).
 
