@@ -20,10 +20,10 @@ def init():
         page.change_section()
         page.show_content()
 
-        action = prompt("type an action: ", completer=page.complete)
+        action = prompt("tapez une action: ", completer=page.complete)
 
-        if action in ("quit", "q"):
-            print("good bye!")
+        if action in ("quitter", "q"):
+            print("au revoir!")
             page.close_connection()
             running = False
         elif action in page.actions:

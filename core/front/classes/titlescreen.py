@@ -27,21 +27,21 @@ class TitleScreen(BaseSection):
         """Initialization."""
         super().__init__()
 
-        self.c_select = "[select product]: go to categories.\n"
-        self.c_see_substitus = "[see substitutes]: see the saved substituts.\n"
+        self.c_select = "[choisir produit]: aller aux catégories.\n"
+        self.c_see_substitus = ("[voir substituts]: voir "
+                                "les substituts sauvegardés.\n")
 
         url = 'https://github.com/8area8/P4_OpenFoodFact_interface'
         version = "version 0.2"
 
-        self.header = (f"Foodlik {version} "
+        self.header = (f"Foodlik {version} | "
                        f"{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}."
-                       f"\nDocumentation available at {colored(url, 'cyan')}."
+                       f"\nDocumentation disponible: {colored(url, 'cyan')}."
                        + "\n" * 2 + colored(TITLE, "green") + "\n" * 3 +
-                       colored("Welcome to Foodlik !", "yellow") +
+                       colored("Bienvenu dans Foodlik !", "yellow") +
                        "\n" + colored("-" * 20, "yellow"))  # YOLO.
 
-        self.content = (f"Simply type {colored('ENTER', 'green')} "
-                        "to begin." + "\n" * 2)
+        self.content = (f"Faites un choix." + "\n" * 2)
 
     @property
     def footer(self):
@@ -60,11 +60,11 @@ class TitleScreen(BaseSection):
 
         Call 'super().actions' to get the basic actions.
         """
-        return ["select product", "see substitutes"] + super().actions
+        return ["choisir produit", "voir substituts"] + super().actions
 
     def apply(self, action):
         """Apply an action."""
-        if action == "select product":
+        if action == "choisir produit":
             self.change_to = "Categories"
-        if action == "see substitutes":
+        if action == "voir substituts":
             self.change_to = "Substitutes"

@@ -21,15 +21,15 @@ class Substitutes(BaseSection):
         self.current_substitutes = []
 
         # FOOTER COMMANDS
-        self.c_next = "[n] or [next]: go to the next page.\n"
-        self.c_bef = "[b] or [before]: go to the previous page.\n"
-        self.c_page = "[number] keyword: go to the corresponding page.\n"
-        self.c_sbt = "[substitute_name] keyword: go to the categorie page.\n"
+        self.c_next = "[s] or [suivant]: page suivante.\n"
+        self.c_bef = "[a] or [avant]: page précédente.\n"
+        self.c_page = "[nombre] mot-clé: va à la page correspondante.\n"
+        self.c_sbt = "[nom substitut] mot-clé: va à la page du substitut.\n"
 
     @property
     def header(self):
         """Return the header informations."""
-        title = f"   SUBSTITUTES (PAGE: {self.page + 1}/{self.max_pages + 1})"
+        title = f"   SUBSTITUTS (PAGE: {self.page + 1}/{self.max_pages + 1})"
         return colored(title, "yellow") + "\n" + "   " + "-" * 23
 
     @property
@@ -64,10 +64,10 @@ class Substitutes(BaseSection):
 
     def apply(self, action):
         """Apply an action."""
-        if action == "next" or action == "n":
+        if action == "suivantext" or action == "s":
             self.page += 1
             self.page = 0 if self.page > self.max_pages else self.page
-        if action == "before" or action == "b":
+        if action == "avant" or action == "a":
             self.page -= 1
             self.page = self.max_pages if self.page < 0 else self.page
         if action.isdigit() and (0 < int(action) <= self.max_pages + 1):

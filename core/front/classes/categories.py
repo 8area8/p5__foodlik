@@ -21,10 +21,10 @@ class Categories(BaseSection):
         self.current_categories = []
 
         # FOOTER COMMANDS
-        self.c_next = "[n] or [next]: go to the next page.\n"
-        self.c_bef = "[b] or [before]: go to the previous page.\n"
-        self.c_page = "[number] keyword: go to the corresponding page.\n"
-        self.c_ctg = "[categorie_name] keyword: go to the categorie page.\n"
+        self.c_next = "[s] or [suivant]: page suivante.\n"
+        self.c_bef = "[a] or [avant]: page précédente.\n"
+        self.c_page = "[nombre] mot-clé: va à la page correspondante.\n"
+        self.c_ctg = "[nom de catégorie] mot-clé: va à la page de catégorie.\n"
 
     @property
     def header(self):
@@ -39,7 +39,7 @@ class Categories(BaseSection):
         text = ""
         for category in self.current_categories:
             text += ("   * " + colored(category[0], "yellow") + " " +
-                     "[" + str(category[1]) + " products]\n")
+                     "[" + str(category[1]) + " produits]\n")
         return text
 
     @property
@@ -66,10 +66,10 @@ class Categories(BaseSection):
 
     def apply(self, action):
         """Apply an action."""
-        if action == "next" or action == "n":
+        if action == "suivant" or action == "s":
             self.page += 1
             self.page = 0 if self.page > self.max_pages else self.page
-        if action == "before" or action == "b":
+        if action == "avant" or action == "a":
             self.page -= 1
             self.page = self.max_pages if self.page < 0 else self.page
         if action.isdigit() and (0 < int(action) <= self.max_pages + 1):

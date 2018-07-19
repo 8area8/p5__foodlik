@@ -14,15 +14,6 @@ def shell_repr(self):
     return self.header + ("\n" * 2) + self.content + "\n" + self.footer
 
 
-def shell_display(self, part, colored=False, *args):
-    """Decorator, display the datas for a CLI interface."""
-    space = "    "
-    star = "   * "
-    if part == "header":
-        pass
-    return space, star
-
-
 class BaseSection():
     """Abstract base for every sections.
 
@@ -38,12 +29,12 @@ class BaseSection():
         """Initialize the class."""
         self.change_to = ""
 
-        self.comm = "COMMANDS:\n"
-        self.c_quit = "[quit] or [q]: quit the application.\n"
-        self.c_return_ctgs = "[return cat]: return to the categories page.\n"
+        self.comm = "COMMANDES:\n"
+        self.c_quit = "[quitter] or [q]: quitter l'application.\n"
+        self.c_return_ctgs = "[retour cat]: retourne à la page catégories.\n"
 
-        self.a_nextbef = ["next", "n", "before", "b"]
-        self.a_return_ctgs = ["return cat"]
+        self.a_nextbef = ["suivant", "s", "avant", "a"]
+        self.a_return_ctgs = ["retour cat"]
 
         self.action_error = {"text": "", "active": False}
 
@@ -76,7 +67,7 @@ class BaseSection():
             - the keyboard keys should be written as follows: key_name keyword
             - the words should be written as follows: 'word_name'
         """
-        return ['q', 'quit']
+        return ['q', 'quitter']
 
     def apply(self, action):
         """Apply an action."""
@@ -84,13 +75,9 @@ class BaseSection():
 
     def add_action_error(self, action):
         """Return an error text."""
-        error = (f"The action '{action}' is not a valid action.\n")
+        error = (f"L'action '{action}' n'est pas une action valide.\n")
         self.action_error["text"] = error
         self.action_error["active"] = True
-
-    def diplay_datas(self, *args, **kwargs):
-        """Use a decorator to display the datas."""
-        raise NotImplementedError
 
     def close_connection(self):
         """Close the database connection."""

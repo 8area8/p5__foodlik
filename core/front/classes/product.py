@@ -19,11 +19,11 @@ class Product(BaseSection):
 
         self.name = datas.chosen_product.upper()
 
-        self.c_return_prd = "[return prod]: return to the products page.\n"
-        self.c_save_substitut1 = ("[save first]: save the first "
-                                  "substitut in the database.\n")
-        self.c_save_substitut2 = ("[save second]: save the second "
-                                  "substitut in the database.\n")
+        self.c_return_prd = "[retour prod]: retourne à la page produits.\n"
+        self.c_save_substitut1 = ("[sauve premier]: sauvegarde le premier"
+                                  "substitut.\n")
+        self.c_save_substitut2 = ("[sauve second]: sauvegarde le second "
+                                  "substitut.\n")
         self.info_msg = ""
         self.substituts = None
 
@@ -39,8 +39,8 @@ class Product(BaseSection):
         content = datas.load_product()
         self.substituts = datas.load_substituts(content[4], content[0])
         text = ""
-        titles = ("name: ", "description: ",
-                  "stores ", "url: ", "nutri-score: ")
+        titles = ("nom: ", "description: ",
+                  "magasins ", "url: ", "nutri-score: ")
 
         for title, infos in zip(titles, content):
             infos = textwrap.wrap(str(infos), 45)
@@ -49,11 +49,11 @@ class Product(BaseSection):
 
         text += colored("\n\n   SUBSTITUTED FOODS FOUND\n", "green")
         text += "   " + "-" * 23 + "\n\n"
-        subst = "   FIRST SUBSTITUT, IN THE CURRENT CATEGORY:\n"
+        subst = "   PREMIER SUBSTITUT, DANS LA CATEGORIE COURANTE:\n"
         text += colored(subst, "green")
 
-        titles = ("name: ", "description: ", "stores: ",
-                  "category: ", "url: ", "nutri-score: ")
+        titles = ("nom: ", "description: ", "magasins: ",
+                  "catégorie: ", "url: ", "nutri-score: ")
 
         for product in self.substituts[0]:
             for title, caract in zip(titles, product):
@@ -61,7 +61,7 @@ class Product(BaseSection):
                 caract = "\n     ".join(caract)
                 text += "   * " + colored(title, "green") + caract + "\n"
             text += "\n\n   "
-            subst = "SECOND SUBSTITUT, IN A MORE TARGETED PRODUCT CATEGORY:\n"
+            subst = "SECOND SUBSTITUT, DANS UN CATEGORIE PLUS CIBLEE:\n"
             text += colored(subst, "green")
 
         if isinstance(self.substituts[1], str):
@@ -95,15 +95,16 @@ class Product(BaseSection):
         Call 'super().actions' to get the basic actions.
         """
         return (self.a_return_ctgs +
-                ["return prod", "save first", "save second"] + super().actions)
+                ["retour prod", "sauve premier", "sauve second"] +
+                super().actions)
 
     def apply(self, action):
         """Apply an action."""
-        if action == "return cat":
+        if action == "retour cat":
             self.change_to = "Categories"
-        if action == "return prod":
+        if action == "retour prod":
             self.change_to = "Category"
-        if action == "save first" and isinstance(self.substituts, tuple):
+        if action == "sauve premier" and isinstance(self.substituts, tuple):
             self.info_msg = datas.save_substitute(self.substituts[0][0])
-        if action == "save second" and isinstance(self.substituts, tuple):
+        if action == "sauve second" and isinstance(self.substituts, tuple):
             self.info_msg = datas.save_substitute(self.substituts[1][0])

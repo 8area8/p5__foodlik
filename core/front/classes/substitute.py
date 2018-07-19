@@ -19,7 +19,7 @@ class Substitute(BaseSection):
 
         self.name = datas.chosen_product.upper()
 
-        self.c_return_sub = "[return sub]: return to substitutes page."
+        self.c_return_sub = "[retour sub]: retour à la page des substituts.\n"
 
     @property
     def header(self):
@@ -31,11 +31,11 @@ class Substitute(BaseSection):
     def content(self):
         """Return the content."""
         content = datas.load_substitute_page()
-        text = colored("    SUBSTITUTE:\n", "green")
+        text = colored("    SUBSTITUT:\n", "green")
         for caract in content[0]:
             caract = "\n      ".join(wrap(str(caract), 45))
             text += "    * " + caract + "\n"
-        text += colored("\n    PRODUCTS SUBSTITUTED:\n", "green")
+        text += colored("\n    PRODUITS SUBSTITUES:\n", "green")
         for product in content[1]:
             product = "\n     ".join(wrap(str(product[0]), 45))
             text += "    * " + product + "\n"
@@ -56,9 +56,9 @@ class Substitute(BaseSection):
 
         Call 'super().actions' to get the basic actions.
         """
-        return (["return sub"] + super().actions)
+        return (["retour sub"] + super().actions)
 
     def apply(self, action):
         """Apply an action."""
-        if action == "return sub":
+        if action == "retour sub":
             self.change_to = "Substitutes"
