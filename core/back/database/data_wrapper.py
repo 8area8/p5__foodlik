@@ -6,6 +6,45 @@
 from core.back.database.databases_wrapper import database_wrapper as database
 from core.back.database.create_database import write_error
 
+SUBSTITUTE1 = """
+SELECT DISTINCT prod.title, prod.description, prod.stores,
+ cat_prod.category_title, prod.site_url, prod.score
+ FROM PRODUCT as prod
+ INNER JOIN CATEGORY_PER_PRODUCT AS cat_prod
+ ON prod.title=cat_prod.product_title
+ WHERE category_title='*category*'
+ AND prod.score < *score*
+ ORDER BY prod.score ASC LIMIT 1"""
+
+SUBSTITUTE2 = """
+SELECT DISTINCT prod.title, prod.description, prod.stores,
+ cat_prod.category_title, prod.site_url, prod.score
+ FROM PRODUCT as prod
+ INNER JOIN CATEGORY_PER_PRODUCT AS cat_prod
+ ON prod.title=cat_prod.product_title
+ WHERE category_title='*category*'
+ AND prod.score >= *score* AND prod.title <> '*title*'
+ ORDER BY prod.score ASC LIMIT 1"""
+
+SUBSTITUTE3 = """
+SELECT cat.title, cat.product_number
+ FROM CATEGORY as cat
+ INNER JOIN CATEGORY_PER_PRODUCT AS cat_prod
+ ON cat.title=cat_prod.category_title
+ INNER JOIN PRODUCT AS prod
+ ON prod.title=cat_prod.product_title
+ WHERE prod.title='*title*'
+ ORDER BY cat.product_number ASC LIMIT 5"""
+
+SUBSTITUTE4 = """
+SELECT DISTINCT prod.title, prod.description, prod.stores,
+ cat_prod.category_title, prod.site_url, prod.score
+ FROM PRODUCT as prod
+ INNER JOIN CATEGORY_PER_PRODUCT AS cat_prod
+ ON prod.title=cat_prod.product_title
+ WHERE category_title='*ncategory*' AND prod.score < *score*
+ ORDER BY prod.score ASC LIMIT 1"""
+
 
 class _DataWrapper():
     """Communicate and display the 'foodlik' datas.
@@ -71,57 +110,30 @@ class _DataWrapper():
 
     def _load_first_substitute(self, score, title):
         """Find a better product in the same category."""
-        database.execute(f"""
-        SELECT DISTINCT prod.title, prod.description,
-         prod.stores, cat_prod.category_title,
-         prod.site_url, prod.score FROM PRODUCT as prod
-         INNER JOIN CATEGORY_PER_PRODUCT AS cat_prod
-         ON prod.title=cat_prod.product_title
-         WHERE category_title='{self.chosen_category}'
-         AND prod.score < {score}
-         ORDER BY prod.score ASC LIMIT 1""")
+        query = SUBSTITUTE1.replace("*category*", self.chosen_category)
+        query = query.replace("*score*", str(score))
+        database.execute(query)
         result = database.get_row(True)
         if result:
             return result
 
-        database.execute(f"""
-        SELECT DISTINCT prod.title, prod.description,
-         prod.stores, cat_prod.category_title,
-         prod.site_url, prod.score FROM PRODUCT as prod
-         INNER JOIN CATEGORY_PER_PRODUCT AS cat_prod
-         ON prod.title=cat_prod.product_title
-         WHERE category_title='{self.chosen_category}'
-         AND prod.score >= {score} AND
-         prod.title <> '{title}'
-         ORDER BY prod.score ASC LIMIT 1""")
+        query = SUBSTITUTE2.replace("*category*", self.chosen_category)
+        query = query.replace("*score*", str(score))
+        query = query.replace("*title*", title)
+        database.execute(query)
         return database.get_row(True)
 
     def load_second_substitute(self, title, score):
         """Find a better product in the smallest product category."""
-        database.execute(f"""
-        SELECT cat.title, cat.product_number
-         FROM CATEGORY as cat
-         INNER JOIN CATEGORY_PER_PRODUCT AS cat_prod
-         ON cat.title=cat_prod.category_title
-         INNER JOIN PRODUCT AS prod
-         ON prod.title=cat_prod.product_title
-         WHERE prod.title='{title}'
-         ORDER BY cat.product_number ASC LIMIT 5""")
+        query = SUBSTITUTE3.replace("*title*", title)
+        database.execute(query)
         result = database.get_row(True)
-
         if result[0][0] == self.chosen_category:
             return "sorry, we didn't find a better category."
 
-        ncategory = result[0][0]
-        database.execute(f"""
-        SELECT DISTINCT prod.title, prod.description,
-         prod.stores, cat_prod.category_title,
-         prod.site_url, prod.score FROM PRODUCT as prod
-         INNER JOIN CATEGORY_PER_PRODUCT AS cat_prod
-         ON prod.title=cat_prod.product_title
-         WHERE category_title='{ncategory}'
-         AND prod.score < {score}
-         ORDER BY prod.score ASC LIMIT 1""")
+        query = SUBSTITUTE4.replace("*ncategory*", result[0][0])
+        query = query.replace("*score*", str(score))
+        database.execute(query)
         return database.get_row(True)
 
     def save_substitute(self, substitute):
@@ -130,7 +142,7 @@ class _DataWrapper():
             database.execute("INSERT INTO substitute (product_title) "
                              f"VALUES ('{substitute[0]}')")
         except Exception as error:
-            write_error(error)
+            write_error(error)  # to be sure it's the good error.
             pass  # substitute already in the databse.
 
         try:

@@ -130,8 +130,6 @@ Each product has:
 
 then substitutes. They simply link the products (they are products).
 
- >**NOTE** : the substituts are dynamically generated.
-
 #### 3.2.1 - Filters
 
 The products have been filtered. Have been set aside:

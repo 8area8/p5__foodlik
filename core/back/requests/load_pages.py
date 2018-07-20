@@ -11,10 +11,12 @@ import asyncio
 
 
 DATAS_PATH = Path().resolve() / "core" / "back" / "requests" / "datas"
+
 with open(DATAS_PATH / "categories_fr.json", encoding='utf-8') as file:
     CATEGORIES_FR = json.load(file)
 with open(DATAS_PATH / "categories_en.json", encoding='utf-8') as file:
     CATEGORIES_EN = json.load(file)
+
 USED_NAMES = []  # Avoid duplicates.
 MAX_ASYNC_IO = asyncio.Semaphore(30)
 

@@ -39,6 +39,7 @@ class Substitute(BaseSection):
             caract = "\n      ".join(wrap(str(caract), 45))
             text += "    * " + colored(title, "green") + caract + "\n"
         text += colored("\n    PRODUITS SUBSTITUES:\n", "green")
+
         for product in content[1]:
             product = "\n     ".join(wrap(str(product[0]), 45))
             text += "    * " + product + "\n"
