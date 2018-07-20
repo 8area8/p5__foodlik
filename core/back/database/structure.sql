@@ -24,7 +24,7 @@ CREATE TABLE category_per_product (
 
 CREATE TABLE substitute
 (
-    product_title VARCHAR (80),
+    product_title VARCHAR (150),
     PRIMARY KEY (product_title),
     FOREIGN KEY (product_title) REFERENCES product(title) ON DELETE CASCADE
 );
@@ -32,8 +32,8 @@ CREATE TABLE substitute
 
 CREATE TABLE product_per_substitute
 (
-    substitute_title VARCHAR(80),
-    product_title VARCHAR (80),
+    substitute_title VARCHAR(150),
+    product_title VARCHAR (150),
     PRIMARY KEY (substitute_title, product_title),
     FOREIGN KEY (substitute_title) REFERENCES substitute(product_title) ON DELETE CASCADE,
     FOREIGN KEY (product_title) REFERENCES product(title) ON DELETE CASCADE
