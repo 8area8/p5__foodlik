@@ -62,7 +62,7 @@ class Product(BaseSection):
                 caract = "\n     ".join(caract)
                 text += "   * " + colored(title, "green") + caract + "\n"
             text += "\n\n   "
-            subst = "SECOND SUBSTITUT, DANS UN CATEGORIE PLUS CIBLEE:\n"
+            subst = "SECOND SUBSTITUT, DANS UNE CATEGORIE PLUS CIBLEE:\n"
             text += colored(subst, "green")
 
         if isinstance(self.substituts[1], str):

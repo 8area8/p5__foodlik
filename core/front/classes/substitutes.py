@@ -21,8 +21,8 @@ class Substitutes(BaseSection):
         self.current_substitutes = []
 
         # FOOTER COMMANDS
-        self.c_next = "[s] or [suivant]: page suivante.\n"
-        self.c_bef = "[a] or [avant]: page précédente.\n"
+        self.c_next = "[s] ou [suivant]: page suivante.\n"
+        self.c_bef = "[a] ou [avant]: page précédente.\n"
         self.c_page = "[nombre] mot-clé: va à la page correspondante.\n"
         self.c_sbt = "[nom substitut] mot-clé: va à la page du substitut.\n"
 

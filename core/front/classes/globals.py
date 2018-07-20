@@ -30,7 +30,7 @@ class BaseSection():
         self.change_to = ""
 
         self.comm = "COMMANDES:\n"
-        self.c_quit = "[quitter] or [q]: quitter l'application.\n"
+        self.c_quit = "[quitter] ou [q]: quitter l'application.\n"
         self.c_return_ctgs = "[retour cat]: retourne à la page catégories.\n"
         self.c_return_title = "[retour titre]: retour à l'écran titre.\n"
 
