@@ -40,8 +40,8 @@ class Product(BaseSection):
         self.substituts = datas.load_product_substitutes(content[4],
                                                          content[0])
         text = ""
-        titles = ("nom: ", "description: ",
-                  "magasins ", "url: ", "nutri-score: ")
+        titles = ["nom: ", "description: ",
+                  "magasins ", "url: ", "nutri-score: "]
 
         for title, infos in zip(titles, content):
             infos = textwrap.wrap(str(infos), 45)
@@ -53,9 +53,7 @@ class Product(BaseSection):
         subst = "   PREMIER SUBSTITUT, DANS LA CATEGORIE COURANTE:\n"
         text += colored(subst, "green")
 
-        titles = ("nom: ", "description: ", "magasins: ",
-                  "catégorie: ", "url: ", "nutri-score: ")
-
+        titles.insert(3, "catégorie: ")
         for product in self.substituts[0]:
             for title, caract in zip(titles, product):
                 caract = textwrap.wrap(str(caract), 45)

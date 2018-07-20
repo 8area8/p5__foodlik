@@ -155,7 +155,7 @@ The UI has several options that have passed since the SHELL.
 
 * Type ```python main.py --load_pages```. This option retrieve data from the OpenFoodFact site.
 
->**Note :** You can also specify the desired page number by typing ```python main.py --load_pages 1-5```. The pattern is as follows: ```main.py (--load_pages | -l) [<first_page>[-<last_page>]]```
+>**Note :** You can also specify the desired page number by typing ```python main.py --load_pages 1 to 5```. The pattern is as follows: ```main.py (-l | --load_pages) [FIRST-PAGE [to LAST-PAGE]]```
 
 ### 4.2 - (Re)create the database
 
@@ -167,7 +167,7 @@ The UI has several options that have passed since the SHELL.
 
 * Type ```python main.py --psql --full_install``` to use the mix of the two previous methods.
 
->**Note :** don't forget you can replace ```--msql``` by ```--psql```.
+>**Note :** don't forget you can replace ```--psql``` by ```--msql```.
 
 ## V - FAQ
 
