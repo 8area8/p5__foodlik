@@ -59,7 +59,7 @@ which will save you from having to retype your username and password.
 The name "app_env" is automatically ignored by Git.
 I advise to enter users who have all access to avoid unpleasant surprises ("postgres" for PostgreSQL and "root" for MySQL).
 
-### 1.3 - Install some Python's librairies
+### 1.3 - Install some Python's libraries
 
 Foodlik uses some third-party Python's librairie.
 
@@ -76,7 +76,7 @@ Foodlik uses some third-party Python's librairie.
 
 1. Install python 3.6 and PostgreSQL or MySQL.
 1. Create a new virtual environment and install the required modules (```pip install -r requirements.txt``` will install all required packages).
-1. Launch the chosen server. You can save you ID and password using environnment variables.
+1. Launch the chosen server. You can save your ID and password using environnment variables.
 1. Open your favorite SHELL at the root of the folder.
 1. Type ```python main.py --psql create_database``` and wait few minutes.
 1. Type ```python main.py --psql```.
@@ -88,15 +88,15 @@ Foodlik uses some third-party Python's librairie.
 
 ### 3.1 - User Interface
 
-The user interface has Home and two ways with 3 and 2 sections.
+The user interface has a Home and two parts with 3 and 2 sections.
 
-The first way is the product selection and contains:
+The first part is the product selection and contains:
 
 * the categories
 * products of a category
 * the selected product
 
-The second way is the substitute view and contains:
+The second part is the substitute view and contains:
 
 * the substitutes list
 * the substitute page
@@ -116,9 +116,9 @@ each section follows the following pattern:
 ### 3.2 - DATAS
 
 The data in this program is all from the OpenFoodFact API.
-The first data are the categories, numbering 234.
+First data are the categories, numbering 234.
 
-next comes the products (about 18,000 products).
+next come the products (about 18,000 products).
 Each product has:
 
 * a name (title)
@@ -159,9 +159,9 @@ The UI has several options that have passed since the SHELL.
 
 ### 4.2 - (Re)create the database
 
-* The data are stored in a json file. Let's go to the Data-base : ```python main.py --create_database```. This will delete and recreate the database foodlik, and add all json datas inside.
+* Data are stored in a Json file. Let's go to the Data-base : ```python main.py --create_database```. This will delete and recreate the database foodlik, and add all Json data inside.
 
->**Note :** Recreate the MySQL database is fifteen times longer than the PosteSQL database. It's due to their respective python module
+>**Note :** Recreate the MySQL database is fifteen times longer than the PosteSQL database. It's due to their respective python library.
 
 ### 4.3 - the mix of both
 
@@ -177,4 +177,4 @@ The UI has several options that have passed since the SHELL.
 
 >```ERROR:  database "database_name" is being accessed by other users``` When i launch the application.
 
-* Disconnect your pgAdmin connection. A way to solve it is to restarts the server.
+* Disconnect your pgAdmin connection. A way to solve it is to restart the server.
