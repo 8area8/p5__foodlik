@@ -13,6 +13,8 @@ from textwrap import wrap
 class Substitute(BaseSection):
     """The substitute class."""
 
+    # pylint: disable=too-many-instance-attributes
+
     def __init__(self):
         """Initialization."""
         super().__init__()

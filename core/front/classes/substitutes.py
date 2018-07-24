@@ -12,6 +12,8 @@ from core.back.database.data_wrapper import datas_wrapper as datas
 class Substitutes(BaseSection):
     """This class show the title screen of the application."""
 
+    # pylint: disable=too-many-instance-attributes
+
     def __init__(self):
         """Initialization."""
         super().__init__()

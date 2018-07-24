@@ -3,11 +3,11 @@
 
 """The Product section."""
 
+import textwrap
 from termcolor import colored
 
 from core.front.classes.globals import BaseSection
 from core.back.database.data_wrapper import datas_wrapper as datas
-import textwrap
 
 
 class Product(BaseSection):

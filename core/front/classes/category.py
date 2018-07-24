@@ -14,6 +14,8 @@ from core.back.database.data_wrapper import datas_wrapper as datas
 class Category(BaseSection):
     """The Category class."""
 
+    # pylint: disable=too-many-instance-attributes
+
     def __init__(self):
         """Initialization."""
         super().__init__()

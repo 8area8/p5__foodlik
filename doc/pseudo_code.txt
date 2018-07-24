@@ -1,6 +1,6 @@
 ﻿Ici je teste une écriture avant de commencer les diagrammes.
 
-J'essai d'imaginer un code le plus idiomatique qui soit,
+J'essai d'imaginer un code le plus simple qui soit,
 en commencant par le fichier principale et en etayant petit
 à petit.
 

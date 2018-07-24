@@ -25,6 +25,8 @@ class BaseSection():
     These objects can be a string or a property (that returns a string).
     """
 
+    # pylint: disable=too-many-instance-attributes
+
     def __init__(self):
         """Initialize the class."""
         self.change_to = ""
