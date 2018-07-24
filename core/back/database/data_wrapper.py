@@ -129,7 +129,7 @@ class _DataWrapper():
         database.execute(query)
         result = database.get_row(True)
         if result[0][0] == self.chosen_category:
-            return "sorry, we didn't find a better category."
+            return "Désolé, nous n'avons pas trouvé une catégorie plus ciblée."
 
         query = SUBSTITUTE4.replace("*ncategory*", result[0][0])
         query = query.replace("*score*", str(score))
@@ -151,9 +151,10 @@ class _DataWrapper():
                              f"('{substitute[0]}', '{self.chosen_product}')")
         except Exception as error:
             write_error(error)
-            return "The substitute is already saved for this product."
+            return ("Erreur: ce substitut est "
+                    "déjà dans la base, ou il n'existe pas.")
         else:
-            return "Substitute saved."
+            return "Substitut sauvegardé."
 
     def load_substitutes_page(self, page):
         """Load the substitutes."""

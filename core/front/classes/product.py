@@ -41,7 +41,7 @@ class Product(BaseSection):
                                                          content[0])
         text = ""
         titles = ["nom: ", "description: ",
-                  "magasins ", "url: ", "nutri-score: "]
+                  "magasins: ", "url: ", "nutri-score: "]
 
         for title, infos in zip(titles, content):
             infos = textwrap.wrap(str(infos), 45)
